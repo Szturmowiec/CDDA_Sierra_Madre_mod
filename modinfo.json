@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "sierra_madre",
+    "name": "Sierra Madre",
+    "authors": [ "Stormtrooper" ],
+    "maintainers": [ "Stormtrooper" ],
+    "description": "Adds the (in)famous villa and casino of the Sierra Madre from Fallout Nev Vegas: Dead Money.",
+    "category": "content",
+    "dependencies": [ "dda" ]
+  }
+]

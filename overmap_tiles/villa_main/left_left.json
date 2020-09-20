@@ -1,0 +1,148 @@
+[
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "left_left" ],
+    "weight": 100,
+    "object": {
+		"fill_ter": "t_sidewalk",
+		"rows": [
+			"|||||||||////|||||||||||",
+			"<fffffff|...P|fffffffff|",
+			"BfJJ!fffc....|fffJJJJ0J|",
+			"Bffff!ff|....|fffffffff|",
+			"Bfffjfjfd....|fjfjfjfjf|",
+			"ffffjfjf|....|fjfjfjfjf|",
+			"f!!fjfjfc....|fffffffff|",
+			"ffffffff|....|||||d|||||",
+			"|dd||||||...........***.",
+			"@ff^f0If|..|.....|...*|.",
+			"@ffffhhfc...............",
+			"ffff!!ff|.RRRRR...RR....",
+			"f!ffffffd.....RR........",
+			"ff!ssfff|..RR...R.......",
+			"ffhssf@@c........|....|.",
+			"fBBffffs|...............",
+			"ffff!f7||...............",
+			"ff!fff||&.|......|.|c|||",
+			"fffff||...|........|FF!!",
+			"fBBf||.......*.....c!!!F",
+			"|||||...|...***..|.d!!FF",
+			".............*....&!F!!F",
+			"|....|.............|FF!F",
+			".................|.!!||!"
+		],
+		"furniture": { "&": "f_trashcan", "R": "f_rubble", "O": "f_oven", "J": "f_counter", "C": "f_cupboard", "s": "f_table", "h": "f_chair", "5": "f_sink",
+		"6": "f_fridge", "7": "f_wardrobe", "@": "f_bed", "B": "f_bookcase", "N": "f_TV_antenna", "V": "f_roof_turbine_vent", "~": "f_chimney", "=": "f_vent_pipe",
+		"j": "f_rack", "0": "f_console_broken", "^": "f_trashcan", "!": "f_rubble", "I": "f_desk"},
+		
+		"terrain": { ".": "t_sidewalk", "*": "t_fountain", "|": "t_brick_wall", "-": "t_fence_metal", "/": "t_gate_metal_c", "d": "t_door_c", "c": "t_window_empty",
+		"F": "t_floor_noroof", "f": "t_floor", "<": "t_stairs_up", ">": "t_stairs_down", "j": "t_floor", "^": "t_floor", "0": "t_floor", "O": "t_floor", "J": "t_floor",
+		"C": "t_floor", "s": "t_floor", "h": "t_floor", "5": "t_floor", "6": "t_floor", "7": "t_floor", "@": "t_floor", "B": "t_floor", "!": "t_floor", "I": "t_floor"},
+		"signs": { "P": { "signage": "Puesta del Sol" } },
+		
+		"place_graffiti": [
+        {
+          "text": "A simple picture of a sad face with a tear in one of its eyes.",
+          "x": 10,
+          "y": 17
+        }
+		]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "left_left_up" ],
+    "weight": 100,
+    "object": {
+		"fill_ter": "t_floor",
+		"rows": [
+			"|||||||||bb|||||||||||||",
+			">ffBBBfR|..|R6fffffRRRf|",
+			"fffffffff..|RfffFFFFFff|",
+			"fhffffRR|FFcffffRRfFFRR|",
+			"fsRfffff|..cfffffRRFFRR|",
+			"fsRRRRffc..|fRRFFRfRfRf|",
+			"fffRRRf@|..RRRFFFBBffff|",
+			"fff7ffs@|..RfhfRRfRRFFf|",
+			"|dd||||||..|I0f@@fffFF7|",
+			"ffffffff|..|c|||c|||c|||",
+			"fffffffJc...............",
+			"ffhhhffJ|...............",
+			"fhssshf5|...............",
+			"fhssshf&c...............",
+			"fhssshfO|........bbbbbbb",
+			"fhssshfC|............bbb",
+			"fhssshfC|c|............b",
+			"fhssshfffC|......|Db.bbb",
+			"ffhhhffff||......|bbbb..",
+			"ffffffff||.......|......",
+			"fffffff||........|......",
+			"fffff|c|.........|b.....",
+			"||c|||...........|.|....",
+			".................|b..||."
+		],
+		"furniture": { "&": "f_trashcan", "R": "f_rubble", "D": "stash", "O": "f_oven", "J": "f_counter", "C": "f_cupboard", "s": "f_table", "h": "f_chair", "5": "f_sink",
+		"6": "f_fridge", "7": "f_wardrobe", "@": "f_bed", "B": "f_bookcase", "N": "f_TV_antenna", "V": "f_roof_turbine_vent", "~": "f_chimney", "=": "f_vent_pipe",
+		"j": "f_rack", "0": "f_console_broken", "I": "f_desk"},
+		
+		"terrain": { ".": "t_open_air", "*": "t_fountain", "|": "t_brick_wall", "-": "t_fence_metal", "/": "t_gate_metal_c", "d": "t_door_c", "c": "t_window_empty",
+		"F": "t_floor_noroof", "f": "t_floor", "<": "t_stairs_up", ">": "t_stairs_down", "b": "t_flat_roof", "D": "t_flat_roof"},
+		
+		"place_graffiti": [
+        {
+          "text": "The casino is the old man's collar",
+          "x": 14,
+          "y": 9
+        },
+		{
+          "text": "A small, green-glowing hand drawn on a wall.",
+          "x": 17,
+          "y": 17
+        }
+		]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "left_left_roof" ],
+    "weight": 100,
+    "object": {
+		"fill_ter": "t_flat_roof",
+		"rows": [
+			"|||||||||..|||||||||||||",
+			"||||~||||..||||N|||||~||",
+			"||||V||||..|||||.....|||",
+			"|||||||||..||||||||..|||",
+			"||||N||||..||||||||..|||",
+			"|||||||||..||||..|||||||",
+			"||||=||||..|||...||||V||",
+			"|||||||||..|||||||||..||",
+			"|||||||||..||||N||||..||",
+			"||||N||||..|||||||||||||",
+			"|||||||||...............",
+			"||||=||||...............",
+			"|||||||||...............",
+			"|||||||||...............",
+			"||||~||||...............",
+			"||||V||||...............",
+			"|||||||||||.............",
+			"|||||||||||.............",
+			"|||||||||||.............",
+			"|=|||N||||..............",
+			"|||||||||...............",
+			"||||||||................",
+			"||||||..................",
+			"........................"
+		],
+		"furniture": { "&": "f_trashcan", "R": "f_rubble", "D": "stash", "O": "f_oven", "J": "f_counter", "C": "f_cupboard", "s": "f_table", "h": "f_chair", "5": "f_sink",
+		"6": "f_fridge", "7": "f_wardrobe", "@": "f_bed", "B": "f_bookcase", "N": "f_TV_antenna", "V": "f_roof_turbine_vent", "~": "f_chimney", "=": "f_vent_pipe",
+		"j": "f_rack", "0": "f_console_broken", "I": "f_desk"},
+		
+		"terrain": { ".": "t_open_air", "*": "t_fountain", "|": "t_flat_roof", "-": "t_fence_metal", "/": "t_gate_metal_c", "d": "t_door_c", "c": "t_window_empty",
+		"F": "t_floor_noroof", "f": "t_floor", "<": "t_stairs_up", ">": "t_stairs_down"}
+    }
+  }
+]

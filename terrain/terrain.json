@@ -1,0 +1,20 @@
+[
+	{
+		"type": "terrain",
+		"id": "t_fountain",
+		"name": "dried fountain",
+		"description": "A paved bed of a dried fountain, slowly but inevitably eroding due to lack of maintenance.",
+		"symbol": "*",
+		"color": "dark_gray",
+		"looks_like": "t_concrete",
+		"move_cost": 2,
+		"flags": [ "TRANSPARENT", "FLAT", "ROAD", "MINEABLE" ],
+		"bash": {
+		  "ter_set": "t_null",
+		  "str_min": 50,
+		  "str_max": 400,
+		  "str_min_supported": 100,
+		  "items": [ { "item": "rock", "count": [ 2, 10 ] } ]
+		}
+	}
+]

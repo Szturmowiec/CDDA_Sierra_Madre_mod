@@ -1,0 +1,622 @@
+[
+  {
+    "id": "mainsquare",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre villa",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "mainsquare_up",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre villa",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "mainsquare_roof",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre villa",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "left",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre villa",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "left_up",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre villa",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "left_roof",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre villa",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "left_left",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre villa",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "left_left_up",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre villa",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "left_left_roof",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre villa",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "puesta_1",
+    "type": "overmap_terrain",
+    "name": "Puesta del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "puesta_2",
+    "type": "overmap_terrain",
+    "name": "Puesta del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "puesta_3",
+    "type": "overmap_terrain",
+    "name": "Puesta del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "puesta_4",
+    "type": "overmap_terrain",
+    "name": "Puesta del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "puesta_5",
+    "type": "overmap_terrain",
+    "name": "Puesta del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "puesta_6",
+    "type": "overmap_terrain",
+    "name": "Puesta del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "puesta_7",
+    "type": "overmap_terrain",
+    "name": "Puesta del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "puesta_8",
+    "type": "overmap_terrain",
+    "name": "Puesta del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "puesta_9",
+    "type": "overmap_terrain",
+    "name": "Puesta del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "puesta_up_1",
+    "type": "overmap_terrain",
+    "name": "Puesta del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "puesta_up_2",
+    "type": "overmap_terrain",
+    "name": "Puesta del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "puesta_up_3",
+    "type": "overmap_terrain",
+    "name": "Puesta del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "puesta_up_4",
+    "type": "overmap_terrain",
+    "name": "Puesta del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "puesta_up_5",
+    "type": "overmap_terrain",
+    "name": "Puesta del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "puesta_up_6",
+    "type": "overmap_terrain",
+    "name": "Puesta del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "puesta_up_7",
+    "type": "overmap_terrain",
+    "name": "Puesta del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "puesta_up_8",
+    "type": "overmap_terrain",
+    "name": "Puesta del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "puesta_up_9",
+    "type": "overmap_terrain",
+    "name": "Puesta del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "puesta_up_up_1",
+    "type": "overmap_terrain",
+    "name": "Puesta del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "puesta_up_up_2",
+    "type": "overmap_terrain",
+    "name": "Puesta del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "puesta_up_up_3",
+    "type": "overmap_terrain",
+    "name": "Puesta del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "puesta_up_up_4",
+    "type": "overmap_terrain",
+    "name": "Puesta del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "puesta_up_up_5",
+    "type": "overmap_terrain",
+    "name": "Puesta del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "puesta_up_up_6",
+    "type": "overmap_terrain",
+    "name": "Puesta del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "puesta_up_up_7",
+    "type": "overmap_terrain",
+    "name": "Puesta del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "puesta_up_up_8",
+    "type": "overmap_terrain",
+    "name": "Puesta del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "puesta_up_up_9",
+    "type": "overmap_terrain",
+    "name": "Puesta del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "puesta_roof_1",
+    "type": "overmap_terrain",
+    "name": "Puesta del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "puesta_roof_2",
+    "type": "overmap_terrain",
+    "name": "Puesta del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "puesta_roof_4",
+    "type": "overmap_terrain",
+    "name": "Puesta del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "puesta_roof_5",
+    "type": "overmap_terrain",
+    "name": "Puesta del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "puesta_roof_7",
+    "type": "overmap_terrain",
+    "name": "Puesta del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "puesta_roof_8",
+    "type": "overmap_terrain",
+    "name": "Puesta del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "puesta_sky",
+    "type": "overmap_terrain",
+    "name": "Puesta del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "villa_clinic",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre clinic",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "villa_clinic_up",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre clinic",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "villa_clinic_roof",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre clinic",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "villa_clinic_basement",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre clinic",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "medical",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre villa",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "medical_up",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre villa",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "medical_roof",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre villa",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "villa_police",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre police station",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "villa_police_roof",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre police station",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "villa_police_basement",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre police station",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "right",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre villa",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "residential",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre villa",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "dean",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre villa",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "right_up",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre villa",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "residential_up",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre villa",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "dean_up",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre villa",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "right_roof",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre villa",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "residential_roof",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre villa",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "dean_roof",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre villa",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  }
+]

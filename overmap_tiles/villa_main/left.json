@@ -1,0 +1,139 @@
+[
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "left" ],
+    "weight": 100,
+    "object": {
+		"fill_ter": "t_sidewalk",
+		"rows": [
+			"||||||//||||||||||||||||",
+			"!!FFF|..||||6OCCJJ5&|<<|",
+			"FF!!F|..P|||ffffffff|ff|",
+			"FFF!Fc....||ffhssshffffc",
+			"!!!FF|....||ffhssshffff|",
+			"FFF!!|.....|fffffffffff|",
+			"d||c||.....||||||d||c|||",
+			"..............***.......",
+			"..........RRRR.*........",
+			".|...|..RRR|RRRR.|....|.",
+			"........................",
+			"........................",
+			"..RRRR..................",
+			".RRRR..............RR...",
+			".|....|....||....|RR..|.",
+			"............D.....RR....",
+			"........................",
+			"|||d||cc|!!c||d|||ccc|||",
+			"FFFFFF!FF|FFF!FFFF!!!FF|",
+			"F!!F!F!FF!FF!!!!FF!FF!Fc",
+			"FFFFFF!FF!!FF!!!FFF!!FF|",
+			"!!!F!!!FF|F!FFFF!F!FFFFc",
+			"!FF!!!FFF|FF!!FFF!!!!FF|",
+			"||||||||||||||||||||||||"
+		],
+		"furniture": { "&": "f_trashcan", "R": "f_rubble", "D": "stash", "O": "f_oven", "J": "f_counter", "C": "f_cupboard", "s": "f_table", "h": "f_chair", "5": "f_sink",
+		"6": "f_fridge", "!": "f_rubble"},
+		"terrain": { ".": "t_sidewalk", "*": "t_fountain", "|": "t_brick_wall", "-": "t_fence_metal", "/": "t_gate_metal_c", "d": "t_door_c", "c": "t_window_empty",
+		"F": "t_floor_noroof", "f": "t_floor", "<": "t_stairs_up", ">": "t_stairs_down", "&": "t_floor", "!": "t_floor", "O": "t_floor", "J": "t_floor", "C": "t_floor",
+		"s": "t_floor", "h": "t_floor", "5": "t_floor", "6": "t_floor"},
+		"signs": { "P": { "signage": "Medical district" } },
+		
+		"place_graffiti": [
+        {
+          "text": "Treasure's mine, assholes",
+          "x": 17,
+          "y": 17
+        },
+		{
+          "text": "Find me and we can talk",
+          "x": 5,
+          "y": 6
+        },
+		{
+          "text": "A small, green-glowing hand drawn on a wall.",
+          "x": 12,
+          "y": 14
+        }
+		]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "left_up" ],
+    "weight": 100,
+    "object": {
+		"fill_ter": "t_floor",
+		"rows": [
+			"..||||bb|||||c||||||||||",
+			".....|..||||ff7|7CCf|>>|",
+			".....|..||||fff|ffff|dd|",
+			"..........||fffdfffffffc",
+			".....|....||@ff|fffff@@|",
+			"...f.......c@Bf|ffffB@@|",
+			".fff.|.....||c||ccc|||||",
+			"bbbbbb.....bbbbbbbbbbbbb",
+			"bbbbbb.....bbbbbbbbbbbbb",
+			"b|bbb|.....|bbbbb|bbbb|b",
+			"............FF..........",
+			"............FF..........",
+			"............FF..........",
+			"............FF..........",
+			".b.....bbbb.bb...bbb..b.",
+			"FFbbb..F...bbb...b......",
+			"....bbbF......bbbb......",
+			"b...bb..bbb..bb..b.....b",
+			".......................b",
+			"........................",
+			"|......................|",
+			"|.......................",
+			".......................|",
+			".||.||..||.....||||...||"
+		],
+		"furniture": { "&": "f_trashcan", "R": "f_rubble", "D": "stash", "O": "f_oven", "J": "f_counter", "C": "f_cupboard", "s": "f_table", "h": "f_chair", "5": "f_sink",
+		"6": "f_fridge", "7": "f_wardrobe", "@": "f_bed", "B": "f_bookcase"},
+		"terrain": { ".": "t_open_air", "*": "t_fountain", "|": "t_brick_wall", "-": "t_fence_metal", "/": "t_gate_metal_c", "d": "t_door_c", "c": "t_window_empty",
+		"F": "t_floor_noroof", "f": "t_floor", "<": "t_stairs_up", ">": "t_stairs_down", "b": "t_flat_roof"}
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "left_roof" ],
+    "weight": 100,
+    "object": {
+		"fill_ter": "t_flat_roof",
+		"rows": [
+			"..||||..||||||||||||||||",
+			"....||..||||N|||||||V|||",
+			"...|||..||||||||||||||||",
+			"..........||||||||||||||",
+			".....|....||||||||||||||",
+			"...|.......||~=||||N||||",
+			".|||||.....|||||||||||||",
+			"........................",
+			"........................",
+			"........................",
+			"........................",
+			"........................",
+			"........................",
+			"........................",
+			"........................",
+			"........................",
+			"........................",
+			"|...||...||..|.........|",
+			".|||......|........|||.|",
+			"||.......||........||||.",
+			"|....................|||",
+			"|.............||........",
+			"..............||.......|",
+			".||.||..||.....|..|...||"
+		],
+		"furniture": { "&": "f_trashcan", "R": "f_rubble", "D": "stash", "O": "f_oven", "J": "f_counter", "C": "f_cupboard", "s": "f_table", "h": "f_chair", "5": "f_sink",
+		"6": "f_fridge", "7": "f_wardrobe", "@": "f_bed", "B": "f_bookcase", "N": "f_TV_antenna", "V": "f_roof_turbine_vent", "~": "f_chimney", "=": "f_vent_pipe"},
+		"terrain": { ".": "t_open_air", "*": "t_fountain", "|": "t_flat_roof", "-": "t_fence_metal", "/": "t_gate_metal_c", "d": "t_door_c", "c": "t_window_empty",
+		"F": "t_floor_noroof", "f": "t_floor", "<": "t_stairs_up", ">": "t_stairs_down"}
+    }
+  }
+]

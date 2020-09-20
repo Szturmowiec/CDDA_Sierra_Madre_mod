@@ -1,0 +1,60 @@
+[
+	{
+		"type": "furniture",
+		"id": "stash",
+		"name": "Dean's stash",
+		"symbol": "&",
+		"description": "A stash containing some useful stuff, left here by a survivor that once walked these streets just like you...",
+		"looks_like": "f_trashcan",
+		"color": "light_cyan",
+		"move_cost_mod": 1,
+		"required_str": 3,
+		"max_volume": "20 L",
+		"flags": [ "TRANSPARENT", "FLAMMABLE_ASH", "CONTAINER", "PLACE_ITEM", "MOUNTABLE", "SHORT" ],
+		"bash": {
+		  "str_min": 8,
+		  "str_max": 30,
+		  "sound": "smash!",
+		  "sound_fail": "whump.",
+		  "items": [ { "item": "plastic_chunk", "count": [ 1, 2 ] } ]
+		}
+	},
+	{
+    "type": "furniture",
+    "id": "t_broken_radio",
+    "name": "broken radio",
+    "description": "This radio, once capable of broadcasting all kinds of signals, now remains broken. Upon closer look you notice a bullet hole in it.",
+    "symbol": "6",
+    "color": "white",
+    "looks_like": "t_radio_tower",
+    "move_cost_mod": 1,
+	"required_str": 5,
+    "flags": [ "TRANSPARENT", "NOITEM", "PERMEABLE", "SHORT" ],
+    "deconstruct": {
+      "items": [
+        { "item": "cable", "charges": [ 4, 6 ] },
+        { "item": "e_scrap", "count": [ 10, 16 ] },
+        { "item": "circuit", "count": [ 6, 10 ] },
+        { "item": "power_supply", "count": [ 2, 4 ] },
+        { "item": "amplifier", "count": [ 2, 4 ] },
+        { "item": "plastic_chunk", "count": [ 10, 12 ] },
+        { "item": "scrap", "count": [ 6, 8 ] }
+      ]
+    },
+    "bash": {
+      "str_min": 8,
+      "str_max": 150,
+      "sound": "crunch!",
+      "sound_fail": "whack!",
+      "items": [
+        { "item": "cable", "charges": [ 4, 6 ] },
+        { "item": "e_scrap", "count": [ 10, 16 ] },
+        { "item": "circuit", "count": [ 6, 10 ] },
+        { "item": "power_supply", "count": [ 2, 4 ] },
+        { "item": "amplifier", "count": [ 2, 4 ] },
+        { "item": "plastic_chunk", "count": [ 10, 12 ] },
+        { "item": "scrap", "count": [ 6, 8 ] }
+      ]
+    }
+  }
+]
