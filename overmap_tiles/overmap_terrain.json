@@ -618,5 +618,265 @@
     "see_cost": 5,
 	"extras": "build",
 	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "salida_1",
+    "type": "overmap_terrain",
+    "name": "Salida del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "salida_2",
+    "type": "overmap_terrain",
+    "name": "Salida del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "salida_3",
+    "type": "overmap_terrain",
+    "name": "Salida del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "salida_4",
+    "type": "overmap_terrain",
+    "name": "Salida del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "salida_up_1",
+    "type": "overmap_terrain",
+    "name": "Salida del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "salida_up_2",
+    "type": "overmap_terrain",
+    "name": "Salida del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "salida_up_3",
+    "type": "overmap_terrain",
+    "name": "Salida del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "salida_up_4",
+    "type": "overmap_terrain",
+    "name": "Salida del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "salida_roof_1",
+    "type": "overmap_terrain",
+    "name": "Salida del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "salida_roof_2",
+    "type": "overmap_terrain",
+    "name": "Salida del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "salida_roof_3",
+    "type": "overmap_terrain",
+    "name": "Salida del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "salida_roof_4",
+    "type": "overmap_terrain",
+    "name": "Salida del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "salida_north_1",
+    "type": "overmap_terrain",
+    "name": "Salida del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "salida_north_2",
+    "type": "overmap_terrain",
+    "name": "Salida del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "campanas",
+    "type": "overmap_terrain",
+    "name": "Campanas del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "salida_north_up_1",
+    "type": "overmap_terrain",
+    "name": "Salida del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "salida_north_up_2",
+    "type": "overmap_terrain",
+    "name": "Salida del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "campanas_up",
+    "type": "overmap_terrain",
+    "name": "Campanas del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "salida_north_roof_1",
+    "type": "overmap_terrain",
+    "name": "Salida del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "salida_north_roof_2",
+    "type": "overmap_terrain",
+    "name": "Salida del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "campanas_upper",
+    "type": "overmap_terrain",
+    "name": "Campanas del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "campanas_basement",
+    "type": "overmap_terrain",
+    "name": "Campanas del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "campanas_stairs",
+    "type": "overmap_terrain",
+    "name": "Campanas del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "campanas_stairs_2",
+    "type": "overmap_terrain",
+    "name": "Campanas del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "campanas_tower",
+    "type": "overmap_terrain",
+    "name": "Campanas del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "campanas_tower_roof",
+    "type": "overmap_terrain",
+    "name": "Campanas del Sol",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
   }
 ]
