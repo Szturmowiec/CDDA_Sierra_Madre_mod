@@ -104,7 +104,7 @@
 		"terrain": { ".": "t_metal_floor", "|": "t_wall_metal", "*": "t_rock", "/": "t_door_bar_locked", "d": "t_door_metal_c", "1": "t_door_metal_pickable", "c": "t_window_empty",
 		"F": "t_floor_noroof", "f": "t_sidewalk", "P": "t_sidewalk", "<": "t_stairs_up", ">": "t_stairs_down"},
 		"place_terrain": [
-			{ "ter": "t_door_metal_pickable", "x": 5, "y": 4 }
+			{ "ter": "t_door_metal_locked", "x": 5, "y": 4 }
 		]
     }
   },

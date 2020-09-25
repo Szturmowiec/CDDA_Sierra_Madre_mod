@@ -45,10 +45,10 @@
 			"|.<|fffff|......|fRfc..|",
 			"||||jfjfj|......|fff|..|",
 			"|.D|jfjfj|.|..|.|jRf|&.|",
-			"|..|||||||......|jffd..|",
-			"|......../......|jfR|..|",
+			"|..|||||||......|jff+..|",
+			"|........4......|jfR|..|",
 			"|.((||||||.|..|.|||||..|",
-			"|((||...............d..|",
+			"|((||...............+..|",
 			"||||&.|..|......|...|(.|",
 			"|...................|..|",
 			"|..|..GGG..i..GGG.|.|.(|",
@@ -64,11 +64,11 @@
 			"|...................|..|",
 			"|.(...|..|..|..|..|||..|",
 			"|..(...................|",
-			"|(....||c|dd|||c|||c|dd|",
+			"|(....||c|dd|||c|||c|++|",
 			"|..(|c|CfLfffO5J6|@ffff|",
 			"|..||Ifffffffffff|@fhff|",
 			"|..||IAfffffffsf@|7fsBf|",
-			"|.(.|c|ffCCfLfhf@|||||d|",
+			"|.(.|c|ffCCfLfhf@|||||+|",
 			"|.(...||c||d|||c||&....|",
 			"|(...(.................|",
 			"|..(..............||||.|",
@@ -92,8 +92,18 @@
 		"terrain": { ".": "t_sidewalk", "*": "t_fountain", "|": "t_brick_wall", "-": "t_fence_metal", "/": "t_gate_metal_c", "d": "t_door_c", "c": "t_window_empty",
 		"F": "t_floor_noroof", "f": "t_floor", "<": "t_stairs_up", ">": "t_stairs_down", "T": "t_tree_dead", "G": "t_dirt", "a": "t_concrete", "m": "t_door_metal_c",
 		"8": "t_potential_trans", "9": "t_switchgear_s", "k": "t_station_disc", "r": "t_floor", "#": "t_concrete", "^": "t_concrete", "(": "t_sidewalk", "&": "t_sidewalk",
-		"1": "t_sidewalk", "i": "t_sidewalk", "D": "t_sidewalk", "P": "t_sidewalk", "p": "t_sidewalk"},
+		"1": "t_sidewalk", "i": "t_sidewalk", "D": "t_sidewalk", "P": "t_sidewalk", "p": "t_sidewalk", "+": "t_door_locked_interior", "4": "t_door_bar_locked"},
 		"signs": { "P": { "signage": "Residential district" } },
+		
+		"place_fields": [
+			{ "field": "sierra_gas", "x": [ 3, 18 ], "y": [ 40, 47 ], "repeat": 256 },
+			{ "field": "sierra_gas", "x": [ 3, 18 ], "y": [ 48, 49 ], "repeat": 64 },
+			{ "field": "sierra_gas", "x": [ 3, 20 ], "y": [ 67, 68 ], "repeat": 72 },
+			{ "field": "sierra_gas", "x": [ 11, 14 ], "y": [ 31, 36 ], "repeat": 48 },
+			{ "field": "sierra_gas", "x": [ 21, 22 ], "y": [ 28, 47 ], "repeat": 80 },
+			{ "field": "sierra_gas", "x": [ 21, 22 ], "y": [ 48, 51 ], "repeat": 16 },
+			{ "field": "sierra_gas", "x": [ 11, 18 ], "y": [ 61, 66 ], "repeat": 96 }
+		],
 		
 		"place_graffiti": [
         {
@@ -181,7 +191,7 @@
 			"|bbbbbbbbbbbbbbbbbbb|..|",
 			"|||||c||c|dd|||c|||c||||",
 			"|...|f|7ffffAfAfB|ffffB|",
-			"|..||@@ffssffffffdffAfB|",
+			"|..||@@ffssffffff+ffAfB|",
 			"|..||@@ffhhffllff|fI0If|",
 			"|...|c|2ffffHHHHB|||c|||",
 			"|.....||c|||c||c||.....|",
@@ -207,7 +217,12 @@
 		"terrain": { ".": "t_open_air", "*": "t_fountain", "|": "t_brick_wall", "-": "t_fence_metal", "/": "t_gate_metal_c", "d": "t_door_c", "c": "t_window_empty",
 		"F": "t_floor_noroof", "f": "t_floor", "<": "t_stairs_up", ">": "t_stairs_down", "T": "t_tree_dead", "G": "t_dirt", "a": "t_concrete", "m": "t_door_metal_c",
 		"8": "t_potential_trans", "9": "t_switchgear_s", "k": "t_station_disc", "r": "t_floor", "#": "t_concrete", "^": "t_concrete", "(": "t_sidewalk", "&": "t_sidewalk",
-		"1": "t_sidewalk", "i": "t_sidewalk", "P": "t_sidewalk", "p": "t_sidewalk", "b": "t_flat_roof", "!": "t_fence"},
+		"1": "t_sidewalk", "i": "t_sidewalk", "P": "t_sidewalk", "p": "t_sidewalk", "b": "t_flat_roof", "!": "t_fence", "+": "t_door_locked_interior"},
+		
+		"place_fields": [
+			{ "field": "sierra_gas", "x": [ 17, 19 ], "y": [ 28, 35 ], "repeat": 48 },
+			{ "field": "sierra_gas", "x": [ 10, 11 ], "y": [ 33, 36 ], "repeat": 16 }
+		],
 		
 		"place_graffiti": [
         {

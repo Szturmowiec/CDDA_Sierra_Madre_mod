@@ -12,15 +12,15 @@
 		"rows": [
 			"||||||||||||||||||||||||",
 			"xX`|xX`|xX`|xX`|%`p`p|>|",
-			"```|```|```|```|%````d`|",
+			"```|```|```|```|%````+`|",
 			"|d|||d|||d|||d||%`ss`|`|",
 			"```````````````|||||||`|",
-			"r``````````````d`````d`|",
+			"r``````````````+`````+`|",
 			"``|||||||||||``|`11e`|`|",
 			"``|``x|````N|``|#`q``|`|",
 			"``d``X|`gegg|``|||||||d|",
 			"<<|```|`````d``d```````|",
-			"|||||||||dd||||||dd|||||",
+			"|||||||||dd||||||++|||||",
 			"........&..P|#````````%|",
 			"..|..|......|#``11e1``%|",
 			"..........|/|#````q```%|",
@@ -54,7 +54,7 @@
 			"|c||.|............RR...|",
 			"f@@|......|..|..|..|...|",
 			"ff7|..............&....|",
-			"f((|.|..|.|||c|||d|||c||",
+			"f((|.|..|.|||c|||+|||c||",
 			"(((|......|ffffffffffff|",
 			"((f|......|fjfjfjfjff0f|",
 			"fff|.|..|.|fjfjfjfjffJf|"
@@ -71,8 +71,13 @@
 		"U": "t_ramp_down_high", "D": "t_flat_roof", "z": "t_ramp_up_low", "Z": "t_ramp_up_high", "V": "t_flat_roof",
 		"~": "t_flat_roof", "=": "t_flat_roof", "R": "t_sidewalk", "&": "t_sidewalk", "`": "t_linoleum_white", "P": "t_sidewalk", "g": "t_linoleum_white", "e": "t_linoleum_white",
 		"N": "t_linoleum_white", "r": "t_linoleum_white", "1": "t_linoleum_white", "q": "t_linoleum_white", "%": "t_linoleum_white", "#": "t_linoleum_white", "p": "t_linoleum_white",
-		"s": "t_linoleum_white", "X": "t_linoleum_white", "x": "t_linoleum_white"},
+		"s": "t_linoleum_white", "X": "t_linoleum_white", "x": "t_linoleum_white", "+": "t_door_locked_interior"},
 		"signs": { "P": { "signage": "Clinic" } },
+		
+		"place_fields": [
+			{ "field": "sierra_gas", "x": [ 10, 23 ], "y": 23, "repeat": 28 },
+			{ "field": "sierra_gas", "x": [ 10, 23 ], "y": [ 24, 31 ], "repeat": 224 }
+		],
 		
 		"place_graffiti": [
         {
@@ -103,11 +108,11 @@
 			"```q``%|r``q``%|```q``%|",
 			"``e11``|``e11``|``e11``|",
 			"#`````#|#`````#|#`````#|",
-			"|||d|||||||d|||||||d||||",
+			"|||d|||||||d|||||||+||||",
 			"```````````````````````|",
-			"``|||||d|||||||||dd|||||",
+			"``|||||+|||||||||dd|||||",
 			"``|%%%``%%%%|56`X``X``X|",
-			"``d`````````d```X``X``X|",
+			"``+`````````+```X``X``X|",
 			">>|%`%%`%%%%|#````````z|",
 			"||||c||c||c||#````````s|",
 			"bbbbbbbbbbbb|#````````z|",
@@ -159,8 +164,13 @@
 		"8": "t_potential_trans", "9": "t_switchgear_s", "k": "t_station_disc", "b": "t_flat_roof", "!": "t_fence", "N": "t_flat_roof", "V": "t_flat_roof",
 		"~": "t_flat_roof", "=": "t_flat_roof", "R": "t_sidewalk", "&": "t_sidewalk", "`": "t_linoleum_white", "P": "t_sidewalk", "g": "t_linoleum_white", "e": "t_linoleum_white",
 		"r": "t_linoleum_white", "1": "t_linoleum_white", "q": "t_linoleum_white", "%": "t_linoleum_white", "#": "t_linoleum_white", "p": "t_linoleum_white",
-		"s": "t_linoleum_white", "X": "t_linoleum_white", "x": "t_linoleum_white", "z": "t_linoleum_white", "^": "t_linoleum_white", "D": "t_linoleum_white", "3": "t_flat_roof"},
+		"s": "t_linoleum_white", "X": "t_linoleum_white", "x": "t_linoleum_white", "z": "t_linoleum_white", "^": "t_linoleum_white", "D": "t_linoleum_white", "3": "t_flat_roof", "+": "t_door_locked_interior"},
 		"signs": { "P": { "signage": "Clinic" } },
+		
+		"place_fields": [
+			{ "field": "sierra_gas", "x": [ 10, 23 ], "y": 23, "repeat": 28 },
+			{ "field": "sierra_gas", "x": [ 10, 23 ], "y": [ 24, 27 ], "repeat": 112 }
+		],
 		
 		"place_graffiti": [
         {

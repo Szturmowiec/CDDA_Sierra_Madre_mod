@@ -68,7 +68,7 @@
 		"rows": [
 			"..||||bb|||||c||||||||||",
 			".....|..||||ff7|7CCf|>>|",
-			".....|..||||fff|ffff|dd|",
+			".....|..||||fff|ffff|++|",
 			"..........||fffdfffffffc",
 			".....|....||@ff|fffff@@|",
 			"...f.......c@Bf|ffffB@@|",
@@ -94,7 +94,7 @@
 		"furniture": { "&": "f_trashcan", "R": "f_rubble", "D": "stash", "O": "f_oven", "J": "f_counter", "C": "f_cupboard", "s": "f_table", "h": "f_chair", "5": "f_sink",
 		"6": "f_fridge", "7": "f_wardrobe", "@": "f_bed", "B": "f_bookcase"},
 		"terrain": { ".": "t_open_air", "*": "t_fountain", "|": "t_brick_wall", "-": "t_fence_metal", "/": "t_gate_metal_c", "d": "t_door_c", "c": "t_window_empty",
-		"F": "t_floor_noroof", "f": "t_floor", "<": "t_stairs_up", ">": "t_stairs_down", "b": "t_flat_roof"}
+		"F": "t_floor_noroof", "f": "t_floor", "<": "t_stairs_up", ">": "t_stairs_down", "b": "t_flat_roof", "+": "t_door_locked_interior"}
     }
   },
   {

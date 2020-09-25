@@ -16,5 +16,37 @@
 		  "str_min_supported": 100,
 		  "items": [ { "item": "rock", "count": [ 2, 10 ] } ]
 		}
+	},
+	{
+    "id": "sierra_gas",
+    "type": "field_type",
+    "intensity_levels": [
+      {
+        "name": "Sierra Madre toxic gas",
+        "color": "red",
+		"sym": "8",
+        "translucency": 0,
+        "effects": [
+          {
+            "effect_id": "sierra_poison",
+            "intensity": 20,
+            "min_duration": "5 seconds",
+            "max_duration": "5 seconds",
+            "immune_inside_vehicle": false,
+            "message": "Sierra Madre toxic gas burns through your entire body",
+            "message_type": "bad"
+          }
+        ]
+      }
+    ],
+    "decay_amount_factor": 0,
+    "gas_absorption_factor": 20,
+    "percent_spread": 50,
+    "dirty_transparency_cache": true,
+    "has_fume": true,
+    "priority": 8,
+    "phase": "gas",
+    "display_items": false,
+    "display_field": true
 	}
 ]
