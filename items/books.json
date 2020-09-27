@@ -1,0 +1,22 @@
+[
+	{
+		"id": "martini_recipe",
+		"type": "BOOK",
+		"name": { "str": "Dean Domino's journal", "str_pl": "copies of Dean Domino's journal" },
+		"description": "A perosnal journal of the legendary singer Dean Domino. The last entries contain his story of attempting to rob the Sierra Madre casino vault the night the apocalypse came, then upon failure staying in the villa planning yet another heist attempt while undergoing ghoulification caused by prolonged expousure to the Cloud of toxic gas, finally the story of a mysterious \"Courier\" who once saved Dean's life when together with him (and two other mysterious characters called \"Dog/God\" and Christine) was forced to work for a dangerous, insane man calling himself \"Father Elijah\" who also wanted to crack the Sierra Madre vault open. The most important content of this journal for you is probably the recipe for a special drink, \"Sierra Madre Martini\". According to it, mixing the Cloud residue with common pre-apocalypse junk food in a tin can will change the properties of the toxins to actually strengthen one's body instead of harming it. Also contains some info regarding setting up and disarming traps.",
+		"weight": "350 g",
+		"volume": "500 ml",
+		"price": 1000,
+		"price_postapoc": 10000,
+		"bashing": 2,
+		"material": [ "paper" ],
+		"symbol": "?",
+		"color": "red",
+		"skill": "traps",
+		"required_level": 2,
+		"max_level": 5,
+		"intelligence": 10,
+		"time": "15 m",
+		"fun": 3
+	}
+]

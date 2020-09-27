@@ -80,9 +80,9 @@
         "|..(.|.|||c||||ccc|||||c|...|.(((...|c||fIf|||c||dc|1.............||RffR",
         "|..............iii&.......|..((....||7fffhfrffffffL||...|....|...||fRRRf",
         "||....|..|..|..|..|..|..|..(((((..||ffffhfffff|||dd|||..........||fRRRRf",
-        "G||.....(...................(((..||ffRRfllhfffRRffff7|..........|fRRRRfR",
-        "GG||...((.......(.......(((((....cffffRfllhfff|Bffffsc..|....|..|RfffRff",
-        "GGG|||||||||||||||||||||||||||||||ffffffffffff|Bfff@@|..........|RRRfRfR"
+        "|||.....(...................(((..||ffRRfllhfffRRffff7|..........|fRRRRfR",
+        "||||...((.......(.......(((((....cffffRfllhfff|Bffffsc..|....|..|RfffRff",
+        "||||||||||||||||||||||||||||||||||ffffffffffff|Bfff@@|..........|RRRfRfR"
       ],
 	  
 	"furniture": { ")": "f_trashcan", "R": "f_rubble", "D": "stash", "O": "f_oven", "J": "f_counter", "C": "f_cupboard", "s": "f_table", "h": "f_chair", "5": "f_sink",
@@ -231,9 +231,9 @@
         "|....bb|||c||||ccc|||||c|bbbb.......|c||RRR|||c|||c|bbb.......bbbb||FRRR",
         "|.....bbbbbbbbbbbbbbbbbbbbb........||RfARRRRf|Hflff||bbbbFFFFbbbb||RRFFF",
         "||....bbbbbbbbbbbbbbbbbbb.........||ffsssffRR|Hflfffc|bbb....bbb||FRFRRF",
-        ".||..............................||fffRRRfJfO|HflflfH|bbb....bbb|FRFRRFR",
-        "..||.............................cAfffjjjfJJfdfffflfHcbbb....bbb|RRFFFRR",
-        "...|||||||||||||||||||||||||||||||ffffffffffRRRffflfH|bbb....bbb|RRFFRFF"
+        "|||..............................||fffRRRfJfO|HflflfH|bbb....bbb|FRFRRFR",
+        "||||.............................cAfffjjjfJJfdfffflfHcbbb....bbb|RRFFFRR",
+        "||||||||||||||||||||||||||||||||||ffffffffffRRRffflfH|bbb....bbb|RRFFRFF"
       ],
 	  
 	"furniture": { "&": "f_trashcan", "R": "f_rubble", "D": "stash", "O": "f_oven", "J": "f_counter", "C": "f_cupboard", "s": "f_table", "h": "f_chair", "5": "f_sink",
@@ -367,9 +367,9 @@
         "b......bbbbbbbbbbbbbbbbbb...........bbbbbbbbbbbbbbbb..............bb.bbb",
         "b..................................bbV=bbbbbbbbbbbbbb............bbbb...",
         "bb................................bbbbbbbbb~bbbbbbbbbb..........bb.b.bb.",
-        ".bb..............................bbbbNbbbbbbbbbbNbbbbb..........b.N.bb.b",
-        "..bb.............................bbbbbbbbbbbbbbbbbbbbb..........bbb...bb",
-        "...bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb..........bbb..b.."
+        "bbb..............................bbbbNbbbbbbbbbbNbbbbb..........b.N.bb.b",
+        "bbbb.............................bbbbbbbbbbbbbbbbbbbbb..........bbb...bb",
+        "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb..........bbb..b.."
       ],
 	  
 	"furniture": { "&": "f_trashcan", "R": "f_rubble", "D": "stash", "O": "f_oven", "J": "f_counter", "C": "f_cupboard", "s": "f_table", "h": "f_chair", "5": "f_sink",

@@ -25,7 +25,8 @@
         "name": "Sierra Madre toxic gas",
         "color": "red",
 		"sym": "8",
-        "translucency": 0,
+        "translucency": 10,
+		"transparent": false,
         "effects": [
           {
             "effect_id": "sierra_poison",
@@ -47,6 +48,37 @@
     "priority": 8,
     "phase": "gas",
     "display_items": false,
+    "display_field": true
+	},
+	{
+    "id": "cloud",
+    "type": "field_type",
+    "intensity_levels": [
+      {
+        "name": "Sierra Madre Cloud",
+        "color": "green",
+		"sym": "O",
+        "translucency": 1000,
+		"transparent": true,
+        "effects": [
+          {
+            "effect_id": "sierra_cloud",
+            "intensity": 10,
+            "min_duration": "5 seconds",
+            "max_duration": "5 seconds",
+            "immune_inside_vehicle": false
+          }
+        ]
+      }
+    ],
+    "decay_amount_factor": 0,
+    "gas_absorption_factor": 15,
+    "percent_spread": 50,
+    "dirty_transparency_cache": true,
+    "has_fume": false,
+    "priority": 7,
+    "phase": "gas",
+    "display_items": true,
     "display_field": true
 	}
 ]

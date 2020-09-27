@@ -99,8 +99,6 @@
 		"4": "t_door_bar_locked", "_": "t_floor", "?": "t_sidewalk"},
 		"signs": { "P": { "signage": "Campanas del Sol" }, "p": { "signage": "Courtyard" } },
 		
-		
-		
 		"place_fields": [
 			{ "field": "sierra_gas", "x": [ 0, 6 ], "y": [ 49, 53 ], "repeat": 70 },
 			{ "field": "sierra_gas", "x": [ 18, 21 ], "y": [ 44, 47 ], "repeat": 32 },
