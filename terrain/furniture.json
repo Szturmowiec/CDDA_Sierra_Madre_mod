@@ -2,7 +2,7 @@
 	{
 		"type": "furniture",
 		"id": "stash",
-		"name": "Dean's stash",
+		"name": "Dean's secret stash",
 		"symbol": "&",
 		"description": "A stash containing some useful stuff, left here by a survivor that once walked these streets just like you...",
 		"looks_like": "f_trashcan",

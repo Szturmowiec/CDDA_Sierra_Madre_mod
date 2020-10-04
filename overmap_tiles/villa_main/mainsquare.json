@@ -36,6 +36,17 @@
       "terrain": { ".": "t_sidewalk", "*": "t_fountain", "|": "t_brick_wall", "-": "t_fence_metal", "/": "t_gate_metal_c" },
 	  "signs": { "P": { "signage": "Sierra Madre" } },
 	  
+	  "place_loot": [
+			{ "item": "micro_cell", "x": 11, "y": 17, "repeat": 25 },
+			{ "item": "holorifle", "x": 11, "y": 17}
+		],
+		
+		"items": {
+			".": { "item": "sierra_sidewalk", "chance": 90, "repeat": [ 1, 2 ] },
+			"*": { "item": "casino_chips", "chance": 75, "repeat": [ 1, 3 ] },
+			"&": { "item": "trash", "chance": 60, "repeat": [ 1, 4 ] }
+		},
+	  
 	  "place_graffiti": [
         {
           "text": "Gala is the only way IN",

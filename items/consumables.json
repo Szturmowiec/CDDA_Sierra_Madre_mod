@@ -84,7 +84,7 @@
 		"spoils_in": "4 hours",
 		"use_action": {
 		  "type": "consume_drug",
-		  "activation_message": "You've eaten some flesh of a Ghost... Raw... ",
+		  "activation_message": "You've eaten some flesh of a Ghost... Raw...",
 		  "effects": [ { "id": "ghost_meat_raw", "duration": 60 } ]
 		},
 		"comestible_type": "FOOD",
@@ -109,7 +109,7 @@
 		"spoils_in": "6 hours",
 		"use_action": {
 		  "type": "consume_drug",
-		  "activation_message": "You've eaten some cooked flesh of a Ghost... ",
+		  "activation_message": "You've eaten some cooked flesh of a Ghost...",
 		  "effects": [ { "id": "ghost_meat_cooked", "duration": 60 } ]
 		},
 		"comestible_type": "FOOD",
@@ -133,7 +133,7 @@
 		"spoils_in": "30 days",
 		"use_action": {
 		  "type": "consume_drug",
-		  "activation_message": "You've eaten some dried flesh of a Ghost... ",
+		  "activation_message": "You've eaten some dried flesh of a Ghost...",
 		  "effects": [ { "id": "ghost_meat_cooked", "duration": 60 } ]
 		},
 		"comestible_type": "FOOD",
@@ -176,6 +176,47 @@
 		"phase": "liquid",
 		"flags": [ "EATEN_COLD", "NUTRIENT_OVERRIDE" ],
 		"freezing_point": -100,
-		"fun": -5
+		"fun": -2
+	},
+	{
+		"id": "stimpack",
+		"type": "COMESTIBLE",
+		"category": "MED",
+		"looks_like": "syringe",
+		"name": { "str_sp": "stimpack" },
+		"weight": "35 g",
+		"color": "light_red",
+		"use_action": {
+		  "type": "consume_drug",
+		  "activation_message": "You quickly inject stimpack into your body and instantly feel better, just like people on medicine ads do.",
+		  "effects": [ { "id": "stimpack_used", "duration": 300 } ]
+		},
+		"comestible_type": "MED",
+		"symbol": "+",
+		"description": "A syringe filled with a strange, dense, light-red substance, serving as a state-of-tech emergency medical aid. Once injected, it boosts tissue regeneration, blood pumping, adrenaline pumping, breathing and thinking rapidly, making one feel refreshed and healing a lot of abuse.",
+		"price": 100000,
+		"price_postapoc": 1000000,
+		"material": [ "plastic" ],
+		"volume": "10 ml",
+		"fun": 20,
+		"flags": [ "NO_INGEST", "NPC_SAFE", "IRREPLACEABLE_CONSUMABLE" ]
+	},
+	{
+		"id": "stealth_boy",
+		"type": "COMESTIBLE",
+		"category": "MED",
+		"looks_like": "syringe",
+		"name": { "str": "Stealth Boy" },
+		"description": "A syringe filled with strange, light-blue substance granting invisibility for a short period of time upon injection. Brought to you by Big Mountain research facility.",
+		"weight": "45 g",
+		"volume": "50 ml",
+		"price": 5500000,
+		"price_postapoc": 10000,
+		"to_hit": -1,
+		"material": [ "plastic" ],
+		"symbol": "s",
+		"color": "light_cyan",
+		"use_action": { "type": "cast_spell", "spell_id": "stealth_effect", "no_fail": true, "level": 15 },
+		"flags": [ "NO_INGEST", "IRREPLACEABLE_CONSUMABLE" ]
 	}
 ]

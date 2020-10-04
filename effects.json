@@ -183,9 +183,48 @@
 		"base_mods": {
 		  "str_mod": [ 3 ],
 		  "hurt_amount": [ -10 ],
-		  "hurt_tick": [ 300 ]
+		  "hurt_tick": [ 300 ],
+		  "stim_amount": [ 5 ],
+		  "stim_tick": [ 300 ]
 		},
 		"show_in_info": true,
 		"blood_analysis_description": "Traces of Z-43 toxins in the digestive system"
+	},
+	{
+		"type": "effect_type",
+		"id": "stimpack_used",
+		"name": [ "Injected stimpack" ],
+		"desc": [ "Unlike the post-apocalyptic wasteland, upon injecting the stimpack you feel like coming back to life and shining with glory of a true survivor." ],
+		"miss_messages": [ [ "You feel alive, so alive... It's beautiful.", 10 ] ],
+		"rating": "good",
+		"main_parts_only": false,
+		"min_duration": "5 minutes",
+		"max_duration": "5 minutes",
+		"bp": ["TORSO", "HEAD", "EYES", "MOUTH", "ARM_L", "ARM_R", "HAND_L", "HAND_R", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R"],
+		"base_mods": {
+		  "str_mod": [ 1 ],
+		  "int_mod": [ 1 ],
+		  "dex_mod": [ 1 ],
+		  "per_mod": [ 1 ],
+		  "hurt_amount": [ -20 ],
+		  "hurt_tick": [ 300 ],
+		  "stim_amount": [ 10 ],
+		  "stim_tick": [ 300 ],
+		  "fatigue_amount": [ -5 ],
+		  "fatigue_tick": [ 300 ],
+		  "stamina_amount": [ 25 ],
+		  "stamina_tick": [ 300 ]
+		},
+		"show_in_info": true,
+		"blood_analysis_description": "STIM-X35 big_mt class 2 healing stimulant"
+	},
+	{
+		"type": "effect_type",
+		"id": "invisibility",
+		"name": [ "Invisibility" ],
+		"desc": [ "You perfectly blend in with your surroundings." ],
+		"apply_message": "The Stealth Field encovers you...",
+		"remove_message": "The Stealth Field fades away.",
+		"flags": [ "EFFECT_INVISIBLE" ]
 	}
 ]

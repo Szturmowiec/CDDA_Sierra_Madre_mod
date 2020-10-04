@@ -63,7 +63,8 @@
 		"to_hit": -3,
 		"color": "yellow",
 		"symbol": "$",
-		"material": [ "gold" ]
+		"material": [ "gold" ],
+		"flags": [ "NO_SALVAGE" ]
 	},
 	{
 		"id": "entertainer_pass",
@@ -92,6 +93,54 @@
 		"price_postapoc": 1054700,
 		"material": [ "gold" ],
 		"symbol": "$",
-		"color": "yellow"
+		"color": "yellow",
+		"flags": [ "NO_SALVAGE" ]
+	},
+	{
+		"id": "bear_hd_string",
+		"type": "GENERIC",
+		"category": "other",
+		"looks_like": "spring",
+		"symbol": ",",
+		"color": "light_gray",
+		"name": { "str": "bear trap fist HD springs" },
+		"description": "A set of springs for the bear trap fist to make its claws more powerful.",
+		"price": 2000,
+		"price_postapoc": 1000,
+		"material": [ "iron" ],
+		"weight": "3000 g",
+		"volume": "750 ml"
+	},
+	{
+		"id": "energy_mag",
+		"type": "MAGAZINE",
+		"looks_like": "8x40_10_mag",
+		"name": { "str": "laser pistol energy cell magazine" },
+		"description": "A 30 round magazine for laser pistols utilizing energy cells.",
+		"weight": "65 g",
+		"volume": "250 ml",
+		"price": 15000,
+		"price_postapoc": 500,
+		"material": [ "superalloy", "plastic" ],
+		"symbol": "#",
+		"color": "light_red",
+		"ammo_type": [ "laser_cell" ],
+		"capacity": 30,
+		"reload_time": 40,
+		"flags": [ "MAG_COMPACT" ],
+		"pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "laser_cell": 30 } } ]
+	},
+	{
+		"type": "GENERIC",
+		"id": "corpse_skeleton",
+		"symbol": "%",
+		"color": "white",
+		"name": { "str": "skeleton" },
+		"description": "A dead skeleton.",
+		"price": 0,
+		"material": [ "bone" ],
+		"volume": "84 L",
+		"weight": "12500 g",
+		"flags": [ "NO_UNLOAD", "TRADER_AVOID", "NO_REPAIR" ]
 	}
 ]
