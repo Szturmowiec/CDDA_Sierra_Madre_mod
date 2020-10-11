@@ -1,0 +1,18 @@
+[
+	{
+		"type": "faction",
+		"id": "holo_workers",
+		"name": "Sierra Madre hologram staff",
+		"likes_u": 0,
+		"respects_u": 0,
+		"known_by_u": false,
+		"size": 10,
+		"power": 500000000,
+		"food_supply": 500000000,
+		"wealth": 500000000,
+		"relations": {
+			"your_followers": { "watch your back": false, "defends your space": false, "knows your voice": true }
+		},
+		"description": "Sierra Madre holograms serving as shop and casino vendors."
+	}
+]

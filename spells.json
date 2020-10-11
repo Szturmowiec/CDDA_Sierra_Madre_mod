@@ -4,18 +4,27 @@
 		"type": "SPELL",
 		"name": "Stealth Field",
 		"description": "The Stealth Field makes the user blend in with the surroundings by reflecting light in a way that makes it look as if no one was standing where the user is.",
-		"message": "You hide from everyone and everything behind the Stealth Field.",
 		"valid_targets": [ "self" ],
 		"effect": "target_attack",
-		"effect_str": "invisibility",
-		"spell_class": "TECHNOMANCER",
-		"difficulty": 4,
-		"base_casting_time": 100,
-		"base_energy_cost": 400,
-		"energy_source": "MANA",
-		"min_duration": 1250,
-		"max_duration": 6000,
-		"duration_increment": 250,
-		"max_level": 20
+		"effect_str": "stealth_boy_activated",
+		"min_duration": 12000,
+		"max_duration": 12000,
+		"difficulty": 0,
+		"energy_source": "NONE",
+		"flags": [ "SILENT" ]
+	},
+	{
+		"id": "ghost_sight_spell",
+		"type": "SPELL",
+		"name": "Ghost Sight",
+		"description": "Drinking the Ghost Sight isn't very healthy for you, but allows you to see in the same way as Ghost People do - darkness won't be a problem anymore.",
+		"valid_targets": [ "self" ],
+		"effect": "target_attack",
+		"effect_str": "ghost_sight_activated",
+		"min_duration": 30000,
+		"max_duration": 30000,
+		"difficulty": 0,
+		"energy_source": "NONE",
+		"flags": [ "SILENT" ]
 	}
 ]

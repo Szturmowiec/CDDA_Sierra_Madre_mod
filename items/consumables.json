@@ -3,7 +3,7 @@
 		"id": "kiss_weak",
 		"type": "COMESTIBLE",
 		"comestible_type": "MED",
-		"name": { "str_sp": "Cloud Kiss (weak)" },
+		"name": { "str_sp": "Cloud Kiss (weak)", "str_pl": "Flasks of Cloud Kiss (weak)" },
 		"description": "A venom made out of concentrated, solidified Sierra Madre toxic gas mixed with common household detergents. This one doesn't contain that much of the toxins and is relatively weak. Will corrode weapons as well, however you could still use it to poison the ones found in the Sierra Madre as they've already been exposed to the toxins for long enough and are still usable. Apparently Ghost People knew what they were doing.",
 		"weight": "50 g",
 		"volume": "250 ml",
@@ -28,7 +28,7 @@
 		"id": "kiss_potent",
 		"type": "COMESTIBLE",
 		"comestible_type": "MED",
-		"name": { "str_sp": "Cloud Kiss (potent)" },
+		"name": { "str_sp": "Cloud Kiss (potent)", "str_pl": "Flasks of Cloud Kiss (potent)" },
 		"description": "A venom made out of concentrated, solidified Sierra Madre toxic gas mixed with common household detergents. The toxins are rather concentrated, making it a potentially deadly dose. Will corrode weapons as well, however you could still use it to poison the ones found in the Sierra Madre as they've already been exposed to the toxins for long enough and are still usable. Apparently Ghost People knew what they were doing.",
 		"weight": "50 g",
 		"volume": "250 ml",
@@ -53,7 +53,7 @@
 		"id": "kiss_lethal",
 		"type": "COMESTIBLE",
 		"comestible_type": "MED",
-		"name": { "str_sp": "Cloud Kiss (lethal)" },
+		"name": { "str_sp": "Cloud Kiss (lethal)", "str_pl": "Flasks of Cloud Kiss (lethal)" },
 		"description": "A venom made out of concentrated, solidified Sierra Madre toxic gas mixed with common household detergents. The toxins are concentrated enough to straight-up kill even a young, healthy human. Will corrode weapons as well, however you could still use it to poison the ones found in the Sierra Madre as they've already been exposed to the toxins for long enough and are still usable. Apparently Ghost People knew what they were doing.",
 		"weight": "50 g",
 		"volume": "250 ml",
@@ -73,6 +73,27 @@
 		  "activation_message": "You've drunk a lethal dose of Cloud Kiss venom. Prepare to die...",
 		  "effects": [ { "id": "cloud_lethal", "duration": 20 }, { "id": "cloud_potent", "duration": 30 }, { "id": "cloud_weak", "duration": 60 } ]
 		}
+	},
+	{
+		"id": "ghost_sight",
+		"type": "COMESTIBLE",
+		"comestible_type": "MED",
+		"name": { "str_sp": "Ghost Sight", "str_pl": "Flasks of Ghost Sight" },
+		"description": "Cloud residue boiled in a certain way, allowing you to acquire night vision similar to the one Ghost People have.",
+		"weight": "50 g",
+		"volume": "250 ml",
+		"container": "flask_glass",
+		"price": 0,
+		"price_postapoc": 10000,
+		"charges": 1,
+		"symbol": "!",
+		"color": "green",
+		"quench": -10,
+		"healthy": -10,
+		"fun": -5,
+		"freezing_point": -100,
+		"phase": "liquid",
+		"use_action": { "type": "cast_spell", "spell_id": "ghost_sight_spell", "no_fail": true, "level": 0 }
 	},
 	{
 		"type": "COMESTIBLE",
@@ -95,6 +116,7 @@
 		"price_postapoc": 10,
 		"material": [ "flesh" ],
 		"volume": "250 ml",
+		"healthy": -50,
 		"fun": -20,
 		"flags": [ "TRADER_AVOID", "SMOKABLE", "NUTRIENT_OVERRIDE", "RAW" ],
 		"smoking_result": "dry_meat_ghost"
@@ -120,6 +142,7 @@
 		"price_postapoc": 20,
 		"material": [ "flesh" ],
 		"volume": "250 ml",
+		"healthy": -35,
 		"fun": -15,
 		"flags": [ "TRADER_AVOID", "NUTRIENT_OVERRIDE"]
 	},
@@ -144,6 +167,7 @@
 		"price_postapoc": 25,
 		"material": [ "flesh" ],
 		"volume": "250 ml",
+		"healthy": -35,
 		"fun": -15,
 		"flags": [ "TRADER_AVOID", "NUTRIENT_OVERRIDE"]
 	},
@@ -158,7 +182,7 @@
 		"use_action": {
 			  "type": "consume_drug",
 			  "activation_message": "You've drunk some Sierra Madre Martini. It doesn't taste very good, but despite being made out of the Cloud, it fills you with strength and power.",
-			  "effects": [ { "id": "martini", "duration": 300 } ]
+			  "effects": [ { "id": "sierra_martini_effect", "duration": 300 }, { "id": "sierra_martini_effect2", "duration": 1 } ]
 		},
 		"stim": -10,
 		"container": "can_food",
@@ -189,7 +213,7 @@
 		"use_action": {
 		  "type": "consume_drug",
 		  "activation_message": "You quickly inject stimpack into your body and instantly feel better, just like people on medicine ads do.",
-		  "effects": [ { "id": "stimpack_used", "duration": 300 } ]
+		  "effects": [ { "id": "stimpack_used", "duration": 300 }, { "id": "stimpack_used2", "duration": 1 } ]
 		},
 		"comestible_type": "MED",
 		"symbol": "+",
@@ -198,25 +222,29 @@
 		"price_postapoc": 1000000,
 		"material": [ "plastic" ],
 		"volume": "10 ml",
+		"healthy": 10,
 		"fun": 20,
 		"flags": [ "NO_INGEST", "NPC_SAFE", "IRREPLACEABLE_CONSUMABLE" ]
 	},
 	{
 		"id": "stealth_boy",
-		"type": "COMESTIBLE",
-		"category": "MED",
+		"type": "TOOL",
 		"looks_like": "syringe",
 		"name": { "str": "Stealth Boy" },
-		"description": "A syringe filled with strange, light-blue substance granting invisibility for a short period of time upon injection. Brought to you by Big Mountain research facility.",
+		"description": "A high-tech device that generates a sophisticated field around the user that deflects and curves light beams in a way that looking at it an observer would see what's behind the user, effectively granting invisibility. Sadly it's a single use item and can't be recharged in any way after it uses up all its power supply. Brought to you by Big Mountain research facility.",
 		"weight": "45 g",
 		"volume": "50 ml",
 		"price": 5500000,
 		"price_postapoc": 10000,
 		"to_hit": -1,
-		"material": [ "plastic" ],
+		"material": [ "plastic", "superalloy" ],
 		"symbol": "s",
 		"color": "light_cyan",
-		"use_action": { "type": "cast_spell", "spell_id": "stealth_effect", "no_fail": true, "level": 15 },
-		"flags": [ "NO_INGEST", "IRREPLACEABLE_CONSUMABLE" ]
+		"ammo": "battery",
+		"max_charges": 100,
+		"initial_charges": 100,
+		"charges_per_use": 100,
+		"use_action": { "type": "cast_spell", "spell_id": "stealth_effect", "no_fail": true, "level": 0 },
+		"flags": [ "NO_RELOAD", "NO_UNLOAD" ]
 	}
 ]

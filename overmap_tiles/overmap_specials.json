@@ -96,7 +96,7 @@
     "locations": [ "wilderness" ],
     "city_distance": [ 10, 30 ],
     "city_sizes": [ 0, 16 ],
-    "occurrences": [ 100, 100 ],
+    "occurrences": [ 33, 100 ],
 	"rotate": false,
 	"unique": true,
 	"flags": [ "UNIQUE" ]

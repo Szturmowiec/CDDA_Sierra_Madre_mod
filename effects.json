@@ -21,7 +21,10 @@
 		  "pain_chance": [25],
 		  "hurt_min": [ 1 ],
 		  "hurt_max": [ 4 ],
-		  "hurt_chance": [5]
+		  "hurt_chance": [5],
+		  "health_min": [ -3 ],
+		  "health_max": [ -10 ],
+		  "health_chance": [5]
 		},
 		"show_in_info": true,
 		"blood_analysis_description": "Z-43 toxic gas, high concentration"
@@ -44,7 +47,10 @@
 		  "pain_chance": [50],
 		  "hurt_min": [ 1 ],
 		  "hurt_max": [ 1 ],
-		  "hurt_chance": [90]
+		  "hurt_chance": [90],
+		  "health_min": [ -1 ],
+		  "health_max": [ -2 ],
+		  "health_chance": [45]
 		},
 		"show_in_info": true,
 		"blood_analysis_description": "Z-43 toxic gas, low concentration"
@@ -171,9 +177,9 @@
 	},
 	{
 		"type": "effect_type",
-		"id": "martini",
+		"id": "sierra_martini_effect",
 		"name": [ "Drank Sierra Madre Martini" ],
-		"desc": [ "This Martini tasted awful, but seems to strenghten you and help your body tissues regenerate. Apparently the Cloud can both deteriorate and regenerate, the latter you can easily observe on Ghost People. The right combination of ingredients allowed you to utilize the regenerative potential to yourself." ],
+		"desc": [ "This martini tasted awful, but seems to strenghten you and help your body tissues regenerate. Apparently the Cloud can both deteriorate and regenerate, the latter you can easily observe on Ghost People. The right combination of ingredients allowed you to utilize the regenerative potential for yourself." ],
 		"miss_messages": [ [ "You feel mysterious strength empowering your entire body, boosting its healing capability.", 10 ] ],
 		"rating": "good",
 		"main_parts_only": false,
@@ -181,20 +187,33 @@
 		"max_duration": "5 minutes",
 		"bp": ["TORSO", "HEAD", "EYES", "MOUTH", "ARM_L", "ARM_R", "HAND_L", "HAND_R", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R"],
 		"base_mods": {
-		  "str_mod": [ 3 ],
-		  "hurt_amount": [ -10 ],
-		  "hurt_tick": [ 300 ],
-		  "stim_amount": [ 5 ],
-		  "stim_tick": [ 300 ]
+		  "str_mod": [ 3 ]
 		},
 		"show_in_info": true,
 		"blood_analysis_description": "Traces of Z-43 toxins in the digestive system"
 	},
 	{
 		"type": "effect_type",
+		"id": "sierra_martini_effect2",
+		"name": [ "Drank Sierra Madre Martini" ],
+		"desc": [ "This martini tasted awful, but seems to strenghten you and help your body tissues regenerate. Apparently the Cloud can both deteriorate and regenerate, the latter you can easily observe on Ghost People. The right combination of ingredients allowed you to utilize the regenerative potential for yourself." ],
+		"rating": "good",
+		"main_parts_only": false,
+		"min_duration": "1 second",
+		"max_duration": "1 second",
+		"bp": ["TORSO", "HEAD", "EYES", "MOUTH", "ARM_L", "ARM_R", "HAND_L", "HAND_R", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R"],
+		"base_mods": {
+		  "hurt_amount": [ -10 ],
+		  "stim_amount": [ 5 ]
+		},
+		"show_in_info": false,
+		"blood_analysis_description": "Traces of Z-43 toxins in the digestive system"
+	},
+	{
+		"type": "effect_type",
 		"id": "stimpack_used",
 		"name": [ "Injected stimpack" ],
-		"desc": [ "Unlike the post-apocalyptic wasteland, upon injecting the stimpack you feel like coming back to life and shining with glory of a true survivor." ],
+		"desc": [ "As opposed to the post-apocalyptic wasteland, upon injecting the stimpack you feel like coming back to life and shining with glory of a true survivor." ],
 		"miss_messages": [ [ "You feel alive, so alive... It's beautiful.", 10 ] ],
 		"rating": "good",
 		"main_parts_only": false,
@@ -205,26 +224,48 @@
 		  "str_mod": [ 1 ],
 		  "int_mod": [ 1 ],
 		  "dex_mod": [ 1 ],
-		  "per_mod": [ 1 ],
-		  "hurt_amount": [ -20 ],
-		  "hurt_tick": [ 300 ],
-		  "stim_amount": [ 10 ],
-		  "stim_tick": [ 300 ],
-		  "fatigue_amount": [ -5 ],
-		  "fatigue_tick": [ 300 ],
-		  "stamina_amount": [ 25 ],
-		  "stamina_tick": [ 300 ]
+		  "per_mod": [ 1 ]
 		},
 		"show_in_info": true,
-		"blood_analysis_description": "STIM-X35 big_mt class 2 healing stimulant"
+		"blood_analysis_description": "STIM-RX35-A2 big_mt class 2 healing stimulant"
 	},
 	{
 		"type": "effect_type",
-		"id": "invisibility",
-		"name": [ "Invisibility" ],
-		"desc": [ "You perfectly blend in with your surroundings." ],
-		"apply_message": "The Stealth Field encovers you...",
-		"remove_message": "The Stealth Field fades away.",
+		"id": "stimpack_used2",
+		"name": [ "Injected stimpack" ],
+		"desc": [ "As opposed to the post-apocalyptic wasteland, upon injecting the stimpack you feel like coming back to life and shining with glory of a true survivor." ],
+		"rating": "good",
+		"main_parts_only": false,
+		"min_duration": "1 second",
+		"max_duration": "1 second",
+		"bp": ["TORSO", "HEAD", "EYES", "MOUTH", "ARM_L", "ARM_R", "HAND_L", "HAND_R", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R"],
+		"base_mods": {
+		  "hurt_amount": [ -20 ],
+		  "stim_amount": [ 10 ],
+		  "fatigue_amount": [ -5 ],
+		  "stamina_amount": [ 25 ]
+		},
+		"show_in_info": false,
+		"blood_analysis_description": "STIM-RX35-A2 big_mt class 2 healing stimulant"
+	},
+	{
+		"type": "effect_type",
+		"id": "stealth_boy_activated",
+		"name": [ "Stealth Field" ],
+		"desc": [ "The light bends and reflects around you hiding you from observers' eyes." ],
+		"rating": "good",
+		"apply_message": "You activate the Stealth Boy and hide behind the Stealth Field.",
+		"remove_message": "You're no longer hidden behind the Stealth Field.",
 		"flags": [ "EFFECT_INVISIBLE" ]
+	},
+	{
+		"type": "effect_type",
+		"id": "ghost_sight_activated",
+		"name": [ "Ghost Sight" ],
+		"desc": [ "Your throat burns after drinking the Ghost Sight, but now you can clearly see through the darkness." ],
+		"rating": "good",
+		"apply_message": "You drink Ghost Sight and your eyes quickly adjust to the darkness.",
+		"remove_message": "The effect of Ghost Sight wears off and you're back to your standard (lack of) nightvision.",
+		"flags": [ "EFFECT_NIGHT_VISION" ]
 	}
 ]

@@ -1,10 +1,10 @@
 [
 	{
 		"id": "explosive_collar",
-		"type": "TOOL",
+		"type": "TOOL_ARMOR",
 		"category": "weapons",
 		"name": { "str": "explosive collar" },
-		"description": "A sturdy, black metallic collar wrapping tightly around the neck of a person unfortunate enough to be forced to wear it. Contains an explosive charge ready to blow off the head. Can be set up ready to go off via compatible radio signal.",
+		"description": "A sturdy, black metallic collar wrapping tightly around the neck of a person unfortunate enough to be forced to wear it. Contains an explosive charge ready to blow off the head. Can be set up ready to go off via compatible radio signal. You don't want to wear it on yourself, right?...",
 		"weight": "520 g",
 		"volume": "350 ml",
 		"price": 2000,
@@ -23,11 +23,14 @@
 			  "menu_text": "Set the collar to explode",
 			  "type": "transform"
 		},
-		"flags": [ "RADIO_MODABLE", "RADIO_INVOKE_PROC", "BOMB" ]
+		"covers": [ "head" ],
+		"coverage": 10,
+		"encumbrance": 10,
+		"flags": [ "RADIO_MODABLE", "RADIO_INVOKE_PROC", "BOMB", "NO_TAKEOFF" ]
 	},
 	{
 		"id": "collar_armed",
-		"type": "TOOL",
+		"type": "TOOL_ARMOR",
 		"category": "weapons",
 		"name": { "str": "explosive collar" },
 		"description": "The collar is constantly beeping, ready to blow up once its internal timer reaches zero.",
@@ -49,7 +52,10 @@
 		  "no_deactivate_msg": "The collar is about to explode. While the blast won't be very strong since initially it's been designed to only blow the wearer's head off, it's still strongly encouraged to get away from it.",
 		  "explosion": { "power": 16, "shrapnel": { "casing_mass": 100, "fragment_mass": 1 } }
 		},
-		"flags": [ "TRADER_AVOID" ]
+		"covers": [ "head" ],
+		"coverage": 10,
+		"encumbrance": 10,
+		"flags": [ "TRADER_AVOID", "NO_TAKEOFF" ]
 	},
 	{
 		"type": "GENERIC",
@@ -131,8 +137,9 @@
 		"pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "laser_cell": 30 } } ]
 	},
 	{
-		"type": "GENERIC",
 		"id": "corpse_skeleton",
+		"type": "GENERIC",
+		"category": "other",
 		"symbol": "%",
 		"color": "white",
 		"name": { "str": "skeleton" },
@@ -141,6 +148,6 @@
 		"material": [ "bone" ],
 		"volume": "84 L",
 		"weight": "12500 g",
-		"flags": [ "NO_UNLOAD", "TRADER_AVOID", "NO_REPAIR" ]
+		"flags": [ "TRADER_AVOID", "NO_REPAIR" ]
 	}
 ]

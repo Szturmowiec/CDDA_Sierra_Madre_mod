@@ -1,0 +1,29 @@
+[
+	{
+		"type": "npc_class",
+		"id": "holo_staff",
+		"name": "Hologram workers",
+		"common": false,
+		"bonus_str": { "constant": 5 },
+		"bonus_dex": { "constant": 5 },
+		"bonus_per": { "constant": 5 },
+		"bonus_int": { "constant": 5 },
+		"skills": [
+		  { "skill": "ALL", "level": 10 } 
+		],
+		"job_description": "",
+		"worn_override": "EMPTY_GROUP",
+		"weapon_override": "EMPTY_GROUP",
+		"carry_override": "holo_vendor_items"
+	},
+	{
+		"type": "npc",
+		"id": "holo_vendor",
+		"name": "Hologram vendor",
+		"class": "holo_staff",
+		"attitude": 0,
+		"mission": 7,
+		"chat": "TALK_HOLO_VENDOR",
+		"faction": "holo_workers"
+	}
+]
