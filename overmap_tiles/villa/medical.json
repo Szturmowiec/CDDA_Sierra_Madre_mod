@@ -179,7 +179,7 @@
 			"``e11``|``e11``|``e11``|",
 			"#`````#|#`````#|#`````#|",
 			"|||d|||||||d|||||||+||||",
-			"```````````````````````|",
+			"8``````````````````````|",
 			"``|||||+|||||||||dd|||||",
 			"``|%%%``%%%%|56`X``X``X|",
 			"``+`````````+```X``X``X|",
@@ -233,7 +233,7 @@
 			
 		"terrain": { ".": "t_open_air", "*": "t_fountain", "|": "t_brick_wall", "-": "t_fence_metal", "/": "t_gate_metal_c", "d": "t_door_c", "c": "t_window_empty",
 		"F": "t_floor_noroof", "f": "t_floor", "<": "t_stairs_up", ">": "t_stairs_down", "T": "t_tree_dead", "G": "t_dirt", "a": "t_concrete", "m": "t_door_metal_c",
-		"8": "t_potential_trans", "9": "t_switchgear_s", "k": "t_station_disc", "b": "t_flat_roof", "!": "t_fence", "N": "t_flat_roof", "V": "t_flat_roof",
+		"9": "t_switchgear_s", "k": "t_station_disc", "b": "t_flat_roof", "!": "t_fence", "N": "t_flat_roof", "V": "t_flat_roof",
 		"~": "t_flat_roof", "=": "t_flat_roof", "R": "t_sidewalk", "&": "t_sidewalk", "`": "t_linoleum_white", "P": "t_sidewalk", "g": "t_linoleum_white", "e": "t_linoleum_white",
 		"r": "t_linoleum_white", "1": "t_linoleum_white", "q": "t_linoleum_white", "%": "t_linoleum_white", "#": "t_linoleum_white", "p": "t_linoleum_white",
 		"s": "t_linoleum_white", "X": "t_linoleum_white", "x": "t_linoleum_white", "z": "t_linoleum_white", "^": "t_linoleum_white", "D": "t_linoleum_white", "3": "t_flat_roof", "+": "t_door_locked_interior",
@@ -244,6 +244,16 @@
 			{ "field": "sierra_gas", "x": [ 10, 23 ], "y": 23, "repeat": 28 },
 			{ "field": "sierra_gas", "x": [ 10, 23 ], "y": [ 24, 27 ], "repeat": 112 }
 		],
+		
+		"place_monster": [ { "monster": "mon_holo_guard", "x": 11, "y": 5 } ],
+		
+		"computers": {
+        "8": {
+          "name": "Hologram emitter",
+          "security": 2,
+          "failures": [ { "action": "shutdown" } ]
+        }
+		},
 		
 		"place_loot": [
 			{ "item": "gas_incident_report", "x": 13, "y": 10 }

@@ -37,8 +37,7 @@
 	  "signs": { "P": { "signage": "Sierra Madre" } },
 	  
 	  "place_loot": [
-			{ "item": "micro_cell", "x": 11, "y": 17, "repeat": 25 },
-			{ "item": "holorifle", "x": 11, "y": 17, "damage-min": 3, "damage-max": 3 }
+			{ "group": "holorifle_spawn", "x": 11, "y": 17 }
 		],
 		
 		"items": {

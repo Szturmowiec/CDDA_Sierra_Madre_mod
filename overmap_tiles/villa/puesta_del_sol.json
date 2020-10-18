@@ -124,6 +124,7 @@
 	"place_loot": [
 		{ "item": "holo_components", "x": 2, "y": 6 },
 		{ "item": "ventilation_report", "x": 6, "y": 2 },
+		{ "item": "corpse_skeleton", "x": 10, "y": 5 },
 		{ "item": "jumpsuit_sierra", "x": 10, "y": 5 }
 	],
 		

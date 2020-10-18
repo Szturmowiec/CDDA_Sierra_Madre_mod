@@ -18,6 +18,296 @@
 		}
 	},
 	{
+		"id": "sierra_wall",
+		"type": "terrain",
+		"name": "Sierra Madre casino wall",
+		"looks_like": "t_concrete_wall",
+		"description": "An outer wall used in building of the Sierra Madre casino. Truly impenetrable - can survive several direct hits with nuclear warheads almost unscratched.",
+		"symbol": "LINE_OXOX",
+		"color": "dark_gray",
+		"move_cost": 0,
+		"coverage": 100,
+		"roof": "sierra_roof",
+		"flags": [ "NOITEM", "SUPPORTS_ROOF", "WALL", "NO_SCENT", "AUTO_WALL_SYMBOL", "BLOCK_WIND" ],
+		"bash": {
+		  "str_min": 2000000000,
+		  "str_max": 2000000000,
+		  "sound": "crash!",
+		  "sound_fail": "whump!",
+		  "ter_set": "t_reb_cage"
+		}
+	},
+	{
+		"id": "sierra_roof",
+		"type": "terrain",
+		"name": "Sierra Madre casino roof",
+		"description": "Roof covering the Sierra Madre casino, made out of the same material as its walls, making it indestructible.",
+		"symbol": ".",
+		"looks_like": "t_flat_roof",
+		"color": "dark_gray",
+		"move_cost": 2,
+		"flags": [ "TRANSPARENT", "FLAT" ],
+		"bash": {
+		  "str_min": 2000000000,
+		  "str_max": 2000000000,
+		  "sound": "crash!",
+		  "sound_fail": "whump!",
+		  "ter_set": "t_open_air"
+		}
+	},
+	{
+		"id": "sierra_floor",
+		"type": "terrain",
+		"name": "Sierra Madre casino floor",
+		"description": "Red tiles out of which the floor inside the Sierra Madre casino is made.",
+		"symbol": ".",
+		"color": "light_red",
+		"move_cost": 2,
+		"roof": "sierra_roof",
+		"flags": [ "TRANSPARENT", "SUPPORTS_ROOF", "COLLAPSES", "INDOORS", "FLAT", "ROAD" ],
+		"bash": {
+		  "sound": "SMASH!",
+		  "ter_set": "t_null",
+		  "str_min": 200,
+		  "str_max": 500,
+		  "str_min_supported": 200,
+		  "items": [ { "item": "scrap", "count": [ 2, 8 ] } ]
+		}
+	},
+	{
+		"id": "sierra_floor_noroof",
+		"type": "terrain",
+		"name": "Sierra Madre casino floor",
+		"description": "Red tiles out of which the floor inside the Sierra Madre casino is made.",
+		"symbol": ".",
+		"color": "light_red",
+		"move_cost": 2,
+		"flags": [ "TRANSPARENT", "COLLAPSES", "FLAT", "ROAD" ],
+		"bash": {
+		  "sound": "SMASH!",
+		  "ter_set": "t_null",
+		  "str_min": 200,
+		  "str_max": 500,
+		  "str_min_supported": 200,
+		  "items": [ { "item": "scrap", "count": [ 2, 8 ] } ]
+		}
+	},
+	{
+		"type": "terrain",
+		"id": "sierra_floor_light",
+		"name": "Sierra Madre casino floor, with overhead light",
+		"description": "Red tiles out of which the floor inside the Sierra Madre casino is made., with a still-functioning light attached to the ceiling above.",
+		"symbol": ".",
+		"color": "light_red",
+		"move_cost": 2,
+		"light_emitted": 120,
+		"roof": "sierra_roof",
+		"flags": [ "TRANSPARENT", "INDOORS", "FLAT", "ROAD" ],
+		"bash": {
+		  "sound": "thump",
+		  "ter_set": "t_null",
+		  "str_min": 200,
+		  "str_max": 500,
+		  "str_min_supported": 200,
+		  "items": [
+			{ "item": "scrap", "count": [ 4, 12 ] }
+		  ]
+		}
+	},
+	{
+		"type": "terrain",
+		"id": "sierra_floor_light_noroof",
+		"name": "Sierra Madre casino floor, with overhead light",
+		"description": "Red tiles out of which the floor inside the Sierra Madre casino is made., with a still-functioning light attached to the ceiling above.",
+		"symbol": ".",
+		"color": "light_red",
+		"move_cost": 2,
+		"light_emitted": 120,
+		"flags": [ "TRANSPARENT", "FLAT", "ROAD" ],
+		"bash": {
+		  "sound": "thump",
+		  "ter_set": "t_null",
+		  "str_min": 200,
+		  "str_max": 500,
+		  "str_min_supported": 200,
+		  "items": [
+			{ "item": "scrap", "count": [ 4, 12 ] }
+		  ]
+		}
+	},
+	{
+		"type": "terrain",
+		"id": "sierra_carpet",
+		"name": "Sierra Madre red carpet",
+		"symbol": ".",
+		"color": "red",
+		"move_cost": 2,
+		"looks_like": "t_carpet_red",
+		"description": "Fancy and durable red carpet used to decorate the interiors of the Sierra Madre casino.",
+		"flags": [ "TRANSPARENT", "SUPPORTS_ROOF", "COLLAPSES", "INDOORS", "FLAT", "RUG", "EASY_DECONSTRUCT" ],
+		"roof": "sierra_roof",
+		"bash": {
+		"sound": "SMASH!",
+		"ter_set": "sierra_floor",
+		"str_min": 5,
+		"str_max": 15,
+		"str_min_supported": 100,
+		"items": [ { "item": "rag", "count": [ 10, 20 ] }, { "item": "nail", "charges": [ 1, 3 ] } ]
+		},
+		"deconstruct": { "items": [ { "item": "r_carpet", "charges": 1 }, { "item": "nail", "charges": 5 } ], "ter_set": "sierra_floor" }
+	},
+	{
+		"type": "terrain",
+		"id": "sierra_carpet_noroof",
+		"name": "Sierra Madre red carpet",
+		"symbol": ".",
+		"color": "red",
+		"move_cost": 2,
+		"looks_like": "t_carpet_red",
+		"description": "Fancy and durable red carpet used to decorate the interiors of the Sierra Madre casino.",
+		"flags": [ "TRANSPARENT", "COLLAPSES", "FLAT", "RUG", "EASY_DECONSTRUCT", "FLAMMABLE_HARD" ],
+		"bash": {
+		"sound": "SMASH!",
+		"ter_set": "sierra_floor_noroof",
+		"str_min": 5,
+		"str_max": 15,
+		"str_min_supported": 100,
+		"items": [ { "item": "rag", "count": [ 10, 20 ] }, { "item": "nail", "charges": [ 1, 3 ] } ]
+		},
+		"deconstruct": { "items": [ { "item": "r_carpet", "charges": 1 }, { "item": "nail", "charges": 5 } ], "ter_set": "sierra_floor" }
+	},
+	{
+		"type": "terrain",
+		"id": "sierra_door_locked",
+		"name": "Sierra Madre Casino entrance door",
+		"description": "door to the Sierra Madre casino, locked and indestructible.",
+		"symbol": "+",
+		"looks_like": "t_door_metal_c",
+		"color": "red",
+		"move_cost": 0,
+		"coverage": 95,
+		"roof": "sierra_roof",
+		"flags": [ "NOITEM", "REDUCE_SCENT", "CONNECT_TO_WALL", "LOCKED", "BLOCK_WIND" ],
+		"bash": {
+		  "str_min": 2000000000,
+		  "str_max": 2000000000,
+		  "sound": "metal screeching!",
+		  "sound_fail": "clang!",
+		  "ter_set": "t_mdoor_frame",
+		  "items": [
+			{ "item": "scrap", "count": [ 12, 24 ] },
+			{ "item": "steel_plate", "prob": 75 },
+			{ "item": "hinge", "count": [ 1, 3 ] }
+		  ]
+		}
+	},
+	{
+		"type": "terrain",
+		"id": "sierra_door",
+		"name": "Sierra Madre Casino door",
+		"description": "door to the more important interiors of the Sierra Madre Casino. Indestructible just like the entrance door.",
+		"symbol": "+",
+		"looks_like": "t_door_metal_c",
+		"open": "sierra_door_o",
+		"color": "red",
+		"move_cost": 0,
+		"coverage": 95,
+		"roof": "sierra_roof",
+		"flags": [ "NOITEM", "DOOR", "CONNECT_TO_WALL" ],
+		"bash": {
+		  "str_min": 2000000000,
+		  "str_max": 2000000000,
+		  "sound": "metal screeching!",
+		  "sound_fail": "clang!",
+		  "ter_set": "t_mdoor_frame",
+		  "items": [
+			{ "item": "scrap", "count": [ 12, 24 ] },
+			{ "item": "steel_plate", "prob": 75 },
+			{ "item": "hinge", "count": [ 1, 3 ] }
+		  ]
+		}
+	},
+	{
+		"type": "terrain",
+		"id": "sierra_door_o",
+		"name": "open Sierra Madre Casino door",
+		"description": "Sierra Madre Casino door, currently open, still indestructible.",
+		"symbol": "'",
+		"looks_like": "t_door_metal_o",
+		"color": "red",
+		"move_cost": 2,
+		"coverage": 95,
+		"roof": "sierra_roof",
+		"flags": [ "TRANSPARENT", "FLAT", "CONNECT_TO_WALL", "ROAD" ],
+		"close": "sierra_door",
+		"bash": {
+		  "str_min": 2000000000,
+		  "str_max": 2000000000,
+		  "sound": "metal screeching!",
+		  "sound_fail": "clang!",
+		  "ter_set": "t_mdoor_frame",
+		  "items": [
+			{ "item": "scrap", "count": [ 12, 24 ] },
+			{ "item": "steel_plate", "prob": 75 },
+			{ "item": "hinge", "count": [ 1, 3 ] }
+		  ]
+		}
+	},
+	{
+		"type": "terrain",
+		"id": "sierra_wall_interior",
+		"name": "Sierra Madre Casino wall",
+		"description": "A solid brick wall used inside the Sierra Madre casino. Years of accumulating dirt made this once white wall yellow. From time to time you can spot golden letters \"SM\" on it, the logo of the Sierra Madre.",
+		"symbol": "LINE_OXOX",
+		"color": "yellow",
+		"looks_like": "sierra_wall",
+		"move_cost": 0,
+		"coverage": 100,
+		"roof": "sierra_roof",
+		"flags": [ "NOITEM", "SUPPORTS_ROOF", "WALL", "NO_SCENT", "AUTO_WALL_SYMBOL", "MINEABLE", "BLOCK_WIND" ],
+		"connects_to": "WALL",
+		"bash": {
+		  "str_min": 60,
+		  "str_max": 160,
+		  "sound": "crash!",
+		  "sound_fail": "bash!",
+		  "ter_set": "t_null",
+		  "items": [ { "item": "rock", "count": [ 8, 15 ] }, { "item": "brick", "count": [ 2, 6 ] } ]
+		}
+	},
+	{
+    "type": "terrain",
+    "id": "t_slot_machine_sm",
+    "name": "slot machine",
+	"looks_like": "t_slot_machine",
+    "description": "A machine with a bright screen flashing hypnotic promises of wealth.  If gambling with your life on a daily basis isn't enough for you, you can also gamble with this.",
+    "symbol": "6",
+    "color": "green",
+    "move_cost": 0,
+    "coverage": 50,
+    "flags": [ "NOITEM" ],
+    "examine_action": "slot_machine",
+    "bash": {
+      "str_min": 8,
+      "str_max": 150,
+      "sound": "crunch!",
+      "sound_fail": "whack!",
+      "ter_set": "t_console_broken",
+      "items": [
+        { "item": "processor", "prob": 25 },
+        { "item": "RAM", "count": [ 0, 2 ], "prob": 50 },
+        { "item": "cable", "charges": [ 1, 2 ], "prob": 50 },
+        { "item": "small_lcd_screen", "prob": 25 },
+        { "item": "e_scrap", "count": [ 1, 4 ], "prob": 50 },
+        { "item": "circuit", "count": [ 0, 2 ], "prob": 50 },
+        { "item": "power_supply", "prob": 25 },
+        { "item": "amplifier", "prob": 25 },
+        { "item": "plastic_chunk", "count": [ 4, 10 ], "prob": 50 },
+        { "item": "scrap", "count": [ 2, 6 ], "prob": 50 }
+      ]
+    }
+	},
+	{
     "id": "sierra_gas",
     "type": "field_type",
     "intensity_levels": [
@@ -79,6 +369,6 @@
     "priority": 7,
     "phase": "gas",
     "display_items": true,
-    "display_field": true
+    "display_field": false
 	}
 ]

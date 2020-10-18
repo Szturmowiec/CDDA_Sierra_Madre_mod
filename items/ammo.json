@@ -20,7 +20,7 @@
 		"damage": { "damage_type": "bullet", "amount": 80, "armor_penetration": 30 },
 		"dispersion": 25,
 		"recoil": 2000,
-		"effects": [ "NEVER_MISFIRES", "COOKOFF", "PLASMA", "LIGHTNING" ]
+		"effects": [ "NEVER_MISFIRES", "COOKOFF", "PLASMA_BUBBLE", "LIGHTNING" ]
 	},
 	{
 		"id": "micro_cell_overcharged",
@@ -43,7 +43,7 @@
 		"damage": { "damage_type": "bullet", "amount": 100, "armor_penetration": 32 },
 		"dispersion": 35,
 		"recoil": 2500,
-		"effects": [ "RECYCLED", "COOKOFF", "PLASMA", "LIGHTNING" ]
+		"effects": [ "RECYCLED", "COOKOFF", "PLASMA_BUBBLE", "LIGHTNING" ]
 	},
 	{
 		"id": "energy_cell",

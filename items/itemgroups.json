@@ -270,5 +270,50 @@
 		  { "group": "snacks", "prob": 100,  "count": [ 1, 4 ] },
 		  { "group": "groce_softdrink", "prob": 100,  "count": [ 0, 4 ] }
 		]
+	},
+	{
+		"type": "item_group",
+		"id": "holorifle_spawn",
+		"subtype": "collection",
+		"entries": [
+			{ "item": "micro_cell", "prob": 100, "count": 25 },
+			{ "item": "holorifle", "prob": 100, "damage-min": 3, "damage-max": 3 }
+		]
+	},
+	{
+		"type": "item_group",
+		"id": "harvester_items",
+		"subtype": "collection",
+		"entries": [
+		  { "item": "ghost_suit", "prob": 100, "damage-min": 0, "damage-max": 5 },
+		  { "item": "spear_knife_ghost", "prob": 100, "damage-min": 2, "damage-max": 5 },
+		  { "item": "spear_throwing_ghost", "prob": 100, "damage-min": 2, "damage-max": 5, "count": [ 1, 5 ] }
+		]
+	},
+	{
+		"type": "item_group",
+		"id": "trapper_items",
+		"subtype": "collection",
+		"entries": [
+		  { "item": "ghost_suit", "prob": 100, "damage-min": 0, "damage-max": 5 },
+		  { "item": "bear_fist", "prob": 100, "damage-min": 2, "damage-max": 5 }
+		]
+	},
+	{
+		"type": "item_group",
+		"id": "seeker_items",
+		"subtype": "collection",
+		"entries": [
+		  { "item": "ghost_suit", "prob": 100, "damage-min": 0, "damage-max": 5 },
+		  { "item": "spear_knife_ghost", "prob": 100, "damage-min": 2, "damage-max": 5 },
+		  { "item": "ghost_bomb", "prob": 50, "damage-min": 0, "damage-max": 5 }
+		]
+	},
+	{
+		"id": "ghost_harvest",
+		"type": "harvest",
+		"entries": [
+		  { "drop": "meat_ghost", "type": "flesh", "mass_ratio": 0.35 }
+		]
 	}
 ]

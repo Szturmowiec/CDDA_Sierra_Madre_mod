@@ -48,7 +48,7 @@
 		"type": "TOOL",
 		"category": "weapons",
 		"looks_like": "spear_knife",
-		"name": { "str": "Ghost's throwing knifespear" },
+		"name": { "str": "Ghost's throwing knife spear" },
 		"description": "A lighter and shorter version of the knifespear used by Ghost People meant for throwing. Was designed to deal powerful blows, but at a cost of being rather fragile, as opposed to their main knifespears.",
 		"weight": "550 g",
 		"to_hit": 2,
@@ -210,7 +210,7 @@
 		"type": "TOOL",
 		"category": "weapons",
 		"looks_like": "butane_can",
-		"name": { "str": "active Ghost's gas bomb" },
+		"name": { "str": "Ghost's gas bomb" },
 		"description": "Throw this bomb quickly and run away before the blaze of glory consumes you!",
 		"weight": "3000 g",
 		"volume": "2 L",
@@ -229,7 +229,7 @@
 			  "sound_volume": 0,
 			  "sound_msg": "Psfft.",
 			  "no_deactivate_msg": "The sharp, hissing sound coming out of the tank indicates the blaze of glory is about to be unleashed to wipe the Sierra Madre clean... Well, at least \"some part of it\", technically speaking.",
-			  "explosion": { "power": 500 }
+			  "explosion": { "power": 400 }
 		},
 		"flags": [ "ACT_IN_FIRE", "BOMB", "TRADER_AVOID" ]
 	},
@@ -256,6 +256,7 @@
 		"to_hit": -2,
 		"dispersion": 125,
 		"durability": 7,
+		"loudness": 12,
 		"modes": [ [ "DEFAULT", "pump-action", 1 ] ],
 		"valid_mod_locations": [
 		  [ "mechanism", 2 ],
@@ -290,6 +291,7 @@
 		"to_hit": -2,
 		"dispersion": 60,
 		"durability": 8,
+		"loudness": 7,
 		"modes": [ [ "DEFAULT", "semi-auto", 1 ] ],
 		"valid_mod_locations": [
 		  [ "accessories", 2 ],
@@ -345,5 +347,42 @@
 		  [ "underbarrel", 1 ]
 		],
 		"pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "357mag": 6, "38": 6 } } ]
+	},
+	{
+		"id": "holo_gun",
+		"looks_like": "v29",
+		"type": "GUN",
+		"reload_noise_volume": 0,
+		"name": { "str": "Hologram laser beam" },
+		"description": "A laser beam used by Sierra Madre security holograms.",
+		"weight": "680 g",
+		"volume": "1 L",
+		"price": 72000000,
+		"price_postapoc": 550000,
+		"to_hit": -2,
+		"bashing": 5,
+		"material": [ "superalloy" ],
+		"symbol": "(",
+		"color": "magenta",
+		"skill": "pistol",
+		"range": 30,
+		"ranged_damage": { "damage_type": "bullet", "amount": 25, "armor_penetration": 6 },
+		"dispersion": 180,
+		"durability": 8,
+		"loudness": 9,
+		"ups_charges": 10,
+		"reload": 200,
+		"valid_mod_locations": [
+		  [ "accessories", 2 ],
+		  [ "emitter", 1 ],
+		  [ "grip", 1 ],
+		  [ "lens", 1 ],
+		  [ "rail", 1 ],
+		  [ "sights", 1 ],
+		  [ "stock", 1 ],
+		  [ "underbarrel", 1 ]
+		],
+		"ammo_effects": [ "LASER" ],
+		"flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON-FOULING", "NEEDS_NO_LUBE" ]
 	}
 ]

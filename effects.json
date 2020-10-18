@@ -21,7 +21,7 @@
 		  "pain_chance": [25],
 		  "hurt_min": [ 1 ],
 		  "hurt_max": [ 4 ],
-		  "hurt_chance": [5],
+		  "hurt_chance": [4],
 		  "health_min": [ -3 ],
 		  "health_max": [ -10 ],
 		  "health_chance": [5]
