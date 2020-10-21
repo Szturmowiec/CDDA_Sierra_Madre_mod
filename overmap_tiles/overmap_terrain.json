@@ -1118,5 +1118,305 @@
     "see_cost": 5,
 	"extras": "build",
 	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "casino_up_1",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre Casino",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "casino_up_2",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre Casino",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "casino_up_3",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre Casino",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "casino_up_4",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre Casino",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "casino_up_5",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre Casino",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "casino_up_6",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre Casino",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "casino_up_7",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre Casino",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "casino_up_8",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre Casino",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "casino_up_9",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre Casino",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "casino_hotel_1",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre Casino",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "casino_hotel_2",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre Casino",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "casino_hotel_3",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre Casino",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "casino_hotel_4",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre Casino",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "casino_hotel_5",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre Casino",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "casino_hotel_6",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre Casino",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "casino_hotel_7",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre Casino",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "casino_hotel_8",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre Casino",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "casino_hotel_9",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre Casino",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "casino_hotel_v1_1",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre Casino",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "casino_hotel_v1_2",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre Casino",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "casino_hotel_v1_3",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre Casino",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "casino_hotel_v1_4",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre Casino",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "casino_hotel_v1_5",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre Casino",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "casino_hotel_v1_6",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre Casino",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "casino_hotel_v2_1",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre Casino",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "casino_hotel_v2_2",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre Casino",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "casino_hotel_v2_3",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre Casino",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "casino_hotel_v2_4",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre Casino",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "casino_hotel_v2_5",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre Casino",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+  },
+  {
+    "id": "casino_hotel_v2_6",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre Casino",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE", "SIDEWALK" ]
   }
 ]

@@ -21,7 +21,7 @@
 		"id": "sierra_wall",
 		"type": "terrain",
 		"name": "Sierra Madre casino wall",
-		"looks_like": "t_concrete_wall",
+		"looks_like": "t_wall_y",
 		"description": "An outer wall used in building of the Sierra Madre casino. Truly impenetrable - can survive several direct hits with nuclear warheads almost unscratched.",
 		"symbol": "LINE_OXOX",
 		"color": "dark_gray",
@@ -58,6 +58,7 @@
 	{
 		"id": "sierra_floor",
 		"type": "terrain",
+		"looks_like": "t_floor_red",
 		"name": "Sierra Madre casino floor",
 		"description": "Red tiles out of which the floor inside the Sierra Madre casino is made.",
 		"symbol": ".",
@@ -77,6 +78,7 @@
 	{
 		"id": "sierra_floor_noroof",
 		"type": "terrain",
+		"looks_like": "sierra_floor",
 		"name": "Sierra Madre casino floor",
 		"description": "Red tiles out of which the floor inside the Sierra Madre casino is made.",
 		"symbol": ".",
@@ -95,12 +97,13 @@
 	{
 		"type": "terrain",
 		"id": "sierra_floor_light",
+		"looks_like": "sierra_floor",
 		"name": "Sierra Madre casino floor, with overhead light",
-		"description": "Red tiles out of which the floor inside the Sierra Madre casino is made., with a still-functioning light attached to the ceiling above.",
+		"description": "Red tiles out of which the floor inside the Sierra Madre casino is made, with a still-functioning light attached to the ceiling above.",
 		"symbol": ".",
 		"color": "light_red",
 		"move_cost": 2,
-		"light_emitted": 120,
+		"light_emitted": 100,
 		"roof": "sierra_roof",
 		"flags": [ "TRANSPARENT", "INDOORS", "FLAT", "ROAD" ],
 		"bash": {
@@ -117,12 +120,13 @@
 	{
 		"type": "terrain",
 		"id": "sierra_floor_light_noroof",
+		"looks_like": "sierra_floor",
 		"name": "Sierra Madre casino floor, with overhead light",
-		"description": "Red tiles out of which the floor inside the Sierra Madre casino is made., with a still-functioning light attached to the ceiling above.",
+		"description": "Red tiles out of which the floor inside the Sierra Madre casino is made, with a still-functioning light attached to the ceiling above.",
 		"symbol": ".",
 		"color": "light_red",
 		"move_cost": 2,
-		"light_emitted": 120,
+		"light_emitted": 100,
 		"flags": [ "TRANSPARENT", "FLAT", "ROAD" ],
 		"bash": {
 		  "sound": "thump",
@@ -292,7 +296,7 @@
       "str_max": 150,
       "sound": "crunch!",
       "sound_fail": "whack!",
-      "ter_set": "t_console_broken",
+      "ter_set": "sierra_floor_noroof",
       "items": [
         { "item": "processor", "prob": 25 },
         { "item": "RAM", "count": [ 0, 2 ], "prob": 50 },
@@ -304,6 +308,129 @@
         { "item": "amplifier", "prob": 25 },
         { "item": "plastic_chunk", "count": [ 4, 10 ], "prob": 50 },
         { "item": "scrap", "count": [ 2, 6 ], "prob": 50 }
+      ]
+    }
+	},
+	{
+		"type": "terrain",
+		"id": "t_guardrail_sm",
+		"name": "golden guard rail",
+		"description": "A golden guard rail found inside the Sierra Madre casino.",
+		"symbol": "#",
+		"color": "yellow",
+		"move_cost": 3,
+		"flags": [ "TRANSPARENT", "NOITEM", "REDUCE_SCENT", "MOUNTABLE", "SHORT", "THIN_OBSTACLE", "ROAD", "BURROWABLE" ],
+		"looks_like": "t_guardrail_bg_dp",
+		"bash": {
+		  "str_min": 8,
+		  "str_max": 150,
+		  "sound": "crunch!",
+		  "sound_fail": "clang!",
+		  "ter_set": "sierra_floor",
+		  "items": [ { "item": "pipe", "count": [ 1, 2 ] }, { "item": "gold_small", "count": [ 3, 6 ] } ]
+		}
+	},
+	{
+    "type": "terrain",
+    "id": "window_sierra",
+	"looks_like": "t_window_domestic",
+    "name": "Sierra Madre armored window.",
+    "description": "A window appearing in the Sierra Madre suites. While it looks like any other fancy window, it's supposed to withstand a direct hit by a nuclear warhead, just like the entire Sierra Madre Casino. Tech used to design this wonder comes, of course, from the Big Mountain research facility.",
+    "symbol": "\"",
+    "color": "light_gray",
+    "move_cost": 0,
+    "coverage": 60,
+    "roof": "sierra_roof",
+    "flags": [
+      "TRANSPARENT",
+      "NOITEM",
+      "BARRICADABLE_WINDOW_CURTAINS",
+      "REDUCE_SCENT",
+      "CONNECT_TO_WALL",
+      "BLOCK_WIND",
+      "WINDOW"
+    ],
+    "curtain_transform": "window_sierra_no_curtains",
+    "examine_action": "curtains",
+    "close": "sierra_curtains",
+    "bash": {
+      "str_min": 2000000000,
+      "str_max": 2000000000,
+      "sound": "glass breaking!",
+      "sound_fail": "whack!",
+      "sound_vol": 16,
+      "sound_fail_vol": 10,
+      "ter_set": "t_window_frame",
+      "items": [
+        { "item": "glass_shard", "count": [ 21, 29 ] }
+      ]
+    }
+	},
+	{
+    "type": "terrain",
+	"id": "window_sierra_no_curtains",
+    "looks_like": "t_window_no_curtains",
+    "name": "Sierra Madre armored window without curtains",
+    "description": "A window appearing in the Sierra Madre suites. While it looks like any other fancy window (except it doesn't have curtains), it's supposed to withstand a direct hit by a nuclear warhead, just like the entire Sierra Madre Casino. Tech used to design this wonder comes, of course, from the Big Mountain research facility.",
+    "symbol": "\"",
+    "color": "white",
+    "move_cost": 0,
+    "coverage": 60,
+    "roof": "sierra_roof",
+    "flags": [
+      "TRANSPARENT",
+      "NOITEM",
+      "BARRICADABLE_WINDOW",
+      "REDUCE_SCENT",
+      "CONNECT_TO_WALL",
+      "BLOCK_WIND",
+      "WINDOW"
+    ],
+    "examine_action": "locked_object",
+    "bash": {
+      "str_min": 2000000000,
+      "str_max": 2000000000,
+      "sound": "glass breaking!",
+      "sound_fail": "whack!",
+      "sound_vol": 16,
+      "sound_fail_vol": 10,
+      "ter_set": "t_window_frame",
+      "items": [ { "item": "glass_shard", "count": [ 21, 29 ] } ]
+    }
+	},
+	{
+    "type": "terrain",
+    "id": "sierra_curtains",
+	"looks_like": "t_curtains",
+    "name": "Sierra Madre armored window with closed curtains",
+    "description": "A window appearing in the Sierra Madre suites. While it looks like any other fancy window with closed curtains would, it's supposed to withstand a direct hit by a nuclear warhead, just like the entire Sierra Madre Casino. Tech used to design this wonder comes, of course, from the Big Mountain research facility.",
+    "symbol": "\"",
+    "color": "dark_gray",
+    "move_cost": 0,
+    "coverage": 95,
+    "roof": "sierra_roof",
+    "flags": [
+      "NOITEM",
+      "OPENCLOSE_INSIDE",
+      "REDUCE_SCENT",
+      "BARRICADABLE_WINDOW_CURTAINS",
+      "CONNECT_TO_WALL",
+      "BLOCK_WIND",
+      "WINDOW"
+    ],
+    "curtain_transform": "window_sierra_no_curtains",
+    "open": "window_sierra",
+    "examine_action": "curtains",
+    "bash": {
+      "str_min": 2000000000,
+      "str_max": 2000000000,
+      "sound": "glass breaking!",
+      "sound_fail": "whack!",
+      "sound_vol": 16,
+      "sound_fail_vol": 10,
+      "ter_set": "t_window_frame",
+      "items": [
+        { "item": "glass_shard", "count": [ 21, 29 ] }
       ]
     }
 	},

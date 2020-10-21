@@ -1,0 +1,673 @@
+[
+	{
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [
+      [ "casino_1", "casino_2", "casino_3" ],
+      [ "casino_4", "casino_5", "casino_6" ],
+      [ "casino_7", "casino_8", "casino_9" ]
+    ],
+    "weight": 100,
+    "object": {
+      "fill_ter": "sierra_floor",
+      "rows": [
+        "WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW",
+        "W.....%%%%%%....b|3333.kk...2|111ccc&.rJ......&.......w``5(5(5(5(``````W",
+        "Wb..b...........b|..........7|.......................p|````````````````W",
+        "Wb..b..bbbb......d...k33k...2|JJJJJJJJJJ....h....h..sH|w|w|w|w|w|w|w|w|W",
+        "Wb..b............d...k33k...7|E.E.E.E.E....hsh..hsh.sH|T|T|T|T|T|T|T|T|W",
+        "Wb..b...........b|..........2|..............h....h..sH|||||||||||||||||W",
+        "W............bbbb|3333.kk...7|...l................l...d..|0000..1JJc...W",
+        "W|||||||dd||||||||||||||||||||Hs...h.....h.....h......d..|....hhh.....7W",
+        "WaK------------Ka|p.........p|Hs..hsh...hsh...hsh...sH|..|...hsssh...hIW",
+        "WaK--A------A--Ka|.G...G...G.|Hs...h.....h.....h....sH|..w...hsssh...hIW",
+        "WaK-----n------Ka|...........|p..h....h.....h....h..sH|..|....hhh.....IW",
+        "WgE..|......|..Eg|.G...G...G.|..hsh..hsh.l.hsh..hsh..p|..|............&W",
+        "WaK--.------.--Ka|...........|...h....h.....h....h....|..|0000.....0000W",
+        "W----.-KKK--.----|.G...l...G.|Hs........sss...sss..ssH|..||||||||||||||W",
+        "W----.K@@@K-.----|p.........p|HH..p..p&.HHH...HHH..HHH|l.|I7I&.I7I&.r..W",
+        "W----.K@@@K-.----||||||w|||||||||||ww||||||||||||||||||..|.h....h.....IW",
+        "Wm---.-KKK--.----@@@-----m--aaaa------aaaa--m|%.$.bbbb|..w...........h7W",
+        "W----.------.----KKK--------KKKK------KKKK---|%.......d..|............IW",
+        "W----.------.n-------------------------------|%.$.bbbb|..|.h....h.....&W",
+        "W....|....|....|....|....|....|....|....|....||||||||||..|I7I&.I7I&....W",
+        "W--------------.----------------n-------.----@@@@---K@|..||||||||||||||W",
+        "Wm-----KKK-----.------------------------.----KKKK---K@|..|0000..1JJc..rW",
+        "WaK---K@@@K----|....|....|....|....|....|-----------K@|..|....hhh.....7W",
+        "WaK---K@@@K--A-.--A-p--KK.----p-KK-.----EK----------K@|..|...hsssh...hIW",
+		"WaK----KKK-----.----.-K@@E----.K@@K.---KgaK---------K@|..w...hsssh...hIW",
+        "Wm-------------.----.-K@@E----.K@@K.---KgaK---------K@|..|....hhh.....IW",
+        "W------------A-.--A-p--KK.----p-KK-.----EK----------K@|..|............&W",
+        "W....|....|....|....|....|....|....|....|.......p||||||..|0000.....0000W",
+        "W---------------.---.----.KKK-.----.KKK-.--------|%.%%|..||||||||||||||W",
+        "WaK-------------p---.----.@@@-.----.@@@-.--------|%...d................W",
+        "WaK-----n-----Ka|||||||||||||||||||||||||m-------|%.%%|.............l..W",
+        "WaK-----------Ka|WWWWWWWWWWWWWWWWWWWWWWW|<-------||||||||||||||||||....W",
+        "WaK-m-------m---|WWWWWWWWWWWWWWWWWWWWWWW||..|..|||L`OOOOOjjjjj6666|....W",
+        "W||||JJJJJJJ||d||WWWWWWWWWWWWWWWWWWWWWWWW|-----.9|L```````````````|....W",
+        "W..............0|WWWWWWWWWWWWWWWWWWWWWWWW|-----..|L`55``R|R``55```|.<<.W",
+        "W.......l......0|WWWWWWWWWWWWWWWWWWWWWWWW|-----|.|L`55``R|R``55```|||||W",
+        "W$.000....r00000|WWWWWWWWWWWWWWWWWWWWWWWW|-----..|L`````R|R```````d`i7`W",
+        "W|||||||w||||||||WWWWWWWWWWWWWWWWWWWWWWWW|-----..|L``````````44```|``~`W",
+        "WTw````|.|T|``wT|WWWWWWWWWWWWWWWWWWWWWWWW|m---m|||```````````44```|R```W",
+        "W||```5|.|w|``|||WWWWWWWWWWWWWWWWWWWWWWWW|||dd||R````````|```44```|R``RW",
+        "WTw```(|.|````wT|WWWWWWWWWWWWWWWWWWWWWWWWW|.!!.|R````j5jj|````````d```RW",
+        "W||````w.w````|||WWWWWWWWWWWWWWWWWWWWWWWWW|.!!.|RRRRR||||||||||||||R``RW",
+        "WTw````|.|(5``wT|WWWWWWWWWWWWWWWWW|||||||||.!!.|||||||T|T|T|T|T|`5|R```W",
+        "W|||||||.||||||||WWWWWWWWWWWWWWWWW|.......p.!!.p.....|w|w|w|w|w|``|````W",
+        "W........|%%%%%%|WWWWWWWWWWWWWWWWW|.........!!.......|```````````(|````W",
+        "W........|......|WWWWWWWWWWWWWWWWW|..l......!!.......||w||||||||w|||||dW",
+        "W..|||||||||dd|||||||||||||||||||||.........!!.......|T`|Tw``wT|.......W",
+        "W..|.................|m----------<<---------CC-------||||||``|||.......W",
+		"W..|0000..b...b..0000|----*-----CCCCCCCCCCCCCC----------|Tw```(|.......W",
+        "Wl.|......b...b......|---***----CCCCCCCCCCCCCC----------|||````w.......W",
+        "W..|0000..b...b..0000|--*****---CCCCCCCC----------------|Tw`5`^|.......W",
+        "W..|......b...b......|-*******--CCCCCCCC---------------m||||||||||w||||W",
+        "W..|0000.........0000|--*****---CCCCCCCC--------n-------|HHH..HH......rW",
+        "Www|||||||||w|||||||||---***----CCCCCCCC----------------|Hss..ss...J..pW",
+        "W..HHHH..hh....hh..rI|----*-----CCCCCCCC----------------|p........EJ..|W",
+        "W........ss....ss..hI|m---------CCCCCCCCCCCCCCCCCCCCCCCCd.....l....J..|W",
+        "W..................h7|----------CCCCCCCCCCCCCCCCCCCCCCCCd.........EJ..|W",
+        "W1JJccc&.BBHHHH%%...I|----n-----CCCCCCCC----------------|ph...h....J..|W",
+        "W|||||||||||||||||||||----------CCCCCCCC----------m-----|hsh.hsh..EJ.&|W",
+        "Wph....h.l..h....h..&p----------CCCCCCCC----------|||||||.h...h....J..pW",
+        "Whsh..hsh..hsh..hsh...----------CCCCCCCC----------|HHH.................W",
+        "W.h....h....h....h....----------CCCCCCCC----------|Hss....h....l....h..W",
+        "W!!!!!!!!!!!!!!!!!!!!!CCCCCCCCCCCCCCCCCC--eeNeeeee|......hsh.......hsh.W",
+        "W!!!!!!!!!!!!!!!!!!!!!CCCCCCCCCCCCCCCCCC--e-F--F--|.......h.........h..W",
+        "W.h....h....h....h....----------CCCCCCCC--e------m|||w|||||||JJJJJJ||||W",
+        "Whsh..hsh..hsh..hsh...----------CCCCCCCC----------|I...................W",
+        "Wph....h.l..h....h...p---------mCCCCCCCCm-e---)MMM|Ih.....0000000000000W",
+        "WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWDDDDDDDDWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW",
+        "WffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffW",
+        "WffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffW",
+        "WfffffffffWfffffffffWfffffffffWffffffffffWfffffffffWfffffffffWfffffffffW",
+        "WfffffffffWfffffffffWfffffffffWffffffffffWfffffffffWfffffffffWfffffffffW"
+      ],
+      "furniture": { "&": "f_trashcan", "J": "f_counter", "s": "f_table", "h": "f_chair", "0": "f_filing_cabinet", "I": "f_desk", "E": "f_stool", "H": "f_sofa",
+	  "r": "t_broken_radio", "5": "f_sink", "i": "f_desk", "~": "f_chair", "7": "f_console_broken", "R": "f_rack", "L": "f_locker", "6": "f_fridge",
+	  "4": "f_glass_fridge", "O": "f_oven", "j": "f_counter", "p": "f_indoor_plant", "$": "f_safe_l", "%": "f_locker", "b": "f_rack", "a": "f_arcade_machine", "A": "f_roulette_table",
+	  "1": "f_fridge", "c": "f_cupboard", "B": "f_wardrobe", "(": "f_trashcan", "^": "t_broken_radio", "e": "f_counter", "F": "f_chair", "g": "f_arcade_machine", "G": "f_roulette_table",
+	  ")": "f_trashcan", "K": "f_stool", "m": "f_indoor_plant", "M": "f_filing_cabinet", "N": "f_console_broken" },
+	  "toilets": { "T": {  } },
+	  
+      "terrain": { ".": "sierra_floor", "-": "sierra_floor_noroof", "f": "t_sidewalk", "*": "t_fountain", "|": "sierra_wall_interior", "W": "sierra_wall", "D": "sierra_door_locked",
+	  "<": "t_stairs_up", ">": "t_stairs_down", "d": "sierra_door", "C": "sierra_carpet_noroof", "`": "t_linoleum_white", "w": "t_door_c", "5": "t_linoleum_white",
+	  "i": "t_linoleum_white", "~": "t_linoleum_white", "7": "t_linoleum_white", "R": "t_linoleum_white", "L": "t_linoleum_white", "6": "t_linoleum_white",
+	  "4": "t_linoleum_white", "O": "t_linoleum_white", "j": "t_linoleum_white", "@": "t_slot_machine_sm", "3": "t_potential_trans", "2": "t_switchgear_s", "k": "t_station_disc",
+	  "l": "sierra_floor_light", "(": "t_linoleum_white", "^": "t_linoleum_white", "!": "sierra_carpet", "e": "sierra_floor_noroof", "F": "sierra_floor_noroof",
+	  "a": "sierra_floor_noroof", "A": "sierra_floor_noroof", ")": "sierra_floor_noroof", "K": "sierra_floor_noroof", "m": "sierra_floor_noroof", "M": "sierra_floor_noroof",
+	  "n": "sierra_floor_light_noroof", "N": "sierra_floor_noroof", "T": "t_linoleum_white" },
+	  
+	  "computers": {
+		"9": {
+          "name": "Hologram emitter"
+        }
+		},
+	  
+	  "place_graffiti": [
+		{
+          "text": "CASINO",
+          "x": 46,
+          "y": 39
+        },
+		{
+          "text": "CANTINA MADRID",
+          "x": 56,
+          "y": 57
+        },
+		{
+          "text": "CANTINA",
+          "x": 70,
+          "y": 55
+        },
+		{
+          "text": "MADRID",
+          "x": 70,
+          "y": 57
+        },
+		{
+          "text": "A fancy mozaic portraying Frederick Sinclair and Vera Keyes holding hands in front of the woman similar to the one that can be seen on the Sierra Madre chips, with the sign \"Begin again\" under their feet.",
+          "x": 26,
+          "y": 46
+        },
+		{
+          "text": "STAFF ONLY",
+          "x": 69,
+          "y": 45
+        },
+		{
+          "text": "STAFF ONLY",
+          "x": 10,
+          "y": 7
+        },
+		{
+          "text": "STAFF ONLY",
+          "x": 54,
+          "y": 8
+        },
+		{
+          "text": "STAFF ONLY",
+          "x": 13,
+          "y": 33
+        }
+	  ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [
+      [ "casino_up_1", "casino_up_2", "casino_up_3" ],
+      [ "casino_up_4", "casino_up_5", "casino_up_6" ],
+      [ "casino_up_7", "casino_up_8", "casino_up_9" ]
+    ],
+    "weight": 100,
+    "object": {
+      "fill_ter": "sierra_floor",
+      "rows": [
+        "WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW",
+        "WN`3333```````o`^`````````````````````````````````n|#`#`#|`|`|`|`|T|T|TW",
+        "WN```^```^^^^`o````O```O```O```O``O```O```O```O```n|`````|w|w|w|w|w|w|wW",
+        "WN```````****`k````~~~~~~~~~~~~~~~~~~~~~~~~~~~~```n|#``````````````````W",
+        "WN``2222`****`k````~~~~~~~~~~~~~~~~~~~~~~~~~~~~```n|``````nnnnnn`nnnnnnW",
+        "WN````````````o````~~~~~~~~~~~~~~~~~~~~~~~~~~~~```n|#`````NNNNNN`NNNNNNW",
+        "WN``2222`2222`o`^``~~~~~~~~~~~~~~~~~~~~~~~~~~~~```n|``````NNNNNN`NNNNNNW",
+        "W|||||||||||||||||`~~~~~~~~~~~~~~~~~~~~~~~~~~~~```n|#`````nnnnnn`nnnnnnW",
+        "W----------------|`~~~~~~~~~~~~~~~~~~~~~~~~~~~~```n|```````````````````W",
+        "W----------------|`~~~~~~~~~~~~~~~~~~~~~~~~~~~~````w``````nnnnnn`nnnnnnW",
+        "W----------------|`~~~~~~~~~~~~~~~~~~~~~~~~````````w``````NNNNNN`NNNNNNW",
+        "Wffffffffffffffff|`~~~~~~~~~~~~~~~~~~~~~~~~``||||||||||ww||||||||||||||W",
+        "W----f------f----|`~~~~~~~~~~~~~~~~~~~~~~~~``|&hJ........HHHHHH&pHHHHHHW",
+        "W----f------f----|`~~~~~~~~~~~~~~~~~~~~~~~~``|..J......................W",
+        "W----f------f----|````^````````````````^`````|.hJ..........h....h....h.W",
+        "W----f------f----|||||||||||||||||||||||||||||..7.........hsh..hsh..hshW",
+        "W----f------f--------------------------------|J.J..........h....h....h.W",
+        "W----f------f--------------------------------|.........................W",
+        "W----f------f--------------------------------|p....HHHH..HHHHHH&pHHHHHHW",
+        "Wffffffffffffffffffffffffffffffffffffffffffff||||||||||ww||||||||||||||W",
+        "W--------------f------------------------f-------------|..|I7I&.I7I.&I7IW",
+        "W--------------f------------------------f-------------|..|.h....h....h.W",
+        "W--------------ffffffffffffffffffffffffff-------------|..|.............W",
+        "W--------------f----f----f----f----f----f-------------|..|p...hssssh..pW",
+		"W--------------f----f----f----f----f----f-------------|..|Hss.hssssh...W",
+        "W--------------f----f----f----f----f----f-------------|..|Hss..........W",
+        "W--------------f----f----f----f----f----f-------------|..|HHH.ccJ1.....W",
+        "Wffffffffffffffffffffffffffffffffffffffffffffffff||||||..|||||||||||ww|W",
+        "W---------------f---f----f----f----f----f--------|p.l....|.............W",
+        "W---------------f---f----f----f----f----f--------|.......|.............W",
+        "W---------------!!!!!!!!!!!!!!!!!!!!!!!!!--------|..||||||..|||||||p..pW",
+        "W---------------!ph....h....h....h...p&..>-------|..|T|``|..|=5```|....W",
+        "W---------------!hsh..hsh..hsh..hsh.....!!fffff|||..|`w``w..w`````|....W",
+        "W||||||||||||||||.h....h....h....h.....h.!-----|p...|||`5|..|w|w|w|....W",
+        "W&..I7I&..I7I&..|&....................hsh!-----|....|Tw`=|..|T|T|T|.>>.W",
+        "WI...h.....h...I|.h...h...E.E.E.E.E....h.!-----|..||||||||ww|||||||||||W",
+        "W7h...........h7|hsh.hsh.JJJJJ7JJJJJ...h.!-----|..|HHH...p..p.xxxx..HHHW",
+        "WIh...h....h..hI|.h...h..J............hsh!-----|..|Hss..............ssHW",
+        "WI...I7I..I7I..I|p.......J&ccccc11.Jr..hp!-----|..|Hss....hhhhh.....ssHW",
+        "W||||||||w||||||||||||||||||||||||||||||||||||||..|......hsssssh.......W",
+        "WT|T|`5=|.........|=5=5|T|T|T|T|MMMM|.<<.|Tw`5=|..|I.....hsssssh......IW",
+        "Ww|w|```w.........w````|w|w|w|w|MMMm|....|||```w..|7h.....hhhhh...h..h7W",
+        "W`````5=|.........|=5``````````||dd|||dd||Tw```|..|I.....&.......I7I&.IW",
+        "W||||||||w||||||||||||||||||||||pCC.l.CCp|||||||dd||||||||ww|||||||||||W",
+        "Wr...............r|pr............CCCCCCC.............d........p.......pW",
+        "W...........JJJJ7J|..............CCCCCCC.............d.................W",
+        "W((((..l..........|..!!!!!!!!!!!!CC!!!!!!!!!!!!!!!!!!|l................W",
+        "WCCCC..CCgCCCCgCC.|..!----------->>------------------|||||||||w||||||..W",
+		"WCCCC..CgGgCCgGgC.|..!----------------------------------|I7I.p.p.I7I|..W",
+        "WCCCC..CCgCCCCgCC.|..!----------------------------------|&h.......h&|..W",
+        "WCCCC..CCCCCCCCCC.d..!----------------------------------|....sss....|..W",
+        "WCCCC..CCgCCCCgCC.d..!----------------------------------|....sss....|..W",
+        "WCCCC..CgGgCCgGgC.|..!----------------------------------|&h.......h&|..W",
+        "WCCCC..CCgCCCCgCC.|..!----------------------------------|I7I.....I7I|..W",
+        "W((((..l..........|..!----------------------------------|||||||||||||..W",
+        "W.|..............r|..!----------------------------------|HH...&cccJ1|..W",
+        "Ww|w|||||||||||||||..!----------------------------------|Hs.........|..W",
+        "W.................|..!----------------------------------|p..hsssh...w..W",
+        "W|||w|||||||w||||.|..!----------------------------------|Hs.........|..W",
+        "W$....HH|HH....$|.|..!----------------------------|||||||HH..HHH...&|..W",
+        "W......H|Hs..h.l|.|..!----------------------------|T|T|T|||w|||||||||.lW",
+        "Wr.ssa.B|B..aI.r|.|..!----------------------------|w|w|w|=5`|...&I7I|..W",
+        "W||||||||||||||||w|..!----------------------------|`````````w.....h.|..W",
+        "WB................|..!----------------------------|||||||||||p....l.w..W",
+        "WB..b..b..b..bbbb.|..!----------------------------|0.xxx............|..W",
+        "WB..b..b..b.......|..!----------------------------|0.....h...h....h.|..W",
+        "WB..b..br.b..bbbbb|p.!----------------------------|0$000I7I&I7I.&I7I|..W",
+        "WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW",
+        "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+        "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+        "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+        "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+      ],
+      "furniture": { "&": "f_trashcan", "J": "f_counter", "s": "f_table", "h": "f_chair", "0": "f_filing_cabinet", "I": "f_desk", "E": "f_stool", "H": "f_sofa",
+	  "r": "t_broken_radio", "5": "f_sink", "i": "f_desk", "7": "f_console_broken", "R": "f_rack", "L": "f_locker", "6": "f_fridge",
+	  "4": "f_glass_fridge", "j": "f_counter", "p": "f_indoor_plant", "$": "f_safe_l", "%": "f_locker", "b": "f_rack", "A": "f_roulette_table",
+	  "1": "f_fridge", "c": "f_cupboard", "B": "f_wardrobe", "(": "f_curtain", "e": "f_counter", "g": "f_chair", "G": "f_table",
+	  ")": "f_trashcan", "K": "f_stool", "^": "f_chair", "=": "f_trashcan", "N": "f_locker", "n": "f_bench", "#": "f_shower", "O": "f_dive_block",
+	  "2": "f_glass_cabinet", "3": "f_desk", "*": "f_table", "x": "f_bookcase", "a": "f_bigmirror" },
+	  "toilets": { "T": {  } },
+	  
+      "terrain": { ".": "sierra_floor", "-": "t_open_air", "f": "sierra_roof", "*": "t_linoleum_white", "|": "sierra_wall_interior", "W": "sierra_wall", "D": "sierra_door_locked",
+	  "<": "t_stairs_up", ">": "t_stairs_down", "d": "sierra_door", "C": "sierra_carpet", "`": "t_linoleum_white", "w": "t_door_c", "@": "t_slot_machine_sm",
+	  "3": "t_linoleum_white", "2": "t_linoleum_white", "k": "t_door_glass_c", "l": "sierra_floor_light", "=": "t_linoleum_white", "^": "t_linoleum_white",
+	  "!": "t_guardrail_sm", "m": "t_elevator_control_off", "M": "t_elevator", "g": "sierra_carpet", "G": "sierra_carpet", "5": "t_linoleum_white",
+	  "~": "t_water_pool", "n": "t_linoleum_white", "N": "t_linoleum_white", "#": "t_linoleum_white", "O": "t_linoleum_white", "o": "t_wall_glass",
+	  "T": "t_linoleum_white" },
+	  
+	  "computers": {
+		"9": {
+          "name": "Hologram emitter"
+        }
+		},
+	  
+	  "place_graffiti": [
+		{
+          "text": "SUITES",
+          "x": 36,
+          "y": 42
+        },
+		{
+          "text": "TAMPICO",
+          "x": 18,
+          "y": 49
+        },
+		{
+          "text": "SWIMMING POOL",
+          "x": 50,
+          "y": 43
+        },
+		{
+          "text": "STAFF ONLY",
+          "x": 53,
+          "y": 46
+        },
+		{
+          "text": "STAFF ONLY",
+          "x": 4,
+          "y": 56
+        },
+		{
+          "text": "STAFF ONLY",
+          "x": 10,
+          "y": 39
+        }
+	  ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [
+      [ "casino_hotel_1", "casino_hotel_2", "casino_hotel_3" ],
+      [ "casino_hotel_4", "casino_hotel_5", "casino_hotel_6" ],
+      [ "casino_hotel_7", "casino_hotel_8", "casino_hotel_9" ]
+    ],
+    "weight": 100,
+    "object": {
+      "fill_ter": "sierra_floor",
+      "rows": [
+        "WWWWXWWWWWWWWWWWWXWWWWWWXXWWWWWXWWWXXWWWXWWWWWXXWWWWWWXWWWWWWWWWWWWXWWWW",
+        "W@@..*a*.K|T`|225``#|@@E...*|.IxI.|nn|.IxI.|*...E@@|#``522|`T|K.*a*..@@W",
+        "W@@.CCC..r|``w````((|@@....a|..M..|CC|..M..|a....@@|((````w``|r..CCC.@@W",
+        "Xs..CCCl.H||||````(O|..CCC.*|.....|CC|.....|*.CCC..|O(````||||H..CCC..sX",
+        "Xp..CCC..H|``w```o(O|M.CCC.B|B...B|CC|B...B|B.CCC.M|O(o```w``|H..CCC..pX",
+        "W**...BBB$|T`|````(O|..CCC.B|B...B|CC|B...B|B.CCC..|O(````|`T|$BBB...**W",
+        "W||||w|||||||||w|||||$.....K|.l..B|CC|B....|K.....$|||||w|||||||||w||||W",
+        "X.........CCCCCC.BBB|||w|||||w|||||CC|||||w|||||w|||BBB.CCCCCC.........X",
+        "W||||||...CjjjjC...B|Hr.BBB...p|p.wCCw.p|p...BBB.rH|B...CjjjjCl..||||||W",
+        "WI..BB|...CjjjjC...B|H.....hhh.w..wCCw..w.hhh.....H|B...CjjjjC...|BB..IW",
+        "XxM...w...CCCCCC...B|H....hsssh|.7|CC|7.|hsssh....H|B...CCCCCC...w...MxX",
+        "WI...p|.............|H..BB.hhh&|.7|CC|7.|&hhh.BB..H|.............|p...IW",
+        "W||||||.CCCCC..hhh..|||w||||||||w||CC||w||||||||w|||..hhh..CCCCC.||||||W",
+        "Wp......CCCCC.hsssh.|```````225``#|CC|#``522```````|.hsssh.CCCCC......pW",
+        "XHss....CCCCC.hsssh.||w|w||``````o|CC|o``````||w|w||.hsssh.CCCCC....ssHX",
+        "XHss....CCCCC..hhh..|``|``|````(((|CC|(((````|``|``|..hhh..CCCCC....ssHX",
+        "WHHH...p|7l7|p.....&|T`|`T|225`(OO|CC|OO(`522|T`|`T|&.....p|7.7|p...HHHW",
+        "W|||||||||w||||||||||||||||||||||||CC||||||||||||||||||||||||w|||||||||W",
+        "WnCCCCCCCCCCCCnCCCCCCCCCCCCCCCCCCCnCCnCCCCCCCCCCCCCCCCCCCnCCCCCCCCCCCCnW",
+        "XCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCX",
+        "WCCCCCCCCCCCCCCCCCCCCCnCCCCCCCCCCCCCCCCCCCCCCCCCCnCCCCCCCCCCCCCCCCCCCCCW",
+        "WCCC|||||||dd||||||||||||||||dd||||||||||CCC|||||||||||dd||||||||||||||W",
+        "WCCC|L````````R`R`L|y`````555``555`````y|CCC|T|T|T|T|T|``|=```````zzz``W",
+        "XCCn|L`R`R````R`R`L|y``y````````````y``y|CCC|w|w|w|w|w|``w```````zYYYz`X",
+		"XCCC|L`R`R````R`R`L|y``y````````````y``y|CCC|`````````w``|Z``````zYYYz`X",
+        "WCCC|L`R`R````````L|y``y``555``555``y``y|CCC|`5=5=5=5`|``|ZZ3`````zzz``W",
+        "WCCC|||||||dd||||||||||||||||dd||||||||||CCC|||||||||||dd||||||||||||||W",
+        "WCCCCCCCCCCCCCCCCCCnCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCnCCCCCCCCCCCCCCCCCCW",
+        "XCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCX",
+        "WnCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCnW",
+        "W||||||||||||||ww|||||||||||||||pCCCCCCCp|||||||||||||||ww|||||||||||||W",
+        "WJ...........p|..77.BBB..BBBBHH|.CCCCCCC.|p.......HHH|77l.w```````22``#W",
+        "WJ...hhhhhh...|....CCCCCC....sH|.CCCCCCC.|.CCCC...ssH|....||w||w|``````X",
+        "XJ..hssssssh..|....CjjjjC..l.sH|.CCCCCCC.|.CjjC.....p|||..|``|``|``|(((W",
+        "XJ..hssssssh..|....CjjjjC.....p|rCCCCCCCr|.CjjC........|..|T`|T`|52|OOOW",
+        "Wc..hssssssh..w....CCCCCC.....B|.CCCCCCC.|.CjjC........|..|||||||||||||W",
+        "Wc..hssssssh..w...............B|.CCCCCCC.|.CjjC...hhh..w..w....*a*..r@@W",
+        "X&...hhhhhh...|..BBB.pHHHHHp..B|.CCCCCCC.|.CCCC..hsssh.|..|M.........@@W",
+        "X.............|..|||||||||||||||pCC.l.CCp|.......hsssh.|..|M..CCCCC...sX",
+        "WHss....sssssl|....*a*.p|BBBp.I||dd|||dd||pBBBBB..hhh..|..|p..CCCCC...pX",
+        "WHHH...rHHHHHp|.........w....Mx|????|.>>.|||||||||||||||..|Hs.........$W",
+        "W||||||||||||||..p......|BBBp.I|????|.<<.|BBBBB|p......p..|HHr....***KKW",
+        "W25`52225`````w..||||w||||||||||||||||||||.....|..hhhh....||||||ww|||||W",
+        "X`````````````|..|BBB..K|HH...a..r@@|I...p....M|.hssssh...|............W",
+        "W((``o||w|||w||..|B....K|Hs.CCCCC.@@|I........M|.hssssh...|BBBBB..BBBBBW",
+        "WO(```|```|```|..|......w...CCCCC..s|xM..ssss..w..hhhh....|............X",
+        "WO(o`#|`T`|`T`|..w..**.$|BBB.......p|Ir..HHHH.p|..........|BBBBBBBBBBBBW",
+        "WWWWXWWWWWWWWWWXXWXWWWWXWWWWXXWXXWWWWWXXWWWWXXWWWWWXXXXWWWWWWWWWWWWWWWWW",
+		"ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+        "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+        "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+        "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+        "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+        "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+        "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+        "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+        "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+        "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+        "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+        "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+        "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+        "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+        "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+        "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+        "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+        "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+        "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+        "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+        "------------------------------------------------------------------------",
+        "------------------------------------------------------------------------",
+        "------------------------------------------------------------------------",
+        "------------------------------------------------------------------------"
+      ],
+      "furniture": { "&": "f_trashcan", "J": "f_counter", "s": "f_table", "h": "f_chair", "0": "f_filing_cabinet", "I": "f_desk", "E": "f_stool", "H": "f_sofa",
+	  "r": "t_broken_radio", "5": "f_sink", "i": "f_desk", "R": "f_rack", "L": "f_locker", "6": "f_fridge",
+	  "4": "f_glass_fridge", "p": "f_indoor_plant", "$": "f_safe_l", "%": "f_locker", "b": "f_rack", "A": "f_roulette_table",
+	  "1": "f_fridge", "c": "f_cupboard", "B": "f_bookcase", "(": "f_curtain", "e": "f_counter", "g": "f_chair", "G": "f_table",
+	  ")": "f_trashcan", "K": "f_wardrobe", "^": "f_chair", "=": "f_trashcan", "N": "f_locker", "n": "f_indoor_plant", "#": "f_shower", "O": "f_bathtub",
+	  "2": "f_glass_cabinet", "3": "f_fridge", "*": "f_dresser", "7": "f_rack_coat", "@": "f_bed", "o": "f_stool", "j": "f_pool_table", "a": "f_bigmirror",
+	  "M": "f_armchair", "x": "f_console_broken", "y": "f_washer", "Y": "f_table", "z": "f_chair", "Z": "f_cupboard" },
+	  "toilets": { "T": {  } },
+	  
+      "terrain": { ".": "sierra_floor", "-": "t_open_air", "f": "sierra_roof", "*": "t_linoleum_white", "|": "sierra_wall_interior", "W": "sierra_wall", "D": "sierra_door_locked",
+	  "<": "t_stairs_up", ">": "t_stairs_down", "d": "sierra_door", "C": "sierra_carpet", "`": "t_linoleum_white", "w": "t_door_c",
+	  "3": "t_linoleum_white", "2": "t_linoleum_white", "k": "t_door_glass_c", "l": "sierra_floor_light", "=": "t_linoleum_white", "^": "t_linoleum_white",
+	  "!": "t_guardrail_sm", "m": "t_elevator_control_off", "g": "sierra_carpet", "G": "sierra_carpet", "5": "t_linoleum_white",
+	  "~": "t_water_pool", "n": "sierra_carpet", "N": "sierra_carpet", "#": "t_linoleum_white", "O": "t_linoleum_white", "o": "t_linoleum_white",
+	  "T": "t_linoleum_white", "j": "sierra_carpet", "(": "t_linoleum_white", "L": "t_linoleum_white", "R": "t_linoleum_white", "y": "t_linoleum_white",
+	  "Y": "t_linoleum_white", "z": "t_linoleum_white", "Z": "t_linoleum_white", "X": "window_sierra", "?": "t_metal_floor_no_roof" },
+	  
+	  "computers": {
+		"9": {
+          "name": "Hologram emitter"
+        }
+		},
+	  
+	  "place_graffiti": [
+		{
+          "text": "STAFF ONLY",
+          "x": 10,
+          "y": 21
+        },
+		{
+          "text": "STAFF ONLY",
+          "x": 28,
+          "y": 21
+        },
+		{
+          "text": "STAFF ONLY",
+          "x": 54,
+          "y": 21
+        },
+		{
+          "text": "STAFF ONLY",
+          "x": 13,
+          "y": 26
+        },
+		{
+          "text": "STAFF ONLY",
+          "x": 31,
+          "y": 26
+        },
+		{
+          "text": "STAFF ONLY",
+          "x": 57,
+          "y": 26
+        }
+	  ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [
+      [ "casino_hotel_v1_1", "casino_hotel_v1_2", "casino_hotel_v1_3" ],
+      [ "casino_hotel_v1_4", "casino_hotel_v1_5", "casino_hotel_v1_6" ]
+    ],
+    "weight": 100,
+    "object": {
+      "fill_ter": "sierra_floor",
+      "rows": [
+        "WWWWXWWWWWWWWWWWWXWWWWWWXXWWWWWXWWWXXWWWXWWWWWXXWWWWWWXWWWWWWWWWWWWXWWWW",
+        "W@@..*a*.K|T`|225``#|@@E...*|.IxI.|nn|.IxI.|*...E@@|#``522|`T|K.*a*..@@W",
+        "W@@.CCC..r|``w````((|@@....a|..M..|CC|..M..|a....@@|((````w``|r..CCC.@@W",
+        "Xs..CCCl.H||||````(O|..CCC.*|.....|CC|.....|*.CCC..|O(````||||H..CCC..sX",
+        "Xp..CCC..H|``w```o(O|M.CCC.B|B...B|CC|B...B|B.CCC.M|O(o```w``|H..CCC..pX",
+        "W**...BBB$|T`|````(O|..CCC.B|B...B|CC|B...B|B.CCC..|O(````|`T|$BBB...**W",
+        "W||||w|||||||||w|||||$.....K|.l..B|CC|B....|K.....$|||||w|||||||||w||||W",
+        "X.........CCCCCC.BBB|||w|||||w|||||CC|||||w|||||w|||BBB.CCCCCC.........X",
+        "W||||||...CjjjjC...B|Hr.BBB...p|p.wCCw.p|p...BBB.rH|B...CjjjjCl..||||||W",
+        "WI..BB|...CjjjjC...B|H.....hhh.w..wCCw..w.hhh.....H|B...CjjjjC...|BB..IW",
+        "XxM...w...CCCCCC...B|H....hsssh|.7|CC|7.|hsssh....H|B...CCCCCC...w...MxX",
+        "WI...p|.............|H..BB.hhh&|.7|CC|7.|&hhh.BB..H|.............|p...IW",
+        "W||||||.CCCCC..hhh..|||w||||||||w||CC||w||||||||w|||..hhh..CCCCC.||||||W",
+        "Wp......CCCCC.hsssh.|```````225``#|CC|#``522```````|.hsssh.CCCCC......pW",
+        "XHss....CCCCC.hsssh.||w|w||``````o|CC|o``````||w|w||.hsssh.CCCCC....ssHX",
+        "XHss....CCCCC..hhh..|``|``|````(((|CC|(((````|``|``|..hhh..CCCCC....ssHX",
+        "WHHH...p|7l7|p.....&|T`|`T|225`(OO|CC|OO(`522|T`|`T|&.....p|7.7|p...HHHW",
+        "W|||||||||w||||||||||||||||||||||||CC||||||||||||||||||||||||w|||||||||W",
+        "WnCCCCCCCCCCCCnCCCCCCCCCCCCCCCCCCCnCCnCCCCCCCCCCCCCCCCCCCnCCCCCCCCCCCCnW",
+        "XCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCX",
+        "WCCCCCCCCCCCCCCCCCCCCCnCCCCCCCCCCCCCCCCCCCCCCCCCCnCCCCCCCCCCCCCCCCCCCCCW",
+        "WCCC|||||||dd||||||||||||||||dd||||||||||CCC|||||||||||dd||||||||||||||W",
+        "WCCC|L````````R`R`L|y`````555``555`````y|CCC|T|T|T|T|T|``|=```````zzz``W",
+        "XCCn|L`R`R````R`R`L|y``y````````````y``y|CCC|w|w|w|w|w|``w```````zYYYz`X",
+		"XCCC|L`R`R````R`R`L|y``y````````````y``y|CCC|`````````w``|Z``````zYYYz`X",
+        "WCCC|L`R`R````````L|y``y``555``555``y``y|CCC|`5=5=5=5`|``|ZZ3`````zzz``W",
+        "WCCC|||||||dd||||||||||||||||dd||||||||||CCC|||||||||||dd||||||||||||||W",
+        "WCCCCCCCCCCCCCCCCCCnCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCnCCCCCCCCCCCCCCCCCCW",
+        "XCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCX",
+        "WnCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCnW",
+        "W||||||||||||||ww|||||||||||||||pCCCCCCCp|||||||||||||||ww|||||||||||||W",
+        "WJ...........p|..77.BBB..BBBBHH|.CCCCCCC.|p.......HHH|77l.w```````22``#W",
+        "WJ...hhhhhh...|....CCCCCC....sH|.CCCCCCC.|.CCCC...ssH|....||w||w|``````X",
+        "XJ..hssssssh..|....CjjjjC..l.sH|.CCCCCCC.|.CjjC.....p|||..|``|``|``|(((W",
+        "XJ..hssssssh..|....CjjjjC.....p|rCCCCCCCr|.CjjC........|..|T`|T`|52|OOOW",
+        "Wc..hssssssh..w....CCCCCC.....B|.CCCCCCC.|.CjjC........|..|||||||||||||W",
+        "Wc..hssssssh..w...............B|.CCCCCCC.|.CjjC...hhh..w..w....*a*..r@@W",
+        "X&...hhhhhh...|..BBB.pHHHHHp..B|.CCCCCCC.|.CCCC..hsssh.|..|M.........@@W",
+        "X.............|..|||||||||||||||pCC.l.CCp|.......hsssh.|..|M..CCCCC...sX",
+        "WHss....sssssl|....*a*.p|BBBp.I||dd|||dd||pBBBBB..hhh..|..|p..CCCCC...pX",
+        "WHHH...rHHHHHp|.........w....Mx|----|.<<.|||||||||||||||..|Hs.........$W",
+        "W||||||||||||||..p......|BBBp.I|----|.>>.|BBBBB|p......p..|HHr....***KKW",
+        "W25`52225`````w..||||w||||||||||||||||||||.....|..hhhh....||||||ww|||||W",
+        "X`````````````|..|BBB..K|HH...a..r@@|I...p....M|.hssssh...|............W",
+        "W((``o||w|||w||..|B....K|Hs.CCCCC.@@|I........M|.hssssh...|BBBBB..BBBBBW",
+        "WO(```|```|```|..|......w...CCCCC..s|xM..ssss..w..hhhh....|............X",
+        "WO(o`#|`T`|`T`|..w..**.$|BBB.......p|Ir..HHHH.p|..........|BBBBBBBBBBBBW",
+        "WWWWXWWWWWWWWWWXXWXWWWWXWWWWXXWXXWWWWWXXWWWWXXWWWWWXXXXWWWWWWWWWWWWWWWWW"
+      ],
+      "furniture": { "&": "f_trashcan", "J": "f_counter", "s": "f_table", "h": "f_chair", "0": "f_filing_cabinet", "I": "f_desk", "E": "f_stool", "H": "f_sofa",
+	  "r": "t_broken_radio", "5": "f_sink", "i": "f_desk", "R": "f_rack", "L": "f_locker", "6": "f_fridge",
+	  "4": "f_glass_fridge", "p": "f_indoor_plant", "$": "f_safe_l", "%": "f_locker", "b": "f_rack", "A": "f_roulette_table",
+	  "1": "f_fridge", "c": "f_cupboard", "B": "f_bookcase", "(": "f_curtain", "e": "f_counter", "g": "f_chair", "G": "f_table",
+	  ")": "f_trashcan", "K": "f_wardrobe", "^": "f_chair", "=": "f_trashcan", "N": "f_locker", "n": "f_indoor_plant", "#": "f_shower", "O": "f_bathtub",
+	  "2": "f_glass_cabinet", "3": "f_fridge", "*": "f_dresser", "7": "f_rack_coat", "@": "f_bed", "o": "f_stool", "j": "f_pool_table", "a": "f_bigmirror",
+	  "M": "f_armchair", "x": "f_console_broken", "y": "f_washer", "Y": "f_table", "z": "f_chair", "Z": "f_cupboard" },
+	  "toilets": { "T": {  } },
+	  
+      "terrain": { ".": "sierra_floor", "-": "t_open_air", "f": "sierra_roof", "*": "t_linoleum_white", "|": "sierra_wall_interior", "W": "sierra_wall", "D": "sierra_door_locked",
+	  "<": "t_stairs_up", ">": "t_stairs_down", "d": "sierra_door", "C": "sierra_carpet", "`": "t_linoleum_white", "w": "t_door_c",
+	  "3": "t_linoleum_white", "2": "t_linoleum_white", "k": "t_door_glass_c", "l": "sierra_floor_light", "=": "t_linoleum_white", "^": "t_linoleum_white",
+	  "!": "t_guardrail_sm", "m": "t_elevator_control_off", "g": "sierra_carpet", "G": "sierra_carpet", "5": "t_linoleum_white",
+	  "~": "t_water_pool", "n": "sierra_carpet", "N": "sierra_carpet", "#": "t_linoleum_white", "O": "t_linoleum_white", "o": "t_linoleum_white",
+	  "T": "t_linoleum_white", "j": "sierra_carpet", "(": "t_linoleum_white", "L": "t_linoleum_white", "R": "t_linoleum_white", "y": "t_linoleum_white",
+	  "Y": "t_linoleum_white", "z": "t_linoleum_white", "Z": "t_linoleum_white", "X": "window_sierra" },
+	  
+	  "computers": {
+		"9": {
+          "name": "Hologram emitter"
+        }
+		},
+	  
+	  "place_graffiti": [
+		{
+          "text": "STAFF ONLY",
+          "x": 10,
+          "y": 21
+        },
+		{
+          "text": "STAFF ONLY",
+          "x": 28,
+          "y": 21
+        },
+		{
+          "text": "STAFF ONLY",
+          "x": 54,
+          "y": 21
+        },
+		{
+          "text": "STAFF ONLY",
+          "x": 13,
+          "y": 26
+        },
+		{
+          "text": "STAFF ONLY",
+          "x": 31,
+          "y": 26
+        },
+		{
+          "text": "STAFF ONLY",
+          "x": 57,
+          "y": 26
+        }
+	  ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [
+      [ "casino_hotel_v2_1", "casino_hotel_v2_2", "casino_hotel_v2_3" ],
+      [ "casino_hotel_v2_4", "casino_hotel_v2_5", "casino_hotel_v2_6" ]
+    ],
+    "weight": 100,
+    "object": {
+      "fill_ter": "sierra_floor",
+      "rows": [
+        "WWWWXWWWWWWWWWWWWXWWWWWWXXWWWWWXWWWXXWWWXWWWWWXXWWWWWWXWWWWWWWWWWWWXWWWW",
+        "W@@..*a*.K|T`|225``#|@@E...*|.IxI.|nn|.IxI.|*...E@@|#``522|`T|K.*a*..@@W",
+        "W@@.CCC..r|``w````((|@@....a|..M..|CC|..M..|a....@@|((````w``|r..CCC.@@W",
+        "Xs..CCCl.H||||````(O|..CCC.*|.....|CC|.....|*.CCC..|O(````||||H..CCC..sX",
+        "Xp..CCC..H|``w```o(O|M.CCC.B|B...B|CC|B...B|B.CCC.M|O(o```w``|H..CCC..pX",
+        "W**...BBB$|T`|````(O|..CCC.B|B...B|CC|B...B|B.CCC..|O(````|`T|$BBB...**W",
+        "W||||w|||||||||w|||||$.....K|.l..B|CC|B....|K.....$|||||w|||||||||w||||W",
+        "X.........CCCCCC.BBB|||w|||||w|||||CC|||||w|||||w|||BBB.CCCCCC.........X",
+        "W||||||...CjjjjC...B|Hr.BBB...p|p.wCCw.p|p...BBB.rH|B...CjjjjCl..||||||W",
+        "WI..BB|...CjjjjC...B|H.....hhh.w..wCCw..w.hhh.....H|B...CjjjjC...|BB..IW",
+        "XxM...w...CCCCCC...B|H....hsssh|.7|CC|7.|hsssh....H|B...CCCCCC...w...MxX",
+        "WI...p|.............|H..BB.hhh&|.7|CC|7.|&hhh.BB..H|.............|p...IW",
+        "W||||||.CCCCC..hhh..|||w||||||||w||CC||w||||||||w|||..hhh..CCCCC.||||||W",
+        "Wp......CCCCC.hsssh.|```````225``#|CC|#``522```````|.hsssh.CCCCC......pW",
+        "XHss....CCCCC.hsssh.||w|w||``````o|CC|o``````||w|w||.hsssh.CCCCC....ssHX",
+        "XHss....CCCCC..hhh..|``|``|````(((|CC|(((````|``|``|..hhh..CCCCC....ssHX",
+        "WHHH...p|7l7|p.....&|T`|`T|225`(OO|CC|OO(`522|T`|`T|&.....p|7.7|p...HHHW",
+        "W|||||||||w||||||||||||||||||||||||CC||||||||||||||||||||||||w|||||||||W",
+        "WnCCCCCCCCCCCCnCCCCCCCCCCCCCCCCCCCnCCnCCCCCCCCCCCCCCCCCCCnCCCCCCCCCCCCnW",
+        "XCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCX",
+        "WCCCCCCCCCCCCCCCCCCCCCnCCCCCCCCCCCCCCCCCCCCCCCCCCnCCCCCCCCCCCCCCCCCCCCCW",
+        "WCCC|||||||dd||||||||||||||||dd||||||||||CCC|||||||||||dd||||||||||||||W",
+        "WCCC|L````````R`R`L|y`````555``555`````y|CCC|T|T|T|T|T|``|=```````zzz``W",
+        "XCCn|L`R`R````R`R`L|y``y````````````y``y|CCC|w|w|w|w|w|``w```````zYYYz`X",
+		"XCCC|L`R`R````R`R`L|y``y````````````y``y|CCC|`````````w``|Z``````zYYYz`X",
+        "WCCC|L`R`R````````L|y``y``555``555``y``y|CCC|`5=5=5=5`|``|ZZ3`````zzz``W",
+        "WCCC|||||||dd||||||||||||||||dd||||||||||CCC|||||||||||dd||||||||||||||W",
+        "WCCCCCCCCCCCCCCCCCCnCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCnCCCCCCCCCCCCCCCCCCW",
+        "XCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCX",
+        "WnCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCnW",
+        "W||||||||||||||ww|||||||||||||||pCCCCCCCp|||||||||||||||ww|||||||||||||W",
+        "WJ...........p|..77.BBB..BBBBHH|.CCCCCCC.|p.......HHH|77l.w```````22``#W",
+        "WJ...hhhhhh...|....CCCCCC....sH|.CCCCCCC.|.CCCC...ssH|....||w||w|``````X",
+        "XJ..hssssssh..|....CjjjjC..l.sH|.CCCCCCC.|.CjjC.....p|||..|``|``|``|(((W",
+        "XJ..hssssssh..|....CjjjjC.....p|rCCCCCCCr|.CjjC........|..|T`|T`|52|OOOW",
+        "Wc..hssssssh..w....CCCCCC.....B|.CCCCCCC.|.CjjC........|..|||||||||||||W",
+        "Wc..hssssssh..w...............B|.CCCCCCC.|.CjjC...hhh..w..w....*a*..r@@W",
+        "X&...hhhhhh...|..BBB.pHHHHHp..B|.CCCCCCC.|.CCCC..hsssh.|..|M.........@@W",
+        "X.............|..|||||||||||||||pCC.l.CCp|.......hsssh.|..|M..CCCCC...sX",
+        "WHss....sssssl|....*a*.p|BBBp.I||dd|||dd||pBBBBB..hhh..|..|p..CCCCC...pX",
+        "WHHH...rHHHHHp|.........w....Mx|----|.>>.|||||||||||||||..|Hs.........$W",
+        "W||||||||||||||..p......|BBBp.I|----|.<<.|BBBBB|p......p..|HHr....***KKW",
+        "W25`52225`````w..||||w||||||||||||||||||||.....|..hhhh....||||||ww|||||W",
+        "X`````````````|..|BBB..K|HH...a..r@@|I...p....M|.hssssh...|............W",
+        "W((``o||w|||w||..|B....K|Hs.CCCCC.@@|I........M|.hssssh...|BBBBB..BBBBBW",
+        "WO(```|```|```|..|......w...CCCCC..s|xM..ssss..w..hhhh....|............X",
+        "WO(o`#|`T`|`T`|..w..**.$|BBB.......p|Ir..HHHH.p|..........|BBBBBBBBBBBBW",
+        "WWWWXWWWWWWWWWWXXWXWWWWXWWWWXXWXXWWWWWXXWWWWXXWWWWWXXXXWWWWWWWWWWWWWWWWW"
+      ],
+      "furniture": { "&": "f_trashcan", "J": "f_counter", "s": "f_table", "h": "f_chair", "0": "f_filing_cabinet", "I": "f_desk", "E": "f_stool", "H": "f_sofa",
+	  "r": "t_broken_radio", "5": "f_sink", "i": "f_desk", "R": "f_rack", "L": "f_locker", "6": "f_fridge",
+	  "4": "f_glass_fridge", "p": "f_indoor_plant", "$": "f_safe_l", "%": "f_locker", "b": "f_rack", "A": "f_roulette_table",
+	  "1": "f_fridge", "c": "f_cupboard", "B": "f_bookcase", "(": "f_curtain", "e": "f_counter", "g": "f_chair", "G": "f_table",
+	  ")": "f_trashcan", "K": "f_wardrobe", "^": "f_chair", "=": "f_trashcan", "N": "f_locker", "n": "f_indoor_plant", "#": "f_shower", "O": "f_bathtub",
+	  "2": "f_glass_cabinet", "3": "f_fridge", "*": "f_dresser", "7": "f_rack_coat", "@": "f_bed", "o": "f_stool", "j": "f_pool_table", "a": "f_bigmirror",
+	  "M": "f_armchair", "x": "f_console_broken", "y": "f_washer", "Y": "f_table", "z": "f_chair", "Z": "f_cupboard" },
+	  "toilets": { "T": {  } },
+	  
+      "terrain": { ".": "sierra_floor", "-": "t_open_air", "f": "sierra_roof", "*": "t_linoleum_white", "|": "sierra_wall_interior", "W": "sierra_wall", "D": "sierra_door_locked",
+	  "<": "t_stairs_up", ">": "t_stairs_down", "d": "sierra_door", "C": "sierra_carpet", "`": "t_linoleum_white", "w": "t_door_c",
+	  "3": "t_linoleum_white", "2": "t_linoleum_white", "k": "t_door_glass_c", "l": "sierra_floor_light", "=": "t_linoleum_white", "^": "t_linoleum_white",
+	  "!": "t_guardrail_sm", "m": "t_elevator_control_off", "g": "sierra_carpet", "G": "sierra_carpet", "5": "t_linoleum_white",
+	  "~": "t_water_pool", "n": "sierra_carpet", "N": "sierra_carpet", "#": "t_linoleum_white", "O": "t_linoleum_white", "o": "t_linoleum_white",
+	  "T": "t_linoleum_white", "j": "sierra_carpet", "(": "t_linoleum_white", "L": "t_linoleum_white", "R": "t_linoleum_white", "y": "t_linoleum_white",
+	  "Y": "t_linoleum_white", "z": "t_linoleum_white", "Z": "t_linoleum_white", "X": "window_sierra" },
+	  
+	  "computers": {
+		"9": {
+          "name": "Hologram emitter"
+        }
+		},
+	  
+	  "place_graffiti": [
+		{
+          "text": "STAFF ONLY",
+          "x": 10,
+          "y": 21
+        },
+		{
+          "text": "STAFF ONLY",
+          "x": 28,
+          "y": 21
+        },
+		{
+          "text": "STAFF ONLY",
+          "x": 54,
+          "y": 21
+        },
+		{
+          "text": "STAFF ONLY",
+          "x": 13,
+          "y": 26
+        },
+		{
+          "text": "STAFF ONLY",
+          "x": 31,
+          "y": 26
+        },
+		{
+          "text": "STAFF ONLY",
+          "x": 57,
+          "y": 26
+        }
+	  ]
+    }
+  }
+]
