@@ -5,7 +5,7 @@
     "name": "Sierra Madre",
     "authors": [ "Stormtrooper" ],
     "maintainers": [ "Stormtrooper" ],
-    "description": "Adds the (in)famous villa and casino of the Sierra Madre from Fallout Nev Vegas: Dead Money.",
+    "description": "Adds the (in)famous villa and casino of the Sierra Madre from Fallout New Vegas: Dead Money.",
     "category": "content",
     "dependencies": [ "dda" ]
   }

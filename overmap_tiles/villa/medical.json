@@ -63,7 +63,7 @@
 		"6": "f_fridge", "7": "f_wardrobe", "@": "f_bed", "B": "f_bookcase", "N": "f_trashcan", "V": "f_roof_turbine_vent", "~": "f_chimney", "=": "f_vent_pipe",
 		"j": "f_rack", "0": "f_console_broken", "l": "f_coffee_table", "E": "f_stool", "A": "f_armchair", "L": "f_rack_coat", "i": "f_bench",
 		"2": "f_dresser", "e": "f_console_broken", "I": "f_desk", "H": "f_sofa", "g": "f_counter", "%": "f_locker", "r": "t_broken_radio", "^": "f_trashcan", "1": "f_desk",
-		"q": "f_armchair", "#": "f_bookcase", "p": "f_mannequin", "X": "f_autodoc", "x": "f_autodoc_couch"},
+		"q": "f_armchair", "#": "f_bookcase", "p": "f_mannequin", "X": "f_autodoc", "x": "f_autodoc_couch" },
 		
 		"traps": { "_": "tr_beartrap",  "?": "tr_beartrap"},
 			
