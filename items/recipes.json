@@ -391,5 +391,22 @@
 		  [ [ "bone", 25 ] ],
 		  [ [ "sinew", 15 ] ]
 		]
+	},
+	{
+		"type": "recipe",
+		"activity_level": "fake",
+		"result": "vera_voice",
+		"category": "CC_ELECTRONIC",
+		"subcategory": "CSC_ELECTRONIC_OTHER",
+		"skill_used": "computer",
+		"difficulty": 0,
+		"autolearn": true,
+		"reversible": false,
+		"time": "10 m",
+		"components": [
+		  [ [ "tomorrow_in", 1 ] ],
+		  [ [ "go_faraway", 1 ] ],
+		  [ [ "begin_again", 1 ] ]
+		]
 	}
 ]

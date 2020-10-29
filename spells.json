@@ -4,6 +4,7 @@
 		"type": "SPELL",
 		"name": "Stealth Field",
 		"description": "The Stealth Field makes the user blend in with the surroundings by reflecting light in a way that makes it look as if no one was standing where the user is.",
+		"message": "You hide behind the Stealth Field...",
 		"valid_targets": [ "self" ],
 		"effect": "target_attack",
 		"effect_str": "stealth_boy_activated",
@@ -18,6 +19,7 @@
 		"type": "SPELL",
 		"name": "Ghost Sight",
 		"description": "Drinking the Ghost Sight isn't very healthy for you, but allows you to see in the same way as Ghost People do - darkness won't be a problem anymore.",
+		"message": "Your vision sharpens, allowing you to see the world the way Ghost People do.",
 		"valid_targets": [ "self" ],
 		"effect": "target_attack",
 		"effect_str": "ghost_sight_activated",
@@ -26,5 +28,73 @@
 		"difficulty": 0,
 		"energy_source": "NONE",
 		"flags": [ "SILENT" ]
+	},
+	{
+		"id": "sierra_inner_open",
+		"type": "SPELL",
+		"name": "Open Sierra Madre Casino internal doors",
+		"description": "Sliding this card through readers placed next to any door inside the Sierra Madre Casino will unlock it, with only exception being the vault entrance.",
+		"flags": [ "SILENT" ],
+		"message": "You use your Sierra Madre Casino omnicard.",
+		"valid_targets": [ "ground" ],
+		"effect": "ter_transform",
+		"shape": "blast",
+		"effect_str": "casino_inner_open",
+		"min_range": 1,
+		"max_range": 1,
+		"min_aoe": 1,
+		"max_aoe": 1,
+		"base_casting_time": -1
+	},
+	{
+		"id": "casino_inner_open",
+		"type": "ter_furn_transform",
+		"fail_message": "There's no door to unlock nearby.",
+		"terrain": [ { "result": "sierra_door", "valid_terrain": [ "sierra_door_l" ], "message": "The door has been unlocked, uncovering yet another part of the Sierra Madre." } ]
+	},
+	{
+		"id": "sierra_enter",
+		"type": "SPELL",
+		"name": "Open Sierra Madre Casino entrance",
+		"description": "Sliding this card through the reader placed next to the entrance to the Sierra Madre Casino will unlock it, allowing you to enter the wonders of the past where the Old World treasure is buried.",
+		"flags": [ "SILENT" ],
+		"message": "You use your Sierra Madre Casino entrance card.",
+		"valid_targets": [ "ground" ],
+		"effect": "ter_transform",
+		"shape": "blast",
+		"effect_str": "casino_enter_open",
+		"min_range": 1,
+		"max_range": 1,
+		"min_aoe": 8,
+		"max_aoe": 8,
+		"base_casting_time": -1
+	},
+	{
+		"id": "casino_enter_open",
+		"type": "ter_furn_transform",
+		"fail_message": "There's no door to unlock nearby.",
+		"terrain": [ { "result": "sierra_entrance_c", "valid_terrain": [ "sierra_door_locked" ], "message": "The door has been unlocked, allowing you to enter the wonders of the past where the Old World treasure is buried." } ]
+	},
+	{
+		"id": "vault_enter",
+		"type": "SPELL",
+		"name": "Unlock the Sierra Madre Casino vault entrance.",
+		"description": "Playing the recorded Vera Keyes' voice at the intercom near the vault door will allow you to trigger its unlocking mechanism.",
+		"message": "You play the recorded sound of Vera Keyes containing the vault entrance password.",
+		"valid_targets": [ "ground" ],
+		"effect": "ter_transform",
+		"shape": "blast",
+		"effect_str": "vault_enter_open",
+		"min_range": 1,
+		"max_range": 1,
+		"min_aoe": 1,
+		"max_aoe": 1,
+		"base_casting_time": 10
+	},
+	{
+		"id": "vault_enter_open",
+		"type": "ter_furn_transform",
+		"fail_message": "There's no door to unlock nearby.",
+		"terrain": [ { "result": "sierra_door_vault_c", "valid_terrain": [ "sierra_door_vault" ], "message": "The door has been unlocked... Finally... After all you've been through, the Sierra Madre has opened its vault right in front of you. Madre is yours yours yours..." } ]
 	}
 ]

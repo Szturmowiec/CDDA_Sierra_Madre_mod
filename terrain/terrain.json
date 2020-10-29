@@ -183,7 +183,7 @@
 	{
 		"type": "terrain",
 		"id": "sierra_door_locked",
-		"name": "Sierra Madre Casino entrance door",
+		"name": "locked Sierra Madre Casino entrance door",
 		"description": "entrance to the Sierra Madre Casino, locked and indestructible.",
 		"symbol": "+",
 		"looks_like": "t_door_metal_c",
@@ -213,7 +213,7 @@
 		"symbol": "'",
 		"looks_like": "t_door_metal_c",
 		"color": "red",
-		"move_cost": 2,
+		"move_cost": 0,
 		"coverage": 95,
 		"roof": "sierra_roof",
 		"flags": [ "NOITEM", "DOOR", "CONNECT_TO_WALL", "BLOCK_WIND" ],
@@ -259,6 +259,31 @@
 	},
 	{
 		"type": "terrain",
+		"id": "sierra_door_l",
+		"name": "locked Sierra Madre Casino door",
+		"description": "door to the more important interiors of the Sierra Madre Casino. Locked and indestructible just like the entrance door.",
+		"symbol": "+",
+		"looks_like": "t_door_metal_c",
+		"color": "red",
+		"move_cost": 0,
+		"coverage": 95,
+		"roof": "sierra_roof",
+		"flags": [ "NOITEM", "REDUCE_SCENT", "CONNECT_TO_WALL", "LOCKED", "BLOCK_WIND" ],
+		"bash": {
+		  "str_min": 2000000000,
+		  "str_max": 2000000000,
+		  "sound": "metal screeching!",
+		  "sound_fail": "clang!",
+		  "ter_set": "t_mdoor_frame",
+		  "items": [
+			{ "item": "scrap", "count": [ 12, 24 ] },
+			{ "item": "steel_plate", "prob": 75 },
+			{ "item": "hinge", "count": [ 1, 3 ] }
+		  ]
+		}
+	},
+	{
+		"type": "terrain",
 		"id": "sierra_door",
 		"name": "Sierra Madre Casino door",
 		"description": "door to the more important interiors of the Sierra Madre Casino. Indestructible just like the entrance door.",
@@ -287,7 +312,7 @@
 		"type": "terrain",
 		"id": "sierra_door_o",
 		"name": "open Sierra Madre Casino door",
-		"description": "Sierra Madre Casino door, currently open, still indestructible.",
+		"description": "Sierra Madre Casino internal door, currently open, still indestructible.",
 		"symbol": "'",
 		"looks_like": "t_door_metal_o",
 		"color": "red",
@@ -312,7 +337,7 @@
 	{
 		"type": "terrain",
 		"id": "sierra_door_vault",
-		"name": "Sierra Madre Vault door",
+		"name": "locked Sierra Madre Vault door",
 		"description": "door to the legendary Sierra Madre Vault, locked and indestructible.",
 		"symbol": "+",
 		"looks_like": "t_door_metal_c",
@@ -363,12 +388,12 @@
 	{
 		"type": "terrain",
 		"id": "sierra_door_vault_o",
-		"name": "Sierra Madre Vault door",
+		"name": "open Sierra Madre Vault door",
 		"description": "door to the legendary Sierra Madre Vault, while indestructible, unlocked and opened right in front of you, waiting for you to enter the Vault and crack the Sierra Madre Treasure open...",
-		"symbol": "+",
+		"symbol": "'",
 		"looks_like": "t_door_metal_o",
 		"color": "red",
-		"move_cost": 0,
+		"move_cost": 2,
 		"coverage": 95,
 		"roof": "sierra_roof",
 		"flags": [ "TRANSPARENT", "FLAT", "CONNECT_TO_WALL", "ROAD" ],
