@@ -60,6 +60,7 @@
 	{
 		"type": "GENERIC",
 		"id": "sierra_chip",
+		"looks_like": "RobofacCoin",
 		"name": { "str": "Sierra Madre chip" },
 		"description": "This is a golden chip from the Sierra Madre casino, intended for gambling and collecting rewards at vending machines scattered around the resort. On its heads there's a face of a woman and an acronym \"SM\". On the tails you can see a portrait of a fancy-dressed woman holding the sign \"Begin again\" and a sign \"Sierra Madre\" under her feet.",
 		"price": 1000,

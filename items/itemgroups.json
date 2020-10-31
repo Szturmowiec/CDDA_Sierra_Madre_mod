@@ -90,7 +90,7 @@
 		  { "item": "1st_aid", "prob": 15},
 		  { "item": "arm_splint", "prob": 20, "count": [ 1, 2 ]},
 		  { "item": "leg_splint", "prob": 20, "count": [ 1, 2 ]},
-		  { "item": "stealth_boy", "prob": 10}
+		  { "item": "stealth_boy", "prob": 10, "ammo-item": "light_minus_atomic_battery_cell", "charges": 500 }
 		]
 	},
 	{
@@ -544,6 +544,14 @@
 		"subtype": "collection",
 		"entries": [
 		  { "item": "holo_storage" }
+		]
+	},
+	{
+		"type": "item_group",
+		"id": "sierra_emitter",
+		"subtype": "collection",
+		"entries": [
+			{ "item": "holo_emitter", "prob": 100, "ammo-item": "light_minus_atomic_battery_cell", "charges": 500 }
 		]
 	}
 ]

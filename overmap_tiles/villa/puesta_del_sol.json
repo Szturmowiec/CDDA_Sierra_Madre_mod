@@ -25,8 +25,8 @@
         "|..|..?...?..|.cRRffRfhlhf||_f|ffffffff|...|..........&..?............||",
         "|...?....?.?...|RRRRfRRffff||+||||+||||||.?....?..?........?.........|||",
         "|.?.....*......cfRfhlhffRRJf|ff_ffffffRf||.?|......?..i.GGG.i..?.|..c|||",
-        "|..|?..***..?|.cffRRRffRRfJf|Bffff_ffRRff|c.*.?|......i.GTG.i......||ff|",
-        "|.....*****....cffRfffRRRR0f|BfRRRRRffRfff||**.....|..i.GGG.i..|..||fff|",
+        "|..|?..***..?|.cffRRRffRRfJf|Bffff_ffRRff|c.*.?|......i.GTG.i......||RR|",
+        "|.....*****....cffRfffRRRR0f|BfRRRRRffRfff||**.....|..i.GGG.i..|..||ffR|",
         "|.?..?.***..?.1|fRffRRffRRJf|Bf_ff_ffRff_ff|c||c|1??...?........?|cffff|",
         "|..|....*....|.cRRRffRfffRRfR_fffRRHHHRRRf_fffRR|c..|?...?...|.?||ffJJ0|",
         "|..............|ffffRRRRffffRff_RfhsRRRRf_fRRRRff||........?...|cf__fff|",
@@ -88,14 +88,14 @@
 	"furniture": { ")": "f_trashcan", "R": "f_rubble", "D": "stash", "O": "f_oven", "J": "f_counter", "C": "f_cupboard", "s": "f_table", "h": "f_chair", "5": "f_sink",
 	"6": "f_fridge", "7": "f_wardrobe", "@": "f_bed", "B": "f_bookcase", "N": "f_TV_antenna", "V": "f_roof_turbine_vent", "~": "f_chimney", "=": "f_vent_pipe",
 	"j": "f_rack", "0": "f_console_broken", "#": "f_console_broken", "l": "f_coffee_table", "E": "f_stool", "A": "f_armchair", "L": "f_rack_coat", "i": "f_bench", "1": "f_statue",
-	"2": "f_dresser", "e": "f_pool_table", "I": "f_desk", "H": "f_sofa", "r": "t_broken_radio", "^": "t_broken_radio", "(": "f_rubble", "&": "f_trashcan"},
+	"2": "f_dresser", "e": "f_pool_table", "I": "f_desk", "H": "f_sofa", "r": "t_broken_radio", "^": "t_broken_radio", "(": "f_rubble", "&": "f_trashcan" },
 		
 	"traps": { "_": "tr_beartrap",  "?": "tr_beartrap"},
 		
 	"terrain": { ".": "t_sidewalk", "*": "t_fountain", "|": "t_brick_wall", "-": "t_fence_metal", "/": "t_gate_metal_c", "d": "t_door_c", "c": "t_window_empty",
 	"F": "t_floor_noroof", "f": "t_floor", "<": "t_stairs_up", ">": "t_stairs_down", "T": "t_tree_dead", "G": "t_dirt", "a": "t_concrete", "m": "t_door_metal_c",
 	"8": "t_potential_trans", "9": "t_switchgear_s", "k": "t_station_disc", "r": "t_floor", "#": "t_concrete", "^": "t_concrete", "(": "t_sidewalk", "&": "t_sidewalk",
-	"1": "t_sidewalk", "i": "t_sidewalk", "D": "t_sidewalk", "P": "t_sidewalk", "p": "t_sidewalk", "+": "t_door_locked_interior", "_": "t_floor", "?": "t_sidewalk"},
+	"1": "t_sidewalk", "i": "t_sidewalk", "D": "t_sidewalk", "P": "t_sidewalk", "p": "t_sidewalk", "+": "t_door_locked_interior", "_": "t_floor", "?": "t_sidewalk" },
 	"signs": { "P": { "signage": "Medical district" }, "p": { "signage": "Switching station" } },
 	
 	"place_fields": [
@@ -141,7 +141,8 @@
 		{ "item": "corpse_skeleton", "x": 10, "y": 5 },
 		{ "item": "jumpsuit_sierra", "x": 10, "y": 5 },
 		{ "item": "gun_code", "x": 51, "y": 4 },
-		{ "item": "card_chip", "x": 8, "y": 2 }
+		{ "item": "card_chip", "x": 8, "y": 2 },
+		{ "group": "sierra_emitter", "x": 62, "y": 8 }
 	],
 		
 	"items": {
@@ -302,28 +303,28 @@
         "|....bb||7fffB|ffffffffffhfffff|c|bbb.............................|fRRRf",
         "|....bbcrffffB|ffhfffhfffhffff||bb?...............................||ffff",
         "|....bb|fsshff+fhlhfhlhfhlhff|c?bbb................................|||||",
-        "|....bbcfsshff|ffhfffhfffhff||bbb...............................bbbbRRRF",
-        "|....bb|ffff@@|fffffffffff|c|b?b...............bbbbbb...........bbbbRRFF",
-        "|....bbcfffE@@|ffHHHHfff|||bbbb........|||||bbbbbbbbbbb.......bbbbbRRR||",
-        "|....bb|||c||||ccc|||||c|bbbb.......|c||RRR|||c|||c|bbb.......bbbb||FRRR",
-        "|.....bbbbbbbbbbbbbbbbbbbbb........||RfARRRRf|Hflff||bbbbFFFFbbbb||RRFFF",
-        "||....bbbbbbbbbbbbbbbbbbb.........||ffsssffRR|Hflfffc|bbb....bbb||FRFRRF",
-        "|||..............................||fffRRRfJfO|HflflfH|bbb....bbb|FRFRRFR",
-        "||||.............................cAfffjjjfJJfdfffflfHcbbb....bbb|RRFFFRR",
-        "||||||||||||||||||||||||||||||||||ffffffffffRRRffflfH|bbb....bbb|RRFFRFF"
+        "|....bbcfsshff|ffhfffhfffhff||bbb...............................bbbb;;;F",
+        "|....bb|ffff@@|fffffffffff|c|b?b...............bbbbbb...........bbbb;;FF",
+        "|....bbcfffE@@|ffHHHHfff|||bbbb........|||||bbbbbbbbbbb.......bbbbb;;;||",
+        "|....bb|||c||||ccc|||||c|bbbb.......|c||RRR|||c|||c|bbb.......bbbb||F;;;",
+        "|.....bbbbbbbbbbbbbbbbbbbbb........||RfARRRRf|Hflff||bbbbFFFFbbbb||;;FFF",
+        "||....bbbbbbbbbbbbbbbbbbb.........||ffsssffRR|Hflfffc|bbb....bbb||F;F;;F",
+        "|||..............................||fffRRRfJfO|HflflfH|bbb....bbb|F;F;;F;",
+        "||||.............................cAfffjjjfJJfdfffflfHcbbb....bbb|;;FFF;;",
+        "||||||||||||||||||||||||||||||||||ffffffffffRRRffflfH|bbb....bbb|;;FF;FF"
       ],
 	  
 	"furniture": { "&": "f_trashcan", "R": "f_rubble", "D": "stash", "O": "f_oven", "J": "f_counter", "C": "f_cupboard", "s": "f_table", "h": "f_chair", "5": "f_sink",
 	"6": "f_fridge", "7": "f_wardrobe", "@": "f_bed", "B": "f_bookcase", "N": "f_TV_antenna", "V": "f_roof_turbine_vent", "~": "f_chimney", "=": "f_vent_pipe",
 	"j": "f_rack", "0": "f_console_broken", "l": "f_coffee_table", "E": "f_stool", "A": "f_armchair", "L": "f_rack_coat", "i": "f_bench", "1": "f_statue",
-	"2": "f_dresser", "e": "f_pool_table", "I": "f_desk", "H": "f_sofa", "g": "f_arcade_machine", "%": "f_locker", "r": "t_broken_radio", "^": "t_broken_radio"},
+	"2": "f_dresser", "e": "f_pool_table", "I": "f_desk", "H": "f_sofa", "g": "f_arcade_machine", "%": "f_locker", "r": "t_broken_radio", "^": "t_broken_radio", ";": "f_rubble" },
 	
 	"traps": { "_": "tr_beartrap",  "?": "tr_beartrap"},
 		
 	"terrain": { ".": "t_open_air", "*": "t_fountain", "|": "t_brick_wall", "-": "t_fence_metal", "/": "t_gate_metal_c", "d": "t_door_c", "c": "t_window_empty",
 	"F": "t_floor_noroof", "f": "t_floor", "<": "t_stairs_up", ">": "t_stairs_down", "T": "t_tree_dead", "G": "t_dirt", "a": "t_concrete", "m": "t_door_metal_c",
-	"8": "t_potential_trans", "9": "t_switchgear_s", "k": "t_station_disc", "b": "t_flat_roof", "!": "t_fence", "u": "t_ramp_up_low",
-	"U": "t_ramp_up_high", "r": "t_floor", "^": "t_flat_roof", "D": "t_flat_roof", "N": "t_flat_roof", "+": "t_door_locked_interior", "_": "t_floor", "?": "t_flat_roof"},
+	"8": "t_potential_trans", "9": "t_switchgear_s", "k": "t_station_disc", "b": "t_flat_roof", "!": "t_fence_sierra", "u": "t_ramp_up_low",
+	"U": "t_ramp_up_high", "r": "t_floor", "^": "t_flat_roof", "D": "t_flat_roof", "N": "t_flat_roof", "+": "t_door_locked_interior", "_": "t_floor", "?": "t_flat_roof", ";": "t_floor_noroof" },
 	
 	"place_fields": [
 			{ "field": "sierra_gas", "x": [ 24, 40 ], "y": [ 43, 47 ], "repeat": 170 },
@@ -345,7 +346,8 @@
 		
 	"place_loot": [
 		{ "item": "c4_code", "x": 13, "y": 57 },
-		{ "item": "card_chip", "x": 59, "y": 23 }
+		{ "item": "card_chip", "x": 59, "y": 23 },
+		{ "group": "sierra_emitter", "x": 63, "y": 25 }
 	],
 		
 	"items": {
@@ -517,7 +519,7 @@
 		
 	"terrain": { ".": "t_open_air", "*": "t_fountain", "|": "t_brick_wall", "-": "t_fence_metal", "/": "t_gate_metal_c", "d": "t_door_c", "c": "t_window_empty",
 	"F": "t_floor_noroof", "f": "t_floor", "<": "t_stairs_up", ">": "t_stairs_down", "T": "t_tree_dead", "G": "t_dirt", "a": "t_concrete", "m": "t_door_metal_c",
-	"8": "t_potential_trans", "9": "t_switchgear_s", "k": "t_station_disc", "b": "t_flat_roof", "!": "t_fence", "u": "t_ramp_down_low",
+	"8": "t_potential_trans", "9": "t_switchgear_s", "k": "t_station_disc", "b": "t_flat_roof", "!": "t_fence_sierra", "u": "t_ramp_down_low",
 	"U": "t_ramp_down_high", "r": "t_floor", "^": "t_flat_roof", "D": "t_flat_roof", "z": "t_ramp_up_low", "Z": "t_ramp_up_high", "N": "t_flat_roof", "V": "t_flat_roof",
 	"~": "t_flat_roof", "=": "t_flat_roof", "+": "t_door_locked_interior", "_": "t_floor"},
 	
@@ -695,7 +697,7 @@
 		
 	"terrain": { ".": "t_open_air", "*": "t_fountain", "|": "t_brick_wall", "-": "t_fence_metal", "/": "t_gate_metal_c", "d": "t_door_c", "c": "t_window_empty",
 	"F": "t_floor_noroof", "f": "t_floor", "<": "t_stairs_up", ">": "t_stairs_down", "T": "t_tree_dead", "G": "t_dirt", "a": "t_concrete", "m": "t_door_metal_c",
-	"8": "t_potential_trans", "9": "t_switchgear_s", "k": "t_station_disc", "b": "t_flat_roof", "!": "t_fence", "u": "t_ramp_down_low",
+	"8": "t_potential_trans", "9": "t_switchgear_s", "k": "t_station_disc", "b": "t_flat_roof", "!": "t_fence_sierra", "u": "t_ramp_down_low",
 	"U": "t_ramp_down_high", "r": "t_floor", "^": "t_flat_roof", "D": "t_flat_roof", "z": "t_ramp_up_low", "Z": "t_ramp_up_high", "N": "t_flat_roof", "V": "t_flat_roof",
 	"~": "t_flat_roof", "=": "t_flat_roof"},
 	

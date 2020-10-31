@@ -143,9 +143,9 @@
 		"armor_cut": 8,
 		"armor_stab": 8,
 		"harvest": "ghost_harvest",
-		"path_settings": { "avoid_traps" : true },
+		"path_settings": { "avoid_traps" : true, "avoid_sharp": true, "bash_strength": 9 },
 		"starting_ammo": { "spear_ammo_fake": 7 },
-		"special_attacks": [ { "type": "leap", "cooldown": 4, "max_range": 4, "allow_no_target": true }, [ "impale", 10 ],
+		"special_attacks": [ [ "PARROT", 30 ], { "type": "leap", "cooldown": 4, "max_range": 4, "allow_no_target": true }, [ "impale", 10 ],
 			{
 				"type": "gun",
 				"cooldown": 5,
@@ -174,7 +174,9 @@
 		  "REVIVES",
 		  "PUSH_MON",
 		  "FILTHY",
-		  "ACIDPROOF"
+		  "FIREPROOF",
+		  "ACIDPROOF",
+		  "PATH_AVOID_DANGER_1"
 		]
 	},
 	{
@@ -206,8 +208,8 @@
 		"armor_cut": 12,
 		"armor_stab": 12,
 		"harvest": "ghost_harvest",
-		"path_settings": { "avoid_traps" : true },
-		"special_attacks": [ { "type": "leap", "cooldown": 4, "max_range": 4, "allow_no_target": true, "max_consider_range": 12 }, [ "bearfisting", 20 ] ],
+		"path_settings": { "avoid_traps" : true, "avoid_sharp": true, "bash_strength": 9 },
+		"special_attacks": [ [ "PARROT", 30 ], { "type": "leap", "cooldown": 4, "max_range": 4, "allow_no_target": true, "max_consider_range": 12 }, [ "bearfisting", 20 ] ],
 		"death_drops": "trapper_items",
 		"death_function": [ "NORMAL" ],
 		"flags": [
@@ -223,7 +225,9 @@
 		  "REVIVES",
 		  "PUSH_MON",
 		  "FILTHY",
-		  "ACIDPROOF"
+		  "FIREPROOF",
+		  "ACIDPROOF",
+		  "PATH_AVOID_DANGER_1"
 		]
 	},
 	{
@@ -258,9 +262,9 @@
 		"armor_cut": 10,
 		"armor_stab": 10,
 		"harvest": "ghost_harvest",
-		"path_settings": { "avoid_traps" : true },
+		"path_settings": { "avoid_traps" : true, "avoid_sharp": true, "bash_strength": 9 },
 		"starting_ammo": { "gas_bomb_dummy_ammo": 1 },
-		"special_attacks": [ { "type": "leap", "cooldown": 4, "max_range": 4, "allow_no_target": true }, [ "impale", 10 ],
+		"special_attacks": [ [ "PARROT", 30 ], { "type": "leap", "cooldown": 4, "max_range": 4, "allow_no_target": true }, [ "impale", 10 ],
 			{
 				"type": "gun",
 				"cooldown": 5,
@@ -289,7 +293,9 @@
 		  "REVIVES",
 		  "PUSH_MON",
 		  "FILTHY",
-		  "ACIDPROOF"
+		  "FIREPROOF",
+		  "ACIDPROOF",
+		  "PATH_AVOID_DANGER_1"
 		]
 	}
 ]

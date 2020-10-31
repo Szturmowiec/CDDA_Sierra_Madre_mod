@@ -186,7 +186,7 @@
 		"name": "locked Sierra Madre Casino entrance door",
 		"description": "entrance to the Sierra Madre Casino, locked and indestructible.",
 		"symbol": "+",
-		"looks_like": "t_door_metal_c",
+		"looks_like": "t_door_metal_locked",
 		"color": "red",
 		"move_cost": 0,
 		"coverage": 95,
@@ -263,7 +263,7 @@
 		"name": "locked Sierra Madre Casino door",
 		"description": "door to the more important interiors of the Sierra Madre Casino. Locked and indestructible just like the entrance door.",
 		"symbol": "+",
-		"looks_like": "t_door_metal_c",
+		"looks_like": "t_door_metal_locked",
 		"color": "red",
 		"move_cost": 0,
 		"coverage": 95,
@@ -340,7 +340,7 @@
 		"name": "locked Sierra Madre Vault door",
 		"description": "door to the legendary Sierra Madre Vault, locked and indestructible.",
 		"symbol": "+",
-		"looks_like": "t_door_metal_c",
+		"looks_like": "t_door_metal_locked",
 		"color": "red",
 		"move_cost": 0,
 		"coverage": 95,
@@ -608,6 +608,57 @@
     }
 	},
 	{
+    "type": "terrain",
+    "id": "t_fence_sierra",
+	"looks_like": "t_fence",
+    "alias": [ "t_fence_h", "t_fence_v" ],
+    "name": "picket fence",
+    "description": "A barrier made of wood, it's nothing complicated.  Mildly suggests where not to go.",
+    "symbol": "LINE_OXOX",
+    "color": "brown",
+    "move_cost": 3,
+    "flags": [
+      "TRANSPARENT",
+      "FLAMMABLE_ASH",
+      "NOITEM",
+      "THIN_OBSTACLE",
+      "REDUCE_SCENT",
+      "MOUNTABLE",
+      "SHORT",
+      "AUTO_WALL_SYMBOL"
+    ],
+    "connects_to": "WOODFENCE",
+    "deconstruct": { "ter_set": "t_fence_post_sierra", "items": [ { "item": "2x4", "count": 5 }, { "item": "nail", "charges": 8 } ] },
+    "bash": {
+      "str_min": 4,
+      "str_max": 20,
+      "sound": "crack.",
+      "sound_fail": "wham.",
+      "ter_set": "t_flat_roof",
+      "items": [ { "item": "2x4", "count": [ 1, 3 ] }, { "item": "nail", "charges": [ 2, 6 ] }, { "item": "splinter", "count": 1 } ]
+    }
+	},
+	{
+    "type": "terrain",
+    "id": "t_fence_post_sierra",
+	"looks_like": "t_fence_post",
+    "name": "fence post",
+    "description": "A couple of posts that support the fence.  They look alone without the fence.",
+    "symbol": "#",
+    "color": "brown",
+    "move_cost": 2,
+    "flags": [ "TRANSPARENT", "THIN_OBSTACLE", "SHORT" ],
+    "deconstruct": { "ter_set": "t_dirt", "items": [ { "item": "pointy_stick", "count": 2 } ] },
+    "bash": {
+      "str_min": 8,
+      "str_max": 20,
+      "sound": "crack.",
+      "sound_fail": "whump.",
+      "ter_set": "t_flat_roof",
+      "items": [ { "item": "pointy_stick", "count": [ 0, 2 ] } ]
+    }
+  },
+	{
     "id": "sierra_gas",
     "type": "field_type",
     "intensity_levels": [
@@ -618,15 +669,12 @@
         "translucency": 10,
 		"transparent": false,
         "effects": [
-          {
-            "effect_id": "sierra_poison",
-            "intensity": 20,
-            "min_duration": "5 seconds",
-            "max_duration": "5 seconds",
-            "immune_inside_vehicle": false,
-            "message": "Sierra Madre toxic gas burns through your entire body",
-            "message_type": "bad"
-          }
+          { "effect_id": "sierra_poison", "intensity": 20, "body_part": "head", "min_duration": "5 seconds", "max_duration": "5 seconds", "immune_inside_vehicle": false, "message": "Sierra Madre toxic gas burns through your entire body", "message_type": "bad" },
+		  { "effect_id": "sierra_poison_display", "intensity": 20, "min_duration": "5 seconds", "max_duration": "5 seconds", "immune_inside_vehicle": false, "message": "Sierra Madre toxic gas burns through your entire body", "message_type": "bad" },
+		  { "effect_id": "sierra_poison", "intensity": 20, "body_part": "leg_r", "min_duration": "5 seconds", "max_duration": "5 seconds", "immune_inside_vehicle": false, "message": "Sierra Madre toxic gas burns through your entire body", "message_type": "bad" },
+		  { "effect_id": "sierra_poison", "intensity": 20, "body_part": "leg_l", "min_duration": "5 seconds", "max_duration": "5 seconds", "immune_inside_vehicle": false, "message": "Sierra Madre toxic gas burns through your entire body", "message_type": "bad" },
+		  { "effect_id": "sierra_poison", "intensity": 20, "body_part": "arm_l", "min_duration": "5 seconds", "max_duration": "5 seconds", "immune_inside_vehicle": false, "message": "Sierra Madre toxic gas burns through your entire body", "message_type": "bad" },
+		  { "effect_id": "sierra_poison", "intensity": 20, "body_part": "arm_r", "min_duration": "5 seconds", "max_duration": "5 seconds", "immune_inside_vehicle": false, "message": "Sierra Madre toxic gas burns through your entire body", "message_type": "bad" }
         ]
       }
     ],
@@ -651,13 +699,12 @@
         "translucency": 1000,
 		"transparent": true,
         "effects": [
-          {
-            "effect_id": "sierra_cloud",
-            "intensity": 10,
-            "min_duration": "5 seconds",
-            "max_duration": "5 seconds",
-            "immune_inside_vehicle": false
-          }
+          { "effect_id": "sierra_cloud", "intensity": 10, "body_part": "head", "min_duration": "5 seconds", "max_duration": "5 seconds", "immune_inside_vehicle": false },
+		  { "effect_id": "sierra_cloud_display", "intensity": 10, "min_duration": "5 seconds", "max_duration": "5 seconds", "immune_inside_vehicle": false },
+		  { "effect_id": "sierra_cloud", "intensity": 10, "body_part": "leg_r", "min_duration": "5 seconds", "max_duration": "5 seconds", "immune_inside_vehicle": false },
+		  { "effect_id": "sierra_cloud", "intensity": 10, "body_part": "leg_l", "min_duration": "5 seconds", "max_duration": "5 seconds", "immune_inside_vehicle": false },
+		  { "effect_id": "sierra_cloud", "intensity": 10, "body_part": "arm_r", "min_duration": "5 seconds", "max_duration": "5 seconds", "immune_inside_vehicle": false },
+		  { "effect_id": "sierra_cloud", "intensity": 10, "body_part": "arm_l", "min_duration": "5 seconds", "max_duration": "5 seconds", "immune_inside_vehicle": false }
         ]
       }
     ],

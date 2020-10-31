@@ -279,7 +279,7 @@
 		"terrain": { ".": "t_open_air", "*": "t_fountain", "|": "t_brick_wall", "-": "t_fence_metal", "/": "t_gate_metal_c", "d": "t_door_c", "c": "t_window_empty",
 		"F": "t_floor_noroof", "f": "t_floor", "<": "t_stairs_up", ">": "t_stairs_down", "T": "t_tree_dead", "G": "t_dirt", "a": "t_concrete", "m": "t_door_metal_c",
 		"8": "t_potential_trans", "9": "t_floor", "k": "t_station_disc", "r": "t_floor", "#": "t_concrete", "^": "t_concrete", "(": "t_sidewalk", "&": "t_sidewalk",
-		"1": "t_sidewalk", "i": "t_sidewalk", "P": "t_sidewalk", "p": "t_sidewalk", "b": "t_flat_roof", "!": "t_fence", "+": "t_door_locked_interior",
+		"1": "t_sidewalk", "i": "t_sidewalk", "P": "t_sidewalk", "p": "t_sidewalk", "b": "t_flat_roof", "!": "t_fence_sierra", "+": "t_door_locked_interior",
 		"_": "t_floor", "?": "t_flat_roof", "M": "t_flat_roof", "S": "t_floor", "K": "t_floor"},
 		
 		"place_fields": [
@@ -296,6 +296,7 @@
 		
 		"place_loot": [
 			{ "item": "martini_recipe", "x": 17, "y": 65 },
+			{ "item": "sunglasses", "x": 15, "y": 65 },
 			{ "item": "tux_dean", "x": 15, "y": 65 },
 			{ "item": "chemistry_set", "x": 17, "y": 64 },
 			{ "item": "grenade", "x": 16, "y": 62, "repeat": [ 2, 7 ] }
@@ -461,7 +462,7 @@
 		"terrain": { ".": "t_open_air", "*": "t_fountain", "|": "t_brick_wall", "-": "t_fence_metal", "/": "t_gate_metal_c", "d": "t_door_c", "c": "t_window_empty",
 		"F": "t_floor_noroof", "f": "t_floor", "<": "t_stairs_up", ">": "t_stairs_down", "T": "t_tree_dead", "G": "t_dirt", "a": "t_concrete", "m": "t_door_metal_c",
 		"8": "t_potential_trans", "9": "t_switchgear_s", "k": "t_station_disc", "r": "t_floor", "#": "t_concrete", "^": "t_concrete", "(": "t_sidewalk", "&": "t_sidewalk",
-		"1": "t_sidewalk", "i": "t_sidewalk", "P": "t_sidewalk", "p": "t_sidewalk", "b": "t_flat_roof", "!": "t_fence"},
+		"1": "t_sidewalk", "i": "t_sidewalk", "P": "t_sidewalk", "p": "t_sidewalk", "b": "t_flat_roof", "!": "t_fence_sierra"},
 		
 		"place_fields": [
 			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 2000 },

@@ -32,7 +32,7 @@
 	{
 		"id": "sierra_inner_open",
 		"type": "SPELL",
-		"name": "Open Sierra Madre Casino internal doors",
+		"name": "opening Sierra Madre Casino internal doors",
 		"description": "Sliding this card through readers placed next to any door inside the Sierra Madre Casino will unlock it, with only exception being the vault entrance.",
 		"flags": [ "SILENT" ],
 		"message": "You use your Sierra Madre Casino omnicard.",
@@ -55,7 +55,7 @@
 	{
 		"id": "sierra_enter",
 		"type": "SPELL",
-		"name": "Open Sierra Madre Casino entrance",
+		"name": "opening Sierra Madre Casino entrance",
 		"description": "Sliding this card through the reader placed next to the entrance to the Sierra Madre Casino will unlock it, allowing you to enter the wonders of the past where the Old World treasure is buried.",
 		"flags": [ "SILENT" ],
 		"message": "You use your Sierra Madre Casino entrance card.",
@@ -78,7 +78,7 @@
 	{
 		"id": "vault_enter",
 		"type": "SPELL",
-		"name": "Unlock the Sierra Madre Casino vault entrance.",
+		"name": "unlocking the Sierra Madre Casino vault entrance",
 		"description": "Playing the recorded Vera Keyes' voice at the intercom near the vault door will allow you to trigger its unlocking mechanism.",
 		"message": "You play the recorded sound of Vera Keyes containing the vault entrance password.",
 		"valid_targets": [ "ground" ],
@@ -96,5 +96,66 @@
 		"type": "ter_furn_transform",
 		"fail_message": "There's no door to unlock nearby.",
 		"terrain": [ { "result": "sierra_door_vault_c", "valid_terrain": [ "sierra_door_vault" ], "message": "The door has been unlocked... Finally... After all you've been through, the Sierra Madre has opened its vault right in front of you. Madre is yours yours yours..." } ]
+	},
+	{
+		"type": "SPELL",
+		"id": "holo_friendly",
+		"name": { "str": "friendly hologram activation" },
+		"description": "Activate security hologram.",
+		"valid_targets": [ "ground" ],
+		"effect": "summon",
+		"effect_str": "mon_holo_guard_neutral",
+		"base_casting_time": 10,
+		"message": "You activate the Sierra Madre security hologram. Since it is you who's done it, it'll be friendly towards you. The portable emitter's power supply will last only for so much, though.",
+		"min_duration": 40000,
+		"max_duration": 40000,
+		"min_range": 7,
+		"max_range": 7,
+		"flags": [ "SILENT" ]
+	},
+	{
+		"id": "stimpack_spell",
+		"type": "SPELL",
+		"name": "stimpack injecting",
+		"description": "Injecting stimpack",
+		"message": "You quickly inject stimpack into your body and instantly feel better, just like people in medication ads do.",
+		"valid_targets": [ "self" ],
+		"flags": [ "SILENT" ],
+		"effect": "target_attack",
+		"effect_str": "stimpack_used",
+		"min_damage": -20,
+		"max_damage": -20,
+		"shape": "blast",
+		"extra_effects": [ { "id": "stimpack_spell2", "hit_self": true } ],
+		"min_duration": 30000,
+		"max_duration": 30000
+	},
+	{
+		"id": "stimpack_spell2",
+		"type": "SPELL",
+		"name": "stimpack injecting",
+		"description": "Injecting stimpack",
+		"message": "You quickly inject stimpack into your body and instantly feel better, just like people in medication ads do.",
+		"valid_targets": [ "self" ],
+		"flags": [ "SILENT" ],
+		"effect": "target_attack",
+		"effect_str": "stimpack_used2",
+		"min_duration": 1,
+		"max_duration": 1
+	},
+	{
+		"id": "sierra_martini_spell",
+		"type": "SPELL",
+		"name": "Sierra Madre Martini drinking",
+		"description": "Drinking Sierra Madre Martini",
+		"message": "You've drunk some Sierra Madre Martini. It doesn't taste very good, but despite being made out of the Cloud, it fills you with strength and power.",
+		"valid_targets": [ "self" ],
+		"flags": [ "SILENT" ],
+		"effect": "target_attack",
+		"effect_str": "sierra_martini_effect",
+		"min_damage": -10,
+		"max_damage": -10,
+		"min_duration": 30000,
+		"max_duration": 30000
 	}
 ]
