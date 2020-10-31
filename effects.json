@@ -38,8 +38,8 @@
 		"apply_message": "You've found yourself in the Sierra Madre. The red sky and the smell of copper and Old World gold indicate the contamination of the air by a lethal gas...",
 		"rating": "bad",
 		"main_parts_only": true,
-		"min_duration": "5 seconds",
-		"max_duration": "5 seconds",
+		"min_duration": "10 seconds",
+		"max_duration": "10 seconds",
 		"bp": ["TORSO", "HEAD", "EYES", "MOUTH", "ARM_L", "ARM_R", "HAND_L", "HAND_R", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R"],
 		"base_mods": {
 		  "pain_min": [ 1 ],
@@ -203,8 +203,7 @@
 		"max_duration": "1 second",
 		"bp": ["TORSO", "HEAD", "EYES", "MOUTH", "ARM_L", "ARM_R", "HAND_L", "HAND_R", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R"],
 		"base_mods": {
-		  "hurt_amount": [ -10 ],
-		  "stim_amount": [ 5 ]
+		  "hurt_amount": [ -10 ]
 		},
 		"show_in_info": false,
 		"blood_analysis_description": "Traces of Z-43 toxins in the digestive system"
@@ -241,12 +240,44 @@
 		"bp": ["TORSO", "HEAD", "EYES", "MOUTH", "ARM_L", "ARM_R", "HAND_L", "HAND_R", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R"],
 		"base_mods": {
 		  "hurt_amount": [ -20 ],
-		  "stim_amount": [ 10 ],
 		  "fatigue_amount": [ -5 ],
 		  "stamina_amount": [ 25 ]
 		},
 		"show_in_info": false,
 		"blood_analysis_description": "STIM-RX35-A2 big_mt class 2 healing stimulant"
+	},
+	{
+		"type": "effect_type",
+		"id": "mentats_used",
+		"name": [ "Took Mentats" ],
+		"desc": [ "Your mind clears, your thought capacity increases, your vision sharpens. Now you see the truth..." ],
+		"rating": "good",
+		"main_parts_only": false,
+		"min_duration": "4 minutes",
+		"max_duration": "4 minutes",
+		"base_mods": {
+		  "int_mod": [ 2 ],
+		  "per_mod": [ 2 ]
+		},
+		"show_in_info": true,
+		"blood_analysis_description": "Mentats stimulants"
+	},
+	{
+		"type": "effect_type",
+		"id": "medx_used",
+		"name": [ "Injected Med-X" ],
+		"desc": [ "Your pain is being washed away and you feel stronger and more immune." ],
+		"rating": "good",
+		"main_parts_only": false,
+		"min_duration": "4 minutes",
+		"max_duration": "4 minutes",
+		"base_mods": {
+		  "health_amount": [ 20 ],
+		  "pkill_tick": [ 12 ],
+		  "pkill_min": [ 1 ]
+		},
+		"show_in_info": true,
+		"blood_analysis_description": "Med-X stimulants"
 	},
 	{
 		"type": "effect_type",

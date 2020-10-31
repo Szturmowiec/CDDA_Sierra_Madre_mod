@@ -414,7 +414,7 @@
 	{
     "type": "terrain",
     "id": "sierra_vault_opener",
-	"looks_like": "t_card_military",
+	"looks_like": "t_intercom",
     "name": "Sierra Madre vault intercom",
     "description": "The intercom located next to the Sierra Madre Vault, protecting it with a voice password.",
     "symbol": "6",

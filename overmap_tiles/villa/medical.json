@@ -78,7 +78,10 @@
 		
 		"place_fields": [
 			{ "field": "sierra_gas", "x": [ 10, 23 ], "y": 23, "repeat": 28 },
-			{ "field": "sierra_gas", "x": [ 11, 23 ], "y": [ 24, 31 ], "repeat": 224 }
+			{ "field": "sierra_gas", "x": [ 11, 23 ], "y": [ 24, 31 ], "repeat": 224 },
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 15, 23 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 0, 11 ], "y": [ 11, 14 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 24, 47 ], "repeat": 2000 }
 		],
 		
 		"place_npcs": [
@@ -92,19 +95,20 @@
 			{ "item": "note_gas", "x": 19, "y": 3 },
 			{ "item": "note_insomnia", "x": 5, "y": 7 },
 			{ "item": "unpleasant_visit", "x": 18, "y": 6 },
-			{ "item": "doctor_note", "x": 17, "y": 6 }
+			{ "item": "doctor_note", "x": 17, "y": 6 },
+			{ "item": "stimpack_code", "x": 11, "y": 8 }
 		],
 		
 		"items": {
 			"f": { "item": "martini_ingredients", "chance": 45, "repeat": [ 1, 2 ] },
 			".": { "item": "sierra_sidewalk", "chance": 45, "repeat": [ 1, 2 ] },
-			"*": { "item": "casino_chips", "chance": 75, "repeat": [ 1, 3 ] },
+			"*": { "item": "casino_chips_fountain", "chance": 75, "repeat": [ 1, 3 ] },
 			"%": { "item": "sierra_locker_items", "chance": 80 },
 			"e": { "item": "pool_table", "chance": 30, "repeat": [ 1, 2 ] },
 			"2": [
 				{ "item": "SUS_dresser_mens", "chance": 35, "repeat": [ 1, 2 ] },
 				{ "item": "SUS_dresser_womens", "chance": 35, "repeat": [ 1, 2 ] },
-				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 20 ] }
+				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] }
 			],
 			"I": [ { "item": "SUS_desks_bedroom_unisex", "chance": 5 }, { "item": "office", "chance": 25 }, { "item": "office_paper", "chance": 5 } ],
 			"i": [ { "item": "SUS_desks_bedroom_unisex", "chance": 5 }, { "item": "office", "chance": 25 }, { "item": "office_paper", "chance": 5 } ],
@@ -120,7 +124,7 @@
 			"7": [
 				{ "item": "SUS_wardrobe_mens", "chance": 37, "repeat": [ 1, 2 ] },
 				{ "item": "SUS_wardrobe_womens", "chance": 37, "repeat": [ 1, 2 ] },
-				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 20 ] }
+				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] }
 			],
 			"@": { "item": "bed", "chance": 32, "repeat": [ 1, 2 ] },
 			"&": { "item": "trash", "chance": 30, "repeat": [ 1, 4 ] },
@@ -128,13 +132,13 @@
 			"N": { "item": "trash", "chance": 30, "repeat": [ 1, 4 ] },
 			"D": { "item": "dean_items", "chance": 100 },
 			"O": { "item": "SUS_oven", "chance": 50 },
-			"J": [ { "item": "kitchen_counters", "chance": 25 }, { "item": "cosmic_knives", "chance": 20 }, { "item": "casino_chips", "chance": 20, "repeat": [ 1, 20 ] }],
-			"g": [ { "item": "clinic_items", "chance": 85, "repeat": [ 1, 2 ] }, { "item": "cosmic_knives", "chance": 20 }, { "item": "casino_chips", "chance": 20, "repeat": [ 1, 20 ] }],
+			"J": [ { "item": "kitchen_counters", "chance": 25 }, { "item": "cosmic_knives", "chance": 20 }, { "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] }],
+			"g": [ { "item": "clinic_items", "chance": 85, "repeat": [ 1, 2 ] }, { "item": "cosmic_knives", "chance": 20 }, { "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] }],
 			"C": [ { "item": "SUS_dishes", "chance": 20 }, { "item": "SUS_silverware", "chance": 20 }, { "item": "SUS_cookware", "chance": 25 },
 				{ "item": "SUS_utensils", "chance": 10 }, { "item": "SUS_knife_drawer", "chance": 20 }, { "item": "SUS_junk_drawer", "chance": 50 },
 				{ "item": "SUS_breakfast_cupboard", "chance": 15 }, { "item": "SUS_coffee_cupboard", "chance": 30 }, { "item": "SUS_hair_drawer", "chance": 10 },
 				{ "item": "SUS_bathroom_cabinet", "chance": 15 }, { "item": "SUS_bathroom_medicine", "chance": 10 }, { "item": "harddrugs", "chance": 2 },
-				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 20 ] } ],
+				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] } ],
 			"s": [
 			{ "item": "dishes_dining", "chance": 30 },
 			{ "item": "tea_dishes", "chance": 10, "repeat": [ 1, 2 ] },
@@ -242,7 +246,10 @@
 		
 		"place_fields": [
 			{ "field": "sierra_gas", "x": [ 10, 23 ], "y": 23, "repeat": 28 },
-			{ "field": "sierra_gas", "x": [ 10, 23 ], "y": [ 24, 27 ], "repeat": 112 }
+			{ "field": "sierra_gas", "x": [ 10, 23 ], "y": [ 24, 27 ], "repeat": 112 },
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 15, 23 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 0, 11 ], "y": [ 11, 14 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 24, 47 ], "repeat": 2000 }
 		],
 		
 		"place_monster": [ { "monster": "mon_holo_guard", "x": 11, "y": 5 } ],
@@ -256,7 +263,9 @@
 		},
 		
 		"place_loot": [
-			{ "item": "gas_incident_report", "x": 13, "y": 10 }
+			{ "item": "gas_incident_report", "x": 13, "y": 10 },
+			{ "item": "mentats_code", "x": 22, "y": 3 },
+			{ "item": "medx_code", "x": 6, "y": 7 }
 		],
 		
 		"items": {
@@ -266,7 +275,7 @@
 			"2": [
 				{ "item": "SUS_dresser_mens", "chance": 35, "repeat": [ 1, 2 ] },
 				{ "item": "SUS_dresser_womens", "chance": 35, "repeat": [ 1, 2 ] },
-				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 20 ] }
+				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] }
 			],
 			"I": [ { "item": "SUS_desks_bedroom_unisex", "chance": 5 }, { "item": "office", "chance": 25 }, { "item": "office_paper", "chance": 5 } ],
 			"i": [ { "item": "SUS_desks_bedroom_unisex", "chance": 5 }, { "item": "office", "chance": 25 }, { "item": "office_paper", "chance": 5 } ],
@@ -282,7 +291,7 @@
 			"7": [
 				{ "item": "SUS_wardrobe_mens", "chance": 37, "repeat": [ 1, 2 ] },
 				{ "item": "SUS_wardrobe_womens", "chance": 37, "repeat": [ 1, 2 ] },
-				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 20 ] }
+				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] }
 			],
 			"@": { "item": "bed", "chance": 32, "repeat": [ 1, 2 ] },
 			"X": { "item": "bed", "chance": 32, "repeat": [ 1, 2 ] },
@@ -290,13 +299,13 @@
 			"^": { "item": "trash", "chance": 30, "repeat": [ 1, 4 ] },
 			"D": { "item": "dean_items", "chance": 100 },
 			"O": { "item": "SUS_oven", "chance": 50 },
-			"J": [ { "item": "kitchen_counters", "chance": 25 }, { "item": "cosmic_knives", "chance": 20 }, { "item": "casino_chips", "chance": 20, "repeat": [ 1, 20 ] }],
-			"g": [ { "item": "clinic_items", "chance": 85, "repeat": [ 1, 2 ] }, { "item": "cosmic_knives", "chance": 20 }, { "item": "casino_chips", "chance": 20, "repeat": [ 1, 20 ] }],
+			"J": [ { "item": "kitchen_counters", "chance": 25 }, { "item": "cosmic_knives", "chance": 20 }, { "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] }],
+			"g": [ { "item": "clinic_items", "chance": 85, "repeat": [ 1, 2 ] }, { "item": "cosmic_knives", "chance": 20 }, { "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] }],
 			"C": [ { "item": "SUS_dishes", "chance": 20 }, { "item": "SUS_silverware", "chance": 20 }, { "item": "SUS_cookware", "chance": 25 },
 				{ "item": "SUS_utensils", "chance": 10 }, { "item": "SUS_knife_drawer", "chance": 20 }, { "item": "SUS_junk_drawer", "chance": 50 },
 				{ "item": "SUS_breakfast_cupboard", "chance": 15 }, { "item": "SUS_coffee_cupboard", "chance": 30 }, { "item": "SUS_hair_drawer", "chance": 10 },
 				{ "item": "SUS_bathroom_cabinet", "chance": 15 }, { "item": "SUS_bathroom_medicine", "chance": 10 }, { "item": "harddrugs", "chance": 2 },
-				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 20 ] } ],
+				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] } ],
 			"s": [
 			{ "item": "dishes_dining", "chance": 30 },
 			{ "item": "tea_dishes", "chance": 10, "repeat": [ 1, 2 ] },
@@ -397,6 +406,12 @@
 		"~": "t_flat_roof", "=": "t_flat_roof", "R": "t_sidewalk", "&": "t_sidewalk", "`": "t_linoleum_white", "P": "t_sidewalk", "g": "t_linoleum_white", "e": "t_linoleum_white",
 		"r": "t_linoleum_white", "1": "t_linoleum_white", "q": "t_linoleum_white", "%": "t_linoleum_white", "#": "t_linoleum_white", "p": "t_linoleum_white",
 		"s": "t_linoleum_white", "X": "t_linoleum_white", "x": "t_linoleum_white", "z": "t_linoleum_white", "^": "t_linoleum_white", "D": "t_linoleum_white"},
+		
+		"place_fields": [
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 24, 47 ], "repeat": 2000 }
+		],
+		
 		"signs": { "P": { "signage": "Clinic" } }
     }
   },

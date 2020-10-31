@@ -113,31 +113,47 @@
 			{ "field": "sierra_gas", "x": [ 21, 22 ], "y": [ 48, 50 ], "repeat": 12 },
 			{ "field": "sierra_gas", "x": [ 29, 42 ], "y": [ 15, 19 ], "repeat": 140 },
 			{ "field": "sierra_gas", "x": [ 1, 20 ], "y": [ 10, 17 ], "repeat": 160 },
-			{ "field": "sierra_gas", "x": [ 11, 21 ], "y": [ 5, 9 ], "repeat": 110 }
+			{ "field": "sierra_gas", "x": [ 11, 21 ], "y": [ 5, 9 ], "repeat": 110 },
+			{ "field": "cloud", "x": [ 18, 23 ], "y": [ 0, 23 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 10, 23 ], "repeat": 2000 },
+			{ "field": "cloud", "x": 11, "y": [ 7, 9 ], "repeat": 20 },
+			{ "field": "cloud", "x": [ 12, 17 ], "y": [ 5, 9 ], "repeat": 200 },
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 24, 47 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 48, 71 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 24, 47 ], "y": [ 0, 23 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 24, 47 ], "y": [ 24, 47 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 24, 47 ], "y": [ 48, 71 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 48, 71 ], "y": [ 0, 23 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 48, 71 ], "y": [ 24, 47 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 48, 71 ], "y": [ 48, 71 ], "repeat": 2000 }
 		],
 	
 	"place_npcs": [
 		{ "class": "holo_vendor", "x": 69, "y": 16 },
-		{ "class": "holo_vendor", "x": 20, "y": 23 }
+		{ "class": "holo_vendor", "x": 20, "y": 23 },
+		{ "class": "vending_machine_sierra", "x": 66, "y": 65 },
+		{ "class": "vending_machine_sierra", "x": 23, "y": 20 }
 	],
 	
 	"place_loot": [
 		{ "item": "holo_components", "x": 2, "y": 6 },
 		{ "item": "ventilation_report", "x": 6, "y": 2 },
 		{ "item": "corpse_skeleton", "x": 10, "y": 5 },
-		{ "item": "jumpsuit_sierra", "x": 10, "y": 5 }
+		{ "item": "jumpsuit_sierra", "x": 10, "y": 5 },
+		{ "item": "gun_code", "x": 51, "y": 4 },
+		{ "item": "card_chip", "x": 8, "y": 2 }
 	],
 		
 	"items": {
 			"f": { "item": "martini_ingredients", "chance": 45, "repeat": [ 1, 2 ] },
 			".": { "item": "sierra_sidewalk", "chance": 45, "repeat": [ 1, 2 ] },
-			"*": { "item": "casino_chips", "chance": 75, "repeat": [ 1, 3 ] },
+			"*": { "item": "casino_chips_fountain", "chance": 75, "repeat": [ 1, 3 ] },
 			"%": { "item": "sierra_locker_items", "chance": 80 },
 			"e": { "item": "pool_table", "chance": 30, "repeat": [ 1, 2 ] },
 			"2": [
 				{ "item": "SUS_dresser_mens", "chance": 35, "repeat": [ 1, 2 ] },
 				{ "item": "SUS_dresser_womens", "chance": 35, "repeat": [ 1, 2 ] },
-				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 20 ] }
+				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] }
 			],
 			"I": [ { "item": "SUS_desks_bedroom_unisex", "chance": 5 }, { "item": "office", "chance": 25 }, { "item": "office_paper", "chance": 5 } ],
 			"i": { "item": "magazines", "chance": 15, "repeat": [ 1, 2 ] },
@@ -150,19 +166,19 @@
 			"7": [
 				{ "item": "SUS_wardrobe_mens", "chance": 37, "repeat": [ 1, 2 ] },
 				{ "item": "SUS_wardrobe_womens", "chance": 37, "repeat": [ 1, 2 ] },
-				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 20 ] }
+				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] }
 			],
 			"@": { "item": "bed", "chance": 32, "repeat": [ 1, 2 ] },
 			"&": { "item": "trash", "chance": 30, "repeat": [ 1, 4 ] },
 			")": { "item": "trash", "chance": 30, "repeat": [ 1, 4 ] },
 			"D": { "item": "dean_items", "chance": 100 },
 			"O": { "item": "SUS_oven", "chance": 50 },
-			"J": [ { "item": "kitchen_counters", "chance": 25 }, { "item": "cosmic_knives", "chance": 20 }, { "item": "casino_chips", "chance": 20, "repeat": [ 1, 20 ] }],
+			"J": [ { "item": "kitchen_counters", "chance": 25 }, { "item": "cosmic_knives", "chance": 20 }, { "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] }],
 			"C": [ { "item": "SUS_dishes", "chance": 20 }, { "item": "SUS_silverware", "chance": 20 }, { "item": "SUS_cookware", "chance": 25 },
 				{ "item": "SUS_utensils", "chance": 10 }, { "item": "SUS_knife_drawer", "chance": 20 }, { "item": "SUS_junk_drawer", "chance": 50 },
 				{ "item": "SUS_breakfast_cupboard", "chance": 15 }, { "item": "SUS_coffee_cupboard", "chance": 30 }, { "item": "SUS_hair_drawer", "chance": 10 },
 				{ "item": "SUS_bathroom_cabinet", "chance": 15 }, { "item": "SUS_bathroom_medicine", "chance": 10 }, { "item": "harddrugs", "chance": 2 },
-				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 20 ] } ],
+				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] } ],
 			"s": [
 			{ "item": "dishes_dining", "chance": 30 },
 			{ "item": "tea_dishes", "chance": 10, "repeat": [ 1, 2 ] },
@@ -315,8 +331,22 @@
 			{ "field": "sierra_gas", "x": [ 48, 52 ], "y": [ 50, 56 ], "repeat": 70 },
 			{ "field": "sierra_gas", "x": [ 21, 23 ], "y": [ 31, 35 ], "repeat": 30 },
 			{ "field": "sierra_gas", "x": [ 24, 40 ], "y": [ 31, 35 ], "repeat": 170 },
-			{ "field": "sierra_gas", "x": [ 30, 41 ], "y": [ 4, 11 ], "repeat": 168 }
+			{ "field": "sierra_gas", "x": [ 30, 41 ], "y": [ 4, 11 ], "repeat": 168 },
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 24, 47 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 48, 71 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 24, 47 ], "y": [ 0, 23 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 24, 47 ], "y": [ 24, 47 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 24, 47 ], "y": [ 48, 71 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 48, 71 ], "y": [ 0, 23 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 48, 71 ], "y": [ 24, 47 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 48, 71 ], "y": [ 48, 71 ], "repeat": 2000 }
 		],
+		
+	"place_loot": [
+		{ "item": "c4_code", "x": 13, "y": 57 },
+		{ "item": "card_chip", "x": 59, "y": 23 }
+	],
 		
 	"items": {
 			"f": { "item": "martini_ingredients", "chance": 45, "repeat": [ 1, 2 ] },
@@ -325,7 +355,7 @@
 			"2": [
 				{ "item": "SUS_dresser_mens", "chance": 35, "repeat": [ 1, 2 ] },
 				{ "item": "SUS_dresser_womens", "chance": 35, "repeat": [ 1, 2 ] },
-				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 20 ] }
+				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] }
 			],
 			"I": [ { "item": "SUS_desks_bedroom_unisex", "chance": 5 }, { "item": "office", "chance": 25 }, { "item": "office_paper", "chance": 5 } ],
 			"i": { "item": "magazines", "chance": 15, "repeat": [ 1, 2 ] },
@@ -338,19 +368,19 @@
 			"7": [
 				{ "item": "SUS_wardrobe_mens", "chance": 37, "repeat": [ 1, 2 ] },
 				{ "item": "SUS_wardrobe_womens", "chance": 37, "repeat": [ 1, 2 ] },
-				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 20 ] }
+				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] }
 			],
 			"@": { "item": "bed", "chance": 32, "repeat": [ 1, 2 ] },
 			"&": { "item": "trash", "chance": 30, "repeat": [ 1, 4 ] },
 			")": { "item": "trash", "chance": 30, "repeat": [ 1, 4 ] },
 			"D": { "item": "dean_items", "chance": 100 },
 			"O": { "item": "SUS_oven", "chance": 50 },
-			"J": [ { "item": "kitchen_counters", "chance": 25 }, { "item": "cosmic_knives", "chance": 20 }, { "item": "casino_chips", "chance": 20, "repeat": [ 1, 20 ] }],
+			"J": [ { "item": "kitchen_counters", "chance": 25 }, { "item": "cosmic_knives", "chance": 20 }, { "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] }],
 			"C": [ { "item": "SUS_dishes", "chance": 20 }, { "item": "SUS_silverware", "chance": 20 }, { "item": "SUS_cookware", "chance": 25 },
 				{ "item": "SUS_utensils", "chance": 10 }, { "item": "SUS_knife_drawer", "chance": 20 }, { "item": "SUS_junk_drawer", "chance": 50 },
 				{ "item": "SUS_breakfast_cupboard", "chance": 15 }, { "item": "SUS_coffee_cupboard", "chance": 30 }, { "item": "SUS_hair_drawer", "chance": 10 },
 				{ "item": "SUS_bathroom_cabinet", "chance": 15 }, { "item": "SUS_bathroom_medicine", "chance": 10 }, { "item": "harddrugs", "chance": 2 },
-				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 20 ] } ],
+				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] } ],
 			"s": [
 			{ "item": "dishes_dining", "chance": 30 },
 			{ "item": "tea_dishes", "chance": 10, "repeat": [ 1, 2 ] },
@@ -495,7 +525,16 @@
 	
 	"place_fields": [
 			{ "field": "sierra_gas", "x": [ 29, 47 ], "y": [ 20, 21 ], "repeat": 76 },
-			{ "field": "sierra_gas", "x": [ 48, 50 ], "y": [ 20, 21 ], "repeat": 12 }
+			{ "field": "sierra_gas", "x": [ 48, 50 ], "y": [ 20, 21 ], "repeat": 12 },
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 24, 47 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 48, 71 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 24, 47 ], "y": [ 0, 23 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 24, 47 ], "y": [ 24, 47 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 24, 47 ], "y": [ 48, 71 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 48, 71 ], "y": [ 0, 23 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 48, 71 ], "y": [ 24, 47 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 48, 71 ], "y": [ 48, 71 ], "repeat": 2000 }
 		],
 		
 	"place_loot": [
@@ -509,7 +548,7 @@
 			"2": [
 				{ "item": "SUS_dresser_mens", "chance": 35, "repeat": [ 1, 2 ] },
 				{ "item": "SUS_dresser_womens", "chance": 35, "repeat": [ 1, 2 ] },
-				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 20 ] }
+				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] }
 			],
 			"I": [ { "item": "SUS_desks_bedroom_unisex", "chance": 5 }, { "item": "office", "chance": 25 }, { "item": "office_paper", "chance": 5 } ],
 			"i": { "item": "magazines", "chance": 15, "repeat": [ 1, 2 ] },
@@ -522,19 +561,19 @@
 			"7": [
 				{ "item": "SUS_wardrobe_mens", "chance": 37, "repeat": [ 1, 2 ] },
 				{ "item": "SUS_wardrobe_womens", "chance": 37, "repeat": [ 1, 2 ] },
-				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 20 ] }
+				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] }
 			],
 			"@": { "item": "bed", "chance": 32, "repeat": [ 1, 2 ] },
 			"&": { "item": "trash", "chance": 30, "repeat": [ 1, 4 ] },
 			")": { "item": "trash", "chance": 30, "repeat": [ 1, 4 ] },
 			"D": { "item": "dean_items", "chance": 100 },
 			"O": { "item": "SUS_oven", "chance": 50 },
-			"J": [ { "item": "kitchen_counters", "chance": 25 }, { "item": "cosmic_knives", "chance": 20 }, { "item": "casino_chips", "chance": 20, "repeat": [ 1, 20 ] }],
+			"J": [ { "item": "kitchen_counters", "chance": 25 }, { "item": "cosmic_knives", "chance": 20 }, { "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] }],
 			"C": [ { "item": "SUS_dishes", "chance": 20 }, { "item": "SUS_silverware", "chance": 20 }, { "item": "SUS_cookware", "chance": 25 },
 				{ "item": "SUS_utensils", "chance": 10 }, { "item": "SUS_knife_drawer", "chance": 20 }, { "item": "SUS_junk_drawer", "chance": 50 },
 				{ "item": "SUS_breakfast_cupboard", "chance": 15 }, { "item": "SUS_coffee_cupboard", "chance": 30 }, { "item": "SUS_hair_drawer", "chance": 10 },
 				{ "item": "SUS_bathroom_cabinet", "chance": 15 }, { "item": "SUS_bathroom_medicine", "chance": 10 }, { "item": "harddrugs", "chance": 2 },
-				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 20 ] } ],
+				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] } ],
 			"s": [
 			{ "item": "dishes_dining", "chance": 30 },
 			{ "item": "tea_dishes", "chance": 10, "repeat": [ 1, 2 ] },
@@ -660,6 +699,15 @@
 	"U": "t_ramp_down_high", "r": "t_floor", "^": "t_flat_roof", "D": "t_flat_roof", "z": "t_ramp_up_low", "Z": "t_ramp_up_high", "N": "t_flat_roof", "V": "t_flat_roof",
 	"~": "t_flat_roof", "=": "t_flat_roof"},
 	
+	"place_fields": [
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 24, 47 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 48, 71 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 24, 47 ], "y": [ 0, 23 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 24, 47 ], "y": [ 24, 47 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 24, 47 ], "y": [ 48, 71 ], "repeat": 2000 }
+		],
+	
 	"place_loot": [
 			{ "item": "jumpsuit_sierra", "x": 13, "y": 25}
 		],
@@ -711,7 +759,11 @@
 			"........................"
 		],
 		
-	"terrain": { ".": "t_open_air", "b": "t_flat_roof"}
+	"terrain": { ".": "t_open_air", "b": "t_flat_roof"},
+	
+	"place_fields": [
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 2000 }
+		]
   }
   }
 ]

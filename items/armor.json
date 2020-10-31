@@ -56,7 +56,7 @@
     "warmth": 35,
     "material_thickness": 10,
     "environmental_protection": 4,
-    "flags": [ "POCKETS", "STURDY" ]
+    "flags": [ "VARSIZE", "POCKETS", "STURDY" ]
   },
   {
     "id": "sierra_helmet",
@@ -113,7 +113,7 @@
     "warmth": 35,
     "material_thickness": 11,
     "environmental_protection": 4,
-    "flags": [ "POCKETS", "STURDY" ]
+    "flags": [ "VARSIZE", "POCKETS", "STURDY" ]
   },
   {
     "id": "sierra_helmet_reinforced",

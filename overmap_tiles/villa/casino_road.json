@@ -60,7 +60,12 @@
         "|......................|"
       ],
       "furniture": { "i": "f_bench" },
-      "terrain": { ".": "t_sidewalk", "*": "t_fountain", "|": "t_brick_wall", "-": "t_fence_metal", "/": "t_gate_metal_c", "b": "t_flat_roof", "T": "t_tree_dead", "G": "t_dirt"}
+      "terrain": { ".": "t_sidewalk", "*": "t_fountain", "|": "t_brick_wall", "-": "t_fence_metal", "/": "t_gate_metal_c", "b": "t_flat_roof", "T": "t_tree_dead", "G": "t_dirt"},
+	  
+	  "place_fields": [
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 24, 47 ], "repeat": 2000 }
+		]
     }
 	},
 	{
@@ -124,7 +129,12 @@
         "|bbb................bbb|"
       ],
       "furniture": { "&": "f_trashcan" },
-      "terrain": { ".": "t_open_air", "*": "t_fountain", "|": "t_brick_wall", "-": "t_fence_metal", "/": "t_gate_metal_c", "b": "t_flat_roof"}
+      "terrain": { ".": "t_open_air", "*": "t_fountain", "|": "t_brick_wall", "-": "t_fence_metal", "/": "t_gate_metal_c", "b": "t_flat_roof"},
+	  
+	  "place_fields": [
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 24, 47 ], "repeat": 2000 }
+		]
     }
 	},
 	{
@@ -188,7 +198,12 @@
         "|......................|"
       ],
       "furniture": { "&": "f_trashcan" },
-      "terrain": { ".": "t_open_air", "*": "t_fountain", "|": "t_flat_roof", "-": "t_fence_metal", "/": "t_gate_metal_c", "b": "t_flat_roof"}
+      "terrain": { ".": "t_open_air", "*": "t_fountain", "|": "t_flat_roof", "-": "t_fence_metal", "/": "t_gate_metal_c", "b": "t_flat_roof"},
+	  
+	  "place_fields": [
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 24, 47 ], "repeat": 2000 }
+		]
     }
 	}
 ]

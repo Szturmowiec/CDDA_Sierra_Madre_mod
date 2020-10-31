@@ -35,7 +35,13 @@
         "|||||||||||||||||||||||||..|................|..|||||||||||||||||||||||||"
       ],
       "furniture": { "i": "f_bench" },
-      "terrain": { ".": "t_sidewalk", "*": "t_fountain", "|": "t_brick_wall", "-": "t_fence_metal", "/": "t_gate_metal_c", "b": "t_flat_roof", "T": "t_tree_dead", "G": "t_dirt"}
+      "terrain": { ".": "t_sidewalk", "*": "t_fountain", "|": "t_brick_wall", "-": "t_fence_metal", "/": "t_gate_metal_c", "b": "t_flat_roof", "T": "t_tree_dead", "G": "t_dirt"},
+	  
+	  "place_fields": [
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 24, 47 ], "y": [ 0, 23 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 48, 71 ], "y": [ 0, 23 ], "repeat": 2000 }
+		]
     }
 	},
 	{
@@ -74,7 +80,13 @@
         "|||||||||||||||||||||||||bbb................bbb|||||||||||||||||||||||||"
       ],
       "furniture": { "i": "f_bench" },
-      "terrain": { ".": "t_open_air", "*": "t_fountain", "|": "t_brick_wall", "-": "t_fence_metal", "/": "t_gate_metal_c", "b": "t_flat_roof", "T": "t_tree_dead", "G": "t_dirt"}
+      "terrain": { ".": "t_open_air", "*": "t_fountain", "|": "t_brick_wall", "-": "t_fence_metal", "/": "t_gate_metal_c", "b": "t_flat_roof", "T": "t_tree_dead", "G": "t_dirt"},
+	  
+	  "place_fields": [
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 24, 47 ], "y": [ 0, 23 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 48, 71 ], "y": [ 0, 23 ], "repeat": 2000 }
+		]
     }
 	},
 	{
@@ -113,7 +125,13 @@
         "|||||||||||||||||||||||||......................|||||||||||||||||||||||||"
       ],
       "furniture": { "i": "f_bench" },
-      "terrain": { ".": "t_open_air", "*": "t_fountain", "|": "t_flat_roof", "-": "t_fence_metal", "/": "t_gate_metal_c", "b": "t_flat_roof", "T": "t_tree_dead", "G": "t_dirt"}
+      "terrain": { ".": "t_open_air", "*": "t_fountain", "|": "t_flat_roof", "-": "t_fence_metal", "/": "t_gate_metal_c", "b": "t_flat_roof", "T": "t_tree_dead", "G": "t_dirt"},
+	  
+	  "place_fields": [
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 24, 47 ], "y": [ 0, 23 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 48, 71 ], "y": [ 0, 23 ], "repeat": 2000 }
+		]
     }
 	}
 ]

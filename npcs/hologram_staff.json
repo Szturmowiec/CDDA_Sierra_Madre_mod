@@ -1,8 +1,18 @@
 [
 	{
+		"type": "mutation",
+		"id": "HOLOGRAMS",
+		"name": { "str": "Sierra Madre hologram" },
+		"points": 10,
+		"description": "Sierra Madre hologram staff",
+		"valid": false,
+		"purifiable": false,
+		"ignored_by": [ "ZOMBIE", "MUTANT", "ROBOT", "HUMAN", "INSECT" ]
+	},
+	{
 		"type": "npc_class",
 		"id": "holo_staff",
-		"name": "Hologram workers",
+		"name": "Sierra Madre hologram workers",
 		"common": false,
 		"bonus_str": { "constant": 5 },
 		"bonus_dex": { "constant": 5 },
@@ -11,19 +21,56 @@
 		"skills": [
 		  { "skill": "ALL", "level": 10 } 
 		],
-		"job_description": "",
+		"job_description": "Holograms deployed to serve as vendors, helping customers exchange Sierra Madre chips and various commodities.",
 		"worn_override": "EMPTY_GROUP",
 		"weapon_override": "EMPTY_GROUP",
-		"carry_override": "holo_vendor_items"
+		"carry_override": "holo_vendor_items",
+		"traits": [
+			{ "trait": "HOLOGRAMS" },
+			{ "trait": "DEBUG_NODMG" }
+		]
 	},
 	{
 		"type": "npc",
 		"id": "holo_vendor",
-		"name": "Hologram vendor",
+		"gender": "male",
+		"name_unique": "Hologram vendor",
 		"class": "holo_staff",
 		"attitude": 0,
-		"mission": 7,
+		"mission": 3,
 		"chat": "TALK_HOLO_VENDOR",
-		"faction": "holo_workers"
+		"faction": "no_faction"
+	},
+	{
+		"type": "npc_class",
+		"id": "sierra_vending",
+		"name": "Sierra Madre vending machines",
+		"common": false,
+		"bonus_str": { "constant": 5 },
+		"bonus_dex": { "constant": 5 },
+		"bonus_per": { "constant": 5 },
+		"bonus_int": { "constant": 5 },
+		"skills": [
+		  { "skill": "ALL", "level": 10 } 
+		],
+		"job_description": "Vending machines capable of disposing all kinds of goods in return for Sierra Madre chips. ",
+		"worn_override": "VENDING_CLOTHES",
+		"weapon_override": "EMPTY_GROUP",
+		"carry_override": "EMPTY_GROUP",
+		"traits": [
+			{ "trait": "HOLOGRAMS" },
+			{ "trait": "DEBUG_NODMG" }
+		]
+	},
+	{
+		"type": "npc",
+		"id": "vending_machine_sierra",
+		"gender": "male",
+		"name_unique": "Sierra Madre vending machine",
+		"class": "sierra_vending",
+		"attitude": 0,
+		"mission": 3,
+		"chat": "TALK_VENDING",
+		"faction": "no_faction"
 	}
 ]

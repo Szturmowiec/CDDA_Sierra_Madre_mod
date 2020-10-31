@@ -482,7 +482,7 @@
 		"symbol": ",",
 		"color": "white",
 		"name": { "str": "Dean Domino's blackmail evidence" },
-		"description": "A holotape containing the recorded dialogue between Vera and Dean in which Dean threatens to reveal Vera's medicaments addiction if she refuses to do as he says.",
+		"description": "A holotape containing the recorded dialogue between Vera and Dean in which Dean threatens to reveal Vera's Med-X addiction if she refuses to do as he says.",
 		"price": 1000,
 		"price_postapoc": 50,
 		"material": [ "plastic" ],

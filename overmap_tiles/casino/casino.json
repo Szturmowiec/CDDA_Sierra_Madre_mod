@@ -22,42 +22,42 @@
         "WaK------------Ka|p.........p|Hs..hsh...hsh...hsh...sH|..|...hsssh...hIW",
         "WaK--A------A--Ka|.G...G...G.|Hs...h.....h.....h....sH|..w...hsssh...hIW",
         "WaK-----n------Ka|...........|p..h....h.....h....h..sH|..|....hhh.....IW",
-        "WgE..|......|..Eg|.G...G...G.|..hsh..hsh.l.hsh..hsh..p|..|............&W",
-        "WaK--.------.--Ka|...........|...h....h.....h....h....|..|0000.....0000W",
-        "W----.-KKK--.----|.G...l...G.|Hs........sss...sss..ssH|..||||||||||||||W",
-        "W----.K@@@K-.----|p.........p|HH..p..p&.HHH...HHH..HHH|l.|I7I&.I7I&.r..W",
-        "W----.K@@@K-.----||||||w|||||||||||ww||||||||||||||||||..|.h....h.....IW",
-        "Wm---.-KKK--.----@@@-----m--aaaa------aaaa--m|%.$.bbbb|..z...........h7W",
-        "W----.------.----KKK--------KKKK------KKKK---|%.......d..|............IW",
-        "W----.------.n-------------------------------|%.$.bbbb|..|.h....h.....&W",
-        "W....|....|....|....|....|....|....|....|....||||||||||..|I7I&.I7I&....W",
-        "W--------------.----------------n-------.----@@@@---K@|..||||||||||||||W",
-        "Wm-----KKK-----.------------------------.----KKKK---K@|..|0000..1JJc..rW",
-        "WaK---K@@@K----|....|....|....|....|....|-----------K@|..|....hhh.....7W",
-        "WaK---K@@@K--A-.--A-p--KK.----p-KK-.----EK----------K@|..|...hsssh...hIW",
-        "WaK----KKK-----.----.-K@@E----.K@@K.---KgaK---------K@|..w...hsssh...hIW",
-        "Wm-------------.----.-K@@E----.K@@K.---KgaK---------K@|..|....hhh.....IW",
-        "W------------A-.--A-p--KK.----p-KK-.----EK----------K@|..|............&W",
-        "W....|....|....|....|....|....|....|....|.......p||||||..|0000.....0000W",
-        "W---------------.---.----.KKK-.----.KKK-.--------|%.%%|..||||||||||||||W",
-        "WaK-------------p---.----.@@@-.----.@@@-.--------|%...d................W",
+        "WaK--|------|--Ka|.G...G...G.|..hsh..hsh.l.hsh..hsh..p|..|............&W",
+        "WaK------------Ka|...........|...h....h.....h....h....|..|0000.....0000W",
+        "W------KKK-------|.G...l...G.|Hs........sss...sss..ssH|..||||||||||||||W",
+        "W-----K@@@K------|p.........p|HH..p..p&.HHH...HHH..HHH|l.|I7I&.I7I&.r..W",
+        "W-----K@@@K------||||||w|||||||||||ww||||||||||||||||||..|.h....h.....IW",
+        "Wm-----KKK-------@@@-----m--aaaa------aaaa--m|%.$.bbbb|..z...........h7W",
+        "W----------------KKK--------KKKK------KKKK---|%.......d..|............IW",
+        "W------------n-------------------------------|%.$.bbbb|..|.h....h.....&W",
+        "W----|----|----|----|----|----|----|----|----||||||||||..|I7I&.I7I&....W",
+        "W-------------------------------n------------@@@@---K@|..||||||||||||||W",
+        "Wm-----KKK-----------------------------------KKKK---K@|..|0000..1JJc..rW",
+        "WaK---K@@@K----|----|----|----|----|----|-----------K@|..|....hhh.....7W",
+        "WaK---K@@@K--A----A-m--KK-----m-KK------KK----------K@|..|...hsssh...hIW",
+        "WaK----KKK------------K@@K-----K@@K----KaaK---------K@|..w...hsssh...hIW",
+        "Wm--------------------K@@K-----K@@K----KaaK---------K@|..|....hhh.....IW",
+        "W------------A----A-m--KK-----m-KK------KK----------K@|..|............&W",
+        "W----|----|----|----|----|----|----|----|-------m||||||..|0000.....0000W",
+        "W-------------------------KKK-------KKK----------|%.%%|..||||||||||||||W",
+        "WaK-------------m---------@@@-------@@@----------|%...d................W",
         "WaK-----n-----Ka|||||||||||||||||||||||||m-------|%.%%|.............l..W",
         "WaK-----------Ka|WWWWWWWWWWWWWWWWWWWWWWW|<-------||||||||||||||||||....W",
-        "WaK-m-------m---|WWWWWWWWWWWWWWWWWWWWWWW||..|..|||L`OOOOOjjjjj6666|....W",
-        "W||||JJJJJJJ||d||WWWWWWWWWWWWWWWWWWWWWWWW|-----.9|L```````````````|....W",
-        "W..............0|WWWWWWWWWWWWWWWWWWWWWWWW|-----..|L`88``R|R``88```|.<<.W",
-        "W.......l......0|WWWWWWWWWWWWWWWWWWWWWWWW|-----|.|L`88``R|R``88```|||||W",
-        "W$.000....r00000|WWWWWWWWWWWWWWWWWWWWWWWW|-----..|L`````R|R```````d`i7`W",
-        "W|||||||z||||||||WWWWWWWWWWWWWWWWWWWWWWWW|-----..|L``````````44```|``~`W",
+        "WaK-m-------m---|WWWWWWWWWWWWWWWWWWWWWWW||--|--|||L`OOOOOjjjjj6666|....W",
+        "W||||JJJJJJJ||d||WWWWWWWWWWWWWWWWWWWWWWWW|------9|L```````````````|....W",
+        "W..............0|WWWWWWWWWWWWWWWWWWWWWWWW|-------|L`88``R|R``88```|.<<.W",
+        "W.......l......0|WWWWWWWWWWWWWWWWWWWWWWWW|-----|-|L`88``R|R``88```|||||W",
+        "W$.000....r00000|WWWWWWWWWWWWWWWWWWWWWWWW|-------|L`````R|R```````d`i7`W",
+        "W|||||||z||||||||WWWWWWWWWWWWWWWWWWWWWWWW|-------|L``````````44```|``~`W",
         "WTw````|.|T|``wT|WWWWWWWWWWWWWWWWWWWWWWWW|m---m|||```````````44```|R```W",
         "W||```5|.|w|``|||WWWWWWWWWWWWWWWWWWWWWWWW|||dd||R````````|```44```|R``RW",
-        "WTw```(|.|````wT|WWWWWWWWWWWWWWWWWWWWWWWWW|.!!.|R````j8jj|````````d```RW",
-        "W||````w.w````|||WWWWWWWWWWWWWWWWWWWWWWWWW|.!!.|RRRRR||||||||||||||R``RW",
-        "WTw````|.|(5``wT|WWWWWWWWWWWWWWWWW|||||||||.!!.|||||||T|T|T|T|T|`5|R```W",
-        "W|||||||.||||||||WWWWWWWWWWWWWWWWW|.......p.!!.p.....|w|w|w|w|w|``|````W",
-        "W........|%%%%%%|WWWWWWWWWWWWWWWWW|.........!!.......|```````````(|````W",
-        "W........|......|WWWWWWWWWWWWWWWWW|..l......!!.......||w||||||||w|||||dW",
-        "W..|||||||||dd|||||||||||||||||||||.........!!.......|T`|Tw``wT|.......W",
+        "WTw```(|.|````wT|WWWWWWWWWWWWWWWWWWWWWWWWW|-CC-|R````j8jj|````````d```RW",
+        "W||````w.w````|||WWWWWWWWWWWWWWWWWWWWWWWWW|-CC-|RRRRR||||||||||||||R``RW",
+        "WTw````|.|(5``wT|WWWWWWWWWWWWWWWWW|||||||||-CC-|||||||T|T|T|T|T|`5|R```W",
+        "W|||||||.||||||||WWWWWWWWWWWWWWWWW|-------m-CC-m-----|w|w|w|w|w|``|````W",
+        "W........|%%%%%%|WWWWWWWWWWWWWWWWW|---------CC-------|```````````(|````W",
+        "W........|......|WWWWWWWWWWWWWWWWW|--n------CC-------||w||||||||w|||||dW",
+        "W..|||||||||dd|||||||||||||||||||||---------CC-------|T`|Tw``wT|.......W",
         "W..|.................|m----------<<---------CC-------||||||``|||.......W",
         "W..|0000..b...b..0000|----*-----CCCCCCCCCCCCCC----------|Tw```(|.......W",
         "Wl.|......b...b......|---***----CCCCCCCCCCCCCC----------|||````w.......W",
@@ -70,14 +70,14 @@
         "W..................h7|----------CCCCCCCCCCCCCCCCCCCCCCCC+.........EJ..|W",
         "W1JJccc&.BBHHHH%%...I|----n-----CCCCCCCC----------------|ph...h....J..|W",
         "W|||||||||||||||||||||----------CCCCCCCC----------m-----|hsh.hsh..EJ.&|W",
-        "Wph....h.l..h....h..&p----------CCCCCCCC----------|||||||.h...h....J..pW",
-        "Whsh..hsh..hsh..hsh...----------CCCCCCCC----------|HHH.................W",
-        "W.h....h....h....h....----------CCCCCCCC----------|Hss....h....l....h..W",
-        "W!!!!!!!!!!!!!!!!!!!!!CCCCCCCCCCCCCCCCCC--eeNeeeee|......hsh.......hsh.W",
-        "W!!!!!!!!!!!!!!!!!!!!!CCCCCCCCCCCCCCCCCC--e-F--F--|.......h.........h..W",
-        "W.h....h....h....h....----------CCCCCCCC--e------m|||z|||||||JJJJJJ||||W",
-        "Whsh..hsh..hsh..hsh...----------CCCCCCCC----------|I...................W",
-        "Wph....h.l..h....h...p---------mCCCCCCCCm-e---)MMM|Ih.....0000000000000W",
+        "WmF----F-n--F----F--)m----------CCCCCCCC----------|||||||.h...h....J..pW",
+        "WF!F--F!F--F!F--F!F-------------CCCCCCCC----------|HHH.................W",
+        "W-F----F----F----F--------------CCCCCCCC----------|Hss....h....l....h..W",
+        "WCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC--eeNeeeee|......hsh.......hsh.W",
+        "WCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC--e-F--F--|.......h.........h..W",
+        "W-F----F----F----F--------------CCCCCCCC--e------m|||z|||||||JJJJJJ||||W",
+        "WF!F--F!F--F!F--F!F-------------CCCCCCCC----------|I...................W",
+        "WmF----F-n--F----F---m---------mCCCCCCCCm-e---)MMM|Ih.....0000000000000W",
         "WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWDDDDDDDDWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW",
         "WffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffW",
         "WffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffW",
@@ -88,22 +88,32 @@
 	  "r": "t_broken_radio", "5": "f_sink", "i": "f_desk", "~": "f_chair", "7": "f_console_broken", "R": "f_rack", "L": "f_locker", "6": "f_fridge",
 	  "4": "f_glass_fridge", "O": "f_oven", "j": "f_counter", "p": "f_indoor_plant", "$": "f_safe_l", "%": "f_locker", "b": "f_rack", "a": "f_arcade_machine", "A": "f_roulette_table",
 	  "1": "f_fridge", "c": "f_cupboard", "B": "f_wardrobe", "(": "f_trashcan", "^": "t_broken_radio", "e": "f_counter", "F": "f_chair", "g": "f_arcade_machine", "G": "f_roulette_table",
-	  ")": "f_trashcan", "K": "f_stool", "m": "f_indoor_plant", "M": "f_filing_cabinet", "N": "f_console_broken", ";": "f_locker", "?": "f_rack", "8": "f_sink" },
+	  ")": "f_trashcan", "K": "f_stool", "m": "f_indoor_plant", "M": "f_filing_cabinet", "N": "f_console_broken", ";": "f_locker", "?": "f_rack", "8": "f_sink", "!": "f_table" },
 	  "toilets": { "T": {  } },
 	  
       "terrain": { ".": "sierra_floor", "-": "sierra_floor_noroof", "f": "t_sidewalk", "*": "t_fountain", "|": "sierra_wall_interior", "W": "sierra_wall", "D": "sierra_door_locked",
 	  "<": "t_stairs_up", ">": "t_stairs_down", "d": "sierra_door", "C": "sierra_carpet_noroof", "`": "t_linoleum_white", "w": "t_door_c", "5": "t_linoleum_white",
 	  "i": "t_linoleum_white", "~": "t_linoleum_white", "7": "t_linoleum_white", "R": "t_linoleum_white", "L": "t_linoleum_white", "6": "t_linoleum_white",
 	  "4": "t_linoleum_white", "O": "t_linoleum_white", "j": "t_linoleum_white", "@": "t_slot_machine_sm", "3": "t_potential_trans", "2": "t_switchgear_s", "k": "t_station_disc",
-	  "l": "sierra_floor_light", "(": "t_linoleum_white", "^": "t_linoleum_white", "!": "sierra_carpet", "e": "sierra_floor_noroof", "F": "sierra_floor_noroof",
+	  "l": "sierra_floor_light", "(": "t_linoleum_white", "^": "t_linoleum_white", "!": "sierra_floor_noroof", "e": "sierra_floor_noroof", "F": "sierra_floor_noroof",
 	  "a": "sierra_floor_noroof", "A": "sierra_floor_noroof", ")": "sierra_floor_noroof", "K": "sierra_floor_noroof", "m": "sierra_floor_noroof", "M": "sierra_floor_noroof",
 	  "n": "sierra_floor_light_noroof", "N": "sierra_floor_noroof", "T": "t_linoleum_white", "8": "t_linoleum_white", "z": "t_door_locked_interior", "+": "sierra_door_l" },
+	  
+	  "place_fields": [
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 68, 71 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 24, 47 ], "y": [ 68, 71 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 48, 71 ], "y": [ 68, 71 ], "repeat": 2000 }
+		],
 	  
 	  "computers": {
 		"9": {
           "name": "Hologram emitter"
         }
 		},
+	  
+	  "place_npcs": [
+		{ "class": "vending_machine_sierra", "x": 22, "y": 29 }
+	  ],
 		
 	  "place_loot": [
 		{ "item": "scotch_code", "x": 20, "y": 54 },
@@ -122,14 +132,13 @@
 			".": { "item": "casino_floor", "chance": 30 },
 			"-": { "item": "casino_floor", "chance": 30 },
 			"`": { "item": "casino_floor", "chance": 30 },
-			"!": { "item": "casino_floor", "chance": 30 },
 			"C": { "item": "casino_floor", "chance": 30 },
-			"*": { "item": "casino_chips", "chance": 75, "repeat": [ 1, 3 ] },
+			"*": { "item": "casino_chips_fountain", "chance": 75, "repeat": [ 1, 3 ] },
 			"%": { "item": "casino_locker_items", "chance": 60, "repeat": [ 1, 2 ] },
 			"b": { "item": "casino_rack_items", "chance": 60, "repeat": [ 1, 2 ] },
 			"M": { "item": "casino_filling_items", "chance": 60, "repeat": [ 1, 2 ] },
-			"?": { "item": "tools_and_stuff", "prob": 70, "repeat": [ 1, 4 ] },
-			";": { "item": "tools_and_stuff", "prob": 70, "repeat": [ 1, 4 ] },
+			"?": { "item": "tools_and_stuff", "chance": 70, "repeat": [ 1, 4 ] },
+			";": { "item": "tools_and_stuff", "chance": 70, "repeat": [ 1, 4 ] },
 			"$": { "item": "sierra_safe", "chance": 100 },
 			"e": { "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] },
 			"0": { "item": "casino_filling_items", "chance": 60, "repeat": [ 1, 2 ] },
@@ -139,7 +148,7 @@
 			"B": [
 				{ "item": "SUS_wardrobe_mens", "chance": 37, "repeat": [ 1, 2 ] },
 				{ "item": "SUS_wardrobe_womens", "chance": 37, "repeat": [ 1, 2 ] },
-				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 20 ] }
+				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] }
 			],
 			"&": { "item": "trash", "chance": 30, "repeat": [ 1, 4 ] },
 			"(": { "item": "trash", "chance": 30, "repeat": [ 1, 4 ] },
@@ -153,7 +162,13 @@
 			"s": [
 			{ "item": "dishes_dining", "chance": 10 },
 			{ "item": "dining", "chance": 20 },
-			{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 7 ] },
+			{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] },
+			{ "item": "coffee_table", "chance": 30, "repeat": [ 1, 2 ] }
+			],
+			"!": [
+			{ "item": "dishes_dining", "chance": 10 },
+			{ "item": "dining", "chance": 20 },
+			{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] },
 			{ "item": "coffee_table", "chance": 30, "repeat": [ 1, 2 ] }
 			],
 			"8": { "item": "SUS_kitchen_sink", "chance": 50 },
@@ -317,6 +332,12 @@
 	  "~": "t_water_pool", "n": "t_linoleum_white", "N": "t_linoleum_white", "#": "t_linoleum_white", "O": "t_linoleum_white", "o": "t_wall_glass",
 	  "T": "t_linoleum_white", "z": "t_door_locked_interior", "+": "sierra_door_l" },
 	  
+	  "place_fields": [
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 68, 71 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 24, 47 ], "y": [ 68, 71 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 48, 71 ], "y": [ 68, 71 ], "repeat": 2000 }
+		],
+	  
 	  "computers": {
 		"9": {
           "name": "Hologram emitter"
@@ -339,6 +360,11 @@
 		{ "item": "desperate_note_2", "x": 22, "y": 32 }
 	  ],
 	  
+	  "place_npcs": [
+		{ "class": "vending_machine_sierra", "x": 47, "y": 44 },
+		{ "class": "vending_machine_sierra", "x": 10, "y": 44 }
+	  ],
+	  
 	  "items": {
 			"I": [ { "item": "SUS_desks_bedroom_unisex", "chance": 5 }, { "item": "office", "chance": 25 }, { "item": "office_paper", "chance": 5 } ],
 			"3": [ { "item": "office", "chance": 25 }, { "item": "office_paper", "chance": 5 } ],
@@ -351,11 +377,11 @@
 			"N": [ { "item": "sierra_swim_m", "chance": 30 }, { "item": "sierra_swim_f", "chance": 30 } ],
 			"n": [ { "item": "sierra_swim_m", "chance": 30 }, { "item": "sierra_swim_f", "chance": 30 } ],
 			"2": { "item": "sierra_swim_aid", "chance": 60 },
-			"*": { "item": "casino_chips", "chance": 20, "repeat": [ 1, 7 ] },
+			"*": { "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] },
 			"%": { "item": "casino_locker_items", "chance": 60, "repeat": [ 1, 2 ] },
 			"b": { "item": "casino_rack_items", "chance": 60, "repeat": [ 1, 2 ] },
-			"?": { "item": "clothing_fancy", "prob": 75, "count": [ 4, 10 ] },
-			";": { "item": "clothing_fancy", "prob": 75, "count": [ 4, 10 ] },
+			"?": { "item": "clothing_fancy", "chance": 75, "count": [ 4, 10 ] },
+			";": { "item": "clothing_fancy", "chance": 75, "count": [ 4, 10 ] },
 			"$": { "item": "sierra_safe", "chance": 100 },
 			"e": { "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] },
 			"0": { "item": "casino_filling_items", "chance": 60, "repeat": [ 1, 2 ] },
@@ -368,7 +394,7 @@
 			"B": [
 				{ "item": "SUS_wardrobe_mens", "chance": 37, "repeat": [ 1, 2 ] },
 				{ "item": "SUS_wardrobe_womens", "chance": 37, "repeat": [ 1, 2 ] },
-				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 20 ] }
+				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] }
 			],
 			"&": { "item": "trash", "chance": 30, "repeat": [ 1, 4 ] },
 			"=": { "item": "trash", "chance": 30, "repeat": [ 1, 4 ] },
@@ -381,13 +407,13 @@
 			"s": [
 			{ "item": "dishes_dining", "chance": 10 },
 			{ "item": "dining", "chance": 20 },
-			{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 7 ] },
+			{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] },
 			{ "item": "coffee_table", "chance": 30, "repeat": [ 1, 2 ] }
 			],
 			"G": [
 			{ "item": "dishes_dining", "chance": 10 },
 			{ "item": "dining", "chance": 20 },
-			{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 7 ] },
+			{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] },
 			{ "item": "coffee_table", "chance": 30, "repeat": [ 1, 2 ] }
 			],
 			"5": { "item": "SUS_bathroom_sink", "chance": 50 },
@@ -532,6 +558,12 @@
 	  "T": "t_linoleum_white", "j": "sierra_carpet", "(": "t_linoleum_white", "L": "t_linoleum_white", "R": "t_linoleum_white", "y": "t_linoleum_white",
 	  "Y": "t_linoleum_white", "z": "t_linoleum_white", "Z": "t_linoleum_white", "X": "window_sierra", "?": "t_metal_floor_no_roof", "8": "t_linoleum_white", "+": "t_door_locked_interior" },
 	  
+	  "place_fields": [
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 48, 71 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 24, 47 ], "y": [ 48, 71 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 48, 71 ], "y": [ 48, 71 ], "repeat": 2000 }
+		],
+	  
 	  "items": {
 			"I": [ { "item": "SUS_desks_bedroom_unisex", "chance": 5 }, { "item": "office", "chance": 25 }, { "item": "office_paper", "chance": 5 } ],
 			"3": { "item": "SUS_fridge", "chance": 50, "repeat": [ 1, 2 ] },
@@ -548,13 +580,13 @@
 				{ "item": "SUS_utensils", "chance": 10 }, { "item": "SUS_knife_drawer", "chance": 20 }, { "item": "SUS_junk_drawer", "chance": 50 },
 				{ "item": "SUS_breakfast_cupboard", "chance": 15 }, { "item": "SUS_coffee_cupboard", "chance": 30 }, { "item": "SUS_hair_drawer", "chance": 10 },
 				{ "item": "SUS_bathroom_cabinet", "chance": 15 }, { "item": "SUS_bathroom_medicine", "chance": 10 }, { "item": "harddrugs", "chance": 2 },
-				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 20 ] } ],
+				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] } ],
 			"2": [ { "item": "cleaning", "chance": 50, "repeat": 2 }, { "item": "SUS_bathroom_medicine", "chance": 35, "repeat": [ 1, 3 ] }, { "item": "SUS_bathroom_medicine", "chance": 35, "repeat": [ 1, 3 ] },
 				 { "item": "shower", "chance": 40, "repeat": [ 1, 3 ] } ],
 			"*": [
 				{ "item": "SUS_dresser_mens", "chance": 35, "repeat": [ 1, 2 ] },
 				{ "item": "SUS_dresser_womens", "chance": 35, "repeat": [ 1, 2 ] },
-				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 20 ] },
+				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] },
 				{ "item": "art", "chance": 30 },
 				{ "item": "gemstones", "chance": 30, "repeat": [ 1, 2 ] },
 				{ "item": "vanity", "chance": 30, "repeat": [ 1, 2 ] }
@@ -575,7 +607,7 @@
 			"K": [
 				{ "item": "SUS_wardrobe_mens", "chance": 37, "repeat": [ 1, 2 ] },
 				{ "item": "SUS_wardrobe_womens", "chance": 37, "repeat": [ 1, 2 ] },
-				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 20 ] },
+				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] },
 				{ "item": "art", "chance": 30 },
 				{ "item": "gemstones", "chance": 30, "repeat": [ 1, 2 ] },
 				{ "item": "vanity", "chance": 30, "repeat": [ 1, 2 ] }
@@ -583,7 +615,7 @@
 			"&": { "item": "trash", "chance": 30, "repeat": [ 1, 4 ] },
 			"=": { "item": "trash", "chance": 30, "repeat": [ 1, 4 ] },
 			")": { "item": "trash", "chance": 30, "repeat": [ 1, 4 ] },
-			"J": [ { "item": "kitchen_counters", "chance": 25 }, { "item": "cosmic_knives", "chance": 10 }, { "item": "casino_chips", "chance": 20, "repeat": [ 1, 20 ] } ],
+			"J": [ { "item": "kitchen_counters", "chance": 25 }, { "item": "cosmic_knives", "chance": 10 }, { "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] } ],
 			"c": [ { "item": "SUS_dishes", "chance": 20 }, { "item": "SUS_silverware", "chance": 20 }, { "item": "SUS_cookware", "chance": 25 },
 				{ "item": "SUS_utensils", "chance": 10 }, { "item": "SUS_knife_drawer", "chance": 20 }, { "item": "SUS_junk_drawer", "chance": 50 },
 				{ "item": "SUS_breakfast_cupboard", "chance": 25 }, { "item": "SUS_coffee_cupboard", "chance": 40 }, { "item": "SUS_hair_drawer", "chance": 10 },
@@ -591,7 +623,7 @@
 			"s": [
 			{ "item": "dishes_dining", "chance": 10 },
 			{ "item": "dining", "chance": 20 },
-			{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 7 ] },
+			{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] },
 			{ "item": "coffee_table", "chance": 30, "repeat": [ 1, 2 ] },
 			{ "item": "livingroom", "chance": 15, "repeat": [ 1, 3 ] }
 			],
@@ -603,7 +635,7 @@
 			"G": [
 			{ "item": "dishes_dining", "chance": 10 },
 			{ "item": "dining", "chance": 20 },
-			{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 7 ] },
+			{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] },
 			{ "item": "coffee_table", "chance": 30, "repeat": [ 1, 2 ] }
 			],
 			"8": { "item": "SUS_kitchen_sink", "chance": 50 },
@@ -747,13 +779,13 @@
 				{ "item": "SUS_utensils", "chance": 10 }, { "item": "SUS_knife_drawer", "chance": 20 }, { "item": "SUS_junk_drawer", "chance": 50 },
 				{ "item": "SUS_breakfast_cupboard", "chance": 15 }, { "item": "SUS_coffee_cupboard", "chance": 30 }, { "item": "SUS_hair_drawer", "chance": 10 },
 				{ "item": "SUS_bathroom_cabinet", "chance": 15 }, { "item": "SUS_bathroom_medicine", "chance": 10 }, { "item": "harddrugs", "chance": 2 },
-				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 20 ] } ],
+				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] } ],
 			"2": [ { "item": "cleaning", "chance": 50, "repeat": 2 }, { "item": "SUS_bathroom_medicine", "chance": 35, "repeat": [ 1, 3 ] }, { "item": "SUS_bathroom_medicine", "chance": 35, "repeat": [ 1, 3 ] },
 				 { "item": "shower", "chance": 40, "repeat": [ 1, 3 ] } ],
 			"*": [
 				{ "item": "SUS_dresser_mens", "chance": 35, "repeat": [ 1, 2 ] },
 				{ "item": "SUS_dresser_womens", "chance": 35, "repeat": [ 1, 2 ] },
-				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 20 ] },
+				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] },
 				{ "item": "art", "chance": 30 },
 				{ "item": "gemstones", "chance": 30, "repeat": [ 1, 2 ] },
 				{ "item": "vanity", "chance": 30, "repeat": [ 1, 2 ] }
@@ -774,7 +806,7 @@
 			"K": [
 				{ "item": "SUS_wardrobe_mens", "chance": 37, "repeat": [ 1, 2 ] },
 				{ "item": "SUS_wardrobe_womens", "chance": 37, "repeat": [ 1, 2 ] },
-				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 20 ] },
+				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] },
 				{ "item": "art", "chance": 30 },
 				{ "item": "gemstones", "chance": 30, "repeat": [ 1, 2 ] },
 				{ "item": "vanity", "chance": 30, "repeat": [ 1, 2 ] }
@@ -782,7 +814,7 @@
 			"&": { "item": "trash", "chance": 30, "repeat": [ 1, 4 ] },
 			"=": { "item": "trash", "chance": 30, "repeat": [ 1, 4 ] },
 			")": { "item": "trash", "chance": 30, "repeat": [ 1, 4 ] },
-			"J": [ { "item": "kitchen_counters", "chance": 25 }, { "item": "cosmic_knives", "chance": 10 }, { "item": "casino_chips", "chance": 20, "repeat": [ 1, 20 ] } ],
+			"J": [ { "item": "kitchen_counters", "chance": 25 }, { "item": "cosmic_knives", "chance": 10 }, { "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] } ],
 			"c": [ { "item": "SUS_dishes", "chance": 20 }, { "item": "SUS_silverware", "chance": 20 }, { "item": "SUS_cookware", "chance": 25 },
 				{ "item": "SUS_utensils", "chance": 10 }, { "item": "SUS_knife_drawer", "chance": 20 }, { "item": "SUS_junk_drawer", "chance": 50 },
 				{ "item": "SUS_breakfast_cupboard", "chance": 25 }, { "item": "SUS_coffee_cupboard", "chance": 40 }, { "item": "SUS_hair_drawer", "chance": 10 },
@@ -790,7 +822,7 @@
 			"s": [
 			{ "item": "dishes_dining", "chance": 10 },
 			{ "item": "dining", "chance": 20 },
-			{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 7 ] },
+			{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] },
 			{ "item": "coffee_table", "chance": 30, "repeat": [ 1, 2 ] },
 			{ "item": "livingroom", "chance": 15, "repeat": [ 1, 3 ] }
 			],
@@ -802,7 +834,7 @@
 			"G": [
 			{ "item": "dishes_dining", "chance": 10 },
 			{ "item": "dining", "chance": 20 },
-			{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 7 ] },
+			{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] },
 			{ "item": "coffee_table", "chance": 30, "repeat": [ 1, 2 ] }
 			],
 			"8": { "item": "SUS_kitchen_sink", "chance": 50 },
@@ -946,13 +978,13 @@
 				{ "item": "SUS_utensils", "chance": 10 }, { "item": "SUS_knife_drawer", "chance": 20 }, { "item": "SUS_junk_drawer", "chance": 50 },
 				{ "item": "SUS_breakfast_cupboard", "chance": 15 }, { "item": "SUS_coffee_cupboard", "chance": 30 }, { "item": "SUS_hair_drawer", "chance": 10 },
 				{ "item": "SUS_bathroom_cabinet", "chance": 15 }, { "item": "SUS_bathroom_medicine", "chance": 10 }, { "item": "harddrugs", "chance": 2 },
-				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 20 ] } ],
+				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] } ],
 			"2": [ { "item": "cleaning", "chance": 50, "repeat": 2 }, { "item": "SUS_bathroom_medicine", "chance": 35, "repeat": [ 1, 3 ] }, { "item": "SUS_bathroom_medicine", "chance": 35, "repeat": [ 1, 3 ] },
 				 { "item": "shower", "chance": 40, "repeat": [ 1, 3 ] } ],
 			"*": [
 				{ "item": "SUS_dresser_mens", "chance": 35, "repeat": [ 1, 2 ] },
 				{ "item": "SUS_dresser_womens", "chance": 35, "repeat": [ 1, 2 ] },
-				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 20 ] },
+				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] },
 				{ "item": "art", "chance": 30 },
 				{ "item": "gemstones", "chance": 30, "repeat": [ 1, 2 ] },
 				{ "item": "vanity", "chance": 30, "repeat": [ 1, 2 ] }
@@ -973,7 +1005,7 @@
 			"K": [
 				{ "item": "SUS_wardrobe_mens", "chance": 37, "repeat": [ 1, 2 ] },
 				{ "item": "SUS_wardrobe_womens", "chance": 37, "repeat": [ 1, 2 ] },
-				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 20 ] },
+				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] },
 				{ "item": "art", "chance": 30 },
 				{ "item": "gemstones", "chance": 30, "repeat": [ 1, 2 ] },
 				{ "item": "vanity", "chance": 30, "repeat": [ 1, 2 ] }
@@ -981,7 +1013,7 @@
 			"&": { "item": "trash", "chance": 30, "repeat": [ 1, 4 ] },
 			"=": { "item": "trash", "chance": 30, "repeat": [ 1, 4 ] },
 			")": { "item": "trash", "chance": 30, "repeat": [ 1, 4 ] },
-			"J": [ { "item": "kitchen_counters", "chance": 25 }, { "item": "cosmic_knives", "chance": 10 }, { "item": "casino_chips", "chance": 20, "repeat": [ 1, 20 ] } ],
+			"J": [ { "item": "kitchen_counters", "chance": 25 }, { "item": "cosmic_knives", "chance": 10 }, { "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] } ],
 			"c": [ { "item": "SUS_dishes", "chance": 20 }, { "item": "SUS_silverware", "chance": 20 }, { "item": "SUS_cookware", "chance": 25 },
 				{ "item": "SUS_utensils", "chance": 10 }, { "item": "SUS_knife_drawer", "chance": 20 }, { "item": "SUS_junk_drawer", "chance": 50 },
 				{ "item": "SUS_breakfast_cupboard", "chance": 25 }, { "item": "SUS_coffee_cupboard", "chance": 40 }, { "item": "SUS_hair_drawer", "chance": 10 },
@@ -989,7 +1021,7 @@
 			"s": [
 			{ "item": "dishes_dining", "chance": 10 },
 			{ "item": "dining", "chance": 20 },
-			{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 7 ] },
+			{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] },
 			{ "item": "coffee_table", "chance": 30, "repeat": [ 1, 2 ] },
 			{ "item": "livingroom", "chance": 15, "repeat": [ 1, 3 ] }
 			],
@@ -1001,7 +1033,7 @@
 			"G": [
 			{ "item": "dishes_dining", "chance": 10 },
 			{ "item": "dining", "chance": 20 },
-			{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 7 ] },
+			{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] },
 			{ "item": "coffee_table", "chance": 30, "repeat": [ 1, 2 ] }
 			],
 			"8": { "item": "SUS_kitchen_sink", "chance": 50 },
@@ -1132,15 +1164,29 @@
 	  
 	  "place_loot": [
 		{ "item": "corpse_skeleton", "x": 14, "y": 1 },
-		{ "item": "stimpack", "x": 14, "y": 1 },
+		{ "item": "medx", "x": 14, "y": 1 },
 		{ "item": "syringe", "x": 14, "y": 1, "repeat": [ 2, 4 ] },
 		{ "item": "dress_vera", "x": 14, "y": 1 },
 		{ "item": "dress_vera", "x": 46, "y": 4 },
 		{ "item": "audition", "x": 24, "y": 1 },
 		{ "item": "begin_again", "x": 14, "y": 2 },
-		{ "item": "stimpack", "x": 15, "y": 1 },
+		{ "item": "medx", "x": 15, "y": 1 },
 		{ "item": "syringe", "x": 15, "y": 1, "repeat": [ 2, 4 ] },
 		{ "item": "cosmic_heat_note", "x": 42, "y": 24 }
+	  ],
+	  
+	  "place_fields": [
+			{ "field": "cloud", "x": [ 0, 12 ], "y": [ 0, 23 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 0, 12 ], "y": [ 24, 47 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 0, 12 ], "y": [ 48, 71 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 59, 71 ], "y": [ 0, 23 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 59, 71 ], "y": [ 24, 47 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 59, 71 ], "y": [ 48, 71 ], "repeat": 2000 }
+		],
+	  
+	  "place_npcs": [
+		{ "class": "vending_machine_sierra", "x": 31, "y": 14 },
+		{ "class": "vending_machine_sierra", "x": 40, "y": 14 }
 	  ],
 	  
 	  "items": {
@@ -1159,13 +1205,13 @@
 				{ "item": "SUS_utensils", "chance": 10 }, { "item": "SUS_knife_drawer", "chance": 20 }, { "item": "SUS_junk_drawer", "chance": 50 },
 				{ "item": "SUS_breakfast_cupboard", "chance": 15 }, { "item": "SUS_coffee_cupboard", "chance": 30 }, { "item": "SUS_hair_drawer", "chance": 10 },
 				{ "item": "SUS_bathroom_cabinet", "chance": 15 }, { "item": "SUS_bathroom_medicine", "chance": 10 }, { "item": "harddrugs", "chance": 2 },
-				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 20 ] } ],
+				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] } ],
 			"2": [ { "item": "cleaning", "chance": 50, "repeat": 2 }, { "item": "SUS_bathroom_medicine", "chance": 35, "repeat": [ 1, 3 ] }, { "item": "SUS_bathroom_medicine", "chance": 35, "repeat": [ 1, 3 ] },
 				 { "item": "shower", "chance": 40, "repeat": [ 1, 3 ] } ],
 			"*": [
 				{ "item": "SUS_dresser_mens", "chance": 35, "repeat": [ 1, 2 ] },
 				{ "item": "SUS_dresser_womens", "chance": 35, "repeat": [ 1, 2 ] },
-				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 20 ] },
+				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] },
 				{ "item": "art", "chance": 30 },
 				{ "item": "gemstones", "chance": 30, "repeat": [ 1, 2 ] },
 				{ "item": "vanity", "chance": 30, "repeat": [ 1, 2 ] }
@@ -1186,7 +1232,7 @@
 			"K": [
 				{ "item": "SUS_wardrobe_mens", "chance": 37, "repeat": [ 1, 2 ] },
 				{ "item": "SUS_wardrobe_womens", "chance": 37, "repeat": [ 1, 2 ] },
-				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 20 ] },
+				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] },
 				{ "item": "art", "chance": 30 },
 				{ "item": "gemstones", "chance": 30, "repeat": [ 1, 2 ] },
 				{ "item": "vanity", "chance": 30, "repeat": [ 1, 2 ] }
@@ -1194,7 +1240,7 @@
 			"&": { "item": "trash", "chance": 30, "repeat": [ 1, 4 ] },
 			"=": { "item": "trash", "chance": 30, "repeat": [ 1, 4 ] },
 			")": { "item": "trash", "chance": 30, "repeat": [ 1, 4 ] },
-			"J": [ { "item": "kitchen_counters", "chance": 25 }, { "item": "cosmic_knives", "chance": 10 }, { "item": "casino_chips", "chance": 20, "repeat": [ 1, 20 ] } ],
+			"J": [ { "item": "kitchen_counters", "chance": 25 }, { "item": "cosmic_knives", "chance": 10 }, { "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] } ],
 			"c": [ { "item": "SUS_dishes", "chance": 20 }, { "item": "SUS_silverware", "chance": 20 }, { "item": "SUS_cookware", "chance": 25 },
 				{ "item": "SUS_utensils", "chance": 10 }, { "item": "SUS_knife_drawer", "chance": 20 }, { "item": "SUS_junk_drawer", "chance": 50 },
 				{ "item": "SUS_breakfast_cupboard", "chance": 25 }, { "item": "SUS_coffee_cupboard", "chance": 40 }, { "item": "SUS_hair_drawer", "chance": 10 },
@@ -1202,7 +1248,7 @@
 			"s": [
 			{ "item": "dishes_dining", "chance": 10 },
 			{ "item": "dining", "chance": 20 },
-			{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 7 ] },
+			{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] },
 			{ "item": "coffee_table", "chance": 30, "repeat": [ 1, 2 ] },
 			{ "item": "livingroom", "chance": 15, "repeat": [ 1, 3 ] }
 			],
@@ -1316,7 +1362,16 @@
         "fffffffffffff-------------------||||||||-------------------fffffffffffff"
       ],
 	  
-      "terrain": { "f": "t_open_air", "-": "sierra_roof", "|": "sierra_wall" }
+      "terrain": { "f": "t_open_air", "-": "sierra_roof", "|": "sierra_wall" },
+	  
+	  "place_fields": [
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 24, 47 ], "y": [ 0, 23 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 48, 71 ], "y": [ 0, 23 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 24, 47 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 24, 47 ], "y": [ 24, 47 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 48, 71 ], "y": [ 24, 47 ], "repeat": 2000 }
+		]
     }
   },
   {
@@ -1352,7 +1407,11 @@
         "........||||||||........",
         "........||||||||........"
       ],
-      "terrain": { ".": "t_open_air", "-": "sierra_roof", "|": "sierra_wall" }
+      "terrain": { ".": "t_open_air", "-": "sierra_roof", "|": "sierra_wall" },
+	  
+	  "place_fields": [
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 2000 }
+		]
     }
   },
   {
@@ -1388,7 +1447,11 @@
         "........--------........",
         "........--------........"
       ],
-      "terrain": { ".": "t_open_air", "-": "sierra_roof" }
+      "terrain": { ".": "t_open_air", "-": "sierra_roof" },
+	  
+	  "place_fields": [
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 2000 }
+		]
     }
   }
 ]

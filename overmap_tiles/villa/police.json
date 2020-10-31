@@ -41,6 +41,10 @@
 		"signs": { "P": { "signage": "Police station" } },
 		"toilets": { "T": {  } },
 		
+		"place_fields": [
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 1 ], "repeat": 2000 }
+		],
+		
 		"computers": {
         "8": {
           "name": "Storage access terminal",
@@ -63,7 +67,10 @@
 			{ "item": "military_list", "x": 1, "y": 11 },
 			{ "item": "vending_note", "x": 22, "y": 9 },
 			{ "item": "sinclair_visit", "x": 17, "y": 6 },
-			{ "item": "police_show_note", "x": 17, "y": 9 }
+			{ "item": "police_show_note", "x": 17, "y": 9 },
+			{ "item": "gun_code", "x": 7, "y": 22 },
+			{ "item": "308_code", "x": 17, "y": 19 },
+			{ "item": "357_code", "x": 2, "y": 8 }
 		],
 		
 		"items": {
@@ -73,7 +80,7 @@
 			"2": [
 				{ "item": "SUS_dresser_mens", "chance": 35, "repeat": [ 1, 2 ] },
 				{ "item": "SUS_dresser_womens", "chance": 35, "repeat": [ 1, 2 ] },
-				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 20 ] }
+				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] }
 			],
 			"I": [ { "item": "SUS_desks_bedroom_unisex", "chance": 5 }, { "item": "office", "chance": 25 }, { "item": "office_paper", "chance": 5 } ],
 			"L": { "item": "unisex_coat_rack", "chance": 25, "repeat": [ 1, 4 ] },
@@ -85,7 +92,7 @@
 			"7": [
 				{ "item": "SUS_wardrobe_mens", "chance": 37, "repeat": [ 1, 2 ] },
 				{ "item": "SUS_wardrobe_womens", "chance": 37, "repeat": [ 1, 2 ] },
-				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 20 ] }
+				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] }
 			],
 			"@": { "item": "bed", "chance": 32, "repeat": [ 1, 2 ] },
 			"&": { "item": "trash", "chance": 30, "repeat": [ 1, 4 ] },
@@ -93,12 +100,12 @@
 			"x": { "item": "dean_items", "chance": 100 },
 			"D": { "item": "dean_items", "chance": 100 },
 			"O": { "item": "SUS_oven", "chance": 50 },
-			"J": [ { "item": "cosmic_knives", "chance": 20 }, { "item": "casino_chips", "chance": 20, "repeat": [ 1, 20 ] }],
+			"J": [ { "item": "cosmic_knives", "chance": 20 }, { "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] }],
 			"C": [ { "item": "SUS_dishes", "chance": 20 }, { "item": "SUS_silverware", "chance": 20 }, { "item": "SUS_cookware", "chance": 25 },
 				{ "item": "SUS_utensils", "chance": 10 }, { "item": "SUS_knife_drawer", "chance": 20 }, { "item": "SUS_junk_drawer", "chance": 50 },
 				{ "item": "SUS_breakfast_cupboard", "chance": 15 }, { "item": "SUS_coffee_cupboard", "chance": 30 }, { "item": "SUS_hair_drawer", "chance": 10 },
 				{ "item": "SUS_bathroom_cabinet", "chance": 15 }, { "item": "SUS_bathroom_medicine", "chance": 10 }, { "item": "harddrugs", "chance": 2 },
-				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 20 ] } ],
+				{ "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] } ],
 			"s": [
 			{ "item": "dishes_dining", "chance": 30 },
 			{ "item": "tea_dishes", "chance": 10, "repeat": [ 1, 2 ] },
