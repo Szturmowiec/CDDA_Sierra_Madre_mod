@@ -47,8 +47,12 @@
 			{ "class": "vending_machine_sierra", "x": 10, "y": 5 }
 		],
 		
+		"place_furniture": [
+			{ "furn": "f_vending_sierra", "x": 10, "y": 5 }
+		],
+		
 		"place_fields": [
-			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 2000 }
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 5000 }
 		],
 		
 		"items": {
@@ -136,7 +140,7 @@
 		"F": "t_floor_noroof", "f": "t_floor", "<": "t_stairs_up", ">": "t_stairs_down", "b": "t_flat_roof", "+": "t_door_locked_interior"},
 		
 		"place_fields": [
-			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 2000 }
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 5000 }
 		],
 		
 		"items": {
@@ -213,7 +217,7 @@
 		"F": "t_floor_noroof", "f": "t_floor", "<": "t_stairs_up", ">": "t_stairs_down"},
 		
 		"place_fields": [
-			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 2000 }
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 5000 }
 		]
     }
   }

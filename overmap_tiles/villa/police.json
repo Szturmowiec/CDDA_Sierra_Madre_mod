@@ -42,7 +42,7 @@
 		"toilets": { "T": {  } },
 		
 		"place_fields": [
-			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 1 ], "repeat": 2000 }
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 1 ], "repeat": 5000 }
 		],
 		
 		"computers": {

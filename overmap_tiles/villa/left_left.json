@@ -47,7 +47,7 @@
 		],
 		
 		"place_fields": [
-			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 2000 }
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 5000 }
 		],
 		
 		"items": {
@@ -139,7 +139,7 @@
 		"F": "t_floor_noroof", "f": "t_floor", "<": "t_stairs_up", ">": "t_stairs_down", "b": "t_flat_roof", "D": "t_flat_roof"},
 		
 		"place_fields": [
-			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 2000 }
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 5000 }
 		],
 		
 		"items": {
@@ -234,7 +234,7 @@
 		"F": "t_floor_noroof", "f": "t_floor", "<": "t_stairs_up", ">": "t_stairs_down"},
 		
 		"place_fields": [
-			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 2000 }
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 5000 }
 		]
     }
   }

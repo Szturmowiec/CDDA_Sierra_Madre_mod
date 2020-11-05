@@ -79,13 +79,17 @@
 		"place_fields": [
 			{ "field": "sierra_gas", "x": [ 10, 23 ], "y": 23, "repeat": 28 },
 			{ "field": "sierra_gas", "x": [ 11, 23 ], "y": [ 24, 31 ], "repeat": 224 },
-			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 15, 23 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 0, 11 ], "y": [ 11, 14 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 24, 47 ], "repeat": 2000 }
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 15, 23 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 0, 11 ], "y": [ 11, 14 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 24, 47 ], "repeat": 5000 }
 		],
 		
 		"place_npcs": [
 			{ "class": "holo_vendor", "x": 23, "y": 46 }
+		],
+		
+		"place_furniture": [
+			{ "furn": "f_holo", "x": 23, "y": 46 }
 		],
 		
 		"place_loot": [
@@ -198,10 +202,10 @@
 			"bbbbbbbb..b..........bb|",
 			"bbbbbbbb..b..........bb|",
 			"|||c||c|..b..........?b|",
-			"|>ffRRf|..FFFbbbbbbbbbb|",
-			"|RRRff@c.....3bb??bb?bb|",
-			"|RffRf@|..|c||||cc||||||",
-			"|RRfffc|..|ffffffffff|>|",
+			"|>ff((f|..FFFbbbbbbbbbb|",
+			"|(((ff@c.....3bb??bb?bb|",
+			"|(ff(f@|..|c||||cc||||||",
+			"|((fffc|..|ffffffffff|>|",
 			"|c|||||F..cfhlhffhlhfff|",
 			"|......F..|ffffffffffff|",
 			"c......F..||||||dd||||||",
@@ -247,9 +251,9 @@
 		"place_fields": [
 			{ "field": "sierra_gas", "x": [ 10, 23 ], "y": 23, "repeat": 28 },
 			{ "field": "sierra_gas", "x": [ 10, 23 ], "y": [ 24, 27 ], "repeat": 112 },
-			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 15, 23 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 0, 11 ], "y": [ 11, 14 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 24, 47 ], "repeat": 2000 }
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 15, 23 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 0, 11 ], "y": [ 11, 14 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 24, 47 ], "repeat": 5000 }
 		],
 		
 		"place_monster": [ { "monster": "mon_holo_guard", "x": 11, "y": 5 } ],
@@ -408,8 +412,8 @@
 		"s": "t_linoleum_white", "X": "t_linoleum_white", "x": "t_linoleum_white", "z": "t_linoleum_white", "^": "t_linoleum_white", "D": "t_linoleum_white"},
 		
 		"place_fields": [
-			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 24, 47 ], "repeat": 2000 }
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 24, 47 ], "repeat": 5000 }
 		],
 		
 		"signs": { "P": { "signage": "Clinic" } }

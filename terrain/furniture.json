@@ -26,7 +26,7 @@
     "description": "This radio, once capable of broadcasting all kinds of signals, now remains broken. Upon closer look you notice a bullet hole in it.",
     "symbol": "6",
     "color": "white",
-    "looks_like": "radio",
+    "looks_like": "t_intercom",
     "move_cost_mod": 1,
 	"required_str": 5,
     "flags": [ "TRANSPARENT", "NOITEM", "PERMEABLE", "SHORT" ],
@@ -56,5 +56,105 @@
         { "item": "scrap", "count": [ 5, 7 ] }
       ]
     }
-  }
+	},
+	{
+    "type": "furniture",
+    "id": "f_vending_sierra",
+    "name": "Sierra Madre vending machine",
+    "looks_like": "f_vending_reinforced",
+    "description": "Sierra Madre vending machine... A form of matter assembler, accepts Sierra Madre chips and then transforms them into all kinds of useful stuff. Having certain code cards will allow you to unlock more interesting items to purchase from it.",
+    "symbol": "{",
+    "color": "red",
+    "move_cost_mod": 1,
+    "coverage": 90,
+    "required_str": 2000000000,
+    "flags": [ "SEALED", "BLOCKSDOOR", "CONTAINER", "BLOCKSDOOR", "PLACE_ITEM" ],
+    "bash": {
+      "str_min": 2000000000,
+      "str_max": 2000000000,
+      "sound": "glass breaking!",
+      "sound_fail": "whack!",
+      "furn_set": "f_vending_o",
+      "items": [
+        { "item": "glass_shard", "count": [ 8, 25 ] },
+        { "item": "sheet_metal", "count": [ 0, 2 ] },
+        { "item": "steel_chunk", "count": [ 1, 5 ] }
+      ]
+    }
+	},
+	{
+    "type": "furniture",
+    "id": "f_holo",
+    "name": "Sierra Madre hologram vendor",
+    "looks_like": "mon_hologram",
+    "description": "Sierra Madre hologram vendor, an autonomous worker for the guests to make purchases or exchange various kinds of commodities.",
+    "symbol": "{",
+    "color": "red",
+    "move_cost_mod": 1,
+    "coverage": 90,
+    "required_str": 2000000000,
+    "flags": [ "SEALED", "BLOCKSDOOR", "CONTAINER", "BLOCKSDOOR", "PLACE_ITEM" ],
+    "bash": {
+      "str_min": 2000000000,
+      "str_max": 2000000000,
+      "sound": "glass breaking!",
+      "sound_fail": "whack!",
+      "furn_set": "f_vending_o",
+      "items": [
+        { "item": "glass_shard", "count": [ 8, 25 ] },
+        { "item": "sheet_metal", "count": [ 0, 2 ] },
+        { "item": "steel_chunk", "count": [ 1, 5 ] }
+      ]
+    }
+	},
+	{
+    "type": "furniture",
+    "id": "f_vera_holo",
+    "name": "Vera Keyes' fountain hologram",
+    "looks_like": "mon_hologram",
+    "description": "Sierra Madre hologram vendor, an autonomous worker for the guests to make purchases or exchange various kinds of commodities.",
+    "symbol": "{",
+    "color": "red",
+    "move_cost_mod": 1,
+    "coverage": 90,
+    "required_str": 2000000000,
+    "flags": [ "SEALED", "BLOCKSDOOR", "CONTAINER", "BLOCKSDOOR", "PLACE_ITEM" ],
+    "bash": {
+      "str_min": 2000000000,
+      "str_max": 2000000000,
+      "sound": "glass breaking!",
+      "sound_fail": "whack!",
+      "furn_set": "f_vending_o",
+      "items": [
+        { "item": "glass_shard", "count": [ 8, 25 ] },
+        { "item": "sheet_metal", "count": [ 0, 2 ] },
+        { "item": "steel_chunk", "count": [ 1, 5 ] }
+      ]
+    }
+	},
+	{
+    "type": "furniture",
+    "id": "inter_npc",
+    "name": "Sierra Madre Casino intercom",
+    "looks_like": "t_intercom",
+    "description": "Sierra Madre Casino intercom system. Still operational. And there's someone using it to talk to you out there...",
+    "symbol": "{",
+    "color": "red",
+    "move_cost_mod": 1,
+    "coverage": 90,
+    "required_str": 2000000000,
+    "flags": [ "SEALED", "BLOCKSDOOR", "CONTAINER", "BLOCKSDOOR", "PLACE_ITEM" ],
+    "bash": {
+      "str_min": 2000000000,
+      "str_max": 2000000000,
+      "sound": "glass breaking!",
+      "sound_fail": "whack!",
+      "furn_set": "f_vending_o",
+      "items": [
+        { "item": "glass_shard", "count": [ 8, 25 ] },
+        { "item": "sheet_metal", "count": [ 0, 2 ] },
+        { "item": "steel_chunk", "count": [ 1, 5 ] }
+      ]
+    }
+	}
 ]

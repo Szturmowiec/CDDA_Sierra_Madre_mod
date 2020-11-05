@@ -97,12 +97,12 @@
 	  "4": "t_linoleum_white", "O": "t_linoleum_white", "j": "t_linoleum_white", "@": "t_slot_machine_sm", "3": "t_potential_trans", "2": "t_switchgear_s", "k": "t_station_disc",
 	  "l": "sierra_floor_light", "(": "t_linoleum_white", "^": "t_linoleum_white", "!": "sierra_floor_noroof", "e": "sierra_floor_noroof", "F": "sierra_floor_noroof",
 	  "a": "sierra_floor_noroof", "A": "sierra_floor_noroof", ")": "sierra_floor_noroof", "K": "sierra_floor_noroof", "m": "sierra_floor_noroof", "M": "sierra_floor_noroof",
-	  "n": "sierra_floor_light_noroof", "N": "sierra_floor_noroof", "T": "t_linoleum_white", "8": "t_linoleum_white", "z": "t_door_locked_interior", "+": "sierra_door_l" },
+	  "n": "sierra_floor_light_noroof", "N": "sierra_floor_noroof", "T": "t_linoleum_white", "8": "t_linoleum_white", "z": "t_door_locked_interior", "+": "sierra_door_l", "Q": "t_intercom" },
 	  
 	  "place_fields": [
-			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 68, 71 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 24, 47 ], "y": [ 68, 71 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 48, 71 ], "y": [ 68, 71 ], "repeat": 2000 }
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 68, 71 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 24, 47 ], "y": [ 68, 71 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 48, 71 ], "y": [ 68, 71 ], "repeat": 5000 }
 		],
 	  
 	  "computers": {
@@ -112,8 +112,14 @@
 		},
 	  
 	  "place_npcs": [
-		{ "class": "vending_machine_sierra", "x": 22, "y": 29 }
+		{ "class": "vending_machine_sierra", "x": 22, "y": 29 },
+		{ "class": "sierra_intercom", "x": 43, "y": 66 }
 	  ],
+	  
+	  "place_furniture": [
+			{ "furn": "f_vending_sierra", "x": 22, "y": 29 },
+			{ "furn": "inter_npc", "x": 43, "y": 66 }
+		],
 		
 	  "place_loot": [
 		{ "item": "scotch_code", "x": 20, "y": 54 },
@@ -245,12 +251,12 @@
       "fill_ter": "sierra_floor",
       "rows": [
         "WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW",
-        "WN`3333```````o`^`````````````````````````````````n|#`#`#|`|`|`|`|T|T|TW",
-        "WN```^```^^^^`o````O```O```O```O``O```O```O```O```n|`````|w|w|w|w|w|w|wW",
-        "WN```````****`k````~~~~~~~~~~~~~~~~~~~~~~~~~~~~```n|#``````````````````W",
-        "WN``2222`****`k````~~~~~~~~~~~~~~~~~~~~~~~~~~~~```n|``````nnnnnn`nnnnnnW",
-        "WN````````````o````~~~~~~~~~~~~~~~~~~~~~~~~~~~~```n|#`````NNNNNN`NNNNNNW",
-        "WN``2222`2222`o`^``~~~~~~~~~~~~~~~~~~~~~~~~~~~~```n|``````NNNNNN`NNNNNNW",
+        "WQ`3333```````o`^`````````````````````````````````n|#`#`#|`|`|`|`|T|T|TW",
+        "WQ```^```^^^^`o````O```O```O```O``O```O```O```O```n|`````|w|w|w|w|w|w|wW",
+        "WQ```````****`k````~~~~~~~~~~~~~~~~~~~~~~~~~~~~```n|#``````````````````W",
+        "WQ``2222`****`k````~~~~~~~~~~~~~~~~~~~~~~~~~~~~```n|``````nnnnnn`nnnnnnW",
+        "WQ````````````o````~~~~~~~~~~~~~~~~~~~~~~~~~~~~```n|#`````NNNNNN`NNNNNNW",
+        "WQ``2222`2222`o`^``~~~~~~~~~~~~~~~~~~~~~~~~~~~~```n|``````NNNNNN`NNNNNNW",
         "W|||||||||||||||||`~~~~~~~~~~~~~~~~~~~~~~~~~~~~```n|#`````nnnnnn`nnnnnnW",
         "W----------------|`~~~~~~~~~~~~~~~~~~~~~~~~~~~~```n|```````````````````W",
         "W----------------|`~~~~~~~~~~~~~~~~~~~~~~~~~~~~````w``````nnnnnn`nnnnnnW",
@@ -321,7 +327,7 @@
 	  "r": "t_broken_radio", "5": "f_sink", "i": "f_desk", "7": "f_console_broken", "R": "f_rack", "L": "f_locker", "6": "f_fridge",
 	  "4": "f_glass_fridge", "j": "f_counter", "p": "f_indoor_plant", "$": "f_safe_l", "%": "f_locker", "b": "f_rack", "A": "f_roulette_table",
 	  "1": "f_fridge", "c": "f_cupboard", "B": "f_wardrobe", "(": "f_curtain", "e": "f_counter", "g": "f_chair", "G": "f_table",
-	  ")": "f_trashcan", "K": "f_stool", "^": "f_chair", "=": "f_trashcan", "N": "f_locker", "n": "f_bench", "#": "f_shower", "O": "f_dive_block",
+	  ")": "f_trashcan", "K": "f_stool", "^": "f_chair", "=": "f_trashcan", "N": "f_locker", "Q": "f_locker", "n": "f_bench", "#": "f_shower", "O": "f_dive_block",
 	  "2": "f_glass_cabinet", "3": "f_desk", "*": "f_table", "x": "f_bookcase", "a": "f_bigmirror", ";": "f_wardrobe", "?": "f_rack" },
 	  "toilets": { "T": {  } },
 	  
@@ -330,12 +336,12 @@
 	  "3": "t_linoleum_white", "2": "t_linoleum_white", "k": "t_door_glass_c", "l": "sierra_floor_light", "=": "t_linoleum_white", "^": "t_linoleum_white",
 	  "!": "t_guardrail_sm", "m": "t_elevator_control_off", "M": "t_elevator", "g": "sierra_carpet", "G": "sierra_carpet", "5": "t_linoleum_white",
 	  "~": "t_water_pool", "n": "t_linoleum_white", "N": "t_linoleum_white", "#": "t_linoleum_white", "O": "t_linoleum_white", "o": "t_wall_glass",
-	  "T": "t_linoleum_white", "z": "t_door_locked_interior", "+": "sierra_door_l" },
+	  "T": "t_linoleum_white", "z": "t_door_locked_interior", "+": "sierra_door_l", "Q": "t_linoleum_white" },
 	  
 	  "place_fields": [
-			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 68, 71 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 24, 47 ], "y": [ 68, 71 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 48, 71 ], "y": [ 68, 71 ], "repeat": 2000 }
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 68, 71 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 24, 47 ], "y": [ 68, 71 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 48, 71 ], "y": [ 68, 71 ], "repeat": 5000 }
 		],
 	  
 	  "computers": {
@@ -377,6 +383,7 @@
 			"N": [ { "item": "sierra_swim_m", "chance": 30 }, { "item": "sierra_swim_f", "chance": 30 } ],
 			"n": [ { "item": "sierra_swim_m", "chance": 30 }, { "item": "sierra_swim_f", "chance": 30 } ],
 			"2": { "item": "sierra_swim_aid", "chance": 60 },
+			"Q": { "item": "sierra_swim_aid", "chance": 60 },
 			"*": { "item": "casino_chips", "chance": 20, "repeat": [ 1, 5 ] },
 			"%": { "item": "casino_locker_items", "chance": 60, "repeat": [ 1, 2 ] },
 			"b": { "item": "casino_rack_items", "chance": 60, "repeat": [ 1, 2 ] },
@@ -559,9 +566,9 @@
 	  "Y": "t_linoleum_white", "z": "t_linoleum_white", "Z": "t_linoleum_white", "X": "window_sierra", "?": "t_metal_floor_no_roof", "8": "t_linoleum_white", "+": "t_door_locked_interior" },
 	  
 	  "place_fields": [
-			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 48, 71 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 24, 47 ], "y": [ 48, 71 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 48, 71 ], "y": [ 48, 71 ], "repeat": 2000 }
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 48, 71 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 24, 47 ], "y": [ 48, 71 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 48, 71 ], "y": [ 48, 71 ], "repeat": 5000 }
 		],
 	  
 	  "items": {
@@ -575,7 +582,6 @@
 			"#": { "item": "shower", "chance": 30 },
 			"O": { "item": "shower", "chance": 30 },
 			"7": { "item": "unisex_coat_rack", "chance": 25, "repeat": [ 1, 4 ] },
-			"n": [ { "item": "sierra_swim_m", "chance": 30 }, { "item": "sierra_swim_f", "chance": 30 } ],
 			"Z": [ { "item": "SUS_dishes", "chance": 20 }, { "item": "SUS_silverware", "chance": 20 }, { "item": "SUS_cookware", "chance": 25 },
 				{ "item": "SUS_utensils", "chance": 10 }, { "item": "SUS_knife_drawer", "chance": 20 }, { "item": "SUS_junk_drawer", "chance": 50 },
 				{ "item": "SUS_breakfast_cupboard", "chance": 15 }, { "item": "SUS_coffee_cupboard", "chance": 30 }, { "item": "SUS_hair_drawer", "chance": 10 },
@@ -774,7 +780,6 @@
 			"#": { "item": "shower", "chance": 30 },
 			"O": { "item": "shower", "chance": 30 },
 			"7": { "item": "unisex_coat_rack", "chance": 25, "repeat": [ 1, 4 ] },
-			"n": [ { "item": "sierra_swim_m", "chance": 30 }, { "item": "sierra_swim_f", "chance": 30 } ],
 			"Z": [ { "item": "SUS_dishes", "chance": 20 }, { "item": "SUS_silverware", "chance": 20 }, { "item": "SUS_cookware", "chance": 25 },
 				{ "item": "SUS_utensils", "chance": 10 }, { "item": "SUS_knife_drawer", "chance": 20 }, { "item": "SUS_junk_drawer", "chance": 50 },
 				{ "item": "SUS_breakfast_cupboard", "chance": 15 }, { "item": "SUS_coffee_cupboard", "chance": 30 }, { "item": "SUS_hair_drawer", "chance": 10 },
@@ -973,7 +978,6 @@
 			"#": { "item": "shower", "chance": 30 },
 			"O": { "item": "shower", "chance": 30 },
 			"7": { "item": "unisex_coat_rack", "chance": 25, "repeat": [ 1, 4 ] },
-			"n": [ { "item": "sierra_swim_m", "chance": 30 }, { "item": "sierra_swim_f", "chance": 30 } ],
 			"Z": [ { "item": "SUS_dishes", "chance": 20 }, { "item": "SUS_silverware", "chance": 20 }, { "item": "SUS_cookware", "chance": 25 },
 				{ "item": "SUS_utensils", "chance": 10 }, { "item": "SUS_knife_drawer", "chance": 20 }, { "item": "SUS_junk_drawer", "chance": 50 },
 				{ "item": "SUS_breakfast_cupboard", "chance": 15 }, { "item": "SUS_coffee_cupboard", "chance": 30 }, { "item": "SUS_hair_drawer", "chance": 10 },
@@ -1176,18 +1180,23 @@
 	  ],
 	  
 	  "place_fields": [
-			{ "field": "cloud", "x": [ 0, 12 ], "y": [ 0, 23 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 0, 12 ], "y": [ 24, 47 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 0, 12 ], "y": [ 48, 71 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 59, 71 ], "y": [ 0, 23 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 59, 71 ], "y": [ 24, 47 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 59, 71 ], "y": [ 48, 71 ], "repeat": 2000 }
+			{ "field": "cloud", "x": [ 0, 12 ], "y": [ 0, 23 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 0, 12 ], "y": [ 24, 47 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 0, 12 ], "y": [ 48, 71 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 59, 71 ], "y": [ 0, 23 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 59, 71 ], "y": [ 24, 47 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 59, 71 ], "y": [ 48, 71 ], "repeat": 5000 }
 		],
 	  
 	  "place_npcs": [
 		{ "class": "vending_machine_sierra", "x": 31, "y": 14 },
 		{ "class": "vending_machine_sierra", "x": 40, "y": 14 }
 	  ],
+	  
+	  "place_furniture": [
+			{ "furn": "f_vending_sierra", "x": 31, "y": 14 },
+			{ "furn": "f_vending_sierra", "x": 40, "y": 14 }
+		],
 	  
 	  "items": {
 			"I": [ { "item": "SUS_desks_bedroom_unisex", "chance": 5 }, { "item": "office", "chance": 25 }, { "item": "office_paper", "chance": 5 } ],
@@ -1200,7 +1209,6 @@
 			"#": { "item": "shower", "chance": 30 },
 			"O": { "item": "shower", "chance": 30 },
 			"7": { "item": "unisex_coat_rack", "chance": 25, "repeat": [ 1, 4 ] },
-			"n": [ { "item": "sierra_swim_m", "chance": 30 }, { "item": "sierra_swim_f", "chance": 30 } ],
 			"Z": [ { "item": "SUS_dishes", "chance": 20 }, { "item": "SUS_silverware", "chance": 20 }, { "item": "SUS_cookware", "chance": 25 },
 				{ "item": "SUS_utensils", "chance": 10 }, { "item": "SUS_knife_drawer", "chance": 20 }, { "item": "SUS_junk_drawer", "chance": 50 },
 				{ "item": "SUS_breakfast_cupboard", "chance": 15 }, { "item": "SUS_coffee_cupboard", "chance": 30 }, { "item": "SUS_hair_drawer", "chance": 10 },
@@ -1365,12 +1373,12 @@
       "terrain": { "f": "t_open_air", "-": "sierra_roof", "|": "sierra_wall" },
 	  
 	  "place_fields": [
-			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 24, 47 ], "y": [ 0, 23 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 48, 71 ], "y": [ 0, 23 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 24, 47 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 24, 47 ], "y": [ 24, 47 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 48, 71 ], "y": [ 24, 47 ], "repeat": 2000 }
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 24, 47 ], "y": [ 0, 23 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 48, 71 ], "y": [ 0, 23 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 24, 47 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 24, 47 ], "y": [ 24, 47 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 48, 71 ], "y": [ 24, 47 ], "repeat": 5000 }
 		]
     }
   },
@@ -1410,7 +1418,7 @@
       "terrain": { ".": "t_open_air", "-": "sierra_roof", "|": "sierra_wall" },
 	  
 	  "place_fields": [
-			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 2000 }
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 5000 }
 		]
     }
   },
@@ -1450,7 +1458,7 @@
       "terrain": { ".": "t_open_air", "-": "sierra_roof" },
 	  
 	  "place_fields": [
-			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 2000 }
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 5000 }
 		]
     }
   }

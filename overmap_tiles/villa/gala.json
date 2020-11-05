@@ -105,14 +105,19 @@
 			{ "field": "sierra_gas", "x": [ 18, 21 ], "y": [ 48, 53 ], "repeat": 48 },
 			{ "field": "sierra_gas", "x": [ 6, 13 ], "y": [ 54, 60 ], "repeat": 112 },
 			{ "field": "sierra_gas", "x": [ 2, 13 ], "y": [ 33, 37 ], "repeat": 120 },
-			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 24, 47 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 48, 71 ], "repeat": 2000 }
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 24, 47 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 48, 71 ], "repeat": 5000 }
 		],
 		
 		"place_npcs": [
 			{ "class": "holo_vendor", "x": 1, "y": 19 },
 			{ "class": "holo_vendor", "x": 9, "y": 65 }
+		],
+		
+		"place_furniture": [
+			{ "furn": "f_holo", "x": 1, "y": 19 },
+			{ "furn": "f_holo", "x": 9, "y": 65 }
 		],
 		
 		"place_loot": [
@@ -318,9 +323,9 @@
 			{ "field": "sierra_gas", "x": [ 7, 15 ], "y": [ 45, 47 ], "repeat": 54 },
 			{ "field": "sierra_gas", "x": [ 7, 15 ], "y": [ 48, 50 ], "repeat": 54 },
 			{ "field": "sierra_gas", "x": [ 1, 5 ], "y": [ 18, 21 ], "repeat": 40 },
-			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 24, 47 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 48, 71 ], "repeat": 2000 }
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 24, 47 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 48, 71 ], "repeat": 5000 }
 		],
 		
 		"place_loot": [
@@ -496,9 +501,9 @@
 		"1": "t_sidewalk", "i": "t_sidewalk", "D": "t_sidewalk", "P": "t_sidewalk", "p": "t_sidewalk", "b": "t_flat_roof", "!": "t_fence_sierra"},
 		
 		"place_fields": [
-			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 24, 47 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 48, 71 ], "repeat": 2000 }
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 24, 47 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 48, 71 ], "repeat": 5000 }
 		]
     }
   },
@@ -601,7 +606,7 @@
 		"1": "t_sidewalk", "i": "t_sidewalk", "D": "t_sidewalk", "P": "t_sidewalk", "p": "t_sidewalk", "b": "t_flat_roof", "!": "t_fence_sierra"},
 		
 		"place_fields": [
-			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 2000 }
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 5000 }
 		]
     }
   },
@@ -652,7 +657,7 @@
 		"1": "t_sidewalk", "i": "t_sidewalk", "D": "t_sidewalk", "P": "t_sidewalk", "p": "t_sidewalk", "b": "t_flat_roof", "!": "t_fence_sierra"},
 		
 		"place_fields": [
-			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 2000 }
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 5000 }
 		]
     }
   },
@@ -708,7 +713,7 @@
 		],
 		
 		"place_fields": [
-			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 2000 }
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 5000 }
 		],
 		
 		"place_graffiti": [
@@ -721,10 +726,7 @@
 		
 		"computers": {
         "0": {
-          "name": "Gala control panel",
-          "options": [
-            { "name": "Start Gala event", "action": "emerg_mess"}
-          ]
+          "name": "Gala control panel"
         }
 		}
     }
@@ -776,7 +778,7 @@
 		"1": "t_sidewalk", "i": "t_sidewalk", "D": "t_sidewalk", "P": "t_sidewalk", "p": "t_sidewalk", "b": "t_flat_roof", "!": "t_fence_sierra"},
 		
 		"place_fields": [
-			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 2000 }
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 5000 }
 		]
     }
   }

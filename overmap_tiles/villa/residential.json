@@ -106,14 +106,19 @@
 			{ "field": "sierra_gas", "x": [ 21, 22 ], "y": [ 28, 47 ], "repeat": 80 },
 			{ "field": "sierra_gas", "x": [ 21, 22 ], "y": [ 48, 51 ], "repeat": 16 },
 			{ "field": "sierra_gas", "x": [ 11, 18 ], "y": [ 61, 66 ], "repeat": 96 },
-			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 24, 47 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 48, 71 ], "repeat": 2000 }
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 24, 47 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 48, 71 ], "repeat": 5000 }
 		],
 		
 		"place_npcs": [
 			{ "class": "vending_machine_sierra", "x": 18, "y": 16 },
 			{ "class": "vending_machine_sierra", "x": 4, "y": 28 }
+		],
+		
+		"place_furniture": [
+			{ "furn": "f_vending_sierra", "x": 18, "y": 16 },
+			{ "furn": "f_vending_sierra", "x": 4, "y": 28 }
 		],
 		
 		"items": {
@@ -285,13 +290,17 @@
 		"place_fields": [
 			{ "field": "sierra_gas", "x": [ 17, 19 ], "y": [ 28, 35 ], "repeat": 48 },
 			{ "field": "sierra_gas", "x": [ 10, 11 ], "y": [ 33, 36 ], "repeat": 16 },
-			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 24, 47 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 48, 71 ], "repeat": 2000 }
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 24, 47 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 48, 71 ], "repeat": 5000 }
 		],
 		
 		"place_npcs": [
 			{ "class": "vending_machine_sierra", "x": 18, "y": 54 }
+		],
+		
+		"place_furniture": [
+			{ "furn": "f_vending_sierra", "x": 18, "y": 54 }
 		],
 		
 		"place_loot": [
@@ -465,9 +474,9 @@
 		"1": "t_sidewalk", "i": "t_sidewalk", "P": "t_sidewalk", "p": "t_sidewalk", "b": "t_flat_roof", "!": "t_fence_sierra"},
 		
 		"place_fields": [
-			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 24, 47 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 48, 71 ], "repeat": 2000 }
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 24, 47 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 48, 71 ], "repeat": 5000 }
 		]
     }
   }

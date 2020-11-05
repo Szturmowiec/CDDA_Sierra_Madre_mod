@@ -114,7 +114,7 @@
     "type": "overmap_terrain",
     "name": "Puesta del Sol",
     "sym": "S",
-    "color": "i_red",
+    "color": "i_light_green",
     "see_cost": 5,
 	"extras": "build",
 	"flags": [ "NO_ROTATE", "SIDEWALK" ]
@@ -184,7 +184,7 @@
     "type": "overmap_terrain",
     "name": "Puesta del Sol",
     "sym": "S",
-    "color": "i_red",
+    "color": "i_light_green",
     "see_cost": 5,
 	"extras": "build",
 	"flags": [ "NO_ROTATE", "SIDEWALK" ]
@@ -644,7 +644,7 @@
     "type": "overmap_terrain",
     "name": "Salida del Sol",
     "sym": "S",
-    "color": "i_red",
+    "color": "i_light_green",
     "see_cost": 5,
 	"extras": "build",
 	"flags": [ "NO_ROTATE", "SIDEWALK" ]
@@ -864,7 +864,7 @@
     "type": "overmap_terrain",
     "name": "Campanas del Sol",
     "sym": "S",
-    "color": "i_red",
+    "color": "i_yellow",
     "see_cost": 5,
 	"extras": "build",
 	"flags": [ "NO_ROTATE", "SIDEWALK" ]
@@ -884,7 +884,7 @@
     "type": "overmap_terrain",
     "name": "Sierra Madre Casino",
     "sym": "S",
-    "color": "i_red",
+    "color": "i_blue",
     "see_cost": 5,
 	"extras": "build",
 	"flags": [ "NO_ROTATE", "SIDEWALK" ]
@@ -934,7 +934,7 @@
     "type": "overmap_terrain",
     "name": "Sierra Madre Casino",
     "sym": "S",
-    "color": "i_red",
+    "color": "i_cyan",
     "see_cost": 5,
 	"extras": "build",
 	"flags": [ "NO_ROTATE", "SIDEWALK" ]
@@ -1184,7 +1184,7 @@
     "type": "overmap_terrain",
     "name": "Sierra Madre Casino",
     "sym": "S",
-    "color": "i_red",
+    "color": "i_cyan",
     "see_cost": 5,
 	"extras": "build",
 	"flags": [ "NO_ROTATE", "SIDEWALK" ]
@@ -1424,7 +1424,7 @@
     "type": "overmap_terrain",
     "name": "Sierra Madre Casino",
     "sym": "S",
-    "color": "i_red",
+    "color": "i_cyan",
     "see_cost": 5,
 	"extras": "build",
 	"flags": [ "NO_ROTATE", "SIDEWALK" ]

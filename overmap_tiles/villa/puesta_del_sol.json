@@ -114,18 +114,18 @@
 			{ "field": "sierra_gas", "x": [ 29, 42 ], "y": [ 15, 19 ], "repeat": 140 },
 			{ "field": "sierra_gas", "x": [ 1, 20 ], "y": [ 10, 17 ], "repeat": 160 },
 			{ "field": "sierra_gas", "x": [ 11, 21 ], "y": [ 5, 9 ], "repeat": 110 },
-			{ "field": "cloud", "x": [ 18, 23 ], "y": [ 0, 23 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 10, 23 ], "repeat": 2000 },
+			{ "field": "cloud", "x": [ 18, 23 ], "y": [ 0, 23 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 10, 23 ], "repeat": 5000 },
 			{ "field": "cloud", "x": 11, "y": [ 7, 9 ], "repeat": 20 },
 			{ "field": "cloud", "x": [ 12, 17 ], "y": [ 5, 9 ], "repeat": 200 },
-			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 24, 47 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 48, 71 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 24, 47 ], "y": [ 0, 23 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 24, 47 ], "y": [ 24, 47 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 24, 47 ], "y": [ 48, 71 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 48, 71 ], "y": [ 0, 23 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 48, 71 ], "y": [ 24, 47 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 48, 71 ], "y": [ 48, 71 ], "repeat": 2000 }
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 24, 47 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 48, 71 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 24, 47 ], "y": [ 0, 23 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 24, 47 ], "y": [ 24, 47 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 24, 47 ], "y": [ 48, 71 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 48, 71 ], "y": [ 0, 23 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 48, 71 ], "y": [ 24, 47 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 48, 71 ], "y": [ 48, 71 ], "repeat": 5000 }
 		],
 	
 	"place_npcs": [
@@ -134,6 +134,13 @@
 		{ "class": "vending_machine_sierra", "x": 66, "y": 65 },
 		{ "class": "vending_machine_sierra", "x": 23, "y": 20 }
 	],
+	
+	"place_furniture": [
+			{ "furn": "f_vending_sierra", "x": 66, "y": 65 },
+			{ "furn": "f_vending_sierra", "x": 23, "y": 20 },
+			{ "furn": "f_holo", "x": 69, "y": 16 },
+			{ "furn": "f_holo", "x": 20, "y": 23 }
+		],
 	
 	"place_loot": [
 		{ "item": "holo_components", "x": 2, "y": 6 },
@@ -333,15 +340,15 @@
 			{ "field": "sierra_gas", "x": [ 21, 23 ], "y": [ 31, 35 ], "repeat": 30 },
 			{ "field": "sierra_gas", "x": [ 24, 40 ], "y": [ 31, 35 ], "repeat": 170 },
 			{ "field": "sierra_gas", "x": [ 30, 41 ], "y": [ 4, 11 ], "repeat": 168 },
-			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 24, 47 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 48, 71 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 24, 47 ], "y": [ 0, 23 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 24, 47 ], "y": [ 24, 47 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 24, 47 ], "y": [ 48, 71 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 48, 71 ], "y": [ 0, 23 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 48, 71 ], "y": [ 24, 47 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 48, 71 ], "y": [ 48, 71 ], "repeat": 2000 }
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 24, 47 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 48, 71 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 24, 47 ], "y": [ 0, 23 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 24, 47 ], "y": [ 24, 47 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 24, 47 ], "y": [ 48, 71 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 48, 71 ], "y": [ 0, 23 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 48, 71 ], "y": [ 24, 47 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 48, 71 ], "y": [ 48, 71 ], "repeat": 5000 }
 		],
 		
 	"place_loot": [
@@ -528,15 +535,15 @@
 	"place_fields": [
 			{ "field": "sierra_gas", "x": [ 29, 47 ], "y": [ 20, 21 ], "repeat": 76 },
 			{ "field": "sierra_gas", "x": [ 48, 50 ], "y": [ 20, 21 ], "repeat": 12 },
-			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 24, 47 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 48, 71 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 24, 47 ], "y": [ 0, 23 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 24, 47 ], "y": [ 24, 47 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 24, 47 ], "y": [ 48, 71 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 48, 71 ], "y": [ 0, 23 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 48, 71 ], "y": [ 24, 47 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 48, 71 ], "y": [ 48, 71 ], "repeat": 2000 }
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 24, 47 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 48, 71 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 24, 47 ], "y": [ 0, 23 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 24, 47 ], "y": [ 24, 47 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 24, 47 ], "y": [ 48, 71 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 48, 71 ], "y": [ 0, 23 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 48, 71 ], "y": [ 24, 47 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 48, 71 ], "y": [ 48, 71 ], "repeat": 5000 }
 		],
 		
 	"place_loot": [
@@ -702,12 +709,12 @@
 	"~": "t_flat_roof", "=": "t_flat_roof"},
 	
 	"place_fields": [
-			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 24, 47 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 48, 71 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 24, 47 ], "y": [ 0, 23 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 24, 47 ], "y": [ 24, 47 ], "repeat": 2000 },
-			{ "field": "cloud", "x": [ 24, 47 ], "y": [ 48, 71 ], "repeat": 2000 }
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 24, 47 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 48, 71 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 24, 47 ], "y": [ 0, 23 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 24, 47 ], "y": [ 24, 47 ], "repeat": 5000 },
+			{ "field": "cloud", "x": [ 24, 47 ], "y": [ 48, 71 ], "repeat": 5000 }
 		],
 	
 	"place_loot": [
@@ -764,7 +771,7 @@
 	"terrain": { ".": "t_open_air", "b": "t_flat_roof"},
 	
 	"place_fields": [
-			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 2000 }
+			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 5000 }
 		]
   }
   }

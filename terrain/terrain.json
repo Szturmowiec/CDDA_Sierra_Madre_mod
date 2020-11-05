@@ -666,7 +666,7 @@
         "name": "Sierra Madre toxic gas",
         "color": "red",
 		"sym": "8",
-        "translucency": 10,
+        "translucency": 25,
 		"transparent": false,
         "effects": [
           { "effect_id": "sierra_poison", "intensity": 20, "body_part": "head", "min_duration": "5 seconds", "max_duration": "5 seconds", "immune_inside_vehicle": false, "message": "Sierra Madre toxic gas burns through your entire body", "message_type": "bad" },
@@ -694,9 +694,9 @@
     "intensity_levels": [
       {
         "name": "Sierra Madre Cloud",
-        "color": "green",
+        "color": "light_red",
 		"sym": "O",
-        "translucency": 1000,
+        "translucency": 0,
 		"transparent": true,
         "effects": [
           { "effect_id": "sierra_cloud", "intensity": 10, "body_part": "head", "min_duration": "5 seconds", "max_duration": "5 seconds", "immune_inside_vehicle": false },

@@ -543,7 +543,7 @@
 		"id": "HOLO_CLOTHES",
 		"subtype": "collection",
 		"entries": [
-		  { "item": "holo_storage" }
+		  { "item": "npc_glue" }
 		]
 	},
 	{

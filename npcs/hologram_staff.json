@@ -7,7 +7,16 @@
 		"description": "Sierra Madre hologram staff",
 		"valid": false,
 		"purifiable": false,
-		"ignored_by": [ "ZOMBIE", "MUTANT", "ROBOT", "HUMAN", "INSECT" ]
+		"ignored_by": [ "ZOMBIE", "MUTANT", "ROBOT", "HUMAN", "INSECT", "MYCUS" ]
+	},
+	{
+		"type": "enchantment",
+		"id": "STAY_THERE",
+		"ench_effects": [
+		  { "effect": "webbed", "intensity": 3 },
+		  { "effect": "deaf", "intensity": 3 },
+		  { "effect": "blind", "intensity": 1 }
+		]
 	},
 	{
 		"type": "npc_class",
@@ -22,12 +31,13 @@
 		  { "skill": "ALL", "level": 10 } 
 		],
 		"job_description": "Holograms deployed to serve as vendors, helping customers exchange Sierra Madre chips and various commodities.",
-		"worn_override": "EMPTY_GROUP",
+		"worn_override": "HOLO_CLOTHES",
 		"weapon_override": "EMPTY_GROUP",
 		"carry_override": "holo_vendor_items",
 		"traits": [
 			{ "trait": "HOLOGRAMS" },
-			{ "trait": "DEBUG_NODMG" }
+			{ "trait": "DEBUG_NODMG" },
+			{ "trait": "DEBUG_CLOAK" }
 		]
 	},
 	{
@@ -59,7 +69,8 @@
 		"carry_override": "EMPTY_GROUP",
 		"traits": [
 			{ "trait": "HOLOGRAMS" },
-			{ "trait": "DEBUG_NODMG" }
+			{ "trait": "DEBUG_NODMG" },
+			{ "trait": "DEBUG_CLOAK" }
 		]
 	},
 	{
@@ -71,6 +82,72 @@
 		"attitude": 0,
 		"mission": 3,
 		"chat": "TALK_VENDING",
+		"faction": "no_faction"
+	},
+	{
+		"type": "npc_class",
+		"id": "vera_fountain",
+		"name": "Vera Keyes' fountain hologram",
+		"common": false,
+		"bonus_str": { "constant": 5 },
+		"bonus_dex": { "constant": 5 },
+		"bonus_per": { "constant": 5 },
+		"bonus_int": { "constant": 5 },
+		"skills": [
+		  { "skill": "ALL", "level": 10 } 
+		],
+		"job_description": "Sierra Madre fountain hologram of Vera Keyes, welcoming guests and broadcasting the Gala Event advertisement...",
+		"worn_override": "HOLO_CLOTHES",
+		"weapon_override": "EMPTY_GROUP",
+		"carry_override": "EMPTY_GROUP",
+		"traits": [
+			{ "trait": "HOLOGRAMS" },
+			{ "trait": "DEBUG_NODMG" },
+			{ "trait": "DEBUG_CLOAK" }
+		]
+	},
+	{
+		"type": "npc",
+		"id": "fountain_npc",
+		"gender": "female",
+		"name_unique": "Vera Keyes' fountain hologram",
+		"class": "vera_fountain",
+		"attitude": 0,
+		"mission": 7,
+		"chat": "TALK_FOUNTAIN",
+		"faction": "no_faction"
+	},
+	{
+		"type": "npc_class",
+		"id": "intercomm",
+		"name": "Sierra Madre Casino intercom",
+		"common": false,
+		"bonus_str": { "constant": 5 },
+		"bonus_dex": { "constant": 5 },
+		"bonus_per": { "constant": 5 },
+		"bonus_int": { "constant": 5 },
+		"skills": [
+		  { "skill": "ALL", "level": 10 } 
+		],
+		"job_description": "Sierra Madre Casino intercom system. Still operational. And there's someone using it to talk to you out there...",
+		"worn_override": "HOLO_CLOTHES",
+		"weapon_override": "EMPTY_GROUP",
+		"carry_override": "EMPTY_GROUP",
+		"traits": [
+			{ "trait": "HOLOGRAMS" },
+			{ "trait": "DEBUG_NODMG" },
+			{ "trait": "DEBUG_CLOAK" }
+		]
+	},
+	{
+		"type": "npc",
+		"id": "sierra_intercom",
+		"gender": "male",
+		"name_unique": "Sierra Madre Casino intercom",
+		"class": "intercomm",
+		"attitude": 0,
+		"mission": 7,
+		"chat": "TALK_INTER",
 		"faction": "no_faction"
 	}
 ]
