@@ -11,7 +11,7 @@
     "object": {
 		"fill_ter": "t_floor",
 		"rows": [
-			"||||||||||||||||||||||||",
+			"|||||||..|..||||||||||||",
 			"|<_ffj|..?..?....?.....|",
 			"|J0Jff|&.|..|.?|..|.?|.|",
 			"cf_f_fd.?.....?........|",
@@ -121,6 +121,10 @@
 			{ "furn": "f_vending_sierra", "x": 4, "y": 28 }
 		],
 		
+		"place_loot": [
+			{ "item": "sierra_deck", "x": 1, "y": 30 }
+		],
+		
 		"items": {
 			"f": { "item": "martini_ingredients", "chance": 45, "repeat": [ 1, 2 ] },
 			".": { "item": "sierra_sidewalk", "chance": 45, "repeat": [ 1, 2 ] },
@@ -201,7 +205,7 @@
     "object": {
 		"fill_ter": "t_floor",
 		"rows": [
-			"||||||||||||||||||||||||",
+			"|||||||bbbbb||||||||||||",
 			"|>ffff|bbbbbbbbbbbbbbbb|",
 			"|ffhhf|bbbbbbbbbbbbbbbb|",
 			"cffssfcbbb...........bb|",
@@ -308,7 +312,9 @@
 			{ "item": "sunglasses", "x": 15, "y": 65 },
 			{ "item": "tux_dean", "x": 15, "y": 65 },
 			{ "item": "chemistry_set", "x": 17, "y": 64 },
-			{ "item": "grenade", "x": 16, "y": 62, "repeat": [ 2, 7 ] }
+			{ "item": "grenade", "x": 16, "y": 62, "repeat": [ 2, 7 ] },
+			{ "item": "sierra_deck", "x": 16, "y": 28 },
+			{ "item": "sierra_deck", "x": 10, "y": 55 }
 		],
 		
 		"items": {
@@ -390,7 +396,7 @@
     "object": {
 		"fill_ter": "t_flat_roof",
 		"rows": [
-			"bbbbbbbbbbbbbbbbbbbbbbbb",
+			"bbbbbbb.....bbbbbbbbbbbb",
 			"bbV=bbb................b",
 			"bbbbbbb................b",
 			"bb~bbbb................b",

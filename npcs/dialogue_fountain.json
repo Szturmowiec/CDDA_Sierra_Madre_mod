@@ -161,9 +161,9 @@
 	{
 		"id": "MISSION_END",
 		"type": "talk_topic",
-		"dynamic_line": "Great, I'm really impressed! Now you have everything you need to enter the casino itself... Insert the microchips into the card through these three slots you've probably noticed already on it and follow the alley ahead of the fountain to get to the entrance. We'll meet inside... Speak with me through the intercom that will be right near the entrance door, along the receptionist's counter.",
+		"dynamic_line": "Great, I'm really impressed! Now you have everything you need to enter the casino itself... Insert the microchips into the card through these three slots you've probably noticed already on it and follow the alley ahead of the fountain to get to the entrance, just look at the hologram, I'll show you how... We'll meet inside... Speak with me through the intercom that will be right near the entrance door, along the receptionist's counter.",
 		"responses": [
-		  { "text": "Alright, I'm coming in...", "topic": "TALK_DONE", "effect": [ { "npc_first_topic": "HURRY2" }, { "u_learn_recipe": "casino_enter_card" } ] }
+		  { "text": "Alright, I'm coming in...", "topic": "TALK_DONE", "effect": [ { "npc_first_topic": "HURRY2" }, { "u_sell_item": "card_chip", "count": 3 }, { "u_sell_item": "casino_enter_card_broken" }, { "npc_consume_item": "card_chip", "count": 3 }, { "npc_consume_item": "casino_enter_card_broken" }, { "u_buy_item": "casino_enter_card" } ] }
 		]
 	},
 	{

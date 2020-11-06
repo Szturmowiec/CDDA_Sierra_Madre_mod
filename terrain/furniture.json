@@ -68,6 +68,7 @@
     "move_cost_mod": 1,
     "coverage": 90,
     "required_str": 2000000000,
+	"light_emitted": 5,
     "flags": [ "SEALED", "BLOCKSDOOR", "CONTAINER", "BLOCKSDOOR", "PLACE_ITEM" ],
     "bash": {
       "str_min": 2000000000,
@@ -93,6 +94,7 @@
     "move_cost_mod": 1,
     "coverage": 90,
     "required_str": 2000000000,
+	"light_emitted": 10,
     "flags": [ "SEALED", "BLOCKSDOOR", "CONTAINER", "BLOCKSDOOR", "PLACE_ITEM" ],
     "bash": {
       "str_min": 2000000000,
@@ -118,6 +120,7 @@
     "move_cost_mod": 1,
     "coverage": 90,
     "required_str": 2000000000,
+	"light_emitted": 10,
     "flags": [ "SEALED", "BLOCKSDOOR", "CONTAINER", "BLOCKSDOOR", "PLACE_ITEM" ],
     "bash": {
       "str_min": 2000000000,

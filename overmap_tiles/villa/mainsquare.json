@@ -37,7 +37,8 @@
 	  "signs": { "P": { "signage": "Sierra Madre" } },
 	  
 	  "place_loot": [
-			{ "group": "holorifle_spawn", "x": 11, "y": 17 }
+			{ "group": "holorifle_spawn", "x": 11, "y": 17 },
+			{ "item": "sierra_deck", "x": 14, "y": 12 }
 		],
 		
 		"items": {

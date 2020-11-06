@@ -110,9 +110,9 @@
 	{
 		"id": "QUEST_END",
 		"type": "talk_topic",
-		"dynamic_line": "Good, you continue to amaze me... Now combine those recordings and enter the vault... Not sure if you searched Vera's and Sinclair's apartment throroughtfully, but the entrance to the vault is in one of their rooms. Once you're down there... Then... Then you'll uncover everything and crack the Sierra Madre open... Don't let me down, survivor. You've come so far... Good luck, I won't respond on the intercom anymore.",
+		"dynamic_line": "Good, you continue to amaze me... Now combine those recordings in the correct order I'm going to describe to you in a moment and use it to enter the vault... Not sure if you searched Vera's and Sinclair's apartment throroughtfully, but the entrance to the vault is in one of their rooms. Once you're down there... Then... Then you'll uncover everything and crack the Sierra Madre open... Don't let me down, survivor. You've come so far... Good luck, I won't respond on the intercom anymore.",
 		"responses": [
-		  { "text": "Alright, so here we go... The Heist of the Centuries...", "topic": "TALK_DONE", "effect": [ { "npc_first_topic": "HURRY3" }, { "u_learn_recipe": "vera_voice" } ] }
+		  { "text": "Alright, so here we go... The Heist of the Centuries...", "topic": "TALK_DONE", "effect": [ { "npc_first_topic": "HURRY3" }, { "u_sell_item" : "tomorrow_in" }, { "u_sell_item" : "go_faraway" }, { "u_sell_item" : "begin_again" }, { "npc_consume_item": "tomorrow_in" }, { "npc_consume_item": "go_faraway" }, { "npc_consume_item": "begin_again" }, { "u_buy_item": "vera_voice" } ] }
 		]
 	},
 	{

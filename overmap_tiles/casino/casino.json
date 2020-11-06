@@ -128,7 +128,8 @@
 		{ "item": "incident_1", "x": 20, "y": 55 },
 		{ "item": "holo_note", "x": 63, "y": 8 },
 		{ "item": "madrid_note", "x": 68, "y": 36 },
-		{ "item": "casino_inner_card", "x": 27, "y": 3 }
+		{ "item": "casino_inner_card", "x": 27, "y": 3 },
+		{ "item": "sierra_deck", "x": 70, "y": 36 }
 	  ],
 		
 	  "items": {
@@ -363,7 +364,8 @@
 		{ "item": "emergency_note", "x": 65, "y": 61 },
 		{ "item": "tampico_list", "x": 15, "y": 45 },
 		{ "item": "desperate_note", "x": 15, "y": 45 },
-		{ "item": "desperate_note_2", "x": 22, "y": 32 }
+		{ "item": "desperate_note_2", "x": 22, "y": 32 },
+		{ "item": "sierra_deck", "x": 1, "y": 55 }
 	  ],
 	  
 	  "place_npcs": [
@@ -1176,7 +1178,8 @@
 		{ "item": "begin_again", "x": 14, "y": 2 },
 		{ "item": "medx", "x": 15, "y": 1 },
 		{ "item": "syringe", "x": 15, "y": 1, "repeat": [ 2, 4 ] },
-		{ "item": "cosmic_heat_note", "x": 42, "y": 24 }
+		{ "item": "cosmic_heat_note", "x": 42, "y": 24 },
+		{ "item": "sierra_deck", "x": 19, "y": 5 }
 	  ],
 	  
 	  "place_fields": [
@@ -1190,7 +1193,8 @@
 	  
 	  "place_npcs": [
 		{ "class": "vending_machine_sierra", "x": 31, "y": 14 },
-		{ "class": "vending_machine_sierra", "x": 40, "y": 14 }
+		{ "class": "vending_machine_sierra", "x": 40, "y": 14 },
+		{ "class": "christine", "x": 24, "y": 3 }
 	  ],
 	  
 	  "place_furniture": [

@@ -81,8 +81,8 @@
         "|..............iii&.......|..((....||7fffhfrffffffL||...|....|...||fRRRf",
         "||....|..|..|..|..|..|..|..(((((..||ffffhfffff|||dd|||..........||fRRRRf",
         "|||.....(...................(((..||ffRRfllhfffRRffff7|..........|fRRRRfR",
-        "||||...((.......(.......(((((....cffffRfllhfff|Bffffsc..|....|..|RfffRff",
-        "||||||||||||||||||||||||||||||||||ffffffffffff|Bfff@@|..........|RRRfRfR"
+        "||||...((.......(.......(((((....cffffRfllhfff|Bf@@fsc..|....|..|RfffRff",
+        "||||||||||||||||||||||||||||||||||||||||||||||||||||||..........|RRRfRfR"
       ],
 	  
 	"furniture": { ")": "f_trashcan", "R": "f_rubble", "D": "stash", "O": "f_oven", "J": "f_counter", "C": "f_cupboard", "s": "f_table", "h": "f_chair", "5": "f_sink",
@@ -149,7 +149,8 @@
 		{ "item": "jumpsuit_sierra", "x": 10, "y": 5 },
 		{ "item": "gun_code", "x": 51, "y": 4 },
 		{ "item": "card_chip", "x": 8, "y": 2 },
-		{ "group": "sierra_emitter", "x": 62, "y": 8 }
+		{ "group": "sierra_emitter", "x": 62, "y": 8 },
+		{ "item": "sierra_deck", "x": 29, "y": 45 }
 	],
 		
 	"items": {
@@ -268,8 +269,8 @@
         "|bbb.........bb|@@_fff_fff_fdfffRfhsRRRRf_fRRRRff||bbb......bbb^cfffRRf|",
         "|bbb.........bbc|||c||c||c|||++||||R|RR|d||RRRR|||||bbb....bbb||ffRRfff|",
         "|bbb...........FF..........^<f_dfffRffRfRfffRffRfffcbbb.......cfffRRRRf|",
-        "|bbb............F..........|<f_dffRRRRfffRfRRfffRffcbbb..!!!!!|Bfffff@@|",
-        "|bbb......!!!!!||c||c||c|||||++|ffRffffssfffRRRfRRf|Ubb..!bbb9|BffRRf@@|",
+        "|bbb............F..........|<f_dffRRRRfffRfRRfffRffcbbbF.!!!!!|Bfffff@@|",
+        "|bbb......!!!!!||c||c||c|||||++|ffRffffssfffRRRfRRf|UbbF.!bbb9|BffRRf@@|",
         "|bbb......!bbbb|ffffffRf%%%%fff|ffRRffRRhffffffRfff|u?b..!bbbbdfffRffff|",
         "|bbb......!bbbbdf_%fjfRffffffff|ffRfRRfffRffRRffRRf|bb?..!bbbbdrfRfff@@|",
         "|bbb......!bbbbd_f%fjfffjjjjfRf|fRffffRRffffffRRRffcbb?..!bbb9|fHHfff@@|",
@@ -318,7 +319,7 @@
         "||....bbbbbbbbbbbbbbbbbbb.........||ffsssffRR|Hflfffc|bbb....bbb||F;F;;F",
         "|||..............................||fffRRRfJfO|HflflfH|bbb....bbb|F;F;;F;",
         "||||.............................cAfffjjjfJJfdfffflfHcbbb....bbb|;;FFF;;",
-        "||||||||||||||||||||||||||||||||||ffffffffffRRRffflfH|bbb....bbb|;;FF;FF"
+        "||||||||||||||||||||||||||||||||||||||||||||||||||||||bbb....bbb|;;FF;FF"
       ],
 	  
 	"furniture": { "&": "f_trashcan", "R": "f_rubble", "D": "stash", "O": "f_oven", "J": "f_counter", "C": "f_cupboard", "s": "f_table", "h": "f_chair", "5": "f_sink",
@@ -354,7 +355,8 @@
 	"place_loot": [
 		{ "item": "c4_code", "x": 13, "y": 57 },
 		{ "item": "card_chip", "x": 59, "y": 23 },
-		{ "group": "sierra_emitter", "x": 63, "y": 25 }
+		{ "group": "sierra_emitter", "x": 63, "y": 25 },
+		{ "item": "sierra_deck", "x": 21, "y": 15 }
 	],
 		
 	"items": {

@@ -178,7 +178,7 @@
 	{
 		"id": "casino_enter_card",
 		"type": "GENERIC",
-		"looks_like": "id_industrial",
+		"looks_like": "id_military",
 		"symbol": ",",
 		"color": "red",
 		"name": { "str": "Sierra Madre Casino entrance card" },
@@ -194,7 +194,7 @@
 	{
 		"id": "casino_enter_card_broken",
 		"type": "GENERIC",
-		"looks_like": "id_industrial",
+		"looks_like": "id_military",
 		"symbol": ",",
 		"color": "red",
 		"name": { "str": "broken Sierra Madre Casino entrance card" },
@@ -213,7 +213,7 @@
 		"symbol": ",",
 		"color": "white",
 		"name": { "str": "card microchip" },
-		"description": "A microchip that looks like it has been precisely removed from a card. You should be able to put it back inside though, as long as you find the card, that is.",
+		"description": "A microchip that looks like it has been precisely removed from a card. You should be able to put it back inside though, as long as you find the card, that is. And someone to tell you how to actually do this.",
 		"price": 5000,
 		"price_postapoc": 250,
 		"material": [ "plastic" ],

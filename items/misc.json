@@ -177,13 +177,31 @@
 		"type": "ARMOR",
 		"name": { "str": "Hologram visualisation" },
 		"description": "If you see it it's a one giant bug.",
-		"weight": "1 g",
-		"volume": "1 ml",
+		"weight": "1501 g",
+		"volume": "1001 ml",
 		"symbol": "~",
 		"color": "light_red",
 		"covers": [ "eyes", "mouth" ],
 		"encumbrance": 18,
 		"relic_data": { "passive_effects": [ { "id": "STAY_THERE" } ] },
+		"pocket_data": [
+		  { "pocket_type": "CONTAINER", "rigid": true, "max_contains_volume": "1 L", "max_contains_weight": "1500 g", "moves": 80 }
+		],
 		"flags": [ "NO_TAKEOFF", "TRADER_AVOID", "TRADER_KEEP" ]
+	},
+	{
+		"id": "sierra_deck",
+		"type": "GENERIC",
+		"category": "other",
+		"symbol": ",",
+		"color": "black",
+		"name": { "str": "Sierra Madre playing card" },
+		"description": "A playing card from an exclusive Sierra Madre deck.",
+		"looks_like": "deck_of_cards",
+		"price": 10,
+		"price_postapoc": 100,
+		"material": [ "paper" ],
+		"weight": "1 g",
+		"volume": "2 ml"
 	}
 ]

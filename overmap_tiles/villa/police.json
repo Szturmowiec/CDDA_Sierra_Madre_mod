@@ -7,8 +7,8 @@
     "object": {
 		"fill_ter": "t_linoleum_gray",
 		"rows": [
-			"ffffffffffffffffffffffff",
-			"ffffffffffPfffffffffffff",
+			"|ffffffffffffffffffffff|",
+			"|fffffffffPffffffffffff|",
 			"|||c||||c||dd||c||||||||",
 			"|%...0..........d.....>|",
 			"|%..hJ..........d.....>|",
@@ -70,7 +70,8 @@
 			{ "item": "police_show_note", "x": 17, "y": 9 },
 			{ "item": "gun_code", "x": 7, "y": 22 },
 			{ "item": "308_code", "x": 17, "y": 19 },
-			{ "item": "357_code", "x": 2, "y": 8 }
+			{ "item": "357_code", "x": 2, "y": 8 },
+			{ "item": "sierra_deck", "x": 13, "y": 13 }
 		],
 		
 		"items": {
@@ -204,8 +205,8 @@
     "object": {
 		"fill_ter": "t_flat_roof",
 		"rows": [
-			"........................",
-			"........................",
+			"b......................b",
+			"b......................b",
 			"||||||||||||||||||||||||",
 			"||||||||||||||||||||||||",
 			"|||||N||||||||||||||||||",
@@ -234,7 +235,7 @@
 		"j": "f_rack", "0": "f_console_broken", "I": "f_desk"},
 		
 		"terrain": { ".": "t_open_air", "*": "t_fountain", "|": "t_flat_roof", "-": "t_fence_metal", "/": "t_gate_metal_c", "d": "t_door_c", "c": "t_window_empty",
-		"F": "t_floor_noroof", "f": "t_floor", "<": "t_stairs_up", ">": "t_stairs_down"}
+		"F": "t_floor_noroof", "f": "t_floor", "<": "t_stairs_up", ">": "t_stairs_down", "b": "t_brick_wall" }
     }
   }
 ]

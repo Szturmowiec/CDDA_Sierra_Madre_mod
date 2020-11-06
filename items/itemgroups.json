@@ -553,5 +553,49 @@
 		"entries": [
 			{ "item": "holo_emitter", "prob": 100, "ammo-item": "light_minus_atomic_battery_cell", "charges": 500 }
 		]
+	},
+	{
+		"type": "item_group",
+		"id": "CHRISTINE_CLOTHES",
+		"subtype": "collection",
+		"entries": [
+			{ "item": "camisole" },
+			{ "item": "boots_combat" },
+			{ "item": "socks_wool" },
+			{ "item": "panties" },
+			{ "item": "sports_bra" },
+			{ "item": "sierra_armor_reinforced" },
+			{ "item": "sierra_helmet_reinforced" },
+			{ "item": "bandolier_shotgun", "contents-group": "bandolier_shotgun_hunter" },
+			{ "item": "bandolier_shotgun", "contents-group": "bandolier_shotgun_hunter" },
+			{ "item": "holster", "contents-item": "m1911" },
+			{ "item": "ammo_satchel", "contents-item": "m1911mag" },
+			{ "item": "ammo_satchel", "contents-item": "m1911mag" },
+			{ "item": "molle_pack" }
+		]
+	},
+	{
+		"type": "item_group",
+		"id": "CHRISTINE_ITEMS",
+		"subtype": "collection",
+		"entries": [
+		  { "item": "stimpack", "count" : 3 },
+		  { "item": "medx", "count" : 3 },
+		  { "item": "sierra_martini", "count" : 5 },
+		  { "item": "sierra_chip", "count" : 1000 },
+		  { "item": "sierra_martini", "count" : 5 },
+		  { "item": "grenade", "count" : 2 },
+		  { "item": "flashbang", "count" : 3 },
+		  { "item": "1st_aid" },
+		  { "group": "MRE", "count": 2 }
+		]
+	},
+	{
+		"type": "item_group",
+		"id": "CHRISTINE_GUN",
+		"subtype": "collection",
+		"entries": [
+		  { "item": "remington_870" }
+		]
 	}
 ]

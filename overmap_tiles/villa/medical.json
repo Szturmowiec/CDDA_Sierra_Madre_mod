@@ -85,11 +85,11 @@
 		],
 		
 		"place_npcs": [
-			{ "class": "holo_vendor", "x": 23, "y": 46 }
+			{ "class": "holo_vendor", "x": 22, "y": 46 }
 		],
 		
 		"place_furniture": [
-			{ "furn": "f_holo", "x": 23, "y": 46 }
+			{ "furn": "f_holo", "x": 22, "y": 46 }
 		],
 		
 		"place_loot": [
@@ -100,7 +100,9 @@
 			{ "item": "note_insomnia", "x": 5, "y": 7 },
 			{ "item": "unpleasant_visit", "x": 18, "y": 6 },
 			{ "item": "doctor_note", "x": 17, "y": 6 },
-			{ "item": "stimpack_code", "x": 11, "y": 8 }
+			{ "item": "stimpack_code", "x": 11, "y": 8 },
+			{ "item": "sierra_deck", "x": 21, "y": 47 },
+			{ "item": "sierra_deck", "x": 6, "y": 20 }
 		],
 		
 		"items": {
@@ -269,7 +271,9 @@
 		"place_loot": [
 			{ "item": "gas_incident_report", "x": 13, "y": 10 },
 			{ "item": "mentats_code", "x": 22, "y": 3 },
-			{ "item": "medx_code", "x": 6, "y": 7 }
+			{ "item": "medx_code", "x": 6, "y": 7 },
+			{ "item": "sierra_deck", "x": 17, "y": 24 },
+			{ "item": "sierra_deck", "x": 6, "y": 22 }
 		],
 		
 		"items": {

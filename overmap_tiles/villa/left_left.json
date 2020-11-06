@@ -8,29 +8,29 @@
 		"fill_ter": "t_sidewalk",
 		"rows": [
 			"|||||||||////|||||||||||",
-			"<fffffff|...P|fffffffff|",
-			"BfJJ!fffc....|fffJJJJ0J|",
-			"Bffff!ff|....|fffffffff|",
-			"Bfffjfjfd....|fjfjfjfjf|",
-			"ffffjfjf|....|fjfjfjfjf|",
-			"f!!fjfjfc....|fffffffff|",
-			"ffffffff|....|||||+|||||",
+			"|<ffffff|...P|fffffffff|",
+			"|fJJ!fffc....|fffJJJJ0J|",
+			"|ffff!ff|....|fffffffff|",
+			"|Bffjfjfd....|fjfjfjfjf|",
+			"|Bffjfjf|....|fjfjfjfjf|",
+			"|!!fjfjfc....|fffffffff|",
+			"|fffffff|....|||||+|||||",
 			"|dd||||||...........***.",
-			"@ff^f0If|..|.....|...*|.",
-			"@ffffhhfc...............",
-			"ffff!!ff|.RRRRR...RR....",
-			"f!ffffffd.....RR........",
-			"ff!ssfff|..RR...R.......",
-			"ffhssf@@c........|....|.",
-			"fBBffffs|...............",
-			"ffff!f7||...............",
-			"ff!fff||&.|......|.|c|||",
-			"fffff||...|........|FF;;",
-			"fBBf||.......*.....c;;;F",
+			"|ff^f0If|..|.....|...*|.",
+			"|ffffhhfc...............",
+			"|fff!!ff|.RRRRR...RR....",
+			"|!ffffffd.....RR........",
+			"|f!ssfff|..RR...R.......",
+			"|fhssf@@c........|....|.",
+			"|BBffffs|...............",
+			"|fff!f7||...............",
+			"|@!fff||&.|......|.|c|||",
+			"|@fff||...|........|FF;;",
+			"|BBf||.......*.....c;;;F",
 			"|||||...|...***..|.d;;FF",
-			".............*....&;F;;F",
+			"|............*....&;F;;F",
 			"|....|.............|FF;F",
-			".................|.;;|||"
+			"|................|.;;|||"
 		],
 		"furniture": { "&": "f_trashcan", "R": "f_rubble", "O": "f_oven", "J": "f_counter", "C": "f_cupboard", "s": "f_table", "h": "f_chair", "5": "f_sink",
 		"6": "f_fridge", "7": "f_wardrobe", "@": "f_bed", "B": "f_bookcase", "N": "f_TV_antenna", "V": "f_roof_turbine_vent", "~": "f_chimney", "=": "f_vent_pipe",
@@ -43,7 +43,8 @@
 		
 		"place_loot": [
 			{ "item": "corpse_skeleton", "x": 19, "y": 16 },
-			{ "item": "spear_knife_ghost", "x": 19, "y": 16 }
+			{ "item": "spear_knife_ghost", "x": 19, "y": 16 },
+			{ "item": "sierra_deck", "x": 3, "y": 6 }
 		],
 		
 		"place_fields": [
@@ -107,29 +108,29 @@
 		"fill_ter": "t_floor",
 		"rows": [
 			"|||||||||bb|||||||||||||",
-			">ffBBBfR|..|R6fffffRRRf|",
-			"fffffffff..|RfffFFFFFff|",
-			"fhffffRR|FFcffffRRfFFRR|",
-			"fsRfffff|..cfffffRRFFRR|",
-			"fsRRRRffc..|fRRFFRfRfRf|",
-			"fffRRRf@|..RRRFFFBBffff|",
-			"fff7ffs@|..RfhfRRfRRFFf|",
+			"|>fBBBfR|..|R6fffffRRRf|",
+			"|fffffffc..|RfffFFFFFff|",
+			"|hffffRR|FFcffffRRfFFRR|",
+			"|sRfffff|..cfffffRRFFRR|",
+			"|sRRRRffc..|fRRFFRfRfRf|",
+			"|ffRRRf@|..RRRFFFBBffff|",
+			"|ff7ffs@|..RfhfRRfRRFFf|",
 			"|dd||||||..|I0f@@fffFF7|",
-			"ffffffff|..|c|||c|||c|||",
-			"fffffffJc...............",
-			"ffhhhffJ|...............",
-			"fhssshf5|...............",
-			"fhssshf&c...............",
-			"fhssshfO|........bbbbbbb",
-			"fhssshfC|............bbb",
-			"fhssshfC|c|............b",
-			"fhssshfffC|......|Db.bbb",
-			"ffhhhffff||......|bbbbbb",
-			"ffffffff||.......|..bbb.",
-			"fffffff||........|..bb..",
-			"fffff|c|.........|bb.bb.",
-			"||c|||...........|.|..b.",
-			".................|||||||"
+			"|fffffff|..|c|||c|||c|||",
+			"|ffffffJc...............",
+			"|fhhhffJ|...............",
+			"|hssshf5|...............",
+			"|hssshf&c...............",
+			"|hssshfO|........bbbbbbb",
+			"|hssshfC|............bbb",
+			"|hssshfC|c|............b",
+			"|hssshfffC|......|Db.bbb",
+			"|fhhhffff||......|bbbbbb",
+			"|ffffffA||.......|..bbb.",
+			"|fffffA||........|..bb..",
+			"|AfBB|c|.........|bb.bb.",
+			"||||||...........|.|..b.",
+			"|................|||||||"
 		],
 		"furniture": { "&": "f_trashcan", "R": "f_rubble", "D": "stash", "O": "f_oven", "J": "f_counter", "C": "f_cupboard", "s": "f_table", "h": "f_chair", "5": "f_sink",
 		"6": "f_fridge", "7": "f_wardrobe", "@": "f_bed", "B": "f_bookcase", "N": "f_TV_antenna", "V": "f_roof_turbine_vent", "~": "f_chimney", "=": "f_vent_pipe",
@@ -140,6 +141,11 @@
 		
 		"place_fields": [
 			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 5000 }
+		],
+		
+		"place_loot": [
+			{ "item": "sierra_deck", "x": 12, "y": 8 },
+			{ "item": "acoustic_guitar", "x": 6, "y": 7 }
 		],
 		
 		"items": {
@@ -224,7 +230,7 @@
 			"|||||||||...............",
 			"||||||||................",
 			"||||||..................",
-			"........................"
+			"|......................."
 		],
 		"furniture": { "&": "f_trashcan", "R": "f_rubble", "D": "stash", "O": "f_oven", "J": "f_counter", "C": "f_cupboard", "s": "f_table", "h": "f_chair", "5": "f_sink",
 		"6": "f_fridge", "7": "f_wardrobe", "@": "f_bed", "B": "f_bookcase", "N": "f_TV_antenna", "V": "f_roof_turbine_vent", "~": "f_chimney", "=": "f_vent_pipe",

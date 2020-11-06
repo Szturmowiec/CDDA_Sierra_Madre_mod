@@ -16,6 +16,15 @@
 		  { "effect": "webbed", "intensity": 3 },
 		  { "effect": "deaf", "intensity": 3 },
 		  { "effect": "blind", "intensity": 1 }
+		],
+		"hit_me_effect": [
+			{
+				"id": "debugging_effect",
+				"hit_self": false,
+				"once_in": 15,
+				"message": "debug",
+				"npc_message": "debug"
+			}
 		]
 	},
 	{

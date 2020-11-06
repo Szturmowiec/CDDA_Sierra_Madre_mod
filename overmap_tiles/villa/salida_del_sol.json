@@ -104,7 +104,9 @@
 			{ "item": "stained_page", "x": 25, "y": 26 },
 			{ "item": "hell_note", "x": 41, "y": 33 },
 			{ "item": "status_report", "x": 46, "y": 41 },
-			{ "item": "card_chip", "x": 6, "y": 39 }
+			{ "item": "card_chip", "x": 6, "y": 39 },
+			{ "item": "sierra_deck", "x": 19, "y": 40 },
+			{ "item": "sierra_deck", "x": 28, "y": 5 }
 		],
 		
 		"items": {
@@ -274,7 +276,9 @@
 			{ "item": "energy_mag", "x": 40, "y": 10 },
 			{ "item": "energy_cell", "x": 40, "y": 10, "count": 5 },
 			{ "item": "infrastructure_comment", "x": 28, "y": 26 },
-			{ "item": "shady_comment", "x": 40, "y": 10 }
+			{ "item": "shady_comment", "x": 40, "y": 10 },
+			{ "item": "sierra_deck", "x": 1, "y": 4 },
+			{ "item": "sierra_deck", "x": 40, "y": 12 }
 		],
 		
 		"items": {
