@@ -548,6 +548,14 @@
 	},
 	{
 		"type": "item_group",
+		"id": "TERMINAL",
+		"subtype": "collection",
+		"entries": [
+		  { "item": "npc_glue2" }
+		]
+	},
+	{
+		"type": "item_group",
 		"id": "sierra_emitter",
 		"subtype": "collection",
 		"entries": [
@@ -596,6 +604,46 @@
 		"subtype": "collection",
 		"entries": [
 		  { "item": "remington_870" }
+		]
+	},
+	{
+		"type": "item_group",
+		"id": "vault_main",
+		"subtype": "collection",
+		"entries": [
+		  { "item": "colt_trooper_357", "prob": 6 },
+		  { "item": "357mag_fmj", "prob": 20, "charges-min": 1, "charges-max": 30 },
+		  { "item": "357mag_jhp", "prob": 20, "charges-min": 1, "charges-max": 30 },
+		  { "item": "9mm", "prob": 10, "charges-min": 1, "charges-max": 30 },
+		  { "item": "9mmfmj", "prob": 10, "charges-min": 1, "charges-max": 30 },
+		  { "item": "9mmP", "prob": 6, "charges-min": 1, "charges-max": 15 },
+		  { "item": "9mmP2", "prob": 6, "charges-min": 1, "charges-max": 15 },
+		  { "item": "bhp9mag_13rd", "prob": 5 },
+		  { "item": "falmag", "prob": 3 },
+		  { "item": "308", "prob": 6, "charges-min": 1, "charges-max": 20 },
+		  { "item": "shot_00", "prob": 5, "charges-min": 1, "charges-max": 6 },
+		  { "item": "shot_beanbag", "prob": 5, "charges-min": 0, "charges-max": 6 },
+		  { "item": "shot_bird", "prob": 5, "charges-min": 1, "charges-max": 6 },
+		  { "item": "shot_dragon", "prob": 5, "charges-min": 0, "charges-max": 6 },
+		  { "item": "shot_flechette", "prob": 5, "charges-min": 0, "charges-max": 6 },
+		  { "item": "shot_scrap", "prob": 5, "charges-min": 1, "charges-max": 15 },
+		  { "item": "shot_slug", "prob": 5, "charges-min": 1, "charges-max": 15 },
+		  { "item": "energy_cell", "prob": 20, "count": [ 1, 20 ] },
+		  { "item": "micro_cell", "prob": 20, "count": [ 1, 20 ] },
+		  { "item": "energy_cell_overcharged", "prob": 10, "count": [ 1, 10 ] },
+		  { "item": "micro_cell_overcharged", "prob": 10, "count": [ 1, 10 ] },
+		  { "item": "stimpack", "prob": 15 },
+		  { "item": "stealth_boy", "prob": 5 },
+		  { "item": "1st_aid", "prob": 10 },
+		  { "item": "energy_mag", "prob": 7 },
+		  { "item": "sierra_laser_pistol", "prob": 5 },
+		  { "item": "sierra_armor_reinforced", "prob": 3 },
+		  { "item": "sierra_helmet_reinforced", "prob": 3 },
+		  { "item": "turpentine", "prob": 10, "repeat": [ 1, 3 ], "count": [ 1, 2 ] },
+		  { "group": "tools_and_stuff", "prob": 35, "repeat": [ 1, 3 ] },
+		  { "group": "ammo_light_batteries", "prob": 35, "repeat": [ 1, 2 ] },
+		  { "group": "ammo_medium_batteries", "prob": 35, "repeat": [ 1, 2 ] },
+		  { "group": "ammo_heavy_batteries", "prob": 35, "repeat": [ 1, 2 ] }
 		]
 	}
 ]

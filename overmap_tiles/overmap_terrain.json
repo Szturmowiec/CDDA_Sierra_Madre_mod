@@ -1618,5 +1618,45 @@
     "see_cost": 5,
 	"extras": "build",
 	"flags": [ "NO_ROTATE" ]
+  },
+  {
+    "id": "vault_stairs",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre Vault",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE" ]
+  },
+  {
+    "id": "vault_stairs_2",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre Vault",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE" ]
+  },
+  {
+    "id": "sm_vault",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre Vault",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE" ]
+  },
+  {
+    "id": "sm_vault_2",
+    "type": "overmap_terrain",
+    "name": "Sierra Madre Vault",
+    "sym": "S",
+    "color": "i_red",
+    "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE" ]
   }
 ]

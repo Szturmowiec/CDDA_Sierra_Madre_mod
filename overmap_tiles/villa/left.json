@@ -10,7 +10,7 @@
 			"||||||//||||||||||||||||",
 			"!!FFF|..||||6OCCJJ5&|<<|",
 			"FF!!F|..P|||ffffffff|ff|",
-			"FFF!Fc....||ffhssshffffc",
+			"FFF!Fc...;||ffhssshffffc",
 			"!!!FF|....||ffhssshffff|",
 			"FFF!!|.....|fffffffffff|",
 			"d||c||.....||||||d||c|||",
@@ -33,10 +33,10 @@
 			"||||||||||||||||||||||||"
 		],
 		"furniture": { "&": "f_trashcan", "R": "f_rubble", "D": "stash", "O": "f_oven", "J": "f_counter", "C": "f_cupboard", "s": "f_table", "h": "f_chair", "5": "f_sink",
-		"6": "f_fridge", "!": "f_rubble"},
+		"6": "f_fridge", "!": "f_rubble", ";": "sierra_lamp" },
 		"terrain": { ".": "t_sidewalk", "*": "t_fountain", "|": "t_brick_wall", "-": "t_fence_metal", "/": "t_gate_metal_c", "d": "t_door_c", "c": "t_window_empty",
 		"F": "t_floor_noroof", "f": "t_floor", "<": "t_stairs_up", ">": "t_stairs_down", "&": "t_floor", "!": "t_floor_noroof", "O": "t_floor", "J": "t_floor", "C": "t_floor",
-		"s": "t_floor", "h": "t_floor", "5": "t_floor", "6": "t_floor"},
+		"s": "t_floor", "h": "t_floor", "5": "t_floor", "6": "t_floor", ";": "t_sidewalk" },
 		"signs": { "P": { "signage": "Medical district" } },
 		
 		"place_loot": [

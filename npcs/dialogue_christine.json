@@ -51,7 +51,7 @@
 	{
 		"id": "REASON",
 		"type": "talk_topic",
-		"dynamic_line": "I see... You went so far. Like me. Like the Courier, like Dean Domino, like (God/Dog), like Father Elijah... But getting there... That's not the hard part. It's letting go. Greed, jealously, hate, vengeance, power, control, hunger, money, even love... We all came here for different reaasons... But that's what we had to learn. To let go. Hell, Friedrick Sinclair, the Founder himself couldn't let go... And so he himself died in the Sierra Madre... Everyone who left this place learned to let go. The majority didn't... And they all died. Neither could Father Elijah.",
+		"dynamic_line": "I see... You went so far. Like me. Like the Courier, like Dean Domino, like (God/Dog), like Father Elijah... But getting to it... That's not the hard part. It's letting go. Greed, jealously, hate, vengeance, power, control, hunger, money, even love... We all came here for different reaasons... But that's what we had to learn. To let go. Hell, Frederick Sinclair, the Founder himself couldn't let go... And so he himself died in the Sierra Madre... Everyone who left this place learned to let go. The majority didn't... And they all died. Neither could Father Elijah.",
 		"responses": [
 		  { "text": "That collar on my neck... I have to obey Father Elijah. One of the inscriptions on the villa wall says \"Try to leave and BOOM\"...", "condition": { "u_has_trait": "SIERRA_HUNTER" }, "topic": "SLAVE" },
 		  { "text": "I entered the Casino only because of the guidance of the voice that spoke to me through the fountain hologram and Casino intercom at the lobby... We both know to whom this voice belongs at this point, am I right?", "topic": "SLAVE" }

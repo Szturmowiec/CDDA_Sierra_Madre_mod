@@ -176,7 +176,17 @@
 	  { "point": [ 0, -5, 8 ], "overmap": "casino_roof_5" },
 	  { "point": [ 1, -5, 8 ], "overmap": "casino_roof_6" },
 	  { "point": [ 0, -5, 9 ], "overmap": "casino_roof_up" },
-	  { "point": [ 0, -5, 10 ], "overmap": "casino_roof_up_up" }
+	  { "point": [ 0, -5, 10 ], "overmap": "casino_roof_up_up" },
+	  { "point": [ 1, -6, -1 ], "overmap": "vault_stairs" },
+	  { "point": [ 1, -6, -2 ], "overmap": "vault_stairs_2" },
+	  { "point": [ 1, -6, -3 ], "overmap": "vault_stairs" },
+	  { "point": [ 1, -6, -4 ], "overmap": "vault_stairs_2" },
+	  { "point": [ 1, -6, -5 ], "overmap": "vault_stairs" },
+	  { "point": [ 1, -6, -6 ], "overmap": "vault_stairs_2" },
+	  { "point": [ 1, -6, -7 ], "overmap": "vault_stairs" },
+	  { "point": [ 1, -6, -8 ], "overmap": "vault_stairs_2" },
+	  { "point": [ 1, -6, -9 ], "overmap": "sm_vault" },
+	  { "point": [ 2, -6, -9 ], "overmap": "sm_vault_2" }
     ],
     "connections": [ { "point": [ 0, 2, 0 ], "terrain": "road" } ],
     "locations": [ "wilderness" ],

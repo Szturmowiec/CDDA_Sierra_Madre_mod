@@ -106,9 +106,11 @@
 		"effect": "summon",
 		"effect_str": "mon_holo_guard_neutral",
 		"base_casting_time": 10,
-		"message": "You activate the Sierra Madre security hologram. Since it is you who's done it, it'll be friendly towards you. The portable emitter's power supply will last only for so much, though.",
+		"message": "You activate the Sierra Madre security hologram. Since it is you who's done it, it'll be friendly towards you. The portable emitter's power supply will last only for so long, though.",
 		"min_duration": 40000,
 		"max_duration": 40000,
+		"min_damage": 1,
+		"max_damage": 1,
 		"min_range": 7,
 		"max_range": 7,
 		"flags": [ "SILENT" ]

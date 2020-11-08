@@ -23,7 +23,7 @@
 			"|f!ssfff|..RR...R.......",
 			"|fhssf@@c........|....|.",
 			"|BBffffs|...............",
-			"|fff!f7||...............",
+			"|fff!f7||............?..",
 			"|@!fff||&.|......|.|c|||",
 			"|@fff||...|........|FF;;",
 			"|BBf||.......*.....c;;;F",
@@ -34,11 +34,12 @@
 		],
 		"furniture": { "&": "f_trashcan", "R": "f_rubble", "O": "f_oven", "J": "f_counter", "C": "f_cupboard", "s": "f_table", "h": "f_chair", "5": "f_sink",
 		"6": "f_fridge", "7": "f_wardrobe", "@": "f_bed", "B": "f_bookcase", "N": "f_TV_antenna", "V": "f_roof_turbine_vent", "~": "f_chimney", "=": "f_vent_pipe",
-		"j": "f_rack", "0": "f_console_broken", "^": "f_trashcan", "!": "f_rubble", "I": "f_desk", ";": "f_rubble"},
+		"j": "f_rack", "0": "f_console_broken", "^": "f_trashcan", "!": "f_rubble", "I": "f_desk", ";": "f_rubble", "?": "sierra_lamp" },
 		
 		"terrain": { ".": "t_sidewalk", "*": "t_fountain", "|": "t_brick_wall", "-": "t_fence_metal", "/": "t_gate_metal_c", "d": "t_door_c", "c": "t_window_empty",
 		"F": "t_floor_noroof", "f": "t_floor", "<": "t_stairs_up", ">": "t_stairs_down", "j": "t_floor", "^": "t_floor", "0": "t_floor", "O": "t_floor", "J": "t_floor",
-		"C": "t_floor", "s": "t_floor", "h": "t_floor", "5": "t_floor", "6": "t_floor", "7": "t_floor", "@": "t_floor", "B": "t_floor", "!": "t_floor", "I": "t_floor", "+": "t_door_locked_interior", ";": "t_floor_noroof"},
+		"C": "t_floor", "s": "t_floor", "h": "t_floor", "5": "t_floor", "6": "t_floor", "7": "t_floor", "@": "t_floor", "B": "t_floor", "!": "t_floor", "I": "t_floor", "+": "t_door_locked_interior", ";": "t_floor_noroof",
+		"?": "t_sidewalk" },
 		"signs": { "P": { "signage": "Puesta del Sol" } },
 		
 		"place_loot": [

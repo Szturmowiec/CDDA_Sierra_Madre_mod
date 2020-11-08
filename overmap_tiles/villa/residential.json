@@ -29,7 +29,7 @@
 			".................|.&|c||",
 			"......|............||fff",
 			"||c|.....|..|.....c|Afff",
-			"|RR|c||&......P..||fffff",
+			"|RR|c||&...;..P..||fffff",
 			"cffRRR||||c||||//|fhsshf",
 			"|fRfffRRf|fHHH|..cfhsshf",
 			"|R||||||R|fffH|..dffffff",
@@ -48,7 +48,7 @@
 			"|..|||||||.?....|j_f+?.|",
 			"|.?......4......|jfR|..|",
 			"|.((||||||.|..|.|||||?.|",
-			"|((||...............+..|",
+			"|((||.............;.+..|",
 			"||||&.|..|......|...|(?|",
 			"|...??......?.......|..|",
 			"|..|..GGG..i?.GGG.|.|.(|",
@@ -81,13 +81,13 @@
 			"|...**(((&....(...?....|",
 			"|...**..?...?..?.((....|",
 			"|.|....|.|..|..|..|?.|.|",
-			"|........?(((((.?......|",
+			"|........?(((((.?.....;|",
 			"||||||||||||||||||||||||"
 		],
 		"furniture": { ")": "f_trashcan", "R": "f_rubble", "D": "stash", "O": "f_oven", "J": "f_counter", "C": "f_cupboard", "s": "f_table", "h": "f_chair", "5": "f_sink",
 		"6": "f_fridge", "7": "f_wardrobe", "@": "f_bed", "B": "f_bookcase", "N": "f_TV_antenna", "V": "f_roof_turbine_vent", "~": "f_chimney", "=": "f_vent_pipe",
 		"j": "f_rack", "0": "f_console_broken", "#": "f_console_broken", "l": "f_coffee_table", "E": "f_stool", "A": "f_armchair", "L": "f_rack_coat", "i": "f_bench", "1": "f_statue",
-		"2": "f_dresser", "e": "f_pool_table", "I": "f_desk", "H": "f_sofa", "r": "t_broken_radio", "^": "t_broken_radio", "(": "f_rubble", "&": "f_trashcan"},
+		"2": "f_dresser", "e": "f_pool_table", "I": "f_desk", "H": "f_sofa", "r": "t_broken_radio", "^": "t_broken_radio", "(": "f_rubble", "&": "f_trashcan", ";": "sierra_lamp" },
 		
 		"traps": { "_": "tr_beartrap",  "?": "tr_beartrap", "M": "tr_landmine", "9": "tr_landmine", "S": "tr_shotgun_2", "K": "tr_tripwire"},
 			
@@ -95,7 +95,7 @@
 		"F": "t_floor_noroof", "f": "t_floor", "<": "t_stairs_up", ">": "t_stairs_down", "T": "t_tree_dead", "G": "t_dirt", "a": "t_concrete", "m": "t_door_metal_c",
 		"8": "t_potential_trans", "9": "t_floor", "k": "t_station_disc", "r": "t_floor", "#": "t_concrete", "^": "t_concrete", "(": "t_sidewalk", "&": "t_sidewalk",
 		"1": "t_sidewalk", "i": "t_sidewalk", "D": "t_sidewalk", "P": "t_sidewalk", "p": "t_sidewalk", "+": "t_door_locked_interior", "4": "t_door_bar_locked",
-		"_": "t_floor", "?": "t_sidewalk", "M": "t_sidewalk", "S": "t_floor", "K": "t_floor"},
+		"_": "t_floor", "?": "t_sidewalk", "M": "t_sidewalk", "S": "t_floor", "K": "t_floor", ";": "t_sidewalk" },
 		"signs": { "P": { "signage": "Residential district" } },
 		
 		"place_fields": [

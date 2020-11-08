@@ -19,7 +19,7 @@
         "|aaaaaaaaaa|...?..........|cc||JJCCC5O6|......?...||cRRffffRRc||......*|",
         "|aa888aaa8||....?...|.|||||fff)frffffffc......?..c|fffRRRRffffR|c......|",
         "|aak9aaaa8|.?..|..|.?.|<ff||ffffhhhhfff|...|....||fffRfRfRRfRRRf||.....|",
-        "|aaa^aaaa8|..|.??..?.?|<__f||ffhsssshff|.....?...c|fRRRRfRRRfff|c.....1|",
+        "|aaa^aaaa8|..|.??.M?.?|<__f||ffhsssshff|.....?...c|fRRRRfRRRfff|c.....1|",
         "|||||m|||||..?.|cc||cc||||f_||fhsssshffc..........||cffRffffRc||.......|",
         "|.....p....?...|RffRfRRRR||f_||fhhhhfff|...........1|||cddc|||.........|",
         "|..|..?...?..|.cRRffRfhlhf||_f|ffffffff|...|..........&..?............||",
@@ -39,7 +39,7 @@
         "|...i..GTG..i..cfffffffff|f__ffRRffhsshffhsshffflfHc..|....|..|ffjjjj_f|",
         "|...i..GGG..i..|fhffffffRR_ffRRRff_fssfffhsshffflfHc..........cfff_ffff|",
         "|..|.........|.||lffhlhfRRRRRf_f_f_fffffffffffffffH|..........cffjjjjff|",
-        "|...............c|ffRRRff|_fRf_feeeeeffffsshfffff|||..|....|..|_fffff_f|",
+        "|...............c|ffRRRff|_fRf_feeeeeffffsshfffff|||..|....|.M|_fffff_f|",
         "|.............|.*||fffRff|ff|ff_eeeeef_ffhsshf|cc|............|c|ffjjff|",
         "|..|............**||fffhf|_f|Lffeeeeefffffff|c|....|...?....|...|||ffff|",
         "|..............|***c|fhlh|ff|Lffff_ffffff||||...|..........?..|..1|c|ff|",
@@ -69,7 +69,7 @@
         "|.|....?..((||ffRffRRRRRRRRfRRjjjf|ff+fff|ffffRffff||...........|fffRfff",
         "|.......|..|RfRfRRRffRRRRf|||ffRRfR<<|__f|LLfLfffffc..|.(.......|||fjjjf",
         "|...((((..||RffffRRfffRRffff|||RRRR|||ccd|||d|||c|||..............cfffff",
-        "|.|..(|(.|cfffRffffffRRRRfffff||RR||.......&.....................&|fjjjf",
+        "|.|..(|(.|cfffRffffffRRRRfffff||RR||M......&.....................&|fjjjf",
         "|.((((..||RRRfRfRRRRRfffffRRfffdR||....|..|..|..|..|......(((....i|fffff",
         "|....|.||ffffffffffRRRffRRRffff|c|..|............................i|fjjjf",
         "|......crfffRRRffffffRRfffffff||..........GGG...((.....(.....(...i||ffff",
@@ -88,14 +88,14 @@
 	"furniture": { ")": "f_trashcan", "R": "f_rubble", "D": "stash", "O": "f_oven", "J": "f_counter", "C": "f_cupboard", "s": "f_table", "h": "f_chair", "5": "f_sink",
 	"6": "f_fridge", "7": "f_wardrobe", "@": "f_bed", "B": "f_bookcase", "N": "f_TV_antenna", "V": "f_roof_turbine_vent", "~": "f_chimney", "=": "f_vent_pipe",
 	"j": "f_rack", "0": "f_console_broken", "#": "f_console_broken", "l": "f_coffee_table", "E": "f_stool", "A": "f_armchair", "L": "f_rack_coat", "i": "f_bench", "1": "f_statue",
-	"2": "f_dresser", "e": "f_pool_table", "I": "f_desk", "H": "f_sofa", "r": "t_broken_radio", "^": "t_broken_radio", "(": "f_rubble", "&": "f_trashcan" },
+	"2": "f_dresser", "e": "f_pool_table", "I": "f_desk", "H": "f_sofa", "r": "t_broken_radio", "^": "t_broken_radio", "(": "f_rubble", "&": "f_trashcan", "M": "sierra_lamp" },
 		
 	"traps": { "_": "tr_beartrap",  "?": "tr_beartrap"},
 		
 	"terrain": { ".": "t_sidewalk", "*": "t_fountain", "|": "t_brick_wall", "-": "t_fence_metal", "/": "t_gate_metal_c", "d": "t_door_c", "c": "t_window_empty",
 	"F": "t_floor_noroof", "f": "t_floor", "<": "t_stairs_up", ">": "t_stairs_down", "T": "t_tree_dead", "G": "t_dirt", "a": "t_concrete", "m": "t_door_metal_c",
 	"8": "t_potential_trans", "9": "t_switchgear_s", "k": "t_station_disc", "r": "t_floor", "#": "t_concrete", "^": "t_concrete", "(": "t_sidewalk", "&": "t_sidewalk",
-	"1": "t_sidewalk", "i": "t_sidewalk", "D": "t_sidewalk", "P": "t_sidewalk", "p": "t_sidewalk", "+": "t_door_locked_interior", "_": "t_floor", "?": "t_sidewalk" },
+	"1": "t_sidewalk", "i": "t_sidewalk", "D": "t_sidewalk", "P": "t_sidewalk", "p": "t_sidewalk", "+": "t_door_locked_interior", "_": "t_floor", "?": "t_sidewalk", "M": "t_sidewalk" },
 	"signs": { "P": { "signage": "Medical district" }, "p": { "signage": "Switching station" } },
 	
 	"place_fields": [

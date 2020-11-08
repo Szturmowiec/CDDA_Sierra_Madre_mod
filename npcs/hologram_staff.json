@@ -10,24 +10,6 @@
 		"ignored_by": [ "ZOMBIE", "MUTANT", "ROBOT", "HUMAN", "INSECT", "MYCUS" ]
 	},
 	{
-		"type": "enchantment",
-		"id": "STAY_THERE",
-		"ench_effects": [
-		  { "effect": "webbed", "intensity": 3 },
-		  { "effect": "deaf", "intensity": 3 },
-		  { "effect": "blind", "intensity": 1 }
-		],
-		"hit_me_effect": [
-			{
-				"id": "debugging_effect",
-				"hit_self": false,
-				"once_in": 15,
-				"message": "debug",
-				"npc_message": "debug"
-			}
-		]
-	},
-	{
 		"type": "npc_class",
 		"id": "holo_staff",
 		"name": "Sierra Madre hologram workers",
@@ -121,7 +103,7 @@
 		"gender": "female",
 		"name_unique": "Vera Keyes' fountain hologram",
 		"class": "vera_fountain",
-		"attitude": 0,
+		"attitude": 1,
 		"mission": 7,
 		"chat": "TALK_FOUNTAIN",
 		"faction": "no_faction"
@@ -154,9 +136,42 @@
 		"gender": "male",
 		"name_unique": "Sierra Madre Casino intercom",
 		"class": "intercomm",
-		"attitude": 0,
+		"attitude": 1,
 		"mission": 7,
 		"chat": "TALK_INTER",
+		"faction": "no_faction"
+	},
+	{
+		"type": "npc_class",
+		"id": "vaultt",
+		"name": "Sierra Madre Vault main terminal",
+		"common": false,
+		"bonus_str": { "constant": 5 },
+		"bonus_dex": { "constant": 5 },
+		"bonus_per": { "constant": 5 },
+		"bonus_int": { "constant": 5 },
+		"skills": [
+		  { "skill": "ALL", "level": 10 } 
+		],
+		"job_description": "Still operational terminal inside the Sierra Madre Vault, providing access to the most important data for Frederick Sinclair.",
+		"worn_override": "TERMINAL",
+		"weapon_override": "EMPTY_GROUP",
+		"carry_override": "EMPTY_GROUP",
+		"traits": [
+			{ "trait": "HOLOGRAMS" },
+			{ "trait": "DEBUG_NODMG" },
+			{ "trait": "DEBUG_CLOAK" }
+		]
+	},
+	{
+		"type": "npc",
+		"id": "vault_console",
+		"gender": "male",
+		"name_unique": "vault control terminal",
+		"class": "vaultt",
+		"attitude": 0,
+		"mission": 7,
+		"chat": "VAULT_CONSOLE",
 		"faction": "no_faction"
 	}
 ]

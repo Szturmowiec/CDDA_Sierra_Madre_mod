@@ -1,5 +1,16 @@
 [
 	{
+		"type": "enchantment",
+		"id": "STAY_THERE",
+		"ench_effects": [
+		  { "effect": "webbed", "intensity": 3 },
+		  { "effect": "deaf", "intensity": 3 },
+		  { "effect": "blind", "intensity": 1 }
+		],
+		"has": "WORN",
+		"condition": "ALWAYS"
+	},
+	{
 		"id": "explosive_collar",
 		"type": "TOOL_ARMOR",
 		"category": "weapons",
@@ -92,7 +103,7 @@
 		"id": "sierra_gold",
 		"type": "GENERIC",
 		"category": "other",
-		"name": { "str_sp": "Sierra Madre gold bar" },
+		"name": { "str": "Sierra Madre gold bar" },
 		"description": "A weighty gold bar from the vault of the Sierra Madre casino. Technically worthless in a post-apocalyptic world, but the fact that it's from the legendary Sierra Madre actually makes it valuable for some rich traders willing to collect souvenirs.",
 		"weight": "15876 g",
 		"volume": "822 ml",
@@ -170,13 +181,13 @@
 		"pocket_data": [
 		  { "pocket_type": "CONTAINER", "rigid": true, "max_contains_volume": "1 L", "max_contains_weight": "1500 g", "moves": 80 }
 		],
-		"flags": [ "OVERSIZE", "OUTER", "TARDIS", "STURDY", "NO_TAKEOFF" ]
+		"flags": [ "OVERSIZE", "OUTER", "TARDIS", "STURDY", "NO_TAKEOFF", "TRADER_KEEP", "AURA" ]
 	},
 	{
 		"id": "npc_glue",
 		"type": "ARMOR",
 		"name": { "str": "Hologram visualisation" },
-		"description": "If you see it it's a one giant bug.",
+		"description": "If you see it it's one giant bug.",
 		"weight": "1501 g",
 		"volume": "1001 ml",
 		"symbol": "~",
@@ -187,7 +198,24 @@
 		"pocket_data": [
 		  { "pocket_type": "CONTAINER", "rigid": true, "max_contains_volume": "1 L", "max_contains_weight": "1500 g", "moves": 80 }
 		],
-		"flags": [ "NO_TAKEOFF", "TRADER_AVOID", "TRADER_KEEP" ]
+		"flags": [ "NO_TAKEOFF", "TRADER_AVOID", "TRADER_KEEP", "STURDY", "AURA" ]
+	},
+	{
+		"id": "npc_glue2",
+		"type": "ARMOR",
+		"name": { "str": "Sierra Madre Vault console display" },
+		"description": "If you see it it's one giant bug.",
+		"weight": "1501 g",
+		"volume": "1001 ml",
+		"symbol": "~",
+		"color": "light_red",
+		"covers": [ "eyes", "mouth" ],
+		"encumbrance": 18,
+		"relic_data": { "passive_effects": [ { "id": "STAY_THERE" } ] },
+		"pocket_data": [
+		  { "pocket_type": "CONTAINER", "rigid": true, "max_contains_volume": "1 L", "max_contains_weight": "1500 g", "moves": 80 }
+		],
+		"flags": [ "NO_TAKEOFF", "TRADER_AVOID", "TRADER_KEEP", "STURDY", "AURA" ]
 	},
 	{
 		"id": "sierra_deck",

@@ -67,7 +67,7 @@
     "color": "red",
     "move_cost_mod": 1,
     "coverage": 90,
-    "required_str": 2000000000,
+    "required_str": -1,
 	"light_emitted": 5,
     "flags": [ "SEALED", "BLOCKSDOOR", "CONTAINER", "BLOCKSDOOR", "PLACE_ITEM" ],
     "bash": {
@@ -93,7 +93,7 @@
     "color": "red",
     "move_cost_mod": 1,
     "coverage": 90,
-    "required_str": 2000000000,
+    "required_str": -1,
 	"light_emitted": 10,
     "flags": [ "SEALED", "BLOCKSDOOR", "CONTAINER", "BLOCKSDOOR", "PLACE_ITEM" ],
     "bash": {
@@ -119,7 +119,7 @@
     "color": "red",
     "move_cost_mod": 1,
     "coverage": 90,
-    "required_str": 2000000000,
+    "required_str": -1,
 	"light_emitted": 10,
     "flags": [ "SEALED", "BLOCKSDOOR", "CONTAINER", "BLOCKSDOOR", "PLACE_ITEM" ],
     "bash": {
@@ -145,7 +145,7 @@
     "color": "red",
     "move_cost_mod": 1,
     "coverage": 90,
-    "required_str": 2000000000,
+    "required_str": -1,
     "flags": [ "SEALED", "BLOCKSDOOR", "CONTAINER", "BLOCKSDOOR", "PLACE_ITEM" ],
     "bash": {
       "str_min": 2000000000,
@@ -157,6 +157,59 @@
         { "item": "glass_shard", "count": [ 8, 25 ] },
         { "item": "sheet_metal", "count": [ 0, 2 ] },
         { "item": "steel_chunk", "count": [ 1, 5 ] }
+      ]
+    }
+	},
+	{
+    "type": "furniture",
+    "id": "terminal_npc",
+    "name": "vault control terminal",
+    "looks_like": "t_console",
+    "description": "Still operational terminal inside the Sierra Madre Vault, providing access to the most important data for Frederick Sinclair.",
+    "symbol": "{",
+    "color": "red",
+    "move_cost_mod": 1,
+    "coverage": 90,
+    "required_str": -1,
+    "flags": [ "SEALED", "BLOCKSDOOR", "CONTAINER", "BLOCKSDOOR", "PLACE_ITEM" ],
+    "bash": {
+      "str_min": 2000000000,
+      "str_max": 2000000000,
+      "sound": "glass breaking!",
+      "sound_fail": "whack!",
+      "furn_set": "f_vending_o",
+      "items": [
+        { "item": "glass_shard", "count": [ 8, 25 ] },
+        { "item": "sheet_metal", "count": [ 0, 2 ] },
+        { "item": "steel_chunk", "count": [ 1, 5 ] }
+      ]
+    }
+	},
+	{
+    "type": "furniture",
+    "id": "sierra_lamp",
+    "name": "street lantern",
+    "looks_like": "gasoline_lantern",
+    "description": "A simple street lantern providing some light for the dark night streets as long as it has access to a power source. This one has been stylized to look like lanterns from the late XIX or early XX century.",
+    "symbol": "&",
+    "color": "yellow",
+    "move_cost_mod": 1,
+    "coverage": 50,
+    "required_str": -1,
+    "light_emitted": 50,
+    "flags": [ "TRANSPARENT", "NOITEM", "PERMEABLE" ],
+    "bash": {
+      "str_min": 25,
+      "str_max": 150,
+      "sound": "crunch!",
+      "sound_fail": "whack!",
+      "items": [
+        { "item": "cable", "charges": [ 4, 10 ], "prob": 50 },
+        { "item": "e_scrap", "count": [ 1, 4 ], "prob": 50 },
+        { "item": "circuit", "count": [ 0, 2 ], "prob": 50 },
+        { "item": "power_supply", "prob": 25 },
+        { "item": "plastic_chunk", "count": [ 4, 10 ], "prob": 50 },
+        { "item": "scrap", "count": [ 8, 20 ], "prob": 50 }
       ]
     }
 	}

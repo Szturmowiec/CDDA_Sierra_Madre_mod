@@ -306,7 +306,7 @@
 		"type": "TOOL",
 		"looks_like": "eink_tablet_pc",
 		"name": { "str": "portable security hologram emitter" },
-		"description": "A portable version of the Sierra Madre security hologram emitter, allowing you to place a friendly holo guard of your own. One-time use only, and it has only so much power stored allowing the activated hologram to exist for only so much long.",
+		"description": "A portable version of the Sierra Madre security hologram emitter, allowing you to place a friendly holo guard of your own. One-time use only, and it has only so much power stored allowing the activated hologram to exist for only so long.",
 		"weight": "250 g",
 		"volume": "50 ml",
 		"price": 5500000,
