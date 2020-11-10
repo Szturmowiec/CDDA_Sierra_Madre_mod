@@ -76,7 +76,7 @@
 	{
 		"id": "MISSION_1",
 		"type": "talk_topic",
-		"dynamic_line": "Oh, so you can make smart decisions? Good, very good... Now listen: the only way to open the Sierra Madre Casino is to trigger the Gala Event... Or at least it was a way to do so before some critical electronics and power distribution systems eventually broke down beyond repair from lack of maintenance. However, I've learned there's a backup that I initially omitted which was meant for the Sierra Madre security personnel to open and close the Casino during normal business days had the apocalypse not happened... Basically there's a security card opening the Casino's door tossed out somewhere around the villa.",
+		"dynamic_line": "Oh, so you can make smart decisions? Good, very good... Now listen: the only way to open the Sierra Madre Casino is to trigger the Gala Event... However, some critical electronics and power distribution systems eventually broke down from lack of maintenance. Fortunately for us, I've learned a lot about those systems and have a general understanding of how they work. I'm aware of three locations around the Villa that should have spare electronic boards and processing units we can use to work around the issues of the failing systems.",
 		"responses": [
 		  { "text": "...", "topic": "MISSION_11" }
 		]
@@ -84,7 +84,7 @@
 	{
 		"id": "MISSION_11",
 		"type": "talk_topic",
-		"dynamic_line": "However, to minimize security compromise risks, the three microchips allowing the card to work as intended were removed from it and hidden in three different spots, only known to the security personnel and management. Luckily for us, the locations of the microchips as well as the card itself were directly linked with key locations for starting the Gala Event and since I know how to start Gala, that means I also know where to find them. I request you to retrieve them. The first microchip is located in the power switching station in the Salida del Sol. Remaining two are in the Puesta del Sol, one in the switching station on the corner of the district and the second one of the balcony on one of the buildings next to a wall between Puesta del Sol and medical district. Look at your tracking device, I've marked all three locations for you with green \"S\". Once you get them, go back to the fountain and I'll tell you what's next.",
+		"dynamic_line": "The placements of those electronic components were directly linked with key locations for starting the Gala Event and since I know how to start Gala, that means I also know where to find them. I request you to retrieve them. The first Sierra Madre electronic board is located in the power switching station in the Salida del Sol. Remaining two are in the Puesta del Sol, one in the switching station on the corner of the district and the second one on the balcony of one of the buildings next to a wall between Puesta del Sol and medical district. Look at your tracking device, I've marked all three locations for you with green \"S\". Once you get them, go back to the fountain and I'll tell you what's next.",
 		"responses": [
 		  { "text": "Fine, I'm going...", "topic": "HURRY", "effect": { "npc_first_topic": "MIDMISSION" } },
 		  { "text": "Anything specific I should watch out for?", "topic": "TIPS" }
@@ -136,10 +136,10 @@
 	{
 		"id": "MIDMISSION2",
 		"type": "talk_topic",
-		"dynamic_line": "Have you found the card already?",
+		"dynamic_line": { "u_has_trait": "gala_trait", "no": "I don't see the Gala Event has been started yet, hurry up!", "yes": "The Gala event has started, the doors to the casino are opened! What the hell are you doing here! Waiting for the Ghost People to catch up to you! Hurry inside!" },
 		"responses": [
-		  { "text": "Yeah, found it, got it.", "condition": { "u_has_item": "casino_enter_card_broken" } , "topic": "MISSION_END" },
-		  { "text": "No, still struggling with it.", "condition": { "not": { "u_has_item": "casino_enter_card_broken" } }, "topic": "HURRY" }
+		  { "text": "Okay, okay, I'm trying my best...", "condition": { "not": { "u_has_trait": "gala_trait" } }, "topic": "HURRY" },
+		  { "text": "Okay, okay, I'm running...", "condition": {  "u_has_trait": "gala_trait" }, "topic": "TALK_DONE", "effect": { "npc_first_topic": "HURRY2" } }
 		]
 	},
 	{
@@ -153,25 +153,20 @@
 	{
 		"id": "MISSION_2",
 		"type": "talk_topic",
-		"dynamic_line": "Good, very good... At least now I'm sure you are capable of staying alive in the Sierra Madre... Now you need to get the card itself. It must be laying on top of the Campanas del Sol bell tower. I marked the spot for you with aa yellow \"S\". Good luck out there. Once you have the card, come back to the fountain.",
+		"dynamic_line": "Good, very good... At least now I'm sure you are capable of staying alive in the Sierra Madre... Now the time has come for you to start the Gala Event. Place the electronic boards you've acquired under the fountain hologram so I can scan them. This will allow me to generate a special access code that can be used to trigger the Gala Event using the backup power systems since the main ones have failed a long time ago. The backup should be more resilient than the main one, so it should work just fine. The terminal for controlling the Gala Event is located on top of the Campanas del Sol bell tower. I marked the spot for you with a yellow \"S\". Once you start the Gala, make a run for the casino. The music and the fireworks will attract a lot of unwanted attention... Good luck out there.",
 		"responses": [
-		  { "text": "Alright, I'm on my way...", "topic": "TALK_DONE", "effect": { "npc_first_topic": "MIDMISSION2" } }
-		]
-	},
-	{
-		"id": "MISSION_END",
-		"type": "talk_topic",
-		"dynamic_line": "Great, I'm really impressed! Now you have everything you need to enter the casino itself... Insert the microchips into the card through these three slots you've probably noticed already on it and follow the alley ahead of the fountain to get to the entrance, just look at the hologram, I'll show you how... We'll meet inside... Speak with me through the intercom that will be right near the entrance door, along the receptionist's counter.",
-		"responses": [
-		  { "text": "Alright, I'm coming in...", "topic": "TALK_DONE", "effect": [ { "npc_first_topic": "HURRY2" }, { "u_sell_item": "card_chip", "count": 3 }, { "u_sell_item": "casino_enter_card_broken" }, { "npc_consume_item": "card_chip", "count": 3 }, { "npc_consume_item": "casino_enter_card_broken" }, { "u_buy_item": "casino_enter_card" } ] }
+		  { "text": "Alright, I'm on my way...", "topic": "TALK_DONE", "effect": [ { "npc_first_topic": "MIDMISSION2" }, { "u_sell_item": "card_chip", "count": 3 }, { "npc_consume_item": "card_chip", "count": 3 }, { "u_buy_item": "casino_enter_card" } ] }
 		]
 	},
 	{
 		"id": "HURRY2",
 		"type": "talk_topic",
-		"dynamic_line": { "u_has_trait": "entered_casino", "yes": "What are you doing here? Waiting till the Cloud kills you? Or you don't want the Sierra Madre anymore? Whatever the case, now it's too late - I order you to immediately get back to work!", "no": "Don't waste any more time, go inside the casino! It's what you wanted, it's why you even dared to come here, am I right?... So hurry!" },
+		"dynamic_line": { "u_has_trait": "entered_casino", "yes": "What are you doing here? Waiting till the Cloud kills you? Or you don't want the Sierra Madre anymore? Whatever the case, now it's too late - I order you to immediately get back to work!",
+			"no": { "u_has_trait": "win", "no": "Don't waste any more time, go inside the casino! It's what you wanted, it's why you even dared to come here, am I right?... So hurry!",
+			"yes": "Wait a moment, before you go. I... we... hope you've enjoyed your stay. Farewells can be a time of sadness. Letting go... difficult. As a guest of the Sierra Madre, you know that truth more than anyone. Frederick Sinclair believed one's life could be made anew every day, that fortunes were more than the wealth in your hands. Love. Life... family, those to care for, and those who will care for you. To those who know these joys, the Sierra Madre holds little they don't already have. Out in the world, beyond these walls, that is your chance to begin again. I hope you'll return, in happier times. Until then, the Sierra Madre... and I... will hold you in our hearts." } },
 		"responses": [
-		  { "text": "Okay, okay, I'm going...", "topic": "TALK_DONE" }
+		  { "text": "Okay, okay, I'm going...", "condition": { "not": { "u_has_trait": "win" } }, "topic": "TALK_DONE" },
+		  { "text": "...", "condition": { "u_has_trait": "win" }, "topic": "TALK_DONE" }
 		]
 	}
 ]

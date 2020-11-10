@@ -673,7 +673,7 @@
 		"rows": [
 			"..................|!||!|",
 			"..................!fff>!",
-			"..................!0fff!",
+			"..................!ffff!",
 			"..................|!||!|",
 			"........................",
 			"........................",
@@ -708,12 +708,19 @@
 		"1": "t_sidewalk", "i": "t_sidewalk", "D": "t_sidewalk", "P": "t_sidewalk", "p": "t_sidewalk", "b": "t_flat_roof", "!": "t_fence_sierra"},
 		
 		"place_loot": [
-			{ "item": "holo_optics", "x": 21, "y": 2 },
-			{ "item": "casino_enter_card_broken", "x": 20, "y": 2 }
+			{ "item": "holo_optics", "x": 21, "y": 2 }
 		],
 		
 		"place_fields": [
 			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 5000 }
+		],
+		
+		"place_npcs": [
+			{ "class": "gala_npc", "x": 19, "y": 2 }
+		],
+	  
+		"place_furniture": [
+			{ "furn": "gala_terminal_npc", "x": 19, "y": 2 }
 		],
 		
 		"place_graffiti": [
@@ -722,13 +729,7 @@
           "x": 20,
           "y": 3
         }
-		],
-		
-		"computers": {
-        "0": {
-          "name": "Gala control panel"
-        }
-		}
+		]
     }
   },
   {

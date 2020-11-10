@@ -304,7 +304,7 @@
 		"id": "SIERRA_HUNTER",
 		"name": { "str": "Sierra Madre Treasure Hunter" },
 		"points": 0,
-		"description": "You're one of the many survivors attempting to crack the Sierra Madre open and find the treasure of the Old World buried deep inside its vault.",
+		"description": "You're one of the many survivors who set on cracking the Sierra Madre open and find the treasure of the Old World buried deep inside its vault.",
 		"valid": false,
 		"purifiable": false,
 		"profession": true
@@ -320,6 +320,26 @@
 		"profession": true
 	},
 	{
+		"type": "mutation",
+		"id": "win",
+		"name": { "str": "Sierra Madre Conqueror" },
+		"points": 0,
+		"description": "And so you've cracked the Sierra Madre open, finally, after all you've been through you've uncovered its deepest secrets.",
+		"valid": false,
+		"purifiable": false,
+		"profession": true
+	},
+	{
+		"type": "mutation",
+		"id": "gala_trait",
+		"name": { "str": "Sierra Madre Gala leader" },
+		"points": 0,
+		"description": "You've managed to successfully trigger the Gala Event, opening the door to the Sierra Madre Casino. Now it is time to enter this legendary resort.",
+		"valid": false,
+		"purifiable": false,
+		"profession": true
+	},
+	{
 		"type": "effect_type",
 		"id": "collar_boom",
 		"rating": "bad",
@@ -330,6 +350,6 @@
 		  "hurt_min": [ 999 ],
 		  "hurt_max": [ 999 ]
 		},
-		"show_in_info": false
+		"show_in_info": true
 	}
 ]

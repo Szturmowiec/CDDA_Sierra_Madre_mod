@@ -96,7 +96,24 @@
 		"type": "talk_topic",
 		"dynamic_line": "Have you dealt with Father Elijah? Please, hurry!",
 		"responses": [
-		  { "text": "Still working to get inside... ", "topic": "TALK_DONE" }
+		  { "text": "Still working to get inside...", "condition": { "not": { "u_has_trait": "win" } }, "topic": "TALK_DONE" },
+		  { "text": "Yeah... I went down there, he gave me no choice and is now dead...", "condition": { "u_has_trait": "win" }, "topic": "FINAL" }
+		]
+	},
+	{
+		"id": "FINAL",
+		"type": "talk_topic",
+		"dynamic_line": "So that means that it's truly over now... But I'll continue my watch regardless. To warn those who'll come after you, to protect them from their own greed... Now the best thing you can do is to simply leave. Let go and begin again, beyond those walls...",
+		"responses": [
+		  { "text": "...", "topic": "TALK_DONE", "effect": { "npc_first_topic": "FINAL2" } }
+		]
+	},
+	{
+		"id": "FINAL2",
+		"type": "talk_topic",
+		"dynamic_line": "Why are you still here? There's nothing for you in the Sierra Madre. Let go and begin again...",
+		"responses": [
+		  { "text": "...", "topic": "TALK_DONE" }
 		]
 	}
 ]

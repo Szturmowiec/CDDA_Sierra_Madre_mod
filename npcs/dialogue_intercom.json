@@ -85,7 +85,7 @@
 	{
 		"id": "QUEST2",
 		"type": "talk_topic",
-		"dynamic_line": "The catch is, as of now, all three locations are locked behind doors as strong as the entrance you've just opened and walked through. To open them you'll need a security access card that should be laying somewhere in the power control room... Just walk across the lobby to the door leading to the casino area, cross the hall until you reach the storage room on the other side and then go through it to reach the power control room... I've marked it using blue \"S\".",
+		"dynamic_line": "The catch is, as of now, all three locations are locked behind doors as strong as the entrance you've just opened and walked through. That's caused by the casino's lockdown state cutting out power from said doors. To open them you'll need to go to the power control room and manually restore the power, waking the casino up. Just walk across the lobby to the door leading to the casino area, cross the hall until you reach the storage room on the other side and then go through it to reach the power control room... I've marked it using blue \"S\".",
 		"responses": [
 		  { "text": "...", "topic": "QUEST3" }
 		]

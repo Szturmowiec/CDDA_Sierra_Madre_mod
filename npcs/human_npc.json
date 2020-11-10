@@ -41,5 +41,44 @@
 		"mission": 8,
 		"chat": "TALK_CHRISTINE",
 		"faction": "no_faction"
+	},
+	{
+		"type": "npc_class",
+		"id": "elijah_class",
+		"name": "Father Elijah",
+		"common": false,
+		"bonus_str": { "constant": 3 },
+		"bonus_dex": { "constant": 5 },
+		"bonus_per": { "constant": 8 },
+		"bonus_int": { "constant": 10 },
+		"skills": [
+		  { "skill": "ALL", "level": 10 }
+		],
+		"job_description": "A mysterious man wanting to wipe the wasteland clean... Maybe he was normal once, but now he's just a mere terrorist, all because he couldn't let go...",
+		"worn_override": "EMPTY_GROUP",
+		"weapon_override": "EMPTY_GROUP",
+		"carry_override": "EMPTY_GROUP",
+		"traits": [
+			{ "trait": "QUICK" },
+			{ "trait": "GOODHEARING" },
+			{ "trait": "PAINRESIST" },
+			{ "trait": "NIGHTVISION" },
+			{ "trait": "ADRENALINE" },
+			{ "trait": "EAGLEEYED" },
+			{ "trait": "FAST_REFLEXES" },
+			{ "trait": "TERRIFYING" },
+			{ "trait": "PSYCHOPATH" }
+		]
+	},
+	{
+		"type": "npc",
+		"id": "elijah",
+		"gender": "male",
+		"name_unique": "Father Elijah",
+		"class": "elijah_class",
+		"attitude": 1,
+		"mission": 8,
+		"chat": "TALK_ELIJAH",
+		"faction": "no_faction"
 	}
 ]

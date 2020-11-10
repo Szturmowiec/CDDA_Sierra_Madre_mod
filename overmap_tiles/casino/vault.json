@@ -191,22 +191,20 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
-    "nested_mapgen_id": "trap_door",
-    "weight": 100,
-    "object": {
-      "fill_ter": "vault_floor",
-	  "mapgensize": [ 1, 1 ],
-      "rows": [
-        "."
-      ],
-      "terrain": { ".": "sierra_trap" }
-    }
-  },
-  {
-    "type": "mapgen",
     "update_mapgen_id": "trap_mapgen",
     "method": "json",
     "object": { "place_terrain": [ { "ter": "sierra_trap", "x": 6, "y": 6 } ] }
+  },
+  {
+    "type": "mapgen",
+    "update_mapgen_id": "elijah_mapgen",
+    "method": "json",
+    "object": { "place_npcs": [ { "class": "elijah", "x": 6, "y": 10 } ] }
+  },
+  {
+    "type": "mapgen",
+    "update_mapgen_id": "fight_mapgen",
+    "method": "json",
+    "object": { "place_monster": [ { "monster": "mon_robofac_laserturret_mk1", "x": 1, "y": 7 }, { "monster": "mon_robofac_laserturret_mk1", "x": 11, "y": 7 } ] }
   }
 ]

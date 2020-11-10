@@ -14,7 +14,7 @@
         "WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW",
         "W.....;;;;;;....?|3333.kk...2|111ccc&.rJ......&.......W>.<W(5|T|T|T|T|TW",
         "W?..?...........?|..........7|.......................pWWWWW``|w|w|w|w|wW",
-        "W?..?..????......d...k33k...2|JJJJJJJJJJ....h....h..sHW###W``````|`````W",
+        "W?..?..????......d...k33k....|JJJJJJJJJJ....h....h..sHW###W``````|`````W",
         "W?..?............d...k33k...7|E.E.E.E.E....hsh..hsh.sHW###W``(5(5|5(5(`W",
         "W?..?...........?|..........2|..............h....h..sHWWWWWw||||||||||wW",
         "W............????|3333.kk...7|...l................l...w..w.............W",
@@ -113,12 +113,14 @@
 	  
 	  "place_npcs": [
 		{ "class": "vending_machine_sierra", "x": 22, "y": 29 },
-		{ "class": "sierra_intercom", "x": 43, "y": 66 }
+		{ "class": "sierra_intercom", "x": 43, "y": 66 },
+		{ "class": "casino_power_npc", "x": 28, "y": 3 }
 	  ],
 	  
 	  "place_furniture": [
 			{ "furn": "f_vending_sierra", "x": 22, "y": 29 },
-			{ "furn": "inter_npc", "x": 43, "y": 66 }
+			{ "furn": "inter_npc", "x": 43, "y": 66 },
+			{ "furn": "casino_terminal_npc", "x": 28, "y": 3 }
 		],
 		
 	  "place_loot": [
@@ -128,7 +130,6 @@
 		{ "item": "incident_1", "x": 20, "y": 55 },
 		{ "item": "holo_note", "x": 63, "y": 8 },
 		{ "item": "madrid_note", "x": 68, "y": 36 },
-		{ "item": "casino_inner_card", "x": 27, "y": 3 },
 		{ "item": "sierra_deck", "x": 70, "y": 36 },
 		{ "item": "sierra_armor_reinforced", "x": 10, "y": 51 },
 		{ "item": "sierra_helmet_reinforced", "x": 10, "y": 51 }
