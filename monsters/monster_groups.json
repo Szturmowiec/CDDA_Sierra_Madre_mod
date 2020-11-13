@@ -1,0 +1,20 @@
+[
+  {
+    "type": "monstergroup",
+    "name": "HOTEL_HOLOGRAMS",
+	"default": "mon_holo_guard",
+    "monsters": [
+      { "monster": "mon_holo_guard", "freq": 500, "cost_multiplier": 1 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GHOST_DEFAULT",
+    "default": "mon_ghost_harvester",
+    "monsters": [
+      { "monster": "mon_ghost_harvester", "freq": 350, "cost_multiplier": 1 },
+      { "monster": "mon_ghost_trapper", "freq": 400, "cost_multiplier": 1 },
+	  { "monster": "mon_ghost_seeker", "freq": 250, "cost_multiplier": 1 }
+    ]
+  }
+]

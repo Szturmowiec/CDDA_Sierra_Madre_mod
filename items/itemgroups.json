@@ -476,7 +476,7 @@
 		"id": "holo_vendor_items",
 		"subtype": "collection",
 		"entries": [
-		  { "item": "money_bundle", "prob": 100, "count": 2500 },
+		  { "item": "money_bundle", "prob": 100, "count": 250 },
 		  { "item": "stimpack", "prob": 50, "repeat": 2 },
 		  { "item": "energy_cell", "prob": 100, "count": [ 1, 10 ] },
 		  { "group": "liquor_and_spirits", "prob": 100,  "count": [ 1, 3 ] },
@@ -566,11 +566,13 @@
 		"type": "item_group",
 		"id": "CHRISTINE_CLOTHES",
 		"subtype": "collection",
+		"ammo": 100,
 		"entries": [
 			{ "item": "camisole" },
 			{ "item": "boots_combat" },
 			{ "item": "socks_wool" },
 			{ "item": "panties" },
+			{ "item": "pants_army" },
 			{ "item": "sports_bra" },
 			{ "item": "sierra_armor_reinforced" },
 			{ "item": "sierra_helmet_reinforced" },
@@ -590,8 +592,7 @@
 		  { "item": "stimpack", "count" : 3 },
 		  { "item": "medx", "count" : 3 },
 		  { "item": "sierra_martini", "count" : 5 },
-		  { "item": "sierra_chip", "count" : 1000 },
-		  { "item": "sierra_martini", "count" : 5 },
+		  { "item": "sierra_voucher" },
 		  { "item": "grenade", "count" : 2 },
 		  { "item": "flashbang", "count" : 3 },
 		  { "item": "1st_aid" },
@@ -602,8 +603,67 @@
 		"type": "item_group",
 		"id": "CHRISTINE_GUN",
 		"subtype": "collection",
+		"ammo": 100,
 		"entries": [
 		  { "item": "remington_870" }
+		]
+	},
+	{
+		"type": "item_group",
+		"id": "ELIJAH_CLOTHES",
+		"ammo": 100,
+		"subtype": "collection",
+		"entries": [
+			{ "item": "jacket_army" },
+			{ "item": "boots_combat" },
+			{ "item": "socks_wool" },
+			{ "item": "boxer_shorts" },
+			{ "item": "pants_army" },
+			{ "item": "hsurvivor_suit" },
+			{ "item": "elijah_robe" },
+			{ "item": "holster", "contents-item": "sierra_laser_pistol" },
+			{ "item": "ammo_satchel", "contents-item": "energy_mag" },
+			{ "item": "ammo_satchel", "contents-item": "energy_mag" },
+			{ "item": "ammo_satchel", "contents-item": "gauss_mag" },
+			{ "item": "ammo_satchel", "contents-item": "gauss_mag" },
+			{ "item": "chestpouch", "contents-item": "gauss_mag" },
+			{ "item": "chestpouch", "contents-item": "gauss_mag" },
+			{ "item": "chestpouch", "contents-item": "gauss_mag" },
+			{ "item": "chestpouch", "contents-item": "gauss_mag" },
+			{ "item": "chestpouch", "contents-item": "gauss_mag" },
+			{ "item": "chestpouch", "contents-item": "gauss_mag" },
+			{ "item": "molle_pack" }
+		]
+	},
+	{
+		"type": "item_group",
+		"id": "ELIJAH_ITEMS",
+		"subtype": "collection",
+		"entries": [
+		  { "item": "stimpack", "count" : 8 },
+		  { "item": "medx", "count" : 8 },
+		  { "item": "collar_book" },
+		  { "item": "holo_emitter", "count" : 3 },
+		  { "item": "sierra_martini", "count" : 5 },
+		  { "item": "sierra_voucher", "count": 3 },
+		  { "item": "micro_cell", "count" : 60 },
+		  { "item": "energy_cell", "count" : 60 },
+		  { "item": "micro_cell_overcharged", "count" : 25 },
+		  { "item": "energy_cell_overcharged", "count" : 65 },
+		  { "item": "gauss_cell", "count" : 15 },
+		  { "item": "gauss_cell_overcharged", "count" : 5 },
+		  { "item": "1st_aid" },
+		  { "item": "elijah_goodbye" },
+		  { "group": "MRE", "count": 5 }
+		]
+	},
+	{
+		"type": "item_group",
+		"id": "ELIJAH_GUN",
+		"subtype": "collection",
+		"ammo": 100,
+		"entries": [
+		  { "item": "gauss_rifle", "contents-item": "gauss_mag" }
 		]
 	},
 	{
@@ -644,6 +704,39 @@
 		  { "group": "ammo_light_batteries", "prob": 35, "repeat": [ 1, 2 ] },
 		  { "group": "ammo_medium_batteries", "prob": 35, "repeat": [ 1, 2 ] },
 		  { "group": "ammo_heavy_batteries", "prob": 35, "repeat": [ 1, 2 ] }
+		]
+	},
+	{
+		"type": "item_group",
+		"id": "bos_rack",
+		"subtype": "collection",
+		"entries": [
+		  { "item": "energy_cell", "prob": 20, "count": [ 1, 20 ] },
+		  { "item": "micro_cell", "prob": 20, "count": [ 1, 20 ] },
+		  { "item": "energy_cell_overcharged", "prob": 10, "count": [ 1, 10 ] },
+		  { "item": "micro_cell_overcharged", "prob": 10, "count": [ 1, 10 ] },
+		  { "item": "turpentine", "prob": 10, "repeat": [ 1, 3 ], "count": [ 1, 2 ] },
+		  { "group": "tools_and_stuff", "prob": 60, "repeat": [ 2, 3 ] },
+		  { "group": "ammo_light_batteries", "prob": 25, "repeat": [ 1, 2 ] },
+		  { "group": "ammo_medium_batteries", "prob": 25, "repeat": [ 1, 2 ] },
+		  { "group": "ammo_heavy_batteries", "prob": 25, "repeat": [ 1, 2 ] }
+		]
+	},
+	{
+		"type": "item_group",
+		"id": "bos_workshop",
+		"subtype": "collection",
+		"entries": [
+		  { "group": "tools_and_stuff", "prob": 25, "repeat": [ 1, 2 ] },
+		  { "group": "tools_gunsmith", "prob": 50, "count": [ 1, 3 ] }
+		]
+	},
+	{
+		"type": "item_group",
+		"id": "vendor_chips",
+		"subtype": "collection",
+		"entries": [
+			{ "item": "sierra_chip", "count": 500 }
 		]
 	}
 ]

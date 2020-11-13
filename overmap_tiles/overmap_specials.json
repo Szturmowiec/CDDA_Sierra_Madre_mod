@@ -9,6 +9,7 @@
 	  { "point": [ 0, 1, 0 ], "overmap": "villa_enter" },
 	  { "point": [ 0, 1, 1 ], "overmap": "villa_enter_up" },
 	  { "point": [ 0, 1, 2 ], "overmap": "villa_enter_roof" },
+	  { "point": [ 0, 2, 0 ], "overmap": "road_end_south" },
 	  { "point": [ 0, -1, 0 ], "overmap": "casino_road_2" },
 	  { "point": [ 0, -2, 0 ], "overmap": "casino_road" },
 	  { "point": [ 0, -1, 1 ], "overmap": "casino_road_up_2" },
@@ -192,9 +193,23 @@
     "locations": [ "wilderness" ],
     "city_distance": [ 10, 30 ],
     "city_sizes": [ 0, 16 ],
-    "occurrences": [ 33, 100 ],
+    "occurrences": [ 100, 100 ],
 	"rotate": false,
 	"unique": true,
 	"flags": [ "UNIQUE" ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "Abandoned Bunker",
+    "overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "bos_enter" },
+      { "point": [ 0, 0, -1 ], "overmap": "bos" },
+      { "point": [ 0, 0, -2 ], "overmap": "bos_main" }
+    ],
+    "locations": [ "land" ],
+    "city_distance": [ 10, 30 ],
+    "city_sizes": [ 0, 16 ],
+    "occurrences": [ 1, 1 ],
+	"rotate": false
   }
 ]

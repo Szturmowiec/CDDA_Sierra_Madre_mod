@@ -4,8 +4,8 @@
 		"type": "talk_topic",
 		"dynamic_line": "Welcome to the Sierra Madre. We hope you enjoy your stay. Would you like to buy something?",
 		"responses": [
-		  { "text": "No thanks, I think I have to go.", "topic": "TALK_DONE" },
-		  { "text": "Yes, show me your stock.", "effect": "start_trade", "topic": "AFTER_TRADE" }
+		  { "text": "Yes, show me your stock.", "effect": "start_trade", "topic": "AFTER_TRADE" },
+		  { "text": "No thanks, I think I have to go.", "topic": "TALK_DONE" }
 		]
 	},
 	{
@@ -22,8 +22,8 @@
 		"type": "talk_topic",
 		"dynamic_line": "Welcome to the Sierra Madre autonomous vending system. We hope you enjoy your stay. Would you like to purchase something?",
 		"responses": [
-		  { "text": "Cancel", "topic": "TALK_DONE" },
-		  { "text": "Browse the list of available products", "topic": "TRADE" }
+		  { "text": "Browse the list of available products", "topic": "TRADE" },
+		  { "text": "Cancel", "topic": "TALK_DONE" }
 		]
 	},
 	{
@@ -181,6 +181,10 @@
 			"effect": [ { "u_sell_item": "sierra_chip", "count": 350 }, { "npc_consume_item": "sierra_chip", "count": 350 }, { "u_buy_item": "mentats", "count": 1 } ]
 		  },
 		  { "text": "Mentats [350 chips] (use your code card to unlock)", "topic": "POOR", "condition": { "and": [ { "u_has_item": "mentats_code" }, { "not": { "u_has_items": { "item": "sierra_chip", "count": 350 } } } ] } },
+		  {
+			"text": "Redeem complimentary voucher", "topic": "TRADE", "condition": { "u_has_item": "sierra_voucher" },
+			"effect": [ { "u_sell_item": "sierra_voucher", "count": 1 }, { "npc_consume_item": "sierra_voucher", "count": 1 }, { "u_buy_item": "sierra_chip", "count": 1000 } ]
+		  },
 		  { "text": "Exit", "topic": "TALK_DONE" }
 		]
 	}

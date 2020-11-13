@@ -2,7 +2,7 @@
 	{
 		"type": "MONSTER_FACTION",
 		"name": "ghosts",
-		"neutral": [ "mon_holo_guard_neutral" ]
+		"neutral": [ "mon_holo_guard_neutral", "robot" ]
 	},
 	{
 		"type": "ammunition_type",
@@ -143,7 +143,7 @@
 		"armor_cut": 8,
 		"armor_stab": 8,
 		"harvest": "ghost_harvest",
-		"path_settings": { "avoid_traps" : true, "avoid_sharp": true, "bash_strength": 9 },
+		"path_settings": { "avoid_traps" : true, "avoid_sharp": true, "bash_strength": 5 },
 		"starting_ammo": { "spear_ammo_fake": 7 },
 		"special_attacks": [ [ "PARROT", 30 ], { "type": "leap", "cooldown": 4, "max_range": 4, "allow_no_target": true }, [ "impale", 10 ],
 			{
@@ -208,7 +208,7 @@
 		"armor_cut": 12,
 		"armor_stab": 12,
 		"harvest": "ghost_harvest",
-		"path_settings": { "avoid_traps" : true, "avoid_sharp": true, "bash_strength": 9 },
+		"path_settings": { "avoid_traps" : true, "avoid_sharp": true, "bash_strength": 5 },
 		"special_attacks": [ [ "PARROT", 30 ], { "type": "leap", "cooldown": 4, "max_range": 4, "allow_no_target": true, "max_consider_range": 12 }, [ "bearfisting", 20 ] ],
 		"death_drops": "trapper_items",
 		"death_function": [ "NORMAL" ],
@@ -262,7 +262,7 @@
 		"armor_cut": 10,
 		"armor_stab": 10,
 		"harvest": "ghost_harvest",
-		"path_settings": { "avoid_traps" : true, "avoid_sharp": true, "bash_strength": 9 },
+		"path_settings": { "avoid_traps" : true, "avoid_sharp": true, "bash_strength": 5 },
 		"starting_ammo": { "gas_bomb_dummy_ammo": 1 },
 		"special_attacks": [ [ "PARROT", 30 ], { "type": "leap", "cooldown": 4, "max_range": 4, "allow_no_target": true }, [ "impale", 10 ],
 			{

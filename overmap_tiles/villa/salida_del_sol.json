@@ -87,6 +87,14 @@
 			{ "field": "cloud", "x": [ 24, 47 ], "y": [ 24, 47 ], "repeat": 5000 }
 		],
 		
+		"place_monsters": [
+			{ "monster": "GHOST_DEFAULT", "x": [ 0, 23 ], "y": [ 0, 23 ], "density": 0.45 },
+			{ "monster": "GHOST_DEFAULT", "x": [ 0, 23 ], "y": [ 24, 47 ], "density": 0.45 },
+			{ "monster": "GHOST_DEFAULT", "x": [ 24, 47 ], "y": [ 0, 23 ], "density": 0.45 },
+			{ "monster": "GHOST_DEFAULT", "x": [ 24, 47 ], "y": [ 24, 47 ], "density": 0.45 }
+		],
+			
+		
 		"place_npcs": [
 			{ "class": "holo_vendor", "x": 13, "y": 42 },
 			{ "class": "vending_machine_sierra", "x": 7, "y": 14 },

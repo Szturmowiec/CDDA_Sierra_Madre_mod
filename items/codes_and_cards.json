@@ -160,6 +160,21 @@
 		"volume": "2 ml"
 	},
 	{
+		"type": "GENERIC",
+		"id": "sierra_voucher",
+		"looks_like": "id_science",
+		"symbol": ",",
+		"color": "blue",
+		"name": { "str": "Sierra Madre complimentary voucher" },
+		"description": "A special voucher that can be redeemed at any Sierra Madre vending machine to receive 1000 chips.",
+		"price": 100000,
+		"price_postapoc": 5000,
+		"material": [ "plastic" ],
+		"flags": [ "TRADER_AVOID" ],
+		"weight": "5 g",
+		"volume": "2 ml"
+	},
+	{
 		"id": "casino_enter_card",
 		"type": "GENERIC",
 		"looks_like": "id_military",

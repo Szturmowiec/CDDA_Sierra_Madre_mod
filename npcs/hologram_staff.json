@@ -35,7 +35,7 @@
 		"type": "npc",
 		"id": "holo_vendor",
 		"gender": "male",
-		"name_unique": "Hologram vendor",
+		"name_unique": "Sierra Madre hologram vendor",
 		"class": "holo_staff",
 		"attitude": 0,
 		"mission": 3,
@@ -139,6 +139,39 @@
 		"attitude": 1,
 		"mission": 7,
 		"chat": "TALK_INTER",
+		"faction": "no_faction"
+	},
+	{
+		"type": "npc_class",
+		"id": "casino_staff",
+		"name": "Sierra Madre hologram casino vendor",
+		"common": false,
+		"bonus_str": { "constant": 5 },
+		"bonus_dex": { "constant": 5 },
+		"bonus_per": { "constant": 5 },
+		"bonus_int": { "constant": 5 },
+		"skills": [
+		  { "skill": "ALL", "level": 10 } 
+		],
+		"job_description": "Holograms deployed at the casino to help customers exchange money and chips.",
+		"worn_override": "HOLO_CLOTHES",
+		"weapon_override": "EMPTY_GROUP",
+		"carry_override": "vendor_chips",
+		"traits": [
+			{ "trait": "HOLOGRAMS" },
+			{ "trait": "DEBUG_NODMG" },
+			{ "trait": "DEBUG_CLOAK" }
+		]
+	},
+	{
+		"type": "npc",
+		"id": "casino_vendor",
+		"gender": "male",
+		"name_unique": "Sierra Madre hologram vendor",
+		"class": "casino_staff",
+		"attitude": 0,
+		"mission": 3,
+		"chat": "TALK_CASINO_VENDOR",
 		"faction": "no_faction"
 	}
 ]

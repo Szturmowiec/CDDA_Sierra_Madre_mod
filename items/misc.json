@@ -74,9 +74,10 @@
 		"looks_like": "RobofacCoin",
 		"name": { "str": "Sierra Madre chip" },
 		"description": "This is a golden chip from the Sierra Madre casino, intended for gambling and collecting rewards at vending machines scattered around the resort. On its heads there's a face of a woman and an acronym \"SM\". On the tails you can see a portrait of a fancy-dressed woman holding the sign \"Begin again\" and a sign \"Sierra Madre\" under her feet.",
+		"stackable": true,
 		"price": 1000,
-		"price_postapoc": 250,
-		"weight": "15 g",
+		"price_postapoc": 1000,
+		"weight": "10 g",
 		"volume": "1 ml",
 		"to_hit": -3,
 		"color": "yellow",
@@ -147,6 +148,25 @@
 		"reload_time": 40,
 		"flags": [ "MAG_COMPACT" ],
 		"pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "laser_cell": 30 } } ]
+	},
+	{
+		"id": "gauss_mag",
+		"type": "MAGAZINE",
+		"looks_like": "8x40_250_mag",
+		"name": { "str": "Gauss rifle magazine" },
+		"description": "A drum capable of holding one pack of 5 microfusion cells designed to be used specifically with the Gauss rifle.",
+		"weight": "50 g",
+		"volume": "250 ml",
+		"price": 15000,
+		"price_postapoc": 500,
+		"material": [ "superalloy", "plastic" ],
+		"symbol": "#",
+		"color": "cyan",
+		"ammo_type": [ "gauss_microfusion" ],
+		"capacity": 1,
+		"reload_time": 20,
+		"flags": [ "MAG_COMPACT" ],
+		"pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "gauss_microfusion": 1 } } ]
 	},
 	{
 		"id": "corpse_skeleton",
@@ -231,5 +251,25 @@
 		"material": [ "paper" ],
 		"weight": "1 g",
 		"volume": "2 ml"
+	},
+	{
+		"id": "sierra_map",
+		"category": "books",
+		"type": "GENERIC",
+		"symbol": ";",
+		"color": "red",
+		"name": { "str": "Sierra Madre map" },
+		"description": "Strange, mysterious hand-drawn map claiming to lead to the legendary Sierra Madre, where the greatest treasure of the Old World is believed to be buried.",
+		"price": 500,
+		"material": [ "paper" ],
+		"weight": "30 g",
+		"volume": "250 ml",
+		"to_hit": -1,
+		"use_action": {
+		  "type": "reveal_map",
+		  "radius": 400,
+		  "terrain": [ "mainsquare", "villa_enter" ],
+		  "message": "You've heard of the Sierra Madre Casino. We all have, the legend, the curses. Do you have what it takes to crack it open?"
+		}
 	}
 ]

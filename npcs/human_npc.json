@@ -1,5 +1,15 @@
 [
 	{
+		"type": "mutation",
+		"id": "ELIJAH_MUT",
+		"name": { "str": "Father Elijah" },
+		"points": 10,
+		"description": "Father Elijah",
+		"valid": false,
+		"purifiable": false,
+		"ignored_by": [ "ROBOT" ]
+	},
+	{
 		"type": "npc_class",
 		"id": "christine_class",
 		"name": "Christine Royce",
@@ -13,8 +23,8 @@
 		  { "skill": "computer", "level": 10 },
 		  { "skill": "fabrication", "level": 7 },
 		  { "skill": "electronics", "level": 9 },
-		  { "skill": "gun", "level": 8 },
-		  { "skill": "rifle", "level": 8 },
+		  { "skill": "gun", "level": 3 },
+		  { "skill": "rifle", "level": 3 },
 		  { "skill": "chemistry", "level": 6 }
 		],
 		"job_description": "A mysterious self-titled guard of the Sierra Madre...",
@@ -28,7 +38,9 @@
 			{ "trait": "PAINRESIST" },
 			{ "trait": "NIGHTVISION" },
 			{ "trait": "ADRENALINE" },
-			{ "trait": "EAGLEEYED" }
+			{ "trait": "EAGLEEYED" },
+			{ "trait": "HAIR_BALD" },
+			{ "trait": "FACIAL_HAIR_NONE" }
 		]
 	},
 	{
@@ -52,12 +64,14 @@
 		"bonus_per": { "constant": 8 },
 		"bonus_int": { "constant": 10 },
 		"skills": [
-		  { "skill": "ALL", "level": 10 }
+		  { "skill": "ALL", "level": 10 },
+		  { "skill": "gun", "level": 3 },
+		  { "skill": "rifle", "level": 3 }
 		],
 		"job_description": "A mysterious man wanting to wipe the wasteland clean... Maybe he was normal once, but now he's just a mere terrorist, all because he couldn't let go...",
-		"worn_override": "EMPTY_GROUP",
-		"weapon_override": "EMPTY_GROUP",
-		"carry_override": "EMPTY_GROUP",
+		"worn_override": "ELIJAH_CLOTHES",
+		"weapon_override": "ELIJAH_GUN",
+		"carry_override": "ELIJAH_ITEMS",
 		"traits": [
 			{ "trait": "QUICK" },
 			{ "trait": "GOODHEARING" },
@@ -67,7 +81,13 @@
 			{ "trait": "EAGLEEYED" },
 			{ "trait": "FAST_REFLEXES" },
 			{ "trait": "TERRIFYING" },
-			{ "trait": "PSYCHOPATH" }
+			{ "trait": "PSYCHOPATH" },
+			{ "trait": "ELIJAH_MUT" },
+			{ "trait": "hair_white_short" },
+			{ "trait": "FACIAL_HAIR_BEARD" }
+		],
+		"bionics": [
+			{ "id": "bio_power_armor_interface_mkII", "chance": 100 }
 		]
 	},
 	{

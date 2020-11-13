@@ -40,6 +40,26 @@
 		"fun": 1
 	},
 	{
+		"id": "collar_book",
+		"type": "BOOK",
+		"name": { "str": "Father Elijah's notes", "str_pl": "copies of Father Elijah's notes" },
+		"description": "A personal journal of Father Elijah. Apart from some rambling about killing every enemy of his own faction to the last man and some psycho's bullshit it contains a vast amount of useful tips about advanced electronics as well as some handy recipes.",
+		"weight": "500 g",
+		"volume": "700 ml",
+		"price": 20000,
+		"price_postapoc": 200000,
+		"bashing": 2,
+		"material": [ "paper" ],
+		"symbol": "?",
+		"color": "red",
+		"skill": "electronics",
+		"required_level": 7,
+		"max_level": 10,
+		"intelligence": 14,
+		"time": "40 m",
+		"fun": 1
+	},
+	{
 		"type": "GENERIC",
 		"id": "torn_journal",
 		"category": "books",
@@ -628,5 +648,21 @@
 		"color": "white",
 		"symbol": "?",
 		"flags": [ "TRADER_AVOID" ]
+	},
+	{
+		"type": "GENERIC",
+		"id": "elijah_goodbye",
+		"looks_like": "mobile_memory_card",
+		"symbol": ",",
+		"color": "white",
+		"name": { "str": "Elijah's holomessage" },
+		"description": "A holotape containing pre-recorded message from Elijah to someone named Veronica. You can't understand much but it sounds like a father saying goodbye to his daughter.",
+		"price": 5000,
+		"price_postapoc": 250,
+		"material": [ "plastic" ],
+		"ascii_picture": "mobile_memory_card",
+		"flags": [ "TRADER_AVOID" ],
+		"weight": "5 g",
+		"volume": "2 ml"
 	}
 ]

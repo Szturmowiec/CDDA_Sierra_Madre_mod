@@ -557,7 +557,7 @@
     "color": "i_red",
     "see_cost": 5,
 	"extras": "build",
-	"flags": [ "NO_ROTATE", "SIDEWALK" ]
+	"flags": [ "NO_ROTATE" ]
   },
   {
     "id": "right_up",
@@ -1656,6 +1656,36 @@
     "sym": "S",
     "color": "i_red",
     "see_cost": 5,
+	"extras": "build",
+	"flags": [ "NO_ROTATE" ]
+  },
+  {
+    "id": "bos_enter",
+    "type": "overmap_terrain",
+    "name": "abandoned bunker",
+    "sym": "B",
+    "color": "dark_gray",
+    "see_cost": 2,
+	"extras": "build",
+	"flags": [ "NO_ROTATE" ]
+  },
+  {
+    "id": "bos",
+    "type": "overmap_terrain",
+    "name": "abandoned bunker",
+    "sym": "B",
+    "color": "dark_gray",
+    "see_cost": 2,
+	"extras": "build",
+	"flags": [ "NO_ROTATE" ]
+  },
+  {
+    "id": "bos_main",
+    "type": "overmap_terrain",
+    "name": "abandoned bunker",
+    "sym": "B",
+    "color": "dark_gray",
+    "see_cost": 2,
 	"extras": "build",
 	"flags": [ "NO_ROTATE" ]
   }

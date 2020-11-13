@@ -145,7 +145,7 @@
 		"category": "CC_CHEM",
 		"subcategory": "CSC_CHEM_DRUGS",
 		"skill_used": "chemistry",
-		"skills_required": [ [ "cooking", 3 ] ],
+		"skills_required": [ [ "cooking", 2 ] ],
 		"difficulty": 3,
 		"autolearn": false,
 		"book_learn": {
@@ -327,7 +327,7 @@
 		"category": "CC_WEAPON",
 		"subcategory": "CSC_WEAPON_EXPLOSIVE",
 		"skill_used": "chemistry",
-		"skills_required": [ [ "mechanics", 3 ], ["fabrication", 3] ],
+		"skills_required": [ [ "mechanics", 3 ], [ "fabrication", 3] ],
 		"difficulty": 5,
 		"time": "60 m",
 		"reversible": true,
@@ -354,10 +354,13 @@
 		"subcategory": "CSC_WEAPON_EXPLOSIVE",
 		"skill_used": "electronics",
 		"difficulty": 8,
-		"skills_required": [ [ "mechanics", 4 ], [ "fabrication", 6], [ "computer", 2] ],
+		"skills_required": [ [ "mechanics", 4 ], [ "fabrication", 6 ], [ "computer", 2 ] ],
 		"time": "135 m",
 		"reversible": true,
 		"autolearn": false,
+		"book_learn": {
+			"collar_book": { "skill_level": 7 }
+		},
 		"decomp_learn": 6,
 		"qualities": [ { "id": "HAMMER_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 }, { "id": "WRENCH", "level": 2 }, { "id": "SAW_M_FINE", "level": 1 },
 		{ "id": "SCREW", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
@@ -390,6 +393,174 @@
 		"components": [
 		  [ [ "bone", 25 ] ],
 		  [ [ "sinew", 15 ] ]
+		]
+	},
+	{
+		"type": "recipe",
+		"activity_level": "LIGHT_EXERCISE",
+		"result": "micro_cell",
+		"category": "CC_AMMO",
+		"subcategory": "CSC_AMMO_OTHER",
+		"skill_used": "electronics",
+		"difficulty": 9,
+		"skills_required": [ [ "fabrication", 6 ] ],
+		"time": "10 m",
+		"batch_time_factors": [ 50, 20 ],
+		"reversible": false,
+		"autolearn": false,
+		"book_learn": {
+			"collar_book": { "skill_level": 7 }
+		},
+		"tools": [ [ [ "press", -1 ] ], [ [ "swage", -1 ] ] ],
+		"using": [ [ "soldering_standard", 20 ], [ "welding_standard", 5 ] ],
+		"qualities": [ { "id": "GLARE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
+		"components": [
+		  [ [ "micro_spent", 2 ] ],
+		  [ [ "plastic_chunk", 1 ] ],
+		  [ [ "power_supply", 1 ] ],
+		  [ [ "cable", 2 ] ],
+		  [ [ "e_scrap", 1 ] ]
+		]
+	},
+	{
+		"type": "recipe",
+		"activity_level": "LIGHT_EXERCISE",
+		"result": "micro_cell_overcharged",
+		"category": "CC_AMMO",
+		"subcategory": "CSC_AMMO_OTHER",
+		"skill_used": "electronics",
+		"difficulty": 9,
+		"skills_required": [ [ "fabrication", 6 ] ],
+		"time": "10 m",
+		"batch_time_factors": [ 50, 20 ],
+		"reversible": false,
+		"autolearn": false,
+		"book_learn": {
+			"collar_book": { "skill_level": 7 }
+		},
+		"using": [ [ "soldering_standard", 20 ], [ "welding_standard", 5 ] ],
+		"qualities": [ { "id": "GLARE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
+		"byproducts": [ [ "micro_spent", 2 ] ],
+		"components": [
+		  [ [ "micro_cell", 3 ] ],
+		  [ [ "plastic_chunk", 1 ] ],
+		  [ [ "power_supply", 1 ] ],
+		  [ [ "cable", 5 ] ],
+		  [ [ "e_scrap", 2 ] ]
+		]
+	},
+	{
+		"type": "recipe",
+		"activity_level": "LIGHT_EXERCISE",
+		"result": "energy_cell",
+		"category": "CC_AMMO",
+		"subcategory": "CSC_AMMO_OTHER",
+		"skill_used": "electronics",
+		"difficulty": 9,
+		"skills_required": [ [ "fabrication", 6 ] ],
+		"time": "10 m",
+		"batch_time_factors": [ 50, 20 ],
+		"reversible": false,
+		"autolearn": false,
+		"book_learn": {
+			"collar_book": { "skill_level": 7 }
+		},
+		"tools": [ [ [ "press", -1 ] ], [ [ "swage", -1 ] ] ],
+		"using": [ [ "soldering_standard", 20 ], [ "welding_standard", 5 ] ],
+		"qualities": [ { "id": "GLARE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
+		"components": [
+		  [ [ "energy_spent", 2 ] ],
+		  [ [ "plastic_chunk", 1 ] ],
+		  [ [ "power_supply", 1 ] ],
+		  [ [ "cable", 2 ] ],
+		  [ [ "e_scrap", 1 ] ]
+		]
+	},
+	{
+		"type": "recipe",
+		"activity_level": "LIGHT_EXERCISE",
+		"result": "energy_cell_overcharged",
+		"category": "CC_AMMO",
+		"subcategory": "CSC_AMMO_OTHER",
+		"skill_used": "electronics",
+		"difficulty": 9,
+		"skills_required": [ [ "fabrication", 6 ] ],
+		"time": "10 m",
+		"batch_time_factors": [ 50, 20 ],
+		"reversible": false,
+		"autolearn": false,
+		"book_learn": {
+			"collar_book": { "skill_level": 7 }
+		},
+		"using": [ [ "soldering_standard", 20 ], [ "welding_standard", 5 ] ],
+		"qualities": [ { "id": "GLARE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
+		"byproducts": [ [ "energy_spent", 2 ] ],
+		"components": [
+		  [ [ "energy_cell", 3 ] ],
+		  [ [ "plastic_chunk", 1 ] ],
+		  [ [ "power_supply", 1 ] ],
+		  [ [ "cable", 5 ] ],
+		  [ [ "e_scrap", 2 ] ]
+		]
+	},
+	{
+		"type": "recipe",
+		"activity_level": "LIGHT_EXERCISE",
+		"result": "gauss_cell",
+		"category": "CC_AMMO",
+		"subcategory": "CSC_AMMO_OTHER",
+		"skill_used": "electronics",
+		"difficulty": 1,
+		"skills_required": [ [ "fabrication", 1 ] ],
+		"time": "2 m",
+		"batch_time_factors": [ 50, 30 ],
+		"reversible": true,
+		"autolearn": true,
+		"components": [
+		  [ [ "micro_cell", 5 ] ]
+		]
+	},
+	{
+		"type": "recipe",
+		"activity_level": "LIGHT_EXERCISE",
+		"result": "gauss_cell_overcharged",
+		"category": "CC_AMMO",
+		"subcategory": "CSC_AMMO_OTHER",
+		"skill_used": "electronics",
+		"difficulty": 9,
+		"skills_required": [ [ "fabrication", 6 ] ],
+		"time": "15 m",
+		"batch_time_factors": [ 50, 20 ],
+		"reversible": true,
+		"autolearn": false,
+		"book_learn": {
+			"collar_book": { "skill_level": 7 }
+		},
+		"using": [ [ "soldering_standard", 20 ], [ "welding_standard", 5 ] ],
+		"qualities": [ { "id": "GLARE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
+		"components": [
+		  [ [ "gauss_cell", 3 ] ],
+		  [ [ "plastic_chunk", 1 ] ],
+		  [ [ "power_supply", 1 ] ],
+		  [ [ "cable", 5 ] ],
+		  [ [ "e_scrap", 2 ] ]
+		]
+	},
+	{
+		"type": "recipe",
+		"activity_level": "LIGHT_EXERCISE",
+		"result": "gauss_cell_overcharged",
+		"category": "CC_AMMO",
+		"subcategory": "CSC_AMMO_OTHER",
+		"skill_used": "electronics",
+		"difficulty": 1,
+		"skills_required": [ [ "fabrication", 1 ] ],
+		"time": "2 m",
+		"batch_time_factors": [ 50, 30 ],
+		"reversible": true,
+		"autolearn": true,
+		"components": [
+		  [ [ "micro_cell_overcharged", 5 ] ]
 		]
 	}
 ]
