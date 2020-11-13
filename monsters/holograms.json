@@ -26,7 +26,7 @@
 		"aggression": 100,
 		"morale": 100,
 		"luminance": 10,
-		"vision_day": 40,
+		"vision_day": 35,
 		"vision_night": 35,
 		"path_settings": { "avoid_traps" : true, "allow_climb_stairs" : false, "avoid_sharp": true },
 		"special_attacks": [
@@ -71,7 +71,7 @@
 		"aggression": 100,
 		"morale": 100,
 		"luminance": 10,
-		"vision_day": 40,
+		"vision_day": 35,
 		"vision_night": 35,
 		"special_attacks": [
 			{
@@ -114,7 +114,7 @@
 		"aggression": 100,
 		"morale": 100,
 		"luminance": 10,
-		"vision_day": 40,
+		"vision_day": 35,
 		"vision_night": 35,
 		"path_settings": { "avoid_traps" : true, "allow_climb_stairs" : false, "avoid_sharp": true, "allow_open_doors": true },
 		"special_attacks": [
