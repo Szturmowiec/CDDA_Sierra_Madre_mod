@@ -3,31 +3,31 @@
 		"type": "speech",
 		"speaker": [ "mon_ghost_seeker", "mon_ghost_trapper", "mon_ghost_harvester" ],
 		"sound": "HHAAAARRRRRR",
-		"volume": 30
+		"volume": 20
 	},
 	{
 		"type": "speech",
 		"speaker": [ "mon_ghost_seeker", "mon_ghost_trapper", "mon_ghost_harvester" ],
 		"sound": "HHUUUURRRR",
-		"volume": 30
+		"volume": 20
 	},
 	{
 		"type": "speech",
 		"speaker": [ "mon_ghost_seeker", "mon_ghost_trapper", "mon_ghost_harvester" ],
 		"sound": "HHEEEEEHH",
-		"volume": 30
+		"volume": 20
 	},
 	{
 		"type": "speech",
 		"speaker": [ "mon_ghost_seeker", "mon_ghost_trapper", "mon_ghost_harvester" ],
 		"sound": "HHOOOORHH",
-		"volume": 30
+		"volume": 20
 	},
 	{
 		"type": "speech",
 		"speaker": [ "mon_ghost_seeker", "mon_ghost_trapper", "mon_ghost_harvester" ],
 		"sound": "HAARRRHHH",
-		"volume": 30
+		"volume": 20
 	},
 	{
 		"type": "speech",

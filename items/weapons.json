@@ -174,7 +174,8 @@
 		"color": "red",
 		"techniques": [ "RAPID" ],
 		"qualities": [ [ "CUT", 3 ], [ "CUT_FINE", 3 ], [ "BUTCHER", 30 ] ],
-		"flags": [ "STAB", "SHEATH_KNIFE", "DURABLE_MELEE", "INCENDIARY" ]
+		"effects": [ "INCENDIARY" ],
+		"flags": [ "STAB", "SHEATH_KNIFE", "DURABLE_MELEE" ]
 	},
 	{
 		"id": "ghost_bomb",
@@ -256,7 +257,7 @@
 		"to_hit": -2,
 		"dispersion": 125,
 		"durability": 7,
-		"loudness": 7,
+		"loudness": 5,
 		"modes": [ [ "DEFAULT", "pump-action", 1 ] ],
 		"valid_mod_locations": [
 		  [ "mechanism", 2 ],
@@ -293,7 +294,7 @@
 		"to_hit": -2,
 		"dispersion": 85,
 		"durability": 10,
-		"loudness": 7,
+		"loudness": 5,
 		"modes": [ [ "DEFAULT", "single-shot", 1 ] ],
 		"valid_mod_locations": [
 		  [ "mechanism", 3 ],
@@ -340,7 +341,7 @@
 		"dispersion": 60,
 		"recoil": 0,
 		"durability": 8,
-		"loudness": 5,
+		"loudness": 2,
 		"modes": [ [ "DEFAULT", "semi-auto", 1 ] ],
 		"valid_mod_locations": [
 		  [ "accessories", 2 ],

@@ -9,7 +9,7 @@
     ],
     "weight": 100,
     "object": {
-      "fill_ter": "sierra_floor",
+      "fill_ter": "t_STORMSIERRAMADRE_fl_casino_red",
       "rows": [
         "WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW",
         "W.....;;;;;;....?|3333.kk...2|111ccc&.rJ......&.......W>.<W(5|T|T|T|T|TW",
@@ -91,7 +91,7 @@
 	  ")": "f_trashcan", "K": "f_stool", "m": "f_indoor_plant", "M": "f_filing_cabinet", "N": "f_console_broken", ";": "f_locker", "?": "f_rack", "8": "f_sink", "!": "f_table" },
 	  "toilets": { "T": {  } },
 	  
-      "terrain": { ".": "sierra_floor", "-": "sierra_floor_noroof", "f": "t_sidewalk", "*": "t_fountain", "|": "sierra_wall_interior", "W": "sierra_wall", "D": "sierra_door_locked",
+      "terrain": { ".": "t_STORMSIERRAMADRE_fl_casino_red", "-": "sierra_floor_noroof", "f": "t_sidewalk", "*": "t_fountain", "|": "sierra_wall_interior", "W": "t_sierra_wall", "D": "sierra_door_locked",
 	  "<": "t_stairs_up", ">": "t_stairs_down", "d": "sierra_door", "C": "sierra_carpet_noroof", "`": "t_linoleum_white", "w": "t_door_c", "5": "t_linoleum_white",
 	  "i": "t_linoleum_white", "~": "t_linoleum_white", "7": "t_linoleum_white", "R": "t_linoleum_white", "L": "t_linoleum_white", "6": "t_linoleum_white",
 	  "4": "t_linoleum_white", "O": "t_linoleum_white", "j": "t_linoleum_white", "@": "t_slot_machine_sm", "3": "t_potential_trans", "2": "t_switchgear_s", "k": "t_station_disc",
@@ -248,13 +248,13 @@
     ],
     "weight": 100,
     "object": {
-      "fill_ter": "sierra_floor",
+      "fill_ter": "t_STORMSIERRAMADRE_fl_casino_red",
       "rows": [
         "WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW",
         "WQ`3333```````o`^`````````````````````````````````n|#`W<.>W|`|`|`|T|T|TW",
         "WQ```^```^^^^`o````O```O```O```O``O```O```O```O```n|``WWWWW|w|w|w|w|w|wW",
-        "WQ```````****`k````~~~~~~~~~~~~~~~~~~~~~~~~~~~~```n|#`W---W````````````W",
-        "WQ``2222`****`k````~~~~~~~~~~~~~~~~~~~~~~~~~~~~```n|``W---W``nnn`nnnnnnW",
+        "WQ```````****`k````~~~~~~~~~~~~~~~~~~~~~~~~~~~~```n|#`W999W````````````W",
+        "WQ``2222`****`k````~~~~~~~~~~~~~~~~~~~~~~~~~~~~```n|``W999W``nnn`nnnnnnW",
         "WQ````````````o````~~~~~~~~~~~~~~~~~~~~~~~~~~~~```n|#`WWWWW``NNN`NNNNNNW",
         "WQ``2222`2222`o`^``~~~~~~~~~~~~~~~~~~~~~~~~~~~~```n|`````````NNN`NNNNNNW",
         "W|||||||||||||||||`~~~~~~~~~~~~~~~~~~~~~~~~~~~~```n|#````````nnn`nnnnnnW",
@@ -331,12 +331,12 @@
 	  "2": "f_glass_cabinet", "3": "f_desk", "*": "f_table", "x": "f_bookcase", "a": "f_bigmirror", ";": "f_wardrobe", "?": "f_rack" },
 	  "toilets": { "T": {  } },
 	  
-      "terrain": { ".": "sierra_floor", "-": "t_open_air", "f": "sierra_roof", "*": "t_linoleum_white", "|": "sierra_wall_interior", "W": "sierra_wall", "D": "sierra_door_locked",
+      "terrain": { ".": "t_STORMSIERRAMADRE_fl_casino_red", "-": "sierra_air", "f": "t_sierra_roof", "*": "t_linoleum_white", "|": "sierra_wall_interior", "W": "t_sierra_wall", "D": "sierra_door_locked",
 	  "<": "t_stairs_up", ">": "t_stairs_down", "d": "sierra_door", "C": "sierra_carpet", "`": "t_linoleum_white", "w": "t_door_c", "@": "t_slot_machine_sm",
 	  "3": "t_linoleum_white", "2": "t_linoleum_white", "k": "t_door_glass_c", "l": "sierra_floor_light", "=": "t_linoleum_white", "^": "t_linoleum_white",
 	  "!": "t_guardrail_sm", "m": "t_elevator_control_off", "M": "t_elevator", "g": "sierra_carpet", "G": "sierra_carpet", "5": "t_linoleum_white",
 	  "~": "t_water_pool", "n": "t_linoleum_white", "N": "t_linoleum_white", "#": "t_linoleum_white", "O": "t_linoleum_white", "o": "t_wall_glass",
-	  "T": "t_linoleum_white", "z": "t_door_locked_interior", "+": "sierra_door_l", "Q": "t_linoleum_white" },
+	  "T": "t_linoleum_white", "z": "t_door_locked_interior", "+": "sierra_door_l", "Q": "t_linoleum_white", "9": "t_open_air" },
 	  
 	  "place_fields": [
 			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 68, 71 ], "repeat": 5000 },
@@ -477,7 +477,7 @@
     ],
     "weight": 100,
     "object": {
-      "fill_ter": "sierra_floor",
+      "fill_ter": "t_STORMSIERRAMADRE_fl_casino_red",
       "rows": [
         "WWWWXWWWWWWWWWWWWXWWWWWWXXWWWWWXWWWXXWWWXWWWWWXXWWWWWWWWWWWWXWWWWWWXWWWW",
         "W@@..*a*.K|T`|225=`#|@@E...*|.IxI.|nn|.IxI.|*...E@@|WWW>.<W=`(O|*a*.s@@W",
@@ -561,7 +561,7 @@
 	  "M": "f_armchair", "x": "f_console_broken", "y": "f_washer", "Y": "f_table", "z": "f_chair", "Z": "f_cupboard", "8": "f_sink" },
 	  "toilets": { "T": {  } },
 	  
-      "terrain": { ".": "sierra_floor", "-": "t_open_air", "f": "sierra_roof", "|": "sierra_wall_interior", "W": "sierra_wall", "D": "sierra_door_locked",
+      "terrain": { ".": "t_STORMSIERRAMADRE_fl_casino_red", "-": "t_open_air", "f": "t_sierra_roof", "|": "sierra_wall_interior", "W": "t_sierra_wall", "D": "sierra_door_locked",
 	  "<": "t_stairs_up", ">": "t_stairs_down", "d": "sierra_door", "C": "sierra_carpet", "`": "t_linoleum_white", "w": "t_door_c",
 	  "3": "t_linoleum_white", "2": "t_linoleum_white", "k": "t_door_glass_c", "l": "sierra_floor_light", "=": "t_linoleum_white", "^": "t_linoleum_white",
 	  "!": "t_guardrail_sm", "m": "t_elevator_control_off", "g": "sierra_carpet", "G": "sierra_carpet", "5": "t_linoleum_white",
@@ -576,18 +576,18 @@
 		],
 		
 		"place_monsters": [
-			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 1, 23 ], "y": [ 18, 23 ], "density": 0.1 },
-			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 24, 47 ], "y": [ 18, 23 ], "density": 0.1 },
-			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 48, 70 ], "y": [ 18, 23 ], "density": 0.1 },
-			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 1, 23 ], "y": [ 24, 29 ], "density": 0.05 },
-			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 24, 47 ], "y": [ 24, 29 ], "density": 0.05 },
-			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 48, 70 ], "y": [ 24, 29 ], "density": 0.05 },
-			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 1, 23 ], "y": [ 31, 46 ], "density": 0.2 },
-			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 24, 47 ], "y": [ 31, 46 ], "density": 0.2 },
-			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 48, 70 ], "y": [ 31, 46 ], "density": 0.2 },
-			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 1, 23 ], "y": [ 1, 17 ], "density": 0.2 },
-			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 24, 47 ], "y": [ 1, 17 ], "density": 0.2 },
-			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 48, 70 ], "y": [ 1, 17 ], "density": 0.2 }
+			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 1, 23 ], "y": [ 18, 23 ], "density": 0.01 },
+			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 24, 47 ], "y": [ 18, 23 ], "density": 0.01 },
+			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 48, 70 ], "y": [ 18, 23 ], "density": 0.01 },
+			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 1, 23 ], "y": [ 24, 29 ], "density": 0.005 },
+			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 24, 47 ], "y": [ 24, 29 ], "density": 0.005 },
+			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 48, 70 ], "y": [ 24, 29 ], "density": 0.005 },
+			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 1, 23 ], "y": [ 31, 46 ], "density": 0.02 },
+			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 24, 47 ], "y": [ 31, 46 ], "density": 0.02 },
+			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 48, 70 ], "y": [ 31, 46 ], "density": 0.02 },
+			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 1, 23 ], "y": [ 1, 17 ], "density": 0.02 },
+			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 24, 47 ], "y": [ 1, 17 ], "density": 0.02 },
+			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 48, 70 ], "y": [ 1, 17 ], "density": 0.02 }
 	    ],
 	  
 	  "items": {
@@ -714,7 +714,7 @@
     ],
     "weight": 100,
     "object": {
-      "fill_ter": "sierra_floor",
+      "fill_ter": "t_STORMSIERRAMADRE_fl_casino_red",
       "rows": [
         "WWWWXWWWWWWWWWWWWXWWWWWWXXWWWWWXWWWXXWWWXWWWWWXXWWWWWWWWWWWWXWWWWWWXWWWW",
         "W@@..*a*.K|T`|225=`#|@@E...*|.IxI.|nn|.IxI.|*...E@@|WWW<.>W=`(O|*a*.s@@W",
@@ -774,7 +774,7 @@
 	  "M": "f_armchair", "x": "f_console_broken", "y": "f_washer", "Y": "f_table", "z": "f_chair", "Z": "f_cupboard", "8": "f_sink" },
 	  "toilets": { "T": {  } },
 	  
-      "terrain": { ".": "sierra_floor", "-": "t_open_air", "f": "sierra_roof", "|": "sierra_wall_interior", "W": "sierra_wall", "D": "sierra_door_locked",
+      "terrain": { ".": "t_STORMSIERRAMADRE_fl_casino_red", "-": "t_open_air", "f": "t_sierra_roof", "|": "sierra_wall_interior", "W": "t_sierra_wall", "D": "sierra_door_locked",
 	  "<": "t_stairs_up", ">": "t_stairs_down", "d": "sierra_door", "C": "sierra_carpet", "`": "t_linoleum_white", "w": "t_door_c",
 	  "3": "t_linoleum_white", "2": "t_linoleum_white", "k": "t_door_glass_c", "l": "sierra_floor_light", "=": "t_linoleum_white", "^": "t_linoleum_white",
 	  "!": "t_guardrail_sm", "m": "t_elevator_control_off", "g": "sierra_carpet", "G": "sierra_carpet", "5": "t_linoleum_white",
@@ -783,18 +783,18 @@
 	  "Y": "t_linoleum_white", "z": "t_linoleum_white", "Z": "t_linoleum_white", "X": "window_sierra", "8": "t_linoleum_white", "+": "t_door_locked_interior" },
 	  
 	  "place_monsters": [
-			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 1, 23 ], "y": [ 18, 23 ], "density": 0.1 },
-			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 24, 47 ], "y": [ 18, 23 ], "density": 0.1 },
-			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 48, 70 ], "y": [ 18, 23 ], "density": 0.1 },
-			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 1, 23 ], "y": [ 24, 29 ], "density": 0.05 },
-			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 24, 47 ], "y": [ 24, 29 ], "density": 0.05 },
-			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 48, 70 ], "y": [ 24, 29 ], "density": 0.05 },
-			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 1, 23 ], "y": [ 31, 46 ], "density": 0.2 },
-			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 24, 47 ], "y": [ 31, 46 ], "density": 0.2 },
-			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 48, 70 ], "y": [ 31, 46 ], "density": 0.2 },
-			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 1, 23 ], "y": [ 1, 17 ], "density": 0.2 },
-			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 24, 47 ], "y": [ 1, 17 ], "density": 0.2 },
-			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 48, 70 ], "y": [ 1, 17 ], "density": 0.2 }
+			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 1, 23 ], "y": [ 18, 23 ], "density": 0.01 },
+			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 24, 47 ], "y": [ 18, 23 ], "density": 0.01 },
+			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 48, 70 ], "y": [ 18, 23 ], "density": 0.01 },
+			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 1, 23 ], "y": [ 24, 29 ], "density": 0.005 },
+			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 24, 47 ], "y": [ 24, 29 ], "density": 0.005 },
+			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 48, 70 ], "y": [ 24, 29 ], "density": 0.005 },
+			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 1, 23 ], "y": [ 31, 46 ], "density": 0.02 },
+			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 24, 47 ], "y": [ 31, 46 ], "density": 0.02 },
+			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 48, 70 ], "y": [ 31, 46 ], "density": 0.02 },
+			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 1, 23 ], "y": [ 1, 17 ], "density": 0.02 },
+			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 24, 47 ], "y": [ 1, 17 ], "density": 0.02 },
+			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 48, 70 ], "y": [ 1, 17 ], "density": 0.02 }
 	    ],
 	  
 	  "items": {
@@ -921,7 +921,7 @@
     ],
     "weight": 100,
     "object": {
-      "fill_ter": "sierra_floor",
+      "fill_ter": "t_STORMSIERRAMADRE_fl_casino_red",
       "rows": [
         "WWWWXWWWWWWWWWWWWXWWWWWWXXWWWWWXWWWXXWWWXWWWWWXXWWWWWWWWWWWWXWWWWWWXWWWW",
         "W@@..*a*.K|T`|225=`#|@@E...*|.IxI.|nn|.IxI.|*...E@@|WWW>.<W=`(O|*a*.s@@W",
@@ -981,7 +981,7 @@
 	  "M": "f_armchair", "x": "f_console_broken", "y": "f_washer", "Y": "f_table", "z": "f_chair", "Z": "f_cupboard", "8": "f_sink" },
 	  "toilets": { "T": {  } },
 	  
-      "terrain": { ".": "sierra_floor", "-": "t_open_air", "f": "sierra_roof", "|": "sierra_wall_interior", "W": "sierra_wall", "D": "sierra_door_locked",
+      "terrain": { ".": "t_STORMSIERRAMADRE_fl_casino_red", "-": "t_open_air", "f": "t_sierra_roof", "|": "sierra_wall_interior", "W": "t_sierra_wall", "D": "sierra_door_locked",
 	  "<": "t_stairs_up", ">": "t_stairs_down", "d": "sierra_door", "C": "sierra_carpet", "`": "t_linoleum_white", "w": "t_door_c",
 	  "3": "t_linoleum_white", "2": "t_linoleum_white", "k": "t_door_glass_c", "l": "sierra_floor_light", "=": "t_linoleum_white", "^": "t_linoleum_white",
 	  "!": "t_guardrail_sm", "m": "t_elevator_control_off", "g": "sierra_carpet", "G": "sierra_carpet", "5": "t_linoleum_white",
@@ -990,18 +990,18 @@
 	  "Y": "t_linoleum_white", "z": "t_linoleum_white", "Z": "t_linoleum_white", "X": "window_sierra", "8": "t_linoleum_white", "+": "t_door_locked_interior" },
 	  
 	  "place_monsters": [
-			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 1, 23 ], "y": [ 18, 23 ], "density": 0.1 },
-			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 24, 47 ], "y": [ 18, 23 ], "density": 0.1 },
-			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 48, 70 ], "y": [ 18, 23 ], "density": 0.1 },
-			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 1, 23 ], "y": [ 24, 29 ], "density": 0.05 },
-			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 24, 47 ], "y": [ 24, 29 ], "density": 0.05 },
-			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 48, 70 ], "y": [ 24, 29 ], "density": 0.05 },
-			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 1, 23 ], "y": [ 31, 46 ], "density": 0.2 },
-			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 24, 47 ], "y": [ 31, 46 ], "density": 0.2 },
-			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 48, 70 ], "y": [ 31, 46 ], "density": 0.2 },
-			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 1, 23 ], "y": [ 1, 17 ], "density": 0.2 },
-			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 24, 47 ], "y": [ 1, 17 ], "density": 0.2 },
-			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 48, 70 ], "y": [ 1, 17 ], "density": 0.2 }
+			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 1, 23 ], "y": [ 18, 23 ], "density": 0.01 },
+			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 24, 47 ], "y": [ 18, 23 ], "density": 0.01 },
+			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 48, 70 ], "y": [ 18, 23 ], "density": 0.01 },
+			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 1, 23 ], "y": [ 24, 29 ], "density": 0.005 },
+			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 24, 47 ], "y": [ 24, 29 ], "density": 0.005 },
+			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 48, 70 ], "y": [ 24, 29 ], "density": 0.005 },
+			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 1, 23 ], "y": [ 31, 46 ], "density": 0.02 },
+			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 24, 47 ], "y": [ 31, 46 ], "density": 0.02 },
+			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 48, 70 ], "y": [ 31, 46 ], "density": 0.02 },
+			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 1, 23 ], "y": [ 1, 17 ], "density": 0.02 },
+			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 24, 47 ], "y": [ 1, 17 ], "density": 0.02 },
+			{ "monster": "HOTEL_HOLOGRAMS", "x": [ 48, 70 ], "y": [ 1, 17 ], "density": 0.02 }
 	    ],
 	  
 	  "items": {
@@ -1128,7 +1128,7 @@
     ],
     "weight": 100,
     "object": {
-      "fill_ter": "sierra_floor",
+      "fill_ter": "t_STORMSIERRAMADRE_fl_casino_red",
       "rows": [
         "fffffffffffffWWWXXXWWXXXWWWWWWWXXXXWWXXXXWWWWWWWWWWWWWWWWWWfffffffffffff",
         "fffffffffffffWh....MM...*$|rBBB....BB....BBBrW......W.q..>Wfffffffffffff",
@@ -1188,7 +1188,7 @@
 	  "Y": "f_table", "z": "f_chair", "Z": "f_cupboard", "G": "f_autodoc", "g": "f_autodoc_couch", "k": "f_fridge", "8": "f_sink" },
 	  "toilets": { "T": {  } },
 	  
-      "terrain": { ".": "sierra_floor", "-": "t_open_air", "f": "sierra_roof", "|": "sierra_wall_interior", "W": "sierra_wall", "D": "sierra_door_vault",
+      "terrain": { ".": "t_STORMSIERRAMADRE_fl_casino_red", "-": "t_open_air", "f": "t_sierra_roof", "|": "sierra_wall_interior", "W": "t_sierra_wall", "D": "sierra_door_vault",
 	  "<": "t_stairs_up", ">": "t_stairs_down", "d": "sierra_door", "C": "sierra_carpet", "`": "t_linoleum_white", "w": "t_door_c",
 	  "3": "t_linoleum_white", "2": "t_linoleum_white", "l": "sierra_floor_light", "=": "t_linoleum_white", "^": "t_linoleum_white",
 	  "!": "t_guardrail_sm", "m": "t_elevator_control_off", "5": "t_linoleum_white",
@@ -1349,7 +1349,7 @@
     ],
     "weight": 100,
     "object": {
-      "fill_ter": "sierra_roof",
+      "fill_ter": "t_sierra_roof",
       "rows": [
         "fffffffffffff----------------------------------------------fffffffffffff",
         "fffffffffffff----------------------------------------------fffffffffffff",
@@ -1401,7 +1401,7 @@
         "fffffffffffff-------------------||||||||-------------------fffffffffffff"
       ],
 	  
-      "terrain": { "f": "t_open_air", "-": "sierra_roof", "|": "sierra_wall" },
+      "terrain": { "f": "t_open_air", "-": "t_sierra_roof", "|": "t_sierra_wall" },
 	  
 	  "place_fields": [
 			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 5000 },
@@ -1419,7 +1419,7 @@
     "om_terrain": [ "casino_roof_up" ],
     "weight": 100,
     "object": {
-      "fill_ter": "sierra_roof",
+      "fill_ter": "t_sierra_roof",
       "rows": [
         "........................",
         "........................",
@@ -1446,7 +1446,7 @@
         "........||||||||........",
         "........||||||||........"
       ],
-      "terrain": { ".": "t_open_air", "-": "sierra_roof", "|": "sierra_wall" },
+      "terrain": { ".": "t_open_air", "-": "t_sierra_roof", "|": "t_sierra_wall" },
 	  
 	  "place_fields": [
 			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 5000 }
@@ -1459,7 +1459,7 @@
     "om_terrain": [ "casino_roof_up_up" ],
     "weight": 100,
     "object": {
-      "fill_ter": "sierra_roof",
+      "fill_ter": "t_sierra_roof",
       "rows": [
         "........................",
         "........................",
@@ -1486,7 +1486,7 @@
         "........--------........",
         "........--------........"
       ],
-      "terrain": { ".": "t_open_air", "-": "sierra_roof" },
+      "terrain": { ".": "t_open_air", "-": "t_sierra_roof" },
 	  
 	  "place_fields": [
 			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 5000 }

@@ -391,7 +391,7 @@
 		"time": "45 m",
 		"qualities": [ { "id": "BUTCHER", "level": 10} ],
 		"components": [
-		  [ [ "bone", 25 ] ],
+		  [ [ "bone_human", 25 ] ],
 		  [ [ "sinew", 15 ] ]
 		]
 	},

@@ -88,10 +88,10 @@
 		],
 		
 		"place_monsters": [
-			{ "monster": "GHOST_DEFAULT", "x": [ 0, 23 ], "y": [ 0, 23 ], "density": 0.45 },
-			{ "monster": "GHOST_DEFAULT", "x": [ 0, 23 ], "y": [ 24, 47 ], "density": 0.45 },
-			{ "monster": "GHOST_DEFAULT", "x": [ 24, 47 ], "y": [ 0, 23 ], "density": 0.45 },
-			{ "monster": "GHOST_DEFAULT", "x": [ 24, 47 ], "y": [ 24, 47 ], "density": 0.45 }
+			{ "monster": "GHOST_DEFAULT", "x": [ 0, 23 ], "y": [ 0, 23 ], "density": 0.4 },
+			{ "monster": "GHOST_DEFAULT", "x": [ 0, 23 ], "y": [ 24, 47 ], "density": 0.4 },
+			{ "monster": "GHOST_DEFAULT", "x": [ 24, 47 ], "y": [ 0, 23 ], "density": 0.4 },
+			{ "monster": "GHOST_DEFAULT", "x": [ 24, 47 ], "y": [ 24, 47 ], "density": 0.4 }
 		],
 			
 		
@@ -264,9 +264,19 @@
 			
 		"terrain": { ".": "t_open_air", "*": "t_fountain", "|": "t_brick_wall", "-": "t_fence_metal", "/": "t_gate_metal_c", "d": "t_door_c", "c": "t_window_empty",
 		"F": "t_floor_noroof", "f": "t_floor", "<": "t_stairs_up", ">": "t_stairs_down", "T": "t_tree_dead", "G": "t_dirt", "a": "t_concrete", "m": "t_door_metal_c",
-		"8": "t_potential_trans", "9": "t_switchgear_s", "k": "t_station_disc", "r": "t_floor", "#": "t_concrete", "^": "t_flat_roof", "(": "t_sidewalk", "&": "t_sidewalk",
-		"1": "t_sidewalk", "i": "t_sidewalk", "D": "t_flat_roof", "P": "t_sidewalk", "p": "t_sidewalk", "x": "t_sidewalk", "b": "t_flat_roof", "~": "t_flat_roof",
-		"N": "t_flat_roof", "V": "t_flat_roof", "=": "t_flat_roof", "+": "t_door_locked_interior", "_": "t_floor", "?": "t_flat_roof"},
+		"8": "t_potential_trans", "9": "t_switchgear_s", "k": "t_station_disc", "r": "t_floor", "#": "t_concrete", "^": "t_shingle_flat_roof", "(": "t_sidewalk", "&": "t_sidewalk",
+		"1": "t_sidewalk", "i": "t_sidewalk", "D": "t_shingle_flat_roof", "P": "t_sidewalk", "p": "t_sidewalk", "x": "t_sidewalk", "b": "t_shingle_flat_roof", "~": "t_shingle_flat_roof",
+		"N": "t_shingle_flat_roof", "V": "t_shingle_flat_roof", "=": "t_shingle_flat_roof", "+": "t_door_locked_interior", "_": "t_floor", "?": "t_shingle_flat_roof"},
+		
+		"place_monsters": [
+			{ "monster": "GHOST_DEFAULT", "x": [ 0, 12 ], "y": [ 13, 22 ], "density": 0.25 },
+			{ "monster": "GHOST_DEFAULT", "x": [ 39, 46 ], "y": [ 7, 16 ], "density": 0.2 },
+			{ "monster": "GHOST_DEFAULT", "x": [ 13, 23 ], "y": [ 26, 37 ], "density": 0.2 },
+			{ "monster": "GHOST_DEFAULT", "x": [ 24, 39 ], "y": [ 26, 37 ], "density": 0.2 },
+			{ "monster": "GHOST_DEFAULT", "x": [ 37, 47 ], "y": [ 20, 22 ], "density": 0.2 },
+			{ "monster": "GHOST_DEFAULT", "x": [ 42, 46 ], "y": [ 42, 46 ], "density": 0.1 },
+			{ "monster": "GHOST_DEFAULT", "x": [ 13, 22 ], "y": [ 40, 43 ], "density": 0.1 }
+		],
 		
 		"place_fields": [
 			{ "field": "sierra_gas", "x": [ 13, 22 ], "y": [ 40, 43 ], "repeat": 80 },
@@ -370,7 +380,7 @@
     ],
     "weight": 100,
     "object": {
-      "fill_ter": "t_flat_roof",
+      "fill_ter": "t_shingle_flat_roof",
       "rows": [
         "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
         "bbbbbbbbbbbVbb......b..........................b",
@@ -428,9 +438,9 @@
 			
 		"terrain": { ".": "t_open_air", "*": "t_fountain", "|": "t_brick_wall", "-": "t_fence_metal", "/": "t_gate_metal_c", "d": "t_door_c", "c": "t_window_empty",
 		"F": "t_floor_noroof", "f": "t_floor", "<": "t_stairs_up", ">": "t_stairs_down", "T": "t_tree_dead", "G": "t_dirt", "a": "t_concrete", "m": "t_door_metal_c",
-		"8": "t_potential_trans", "9": "t_switchgear_s", "k": "t_station_disc", "r": "t_floor", "#": "t_concrete", "^": "t_flat_roof", "(": "t_sidewalk", "&": "t_sidewalk",
-		"1": "t_sidewalk", "i": "t_sidewalk", "D": "t_flat_roof", "P": "t_sidewalk", "p": "t_sidewalk", "x": "t_sidewalk", "b": "t_flat_roof", "~": "t_flat_roof",
-		"N": "t_flat_roof", "V": "t_flat_roof", "=": "t_flat_roof"},
+		"8": "t_potential_trans", "9": "t_switchgear_s", "k": "t_station_disc", "r": "t_floor", "#": "t_concrete", "^": "t_shingle_flat_roof", "(": "t_sidewalk", "&": "t_sidewalk",
+		"1": "t_sidewalk", "i": "t_sidewalk", "D": "t_shingle_flat_roof", "P": "t_sidewalk", "p": "t_sidewalk", "x": "t_sidewalk", "b": "t_shingle_flat_roof", "~": "t_shingle_flat_roof",
+		"N": "t_shingle_flat_roof", "V": "t_shingle_flat_roof", "=": "t_shingle_flat_roof"},
 		
 		"place_fields": [
 			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 5000 },

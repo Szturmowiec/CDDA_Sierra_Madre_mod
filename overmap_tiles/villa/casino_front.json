@@ -35,7 +35,7 @@
         "|||||||||||||||||||||||||..|................|..|||||||||||||||||||||||||"
       ],
       "furniture": { "i": "f_bench" },
-      "terrain": { ".": "t_sidewalk", "*": "t_fountain", "|": "t_brick_wall", "-": "t_fence_metal", "/": "t_gate_metal_c", "b": "t_flat_roof", "T": "t_tree_dead", "G": "t_dirt"},
+      "terrain": { ".": "t_sidewalk", "*": "t_fountain", "|": "t_brick_wall", "-": "t_fence_metal", "/": "t_gate_metal_c", "b": "t_shingle_flat_roof", "T": "t_tree_dead", "G": "t_dirt"},
 	  
 	  "place_fields": [
 			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 5000 },
@@ -52,7 +52,7 @@
     ],
     "weight": 100,
     "object": {
-      "fill_ter": "t_flat_roof",
+      "fill_ter": "t_shingle_flat_roof",
       "rows": [
 		"|......................................................................|",
         "|......................................................................|",
@@ -80,7 +80,7 @@
         "|||||||||||||||||||||||||bbb................bbb|||||||||||||||||||||||||"
       ],
       "furniture": { "i": "f_bench" },
-      "terrain": { ".": "t_open_air", "*": "t_fountain", "|": "t_brick_wall", "-": "t_fence_metal", "/": "t_gate_metal_c", "b": "t_flat_roof", "T": "t_tree_dead", "G": "t_dirt"},
+      "terrain": { ".": "t_open_air", "*": "t_fountain", "|": "t_brick_wall", "-": "t_fence_metal", "/": "t_gate_metal_c", "b": "t_shingle_flat_roof", "T": "t_tree_dead", "G": "t_dirt"},
 	  
 	  "place_fields": [
 			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 5000 },
@@ -97,7 +97,7 @@
     ],
     "weight": 100,
     "object": {
-      "fill_ter": "t_flat_roof",
+      "fill_ter": "t_shingle_flat_roof",
       "rows": [
 		"|......................................................................|",
         "|......................................................................|",
@@ -125,7 +125,7 @@
         "|||||||||||||||||||||||||......................|||||||||||||||||||||||||"
       ],
       "furniture": { "i": "f_bench" },
-      "terrain": { ".": "t_open_air", "*": "t_fountain", "|": "t_flat_roof", "-": "t_fence_metal", "/": "t_gate_metal_c", "b": "t_flat_roof", "T": "t_tree_dead", "G": "t_dirt"},
+      "terrain": { ".": "t_open_air", "*": "t_fountain", "|": "t_shingle_flat_roof", "-": "t_fence_metal", "/": "t_gate_metal_c", "b": "t_shingle_flat_roof", "T": "t_tree_dead", "G": "t_dirt"},
 	  
 	  "place_fields": [
 			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 5000 },

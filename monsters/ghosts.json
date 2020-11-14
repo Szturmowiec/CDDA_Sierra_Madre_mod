@@ -123,6 +123,7 @@
 		"volume": "62500 ml",
 		"weight": "81500 g",
 		"hp": 160,
+		"regenerates": 3,
 		"speed": 70,
 		"diff": 10,
 		"material": [ "flesh" ],
@@ -137,13 +138,14 @@
 		"melee_cut": 2,
 		"melee_stab": 2,
 		"melee_damage": [ { "damage_type": "cut", "amount": 12 }, { "damage_type": "stab", "amount": 12 } ],
+		"vision_day": 25,
 		"vision_night": 25,
 		"armor_bash": 8,
 		"armor_bullet": 8,
 		"armor_cut": 8,
 		"armor_stab": 8,
 		"harvest": "ghost_harvest",
-		"path_settings": { "avoid_traps" : true, "avoid_sharp": true, "bash_strength": 5 },
+		"path_settings": { "avoid_traps" : true, "avoid_sharp": true },
 		"starting_ammo": { "spear_ammo_fake": 7 },
 		"special_attacks": [ [ "PARROT", 30 ], { "type": "leap", "cooldown": 4, "max_range": 4, "allow_no_target": true }, [ "impale", 10 ],
 			{
@@ -163,12 +165,11 @@
 		"death_function": [ "NORMAL" ],
 		"flags": [
 		  "SEES",
-		  "HEARS",
 		  "SMELLS",
+		  "KEENNOSE",
 		  "STUMBLES",
 		  "WARM",
 		  "BASHES",
-		  "GROUP_BASH",
 		  "POISON",
 		  "NO_BREATHE",
 		  "REVIVES",
@@ -176,7 +177,7 @@
 		  "FILTHY",
 		  "FIREPROOF",
 		  "ACIDPROOF",
-		  "PATH_AVOID_DANGER_1"
+		  "PATH_AVOID_DANGER_2"
 		]
 	},
 	{
@@ -191,6 +192,7 @@
 		"volume": "65000 ml",
 		"weight": "86700 g",
 		"hp": 200,
+		"regenerates": 3,
 		"speed": 70,
 		"material": [ "flesh" ],
 		"symbol": "G",
@@ -202,24 +204,24 @@
 		"melee_dice": 9,
 		"melee_dice_sides": 6,
 		"melee_damage": [ { "damage_type": "bash", "amount": 20 } ],
+		"vision_day": 25,
 		"vision_night": 25,
 		"armor_bash": 12,
 		"armor_bullet": 12,
 		"armor_cut": 12,
 		"armor_stab": 12,
 		"harvest": "ghost_harvest",
-		"path_settings": { "avoid_traps" : true, "avoid_sharp": true, "bash_strength": 5 },
+		"path_settings": { "avoid_traps" : true, "avoid_sharp": true },
 		"special_attacks": [ [ "PARROT", 30 ], { "type": "leap", "cooldown": 4, "max_range": 4, "allow_no_target": true, "max_consider_range": 12 }, [ "bearfisting", 20 ] ],
 		"death_drops": "trapper_items",
 		"death_function": [ "NORMAL" ],
 		"flags": [
 		  "SEES",
-		  "HEARS",
 		  "SMELLS",
+		  "KEENNOSE",
 		  "STUMBLES",
 		  "WARM",
 		  "BASHES",
-		  "GROUP_BASH",
 		  "POISON",
 		  "NO_BREATHE",
 		  "REVIVES",
@@ -227,7 +229,7 @@
 		  "FILTHY",
 		  "FIREPROOF",
 		  "ACIDPROOF",
-		  "PATH_AVOID_DANGER_1"
+		  "PATH_AVOID_DANGER_2"
 		]
 	},
 	{
@@ -242,6 +244,7 @@
 		"volume": "64250 ml",
 		"weight": "82500 g",
 		"hp": 200,
+		"regenerates": 3,
 		"speed": 70,
 		"diff": 20,
 		"material": [ "flesh" ],
@@ -256,13 +259,14 @@
 		"melee_cut": 2,
 		"melee_stab": 2,
 		"melee_damage": [ { "damage_type": "cut", "amount": 15 }, { "damage_type": "stab", "amount": 15 } ],
+		"vision_day": 25,
 		"vision_night": 25,
 		"armor_bash": 10,
 		"armor_bullet": 10,
 		"armor_cut": 10,
 		"armor_stab": 10,
 		"harvest": "ghost_harvest",
-		"path_settings": { "avoid_traps" : true, "avoid_sharp": true, "bash_strength": 5 },
+		"path_settings": { "avoid_traps" : true, "avoid_sharp": true },
 		"starting_ammo": { "gas_bomb_dummy_ammo": 1 },
 		"special_attacks": [ [ "PARROT", 30 ], { "type": "leap", "cooldown": 4, "max_range": 4, "allow_no_target": true }, [ "impale", 10 ],
 			{
@@ -282,12 +286,11 @@
 		"death_function": [ "NORMAL" ],
 		"flags": [
 		  "SEES",
-		  "HEARS",
 		  "SMELLS",
+		  "KEENNOSE",
 		  "STUMBLES",
 		  "WARM",
 		  "BASHES",
-		  "GROUP_BASH",
 		  "POISON",
 		  "NO_BREATHE",
 		  "REVIVES",
@@ -295,7 +298,7 @@
 		  "FILTHY",
 		  "FIREPROOF",
 		  "ACIDPROOF",
-		  "PATH_AVOID_DANGER_1"
+		  "PATH_AVOID_DANGER_2"
 		]
 	}
 ]

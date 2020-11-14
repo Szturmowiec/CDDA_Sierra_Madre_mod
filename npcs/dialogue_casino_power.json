@@ -28,7 +28,8 @@
 		"type": "talk_topic",
 		"dynamic_line": "Power control terminal",
 		"responses": [
-		  { "text": "Manually restore casino's power", "topic": "ACCESS", "effect": [ { "mapgen_update": "madrid_mapgen", "om_terrain": "casino_9" }, { "mapgen_update": "tampico_mapgen", "om_terrain": "casino_up_7" }, { "mapgen_update": "suites_mapgen", "om_terrain": "casino_up_5" }, { "mapgen_update": "vendor_mapgen", "om_terrain": "casino_4" } ] },
+		  { "text": "Manually restore casino's power", "topic": "ACCESS", "effect": [ { "mapgen_update": "madrid_mapgen", "om_terrain": "casino_9" }, { "mapgen_update": "tampico_mapgen", "om_terrain": "casino_up_7" }, { "mapgen_update": "suites_mapgen", "om_terrain": "casino_up_5" },
+		  { "mapgen_update": "vendor_mapgen", "om_terrain": "casino_4" }, { "mapgen_update": "ghost_mapgen", "om_terrain": "casino_8" } ] },
 		  { "text": "Exit", "topic": "TALK_DONE" }
 		]
 	},

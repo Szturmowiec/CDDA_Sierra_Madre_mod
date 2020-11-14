@@ -74,7 +74,7 @@
     "om_terrain": [ "mainsquare_up" ],
     "weight": 100,
     "object": {
-      "fill_ter": "t_flat_roof",
+      "fill_ter": "t_shingle_flat_roof",
       "rows": [
         "||||||bbbbbbbbbbbb||||||",
         "bbbbbb............bbbbbb",
@@ -102,7 +102,7 @@
         "||||||bbbbbbbbbbbb||||||"
       ],
       "furniture": { "&": "f_trashcan" },
-      "terrain": { ".": "t_open_air", "*": "t_fountain", "|": "t_brick_wall", "-": "t_fence_metal", "/": "t_gate_metal_c", "b": "t_flat_roof"},
+      "terrain": { ".": "t_open_air", "*": "t_fountain", "|": "t_brick_wall", "-": "t_fence_metal", "/": "t_gate_metal_c", "b": "t_shingle_flat_roof"},
 	  
 	  "place_fields": [
 			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 5000 }
@@ -115,7 +115,7 @@
     "om_terrain": [ "mainsquare_roof" ],
     "weight": 100,
     "object": {
-      "fill_ter": "t_flat_roof",
+      "fill_ter": "t_shingle_flat_roof",
       "rows": [
         "bbbbbb............bbbbbb",
         "........................",
@@ -143,7 +143,7 @@
         "bbbbbb............bbbbbb"
       ],
       "furniture": { "&": "f_trashcan" },
-      "terrain": { ".": "t_open_air", "*": "t_fountain", "|": "t_brick_wall", "-": "t_fence_metal", "/": "t_gate_metal_c", "b": "t_flat_roof"},
+      "terrain": { ".": "t_open_air", "*": "t_fountain", "|": "t_brick_wall", "-": "t_fence_metal", "/": "t_gate_metal_c", "b": "t_shingle_flat_roof"},
 	  
 	  "place_fields": [
 			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 5000 }

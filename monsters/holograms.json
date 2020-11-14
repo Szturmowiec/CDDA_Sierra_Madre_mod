@@ -28,7 +28,7 @@
 		"luminance": 10,
 		"vision_day": 35,
 		"vision_night": 35,
-		"path_settings": { "avoid_traps" : true, "allow_climb_stairs" : false, "avoid_sharp": true },
+		"path_settings": { "avoid_traps" : true, "allow_climb_stairs" : false, "avoid_sharp": true, "max_dist": 50 },
 		"special_attacks": [
 			{
 				"type": "gun",
@@ -43,10 +43,9 @@
 		  "SEES",
 		  "HEARS",
 		  "NO_BREATHE",
-		  "CONSOLE_DESPAWN",
 		  "FIREPROOF",
 		  "ACIDPROOF",
-		  "PATH_AVOID_DANGER_2"
+		  "PRIORITIZE_TARGETS"
 		]
 	},
 	{
@@ -89,7 +88,8 @@
 		  "NO_BREATHE",
 		  "FIREPROOF",
 		  "ACIDPROOF",
-		  "IMMOBILE"
+		  "IMMOBILE",
+		  "PRIORITIZE_TARGETS"
 		]
 	},
 	{
@@ -116,7 +116,7 @@
 		"luminance": 10,
 		"vision_day": 35,
 		"vision_night": 35,
-		"path_settings": { "avoid_traps" : true, "allow_climb_stairs" : false, "avoid_sharp": true, "allow_open_doors": true },
+		"path_settings": { "avoid_traps" : true, "allow_climb_stairs" : false, "avoid_sharp": true, "allow_open_doors": true, "max_dist": 50 },
 		"special_attacks": [
 			[ "PARROT", 10 ],
 			{
@@ -132,10 +132,9 @@
 		  "SEES",
 		  "HEARS",
 		  "NO_BREATHE",
-		  "CONSOLE_DESPAWN",
 		  "FIREPROOF",
 		  "ACIDPROOF",
-		  "PATH_AVOID_DANGER_2"
+		  "PRIORITIZE_TARGETS"
 		]
 	}
 ]

@@ -200,7 +200,6 @@
 		"price": 5000,
 		"price_postapoc": 250,
 		"material": [ "plastic" ],
-		"ascii_picture": "processor",
 		"flags": [ "TRADER_AVOID" ],
 		"weight": "5 g",
 		"volume": "2 ml"

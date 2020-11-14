@@ -47,6 +47,6 @@
 	{
 		"type": "MONSTER_FACTION",
 		"name": "sierra_turrets",
-		"hate": [ "zombie", "fungus", "cult", "triffid", "nether", "mutant", "human" ]
+		"hate": [ "zombie", "fungus", "cult", "triffid", "nether", "mutant" ]
 	}
 ]
