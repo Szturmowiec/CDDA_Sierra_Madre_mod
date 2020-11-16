@@ -37,8 +37,15 @@ This mod is meant to be hard and the player will take a lot of damage while expl
 
 # Installation
 
-Download the release for the version you're using (either main game - Cataclysm: Dark Days Ahead or the fork - Cataclysm: Bright Nights) and then simply extract the contents of the archive under main_game_dir/data/mods.
-Then you'll be able to choose this mod in the world creation menu. If you wish to add the mod to your existing save then open file main_game_dir/save/name_of_your_world/mods.json and add the string "sierra_madre" to the list you'll see there. Note that the new locations won't spawn on the already generated terrain and you'll need to travel beyond your already explored map to find the Sierra Madre.
+Download the release for the version you're using (either main game - Cataclysm: Dark Days Ahead or the fork - Cataclysm: Bright Nights) and then simply extract the contents of the archive to the following directory:
+
+main_game_dir/data/mods
+
+Then you'll be able to choose this mod in the world creation menu. If you wish to add the mod to your existing save then open the following file:
+
+main_game_dir/save/name_of_your_world/mods.json
+
+In this file add the string "sierra_madre" to the list you'll see there. Note that the new locations won't spawn on the already generated terrain and you'll need to travel beyond your already explored map to find the Sierra Madre.
 
 # IMPORTANT NOTE
 
