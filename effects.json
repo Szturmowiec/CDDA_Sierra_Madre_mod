@@ -304,7 +304,7 @@
 		"id": "SIERRA_HUNTER",
 		"name": { "str": "Sierra Madre Treasure Hunter" },
 		"points": 0,
-		"description": "You're one of the many survivors who set on cracking the Sierra Madre open and find the treasure of the Old World buried deep inside its vault.",
+		"description": "You're one of the many survivors who set on cracking the Sierra Madre open and finding the treasure of the Old World buried deep inside its vault.",
 		"valid": false,
 		"purifiable": false,
 		"profession": true
@@ -336,8 +336,7 @@
 		"points": 0,
 		"description": "You've managed to successfully trigger the Gala Event, opening the door to the Sierra Madre Casino. Now it is time to enter this legendary resort.",
 		"valid": false,
-		"purifiable": false,
-		"profession": true
+		"purifiable": false
 	},
 	{
 		"type": "effect_type",
@@ -352,5 +351,74 @@
 		  "hurt_max": [ 999 ]
 		},
 		"show_in_info": true
+	},
+	{
+		"type": "effect_type",
+		"id": "venom_weak",
+		"name": [ "Cloud venom intoxication (weak)" ],
+		"desc": [ "The venom made out of the Sierra Madre Cloud is running through yoru veins, burning you from the inside. The dose doesn't seem to be lethal, but you still feel like shit." ],
+		"miss_messages": [ [ "Your throat burns!", 1 ], [ "You feel as if there was burning napalm inside your stomach!", 1 ] ],
+		"rating": "bad",
+		"main_parts_only": true,
+		"min_duration": "30 seconds",
+		"max_duration": "1 minute",
+		"base_mods": {
+		  "pain_min": [ 2 ],
+		  "pain_max": [ 4 ],
+		  "pain_chance": [5],
+		  "hurt_min": [ 2 ],
+		  "hurt_max": [ 5 ],
+		  "hurt_chance": [2]
+		},
+		"show_in_info": true,
+		"blood_analysis_description": "Z-43 liquified poison, low concentration"
+	},
+	{
+		"type": "effect_type",
+		"id": "venom_potent",
+		"name": [ "Cloud venom intoxication (potent)" ],
+		"desc": [ "The venom made out of the Sierra Madre Cloud is running through yoru veins, burning you from the inside. The dose is potent and might seriously wreck your health or even kill you if your organism is too weak to handle it." ],
+		"miss_messages": [ [ "Your throat burns!", 1 ], [ "You feel as if there was burning napalm inside your stomach!", 1 ] ],
+		"rating": "bad",
+		"main_parts_only": true,
+		"min_duration": "30 seconds",
+		"max_duration": "1 minute",
+		"base_mods": {
+		  "dex_mod": [ -1 ],
+		  "str_mod": [ -2 ],
+		  "pain_min": [ 3 ],
+		  "pain_max": [ 6 ],
+		  "pain_chance": [5],
+		  "hurt_min": [ 2 ],
+		  "hurt_max": [ 7 ],
+		  "hurt_chance": [2]
+		},
+		"show_in_info": true,
+		"blood_analysis_description": "Z-43 liquified poison, medium concentration"
+	},
+	{
+		"type": "effect_type",
+		"id": "venom_lethal",
+		"name": [ "Cloud venom intoxication (lethal)" ],
+		"desc": [ "The venom made out of the Sierra Madre Cloud is running through yoru veins, burning you from the inside. You feel it in your guts that it won't end well for you..." ],
+		"miss_messages": [ [ "Your throat burns!", 1 ], [ "You feel as if there was burning napalm inside your stomach!", 1 ] ],
+		"rating": "bad",
+		"main_parts_only": true,
+		"min_duration": "1 minute",
+		"max_duration": "2 minutes",
+		"base_mods": {
+		  "per_mod": [ -3 ],
+		  "dex_mod": [ -2 ],
+		  "str_mod": [ -3 ],
+		  "int_mod": [ -5 ],
+		  "pain_min": [ 5 ],
+		  "pain_max": [ 10 ],
+		  "pain_chance": [5],
+		  "hurt_min": [ 4 ],
+		  "hurt_max": [ 9 ],
+		  "hurt_chance": [2]
+		},
+		"show_in_info": true,
+		"blood_analysis_description": "Z-43 liquified poison, high concentration"
 	}
 ]

@@ -1,15 +1,15 @@
 [
 	{
-		"id": "gala_mission_1",
+		"id": "HEIST",
 		"type": "mission_definition",
-		"name": "Retrieve microchip from the power switching station in Salida del Sol",
-		"description": "Find the requested card microchip, bring it back to the fountain and speak with the mysterious man communicating with you through the fountain hologram about what to do next.",
-		"goal": "MGOAL_FIND_ITEM",
-		"difficulty": 10,
-		"value": 500000,
-		"item": "card_chip",
+		"name": "Heist of the Centuries",
+		"description": "Crack the Sierra Madre open.",
+		"difficulty": 100,
+		"value": 1000000000,
+		"goal": "MGOAL_GO_TO",
+		"destination": "sm_vault",
 		"start": {
-		   "assign_mission_target": { "om_terrain": "salida_3", "reveal_radius": 0 }
+			"assign_mission_target": { "om_terrain": "sm_vault", "reveal_radius": 0, "search_range": 500 }
 		},
 		"dialogue": {
 			"describe": "If you see it it's a bug.",
@@ -21,6 +21,7 @@
 			"success": "If you see it it's a bug.",
 			"success_lie": "If you see it it's a bug.",
 			"failure": "If you see it it's a bug."
-		}
+		},
+		"origins": [ "ORIGIN_GAME_START" ]
 	}
 ]

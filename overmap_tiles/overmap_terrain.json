@@ -2,7 +2,7 @@
   {
     "id": "mainsquare",
     "type": "overmap_terrain",
-    "name": "Sierra Madre villa",
+    "name": "Sierra Madre Villa",
     "sym": "S",
     "color": "i_red",
     "see_cost": 5,
@@ -12,7 +12,7 @@
   {
     "id": "mainsquare_up",
     "type": "overmap_terrain",
-    "name": "Sierra Madre villa",
+    "name": "Sierra Madre Villa",
     "sym": "S",
     "color": "i_red",
     "see_cost": 5,
@@ -22,7 +22,7 @@
   {
     "id": "mainsquare_roof",
     "type": "overmap_terrain",
-    "name": "Sierra Madre villa",
+    "name": "Sierra Madre Villa",
     "sym": "S",
     "color": "i_red",
     "see_cost": 5,
@@ -32,7 +32,7 @@
   {
     "id": "left",
     "type": "overmap_terrain",
-    "name": "Sierra Madre villa",
+    "name": "Sierra Madre Villa",
     "sym": "S",
     "color": "i_red",
     "see_cost": 5,
@@ -42,7 +42,7 @@
   {
     "id": "left_up",
     "type": "overmap_terrain",
-    "name": "Sierra Madre villa",
+    "name": "Sierra Madre Villa",
     "sym": "S",
     "color": "i_red",
     "see_cost": 5,
@@ -52,7 +52,7 @@
   {
     "id": "left_roof",
     "type": "overmap_terrain",
-    "name": "Sierra Madre villa",
+    "name": "Sierra Madre Villa",
     "sym": "S",
     "color": "i_red",
     "see_cost": 5,
@@ -62,7 +62,7 @@
   {
     "id": "left_left",
     "type": "overmap_terrain",
-    "name": "Sierra Madre villa",
+    "name": "Sierra Madre Villa",
     "sym": "S",
     "color": "i_red",
     "see_cost": 5,
@@ -72,7 +72,7 @@
   {
     "id": "left_left_up",
     "type": "overmap_terrain",
-    "name": "Sierra Madre villa",
+    "name": "Sierra Madre Villa",
     "sym": "S",
     "color": "i_red",
     "see_cost": 5,
@@ -82,7 +82,7 @@
   {
     "id": "left_left_roof",
     "type": "overmap_terrain",
-    "name": "Sierra Madre villa",
+    "name": "Sierra Madre Villa",
     "sym": "S",
     "color": "i_red",
     "see_cost": 5,
@@ -472,7 +472,7 @@
   {
     "id": "medical",
     "type": "overmap_terrain",
-    "name": "Sierra Madre villa",
+    "name": "Sierra Madre Villa",
     "sym": "S",
     "color": "i_red",
     "see_cost": 5,
@@ -482,7 +482,7 @@
   {
     "id": "medical_up",
     "type": "overmap_terrain",
-    "name": "Sierra Madre villa",
+    "name": "Sierra Madre Villa",
     "sym": "S",
     "color": "i_red",
     "see_cost": 5,
@@ -492,7 +492,7 @@
   {
     "id": "medical_roof",
     "type": "overmap_terrain",
-    "name": "Sierra Madre villa",
+    "name": "Sierra Madre Villa",
     "sym": "S",
     "color": "i_red",
     "see_cost": 5,
@@ -532,7 +532,7 @@
   {
     "id": "right",
     "type": "overmap_terrain",
-    "name": "Sierra Madre villa",
+    "name": "Sierra Madre Villa",
     "sym": "S",
     "color": "i_red",
     "see_cost": 5,
@@ -542,7 +542,7 @@
   {
     "id": "residential",
     "type": "overmap_terrain",
-    "name": "Sierra Madre villa",
+    "name": "Sierra Madre Villa",
     "sym": "S",
     "color": "i_red",
     "see_cost": 5,
@@ -552,7 +552,7 @@
   {
     "id": "dean",
     "type": "overmap_terrain",
-    "name": "Sierra Madre villa",
+    "name": "Sierra Madre Villa",
     "sym": "S",
     "color": "i_red",
     "see_cost": 5,
@@ -562,7 +562,7 @@
   {
     "id": "right_up",
     "type": "overmap_terrain",
-    "name": "Sierra Madre villa",
+    "name": "Sierra Madre Villa",
     "sym": "S",
     "color": "i_red",
     "see_cost": 5,
@@ -572,7 +572,7 @@
   {
     "id": "residential_up",
     "type": "overmap_terrain",
-    "name": "Sierra Madre villa",
+    "name": "Sierra Madre Villa",
     "sym": "S",
     "color": "i_red",
     "see_cost": 5,
@@ -582,7 +582,7 @@
   {
     "id": "dean_up",
     "type": "overmap_terrain",
-    "name": "Sierra Madre villa",
+    "name": "Sierra Madre Villa",
     "sym": "S",
     "color": "i_red",
     "see_cost": 5,
@@ -592,7 +592,7 @@
   {
     "id": "right_roof",
     "type": "overmap_terrain",
-    "name": "Sierra Madre villa",
+    "name": "Sierra Madre Villa",
     "sym": "S",
     "color": "i_red",
     "see_cost": 5,
@@ -602,7 +602,7 @@
   {
     "id": "residential_roof",
     "type": "overmap_terrain",
-    "name": "Sierra Madre villa",
+    "name": "Sierra Madre Villa",
     "sym": "S",
     "color": "i_red",
     "see_cost": 5,
@@ -612,7 +612,7 @@
   {
     "id": "dean_roof",
     "type": "overmap_terrain",
-    "name": "Sierra Madre villa",
+    "name": "Sierra Madre Villa",
     "sym": "S",
     "color": "i_red",
     "see_cost": 5,
@@ -972,7 +972,7 @@
   {
     "id": "casino_road",
     "type": "overmap_terrain",
-    "name": "Sierra Madre villa",
+    "name": "Sierra Madre Villa",
     "sym": "S",
     "color": "i_red",
     "see_cost": 5,
@@ -982,7 +982,7 @@
   {
     "id": "casino_road_2",
     "type": "overmap_terrain",
-    "name": "Sierra Madre villa",
+    "name": "Sierra Madre Villa",
     "sym": "S",
     "color": "i_red",
     "see_cost": 5,
@@ -992,7 +992,7 @@
   {
     "id": "casino_road_up",
     "type": "overmap_terrain",
-    "name": "Sierra Madre villa",
+    "name": "Sierra Madre Villa",
     "sym": "S",
     "color": "i_red",
     "see_cost": 5,
@@ -1002,7 +1002,7 @@
   {
     "id": "casino_road_up_2",
     "type": "overmap_terrain",
-    "name": "Sierra Madre villa",
+    "name": "Sierra Madre Villa",
     "sym": "S",
     "color": "i_red",
     "see_cost": 5,
@@ -1012,7 +1012,7 @@
   {
     "id": "casino_road_roof",
     "type": "overmap_terrain",
-    "name": "Sierra Madre villa",
+    "name": "Sierra Madre Villa",
     "sym": "S",
     "color": "i_red",
     "see_cost": 5,
@@ -1022,7 +1022,7 @@
   {
     "id": "casino_road_roof_2",
     "type": "overmap_terrain",
-    "name": "Sierra Madre villa",
+    "name": "Sierra Madre Villa",
     "sym": "S",
     "color": "i_red",
     "see_cost": 5,
@@ -1032,7 +1032,7 @@
   {
     "id": "casino_front",
     "type": "overmap_terrain",
-    "name": "Sierra Madre villa",
+    "name": "Sierra Madre Villa",
     "sym": "S",
     "color": "i_red",
     "see_cost": 5,
@@ -1042,7 +1042,7 @@
   {
     "id": "casino_front_2",
     "type": "overmap_terrain",
-    "name": "Sierra Madre villa",
+    "name": "Sierra Madre Villa",
     "sym": "S",
     "color": "i_red",
     "see_cost": 5,
@@ -1052,7 +1052,7 @@
   {
     "id": "casino_front_3",
     "type": "overmap_terrain",
-    "name": "Sierra Madre villa",
+    "name": "Sierra Madre Villa",
     "sym": "S",
     "color": "i_red",
     "see_cost": 5,
@@ -1062,7 +1062,7 @@
   {
     "id": "casino_front_up",
     "type": "overmap_terrain",
-    "name": "Sierra Madre villa",
+    "name": "Sierra Madre Villa",
     "sym": "S",
     "color": "i_red",
     "see_cost": 5,
@@ -1072,7 +1072,7 @@
   {
     "id": "casino_front_up_2",
     "type": "overmap_terrain",
-    "name": "Sierra Madre villa",
+    "name": "Sierra Madre Villa",
     "sym": "S",
     "color": "i_red",
     "see_cost": 5,
@@ -1082,7 +1082,7 @@
   {
     "id": "casino_front_up_3",
     "type": "overmap_terrain",
-    "name": "Sierra Madre villa",
+    "name": "Sierra Madre Villa",
     "sym": "S",
     "color": "i_red",
     "see_cost": 5,
@@ -1092,7 +1092,7 @@
   {
     "id": "casino_front_roof",
     "type": "overmap_terrain",
-    "name": "Sierra Madre villa",
+    "name": "Sierra Madre Villa",
     "sym": "S",
     "color": "i_red",
     "see_cost": 5,
@@ -1102,7 +1102,7 @@
   {
     "id": "casino_front_roof_2",
     "type": "overmap_terrain",
-    "name": "Sierra Madre villa",
+    "name": "Sierra Madre Villa",
     "sym": "S",
     "color": "i_red",
     "see_cost": 5,
@@ -1112,7 +1112,7 @@
   {
     "id": "casino_front_roof_3",
     "type": "overmap_terrain",
-    "name": "Sierra Madre villa",
+    "name": "Sierra Madre Villa",
     "sym": "S",
     "color": "i_red",
     "see_cost": 5,
@@ -1562,7 +1562,7 @@
   {
     "id": "right_north",
     "type": "overmap_terrain",
-    "name": "Sierra Madre villa",
+    "name": "Sierra Madre Villa",
     "sym": "S",
     "color": "i_red",
     "see_cost": 5,
@@ -1572,7 +1572,7 @@
   {
     "id": "right_north_up",
     "type": "overmap_terrain",
-    "name": "Sierra Madre villa",
+    "name": "Sierra Madre Villa",
     "sym": "S",
     "color": "i_red",
     "see_cost": 5,
@@ -1582,7 +1582,7 @@
   {
     "id": "right_north_roof",
     "type": "overmap_terrain",
-    "name": "Sierra Madre villa",
+    "name": "Sierra Madre Villa",
     "sym": "S",
     "color": "i_red",
     "see_cost": 5,
@@ -1592,7 +1592,7 @@
   {
     "id": "villa_enter",
     "type": "overmap_terrain",
-    "name": "Sierra Madre villa",
+    "name": "Sierra Madre Villa",
     "sym": "S",
     "color": "i_red",
     "see_cost": 5,
@@ -1602,7 +1602,7 @@
   {
     "id": "villa_enter_up",
     "type": "overmap_terrain",
-    "name": "Sierra Madre villa",
+    "name": "Sierra Madre Villa",
     "sym": "S",
     "color": "i_red",
     "see_cost": 5,
@@ -1612,7 +1612,7 @@
   {
     "id": "villa_enter_roof",
     "type": "overmap_terrain",
-    "name": "Sierra Madre villa",
+    "name": "Sierra Madre Villa",
     "sym": "S",
     "color": "i_red",
     "see_cost": 5,

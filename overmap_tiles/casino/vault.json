@@ -1,5 +1,18 @@
 [
   {
+    "type": "trap",
+    "id": "tr_vault_close",
+    "name": "Sierra Madre Vault locking mechanism",
+    "color": "brown",
+    "symbol": "+",
+    "visibility": 99,
+    "avoidance": 99,
+    "difficulty": 99,
+    "action": "map_regen",
+    "map_regen": "close_vault_mapgen",
+    "benign": false
+  },
+  {
     "type": "mapgen",
     "method": "json",
     "om_terrain": [
@@ -10,7 +23,7 @@
       "fill_ter": "vault_floor",
       "rows": [
         "******|||||||||**********|||||||||||************",
-        "******|<..d..l||||||||||||a.lI.Il.a|************",
+        "******|<d_...l||||||||||||a.lI.Il.a|************",
         "******|||||...c.aaa..+aaa|...IhI...|************",
         "******|---d...c+..++++.++|s...l....||||*********",
         "******|---d...|+.+++.+aaa|%.......s|pp|*********",
@@ -39,6 +52,8 @@
 	  
       "terrain": { ".": "vault_floor", "*": "t_rock", "|": "vault_wall", "<": "t_stairs_up", "-": "vault_floor_noroof", "d": "vault_inter_door", "c": "vault_glass",
 	  "p": "sierra_pipe", "l": "vault_floor_light" },
+	  
+	  "traps": { "_": "tr_vault_close" },
 	  
 	  "fields": {
         "+": { "field": "sierra_gas", "intensity": 1 }
@@ -190,6 +205,18 @@
       ],
       "terrain": { ".": "t_rock", "*": "vault_floor", "|": "vault_wall", "<": "t_stairs_up", ">": "t_stairs_down", "-": "t_open_air" }
     }
+  },
+  {
+    "type": "mapgen",
+    "update_mapgen_id": "close_vault_trap_mapgen",
+    "method": "json",
+    "object": { "place_traps": [ { "trap": "tr_vault_close", "x": 7, "y": 1 } ], "place_terrain": [ { "ter": "vault_inter_door", "x": 8, "y": 1 } ] }
+  },
+  {
+    "type": "mapgen",
+    "update_mapgen_id": "close_vault_mapgen",
+    "method": "json",
+    "object": { "place_terrain": [ { "ter": "sierra_trap", "x": 8, "y": 1 } ] }
   },
   {
     "type": "mapgen",

@@ -28,14 +28,7 @@
 		"move_cost": 0,
 		"coverage": 100,
 		"roof": "t_sierra_roof",
-		"flags": [ "NOITEM", "SUPPORTS_ROOF", "WALL", "NO_SCENT", "AUTO_WALL_SYMBOL", "BLOCK_WIND" ],
-		"bash": {
-		  "str_min": 2000000000,
-		  "str_max": 2000000000,
-		  "sound": "crash!",
-		  "sound_fail": "whump!",
-		  "ter_set": "t_reb_cage"
-		}
+		"flags": [ "NOITEM", "SUPPORTS_ROOF", "WALL", "NO_SCENT", "AUTO_WALL_SYMBOL", "BLOCK_WIND" ]
 	},
 	{
 		"id": "t_sierra_roof",
@@ -46,14 +39,7 @@
 		"looks_like": "t_flat_roof",
 		"color": "dark_gray",
 		"move_cost": 2,
-		"flags": [ "TRANSPARENT", "FLAT" ],
-		"bash": {
-		  "str_min": 2000000000,
-		  "str_max": 2000000000,
-		  "sound": "crash!",
-		  "sound_fail": "whump!",
-		  "ter_set": "t_open_air"
-		}
+		"flags": [ "TRANSPARENT", "FLAT" ]
 	},
 	{
     "id": "sierra_air",
@@ -202,21 +188,9 @@
 		"looks_like": "t_door_metal_locked",
 		"color": "red",
 		"move_cost": 0,
-		"coverage": 95,
+		"coverage": 100,
 		"roof": "t_sierra_roof",
-		"flags": [ "NOITEM", "REDUCE_SCENT", "CONNECT_TO_WALL", "LOCKED", "BLOCK_WIND" ],
-		"bash": {
-		  "str_min": 2000000000,
-		  "str_max": 2000000000,
-		  "sound": "metal screeching!",
-		  "sound_fail": "clang!",
-		  "ter_set": "t_mdoor_frame",
-		  "items": [
-			{ "item": "scrap", "count": [ 12, 24 ] },
-			{ "item": "steel_plate", "prob": 75 },
-			{ "item": "hinge", "count": [ 1, 3 ] }
-		  ]
-		}
+		"flags": [ "NOITEM", "REDUCE_SCENT", "CONNECT_TO_WALL", "LOCKED", "BLOCK_WIND" ]
 	},
 	{
 		"type": "terrain",
@@ -227,22 +201,10 @@
 		"looks_like": "t_door_metal_c",
 		"color": "red",
 		"move_cost": 0,
-		"coverage": 95,
+		"coverage": 100,
 		"roof": "t_sierra_roof",
 		"flags": [ "NOITEM", "DOOR", "CONNECT_TO_WALL", "BLOCK_WIND" ],
-		"open": "sierra_entrance",
-		"bash": {
-		  "str_min": 2000000000,
-		  "str_max": 2000000000,
-		  "sound": "metal screeching!",
-		  "sound_fail": "clang!",
-		  "ter_set": "t_mdoor_frame",
-		  "items": [
-			{ "item": "scrap", "count": [ 12, 24 ] },
-			{ "item": "steel_plate", "prob": 75 },
-			{ "item": "hinge", "count": [ 1, 3 ] }
-		  ]
-		}
+		"open": "sierra_entrance"
 	},
 	{
 		"type": "terrain",
@@ -253,22 +215,10 @@
 		"looks_like": "t_door_metal_o",
 		"color": "red",
 		"move_cost": 2,
-		"coverage": 95,
+		"coverage": 50,
 		"roof": "t_sierra_roof",
 		"flags": [ "TRANSPARENT", "FLAT", "CONNECT_TO_WALL", "ROAD" ],
-		"close": "sierra_entrance_c",
-		"bash": {
-		  "str_min": 2000000000,
-		  "str_max": 2000000000,
-		  "sound": "metal screeching!",
-		  "sound_fail": "clang!",
-		  "ter_set": "t_mdoor_frame",
-		  "items": [
-			{ "item": "scrap", "count": [ 12, 24 ] },
-			{ "item": "steel_plate", "prob": 75 },
-			{ "item": "hinge", "count": [ 1, 3 ] }
-		  ]
-		}
+		"close": "sierra_entrance_c"
 	},
 	{
 		"type": "terrain",
@@ -279,21 +229,9 @@
 		"looks_like": "t_door_metal_locked",
 		"color": "red",
 		"move_cost": 0,
-		"coverage": 95,
+		"coverage": 100,
 		"roof": "t_sierra_roof",
-		"flags": [ "NOITEM", "REDUCE_SCENT", "CONNECT_TO_WALL", "LOCKED", "BLOCK_WIND" ],
-		"bash": {
-		  "str_min": 2000000000,
-		  "str_max": 2000000000,
-		  "sound": "metal screeching!",
-		  "sound_fail": "clang!",
-		  "ter_set": "t_mdoor_frame",
-		  "items": [
-			{ "item": "scrap", "count": [ 12, 24 ] },
-			{ "item": "steel_plate", "prob": 75 },
-			{ "item": "hinge", "count": [ 1, 3 ] }
-		  ]
-		}
+		"flags": [ "NOITEM", "REDUCE_SCENT", "CONNECT_TO_WALL", "LOCKED", "BLOCK_WIND" ]
 	},
 	{
 		"type": "terrain",
@@ -305,21 +243,9 @@
 		"open": "sierra_door_o",
 		"color": "red",
 		"move_cost": 0,
-		"coverage": 95,
+		"coverage": 100,
 		"roof": "t_sierra_roof",
-		"flags": [ "NOITEM", "DOOR", "CONNECT_TO_WALL", "BLOCK_WIND" ],
-		"bash": {
-		  "str_min": 2000000000,
-		  "str_max": 2000000000,
-		  "sound": "metal screeching!",
-		  "sound_fail": "clang!",
-		  "ter_set": "t_mdoor_frame",
-		  "items": [
-			{ "item": "scrap", "count": [ 12, 24 ] },
-			{ "item": "steel_plate", "prob": 75 },
-			{ "item": "hinge", "count": [ 1, 3 ] }
-		  ]
-		}
+		"flags": [ "NOITEM", "DOOR", "CONNECT_TO_WALL", "BLOCK_WIND" ]
 	},
 	{
 		"type": "terrain",
@@ -330,22 +256,10 @@
 		"looks_like": "t_door_metal_o",
 		"color": "red",
 		"move_cost": 2,
-		"coverage": 95,
+		"coverage": 50,
 		"roof": "t_sierra_roof",
 		"flags": [ "TRANSPARENT", "FLAT", "CONNECT_TO_WALL", "ROAD" ],
-		"close": "sierra_door",
-		"bash": {
-		  "str_min": 2000000000,
-		  "str_max": 2000000000,
-		  "sound": "metal screeching!",
-		  "sound_fail": "clang!",
-		  "ter_set": "t_mdoor_frame",
-		  "items": [
-			{ "item": "scrap", "count": [ 12, 24 ] },
-			{ "item": "steel_plate", "prob": 75 },
-			{ "item": "hinge", "count": [ 1, 3 ] }
-		  ]
-		}
+		"close": "sierra_door"
 	},
 	{
 		"type": "terrain",
@@ -356,21 +270,9 @@
 		"looks_like": "t_door_metal_locked",
 		"color": "red",
 		"move_cost": 0,
-		"coverage": 95,
+		"coverage": 100,
 		"roof": "t_sierra_roof",
-		"flags": [ "NOITEM", "REDUCE_SCENT", "CONNECT_TO_WALL", "LOCKED", "BLOCK_WIND" ],
-		"bash": {
-		  "str_min": 2000000000,
-		  "str_max": 2000000000,
-		  "sound": "metal screeching!",
-		  "sound_fail": "clang!",
-		  "ter_set": "t_mdoor_frame",
-		  "items": [
-			{ "item": "scrap", "count": [ 12, 24 ] },
-			{ "item": "steel_plate", "prob": 75 },
-			{ "item": "hinge", "count": [ 1, 3 ] }
-		  ]
-		}
+		"flags": [ "NOITEM", "REDUCE_SCENT", "CONNECT_TO_WALL", "LOCKED", "BLOCK_WIND" ]
 	},
 	{
 		"type": "terrain",
@@ -381,22 +283,10 @@
 		"looks_like": "t_door_metal_c",
 		"color": "red",
 		"move_cost": 0,
-		"coverage": 95,
+		"coverage": 100,
 		"roof": "t_sierra_roof",
 		"flags": [ "NOITEM", "REDUCE_SCENT", "CONNECT_TO_WALL", "BLOCK_WIND" ],
-		"open": "sierra_door_vault_o",
-		"bash": {
-		  "str_min": 2000000000,
-		  "str_max": 2000000000,
-		  "sound": "metal screeching!",
-		  "sound_fail": "clang!",
-		  "ter_set": "t_mdoor_frame",
-		  "items": [
-			{ "item": "scrap", "count": [ 12, 24 ] },
-			{ "item": "steel_plate", "prob": 75 },
-			{ "item": "hinge", "count": [ 1, 3 ] }
-		  ]
-		}
+		"open": "sierra_door_vault_o"
 	},
 	{
 		"type": "terrain",
@@ -407,22 +297,10 @@
 		"looks_like": "t_door_metal_o",
 		"color": "red",
 		"move_cost": 2,
-		"coverage": 95,
+		"coverage": 50,
 		"roof": "t_sierra_roof",
 		"flags": [ "TRANSPARENT", "FLAT", "CONNECT_TO_WALL", "ROAD" ],
-		"close": "sierra_door_vault_c",
-		"bash": {
-		  "str_min": 2000000000,
-		  "str_max": 2000000000,
-		  "sound": "metal screeching!",
-		  "sound_fail": "clang!",
-		  "ter_set": "t_mdoor_frame",
-		  "items": [
-			{ "item": "scrap", "count": [ 12, 24 ] },
-			{ "item": "steel_plate", "prob": 75 },
-			{ "item": "hinge", "count": [ 1, 3 ] }
-		  ]
-		}
+		"close": "sierra_door_vault_c"
 	},
 	{
     "type": "terrain",
@@ -433,15 +311,7 @@
     "symbol": "6",
     "color": "pink",
     "move_cost": 0,
-    "flags": [ "NOITEM", "CONNECT_TO_WALL" ],
-    "bash": {
-      "str_min": 2000000000,
-      "str_max": 2000000000,
-      "sound": "crunch!",
-      "sound_fail": "whack!",
-      "ter_set": "t_card_reader_broken",
-      "items": [ { "item": "plastic_chunk", "count": [ 0, 2 ] }, { "item": "scrap", "prob": 50 } ]
-    }
+    "flags": [ "NOITEM", "CONNECT_TO_WALL" ]
 	},
 	{
 		"type": "terrain",
@@ -538,19 +408,7 @@
     ],
     "curtain_transform": "window_sierra_no_curtains",
     "examine_action": "curtains",
-    "close": "sierra_curtains",
-    "bash": {
-      "str_min": 2000000000,
-      "str_max": 2000000000,
-      "sound": "glass breaking!",
-      "sound_fail": "whack!",
-      "sound_vol": 16,
-      "sound_fail_vol": 10,
-      "ter_set": "t_window_frame",
-      "items": [
-        { "item": "glass_shard", "count": [ 21, 29 ] }
-      ]
-    }
+    "close": "sierra_curtains"
 	},
 	{
     "type": "terrain",
@@ -572,17 +430,7 @@
       "BLOCK_WIND",
       "WINDOW"
     ],
-    "examine_action": "locked_object",
-    "bash": {
-      "str_min": 2000000000,
-      "str_max": 2000000000,
-      "sound": "glass breaking!",
-      "sound_fail": "whack!",
-      "sound_vol": 16,
-      "sound_fail_vol": 10,
-      "ter_set": "t_window_frame",
-      "items": [ { "item": "glass_shard", "count": [ 21, 29 ] } ]
-    }
+    "examine_action": "locked_object"
 	},
 	{
     "type": "terrain",
@@ -593,7 +441,7 @@
     "symbol": "\"",
     "color": "dark_gray",
     "move_cost": 0,
-    "coverage": 95,
+    "coverage": 100,
     "roof": "t_sierra_roof",
     "flags": [
       "NOITEM",
@@ -606,19 +454,7 @@
     ],
     "curtain_transform": "window_sierra_no_curtains",
     "open": "window_sierra",
-    "examine_action": "curtains",
-    "bash": {
-      "str_min": 2000000000,
-      "str_max": 2000000000,
-      "sound": "glass breaking!",
-      "sound_fail": "whack!",
-      "sound_vol": 16,
-      "sound_fail_vol": 10,
-      "ter_set": "t_window_frame",
-      "items": [
-        { "item": "glass_shard", "count": [ 21, 29 ] }
-      ]
-    }
+    "examine_action": "curtains"
 	},
 	{
     "type": "terrain",
@@ -742,19 +578,7 @@
     "color": "light_cyan",
     "move_cost": 2,
     "roof": "t_sierra_roof",
-    "flags": [ "TRANSPARENT", "INDOORS", "FLAT", "ROAD" ],
-    "bash": {
-      "sound": "thump",
-      "ter_set": "t_null",
-      "str_min": 2000000000,
-      "str_max": 2000000000,
-      "str_min_supported": 2000000000,
-      "items": [
-        { "item": "steel_lump", "count": [ 1, 4 ] },
-        { "item": "steel_chunk", "count": [ 3, 12 ] },
-        { "item": "scrap", "count": [ 9, 36 ] }
-      ]
-    }
+    "flags": [ "TRANSPARENT", "INDOORS", "FLAT", "ROAD" ]
 	},
 	{
     "type": "terrain",
@@ -767,19 +591,7 @@
     "move_cost": 2,
     "roof": "t_sierra_roof",
 	"light_emitted": 40,
-    "flags": [ "TRANSPARENT", "INDOORS", "FLAT", "ROAD" ],
-    "bash": {
-      "sound": "thump",
-      "ter_set": "t_null",
-      "str_min": 2000000000,
-      "str_max": 2000000000,
-      "str_min_supported": 2000000000,
-      "items": [
-        { "item": "steel_lump", "count": [ 1, 4 ] },
-        { "item": "steel_chunk", "count": [ 3, 12 ] },
-        { "item": "scrap", "count": [ 9, 36 ] }
-      ]
-    }
+    "flags": [ "TRANSPARENT", "INDOORS", "FLAT", "ROAD" ]
 	},
 	{
     "type": "terrain",
@@ -790,19 +602,7 @@
     "symbol": ".",
     "color": "light_cyan",
     "move_cost": 2,
-    "flags": [ "TRANSPARENT", "FLAT", "ROAD" ],
-    "bash": {
-      "sound": "thump",
-      "ter_set": "t_null",
-      "str_min": 2000000000,
-      "str_max": 2000000000,
-      "str_min_supported": 2000000000,
-      "items": [
-        { "item": "steel_lump", "count": [ 1, 4 ] },
-        { "item": "steel_chunk", "count": [ 3, 12 ] },
-        { "item": "scrap", "count": [ 9, 36 ] }
-      ]
-    }
+    "flags": [ "TRANSPARENT", "FLAT", "ROAD" ]
 	},
 	{
     "type": "terrain",
@@ -815,19 +615,7 @@
     "move_cost": 0,
     "coverage": 100,
     "roof": "t_sierra_roof",
-    "flags": [ "NOITEM", "SUPPORTS_ROOF", "WALL", "NO_SCENT", "AUTO_WALL_SYMBOL", "BLOCK_WIND" ],
-    "bash": {
-      "str_min": 2000000000,
-      "str_max": 2000000000,
-      "sound": "metal screeching!",
-      "sound_fail": "clang!",
-      "ter_set": "t_null",
-      "items": [
-        { "item": "steel_lump", "count": [ 1, 4 ] },
-        { "item": "steel_chunk", "count": [ 3, 12 ] },
-        { "item": "scrap", "count": [ 9, 36 ] }
-      ]
-    }
+    "flags": [ "NOITEM", "SUPPORTS_ROOF", "WALL", "NO_SCENT", "AUTO_WALL_SYMBOL", "BLOCK_WIND" ]
 	},
 	{
 		"type": "terrain",
@@ -839,21 +627,9 @@
 		"open": "vault_inter_door_o",
 		"color": "red",
 		"move_cost": 0,
-		"coverage": 95,
+		"coverage": 100,
 		"roof": "t_sierra_roof",
-		"flags": [ "NOITEM", "DOOR", "CONNECT_TO_WALL", "BLOCK_WIND" ],
-		"bash": {
-		  "str_min": 2000000000,
-		  "str_max": 2000000000,
-		  "sound": "metal screeching!",
-		  "sound_fail": "clang!",
-		  "ter_set": "t_mdoor_frame",
-		  "items": [
-			{ "item": "scrap", "count": [ 12, 24 ] },
-			{ "item": "steel_plate", "prob": 75 },
-			{ "item": "hinge", "count": [ 1, 3 ] }
-		  ]
-		}
+		"flags": [ "NOITEM", "DOOR", "CONNECT_TO_WALL", "BLOCK_WIND" ]
 	},
 	{
 		"type": "terrain",
@@ -864,22 +640,10 @@
 		"looks_like": "t_door_metal_o",
 		"color": "red",
 		"move_cost": 2,
-		"coverage": 95,
+		"coverage": 50,
 		"roof": "t_sierra_roof",
 		"flags": [ "TRANSPARENT", "FLAT", "CONNECT_TO_WALL", "ROAD" ],
-		"close": "vault_inter_door",
-		"bash": {
-		  "str_min": 2000000000,
-		  "str_max": 2000000000,
-		  "sound": "metal screeching!",
-		  "sound_fail": "clang!",
-		  "ter_set": "t_mdoor_frame",
-		  "items": [
-			{ "item": "scrap", "count": [ 12, 24 ] },
-			{ "item": "steel_plate", "prob": 75 },
-			{ "item": "hinge", "count": [ 1, 3 ] }
-		  ]
-		}
+		"close": "vault_inter_door"
 	},
 	{
     "type": "terrain",
@@ -891,17 +655,7 @@
     "color": "light_cyan",
     "move_cost": 0,
     "roof": "t_sierra_roof",
-    "flags": [ "TRANSPARENT", "NOITEM", "WALL", "NO_SCENT", "AUTO_WALL_SYMBOL", "BLOCK_WIND" ],
-    "bash": {
-      "str_min": 2000000000,
-      "str_max": 2000000000,
-      "sound": "glass breaking!",
-      "sound_fail": "whack!",
-      "sound_vol": 20,
-      "sound_fail_vol": 14,
-      "ter_set": "t_floor",
-      "items": [ { "item": "glass_shard", "count": [ 42, 84 ] } ]
-    }
+    "flags": [ "TRANSPARENT", "NOITEM", "WALL", "NO_SCENT", "AUTO_WALL_SYMBOL", "BLOCK_WIND" ]
 	},
 	{
     "type": "terrain",
@@ -933,20 +687,8 @@
 		"looks_like": "t_door_metal_locked",
 		"color": "red",
 		"move_cost": 0,
-		"coverage": 95,
+		"coverage": 100,
 		"roof": "t_sierra_roof",
-		"flags": [ "NOITEM", "REDUCE_SCENT", "CONNECT_TO_WALL", "LOCKED", "BLOCK_WIND" ],
-		"bash": {
-		  "str_min": 2000000000,
-		  "str_max": 2000000000,
-		  "sound": "metal screeching!",
-		  "sound_fail": "clang!",
-		  "ter_set": "t_mdoor_frame",
-		  "items": [
-			{ "item": "scrap", "count": [ 12, 24 ] },
-			{ "item": "steel_plate", "prob": 75 },
-			{ "item": "hinge", "count": [ 1, 3 ] }
-		  ]
-		}
+		"flags": [ "NOITEM", "REDUCE_SCENT", "CONNECT_TO_WALL", "LOCKED", "BLOCK_WIND" ]
 	}
 ]

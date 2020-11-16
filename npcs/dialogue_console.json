@@ -4,9 +4,9 @@
 		"type": "talk_topic",
 		"dynamic_line": "Sierra Madre control network",
 		"responses": [
-		  { "text": "Vera Keyes", "topic": "KEYES", "condition": { "not": { "u_has_trait": "win" } }, "effect": [ { "u_add_trait": "win" }, { "u_lose_trait": "entered_casino" }, { "u_lose_trait": "gala_trait" }, { "mapgen_update": "elijah_mapgen" } ] },
-		  { "text": "Vera", "topic": "VERA", "condition": { "not": { "u_has_trait": "win" } }, "effect": [ { "u_add_trait": "win" }, { "u_lose_trait": "entered_casino" }, { "u_lose_trait": "gala_trait" }, { "mapgen_update": "elijah_mapgen" } ] },
-		  { "text": "Exit", "topic": "TALK_DONE", "condition": { "not": { "u_has_trait": "win" } }, "effect": [ { "u_add_trait": "win" }, { "u_lose_trait": "entered_casino" }, { "u_lose_trait": "gala_trait" }, { "mapgen_update": "elijah_mapgen" } ] },
+		  { "text": "Vera Keyes", "topic": "KEYES", "condition": { "not": { "u_has_trait": "win" } }, "effect": [ { "u_add_trait": "win" }, { "u_lose_trait": "entered_casino" }, { "u_lose_trait": "gala_trait" }, { "mapgen_update": "elijah_mapgen" }, { "mapgen_update": "close_vault_trap_mapgen", "om_terrain": "sm_vault" } ] },
+		  { "text": "Vera", "topic": "VERA", "condition": { "not": { "u_has_trait": "win" } }, "effect": [ { "u_add_trait": "win" }, { "u_lose_trait": "entered_casino" }, { "u_lose_trait": "gala_trait" }, { "mapgen_update": "elijah_mapgen" }, { "mapgen_update": "close_vault_trap_mapgen", "om_terrain": "sm_vault" } ] },
+		  { "text": "Exit", "topic": "TALK_DONE", "condition": { "not": { "u_has_trait": "win" } }, "effect": [ { "u_add_trait": "win" }, { "u_lose_trait": "entered_casino" }, { "u_lose_trait": "gala_trait" }, { "mapgen_update": "elijah_mapgen" }, { "mapgen_update": "close_vault_trap_mapgen", "om_terrain": "sm_vault" } ] },
 		  { "text": "Vera Keyes", "condition": { "u_has_trait": "win" }, "topic": "KEYES" },
 		  { "text": "Vera", "condition": { "u_has_trait": "win" }, "topic": "VERA" },
 		  { "text": "Exit", "condition": { "u_has_trait": "win" }, "topic": "TALK_DONE" }

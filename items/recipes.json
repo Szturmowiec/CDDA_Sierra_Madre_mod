@@ -562,5 +562,209 @@
 		"components": [
 		  [ [ "micro_cell_overcharged", 5 ] ]
 		]
+	},
+	{
+		"type": "recipe",
+		"activity_level": "LIGHT_EXERCISE",
+		"result": "spear_knife_ghost_weak",
+		"category": "CC_WEAPON",
+		"subcategory": "CSC_WEAPON_PIERCING",
+		"skill_used": "chemistry",
+		"difficulty": 1,
+		"time": "10 m",
+		"reversible": false,
+		"autolearn": true,
+		"qualities": [ { "id": "CHEM", "level": 1 } ],
+		"components": [
+		  [ [ "spear_knife_ghost", 1 ], [ "spear_knife_ghost_clean", 1 ] ],
+		  [ [ "kiss_weak", 4 ] ]
+		]
+	},
+	{
+		"type": "recipe",
+		"activity_level": "LIGHT_EXERCISE",
+		"result": "spear_knife_ghost_potent",
+		"category": "CC_WEAPON",
+		"subcategory": "CSC_WEAPON_PIERCING",
+		"skill_used": "chemistry",
+		"difficulty": 1,
+		"time": "10 m",
+		"reversible": false,
+		"autolearn": true,
+		"qualities": [ { "id": "CHEM", "level": 1 } ],
+		"components": [
+		  [ [ "spear_knife_ghost", 1 ], [ "spear_knife_ghost_clean", 1 ], [ "spear_knife_ghost_weak", 1 ] ],
+		  [ [ "kiss_potent", 4 ] ]
+		]
+	},
+	{
+		"type": "recipe",
+		"activity_level": "LIGHT_EXERCISE",
+		"result": "spear_knife_ghost_lethal",
+		"category": "CC_WEAPON",
+		"subcategory": "CSC_WEAPON_PIERCING",
+		"skill_used": "chemistry",
+		"difficulty": 2,
+		"time": "10 m",
+		"reversible": false,
+		"autolearn": true,
+		"qualities": [ { "id": "CHEM", "level": 2 } ],
+		"components": [
+		  [ [ "spear_knife_ghost", 1 ], [ "spear_knife_ghost_clean", 1 ], [ "spear_knife_ghost_weak", 1 ], [ "spear_knife_ghost_potent", 1 ] ],
+		  [ [ "kiss_lethal", 4 ] ]
+		]
+	},
+	{
+		"type": "recipe",
+		"activity_level": "LIGHT_EXERCISE",
+		"result": "bear_fist_weak",
+		"category": "CC_WEAPON",
+		"subcategory": "CSC_WEAPON_PIERCING",
+		"skill_used": "chemistry",
+		"difficulty": 1,
+		"time": "10 m",
+		"reversible": false,
+		"autolearn": true,
+		"qualities": [ { "id": "CHEM", "level": 1 } ],
+		"components": [
+		  [ [ "bear_fist", 1 ] ],
+		  [ [ "kiss_weak", 2 ] ]
+		]
+	},
+	{
+		"type": "recipe",
+		"activity_level": "LIGHT_EXERCISE",
+		"result": "bear_fist_potent",
+		"category": "CC_WEAPON",
+		"subcategory": "CSC_WEAPON_PIERCING",
+		"skill_used": "chemistry",
+		"difficulty": 1,
+		"time": "10 m",
+		"reversible": false,
+		"autolearn": true,
+		"qualities": [ { "id": "CHEM", "level": 1 } ],
+		"components": [
+		  [ [ "bear_fist", 1 ], [ "bear_fist_weak", 1 ] ],
+		  [ [ "kiss_potent", 2 ] ]
+		]
+	},
+	{
+		"type": "recipe",
+		"activity_level": "LIGHT_EXERCISE",
+		"result": "bear_fist_lethal",
+		"category": "CC_WEAPON",
+		"subcategory": "CSC_WEAPON_PIERCING",
+		"skill_used": "chemistry",
+		"difficulty": 2,
+		"time": "10 m",
+		"reversible": false,
+		"autolearn": true,
+		"qualities": [ { "id": "CHEM", "level": 2 } ],
+		"components": [
+		  [ [ "bear_fist", 1 ], [ "bear_fist_weak", 1 ], [ "bear_fist_potent", 1 ] ],
+		  [ [ "kiss_lethal", 2 ] ]
+		]
+	},
+	{
+		"type": "recipe",
+		"activity_level": "LIGHT_EXERCISE",
+		"result": "bear_fist_upgraded_weak",
+		"category": "CC_WEAPON",
+		"subcategory": "CSC_WEAPON_PIERCING",
+		"skill_used": "chemistry",
+		"difficulty": 1,
+		"time": "10 m",
+		"reversible": false,
+		"autolearn": true,
+		"qualities": [ { "id": "CHEM", "level": 1 } ],
+		"components": [
+		  [ [ "bear_fist_upgraded", 1 ] ],
+		  [ [ "kiss_weak", 2 ] ]
+		]
+	},
+	{
+		"type": "recipe",
+		"activity_level": "LIGHT_EXERCISE",
+		"result": "bear_fist_upgraded_potent",
+		"category": "CC_WEAPON",
+		"subcategory": "CSC_WEAPON_PIERCING",
+		"skill_used": "chemistry",
+		"difficulty": 1,
+		"time": "10 m",
+		"reversible": false,
+		"autolearn": true,
+		"qualities": [ { "id": "CHEM", "level": 1 } ],
+		"components": [
+		  [ [ "bear_fist_upgraded", 1 ], [ "bear_fist_upgraded_weak", 1 ] ],
+		  [ [ "kiss_potent", 2 ] ]
+		]
+	},
+	{
+		"type": "recipe",
+		"activity_level": "LIGHT_EXERCISE",
+		"result": "bear_fist_upgraded_lethal",
+		"category": "CC_WEAPON",
+		"subcategory": "CSC_WEAPON_PIERCING",
+		"skill_used": "chemistry",
+		"difficulty": 2,
+		"time": "10 m",
+		"reversible": false,
+		"autolearn": true,
+		"qualities": [ { "id": "CHEM", "level": 2 } ],
+		"components": [
+		  [ [ "bear_fist_upgraded", 1 ], [ "bear_fist_upgraded_weak", 1 ], [ "bear_fist_upgraded_potent", 1 ] ],
+		  [ [ "kiss_lethal", 2 ] ]
+		]
+	},
+	{
+		"type": "recipe",
+		"activity_level": "LIGHT_EXERCISE",
+		"result": "knife_cosmic_weak",
+		"category": "CC_WEAPON",
+		"subcategory": "CSC_WEAPON_PIERCING",
+		"skill_used": "chemistry",
+		"difficulty": 1,
+		"time": "10 m",
+		"reversible": false,
+		"autolearn": true,
+		"qualities": [ { "id": "CHEM", "level": 1 } ],
+		"components": [
+		  [ [ "knife_cosmic", 1 ], [ "knife_cosmic_clean", 1 ] ],
+		  [ [ "kiss_weak", 3 ] ]
+		]
+	},
+	{
+		"type": "recipe",
+		"activity_level": "LIGHT_EXERCISE",
+		"result": "knife_cosmic_potent",
+		"category": "CC_WEAPON",
+		"subcategory": "CSC_WEAPON_PIERCING",
+		"skill_used": "chemistry",
+		"difficulty": 1,
+		"time": "10 m",
+		"reversible": false,
+		"autolearn": true,
+		"qualities": [ { "id": "CHEM", "level": 1 } ],
+		"components": [
+		  [ [ "knife_cosmic", 1 ], [ "knife_cosmic_clean", 1 ], [ "knife_cosmic_weak", 1 ] ],
+		  [ [ "kiss_potent", 3 ] ]
+		]
+	},
+	{
+		"type": "recipe",
+		"activity_level": "LIGHT_EXERCISE",
+		"result": "knife_cosmic_lethal",
+		"category": "CC_WEAPON",
+		"subcategory": "CSC_WEAPON_PIERCING",
+		"skill_used": "chemistry",
+		"difficulty": 2,
+		"time": "10 m",
+		"reversible": false,
+		"autolearn": true,
+		"qualities": [ { "id": "CHEM", "level": 2 } ],
+		"components": [
+		  [ [ "knife_cosmic", 1 ], [ "knife_cosmic_clean", 1 ], [ "knife_cosmic_weak", 1 ], [ "knife_cosmic_potent", 1 ] ],
+		  [ [ "kiss_lethal", 3 ] ]
+		]
 	}
 ]

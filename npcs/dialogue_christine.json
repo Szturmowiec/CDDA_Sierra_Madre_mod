@@ -97,7 +97,7 @@
 		"dynamic_line": "Have you dealt with Father Elijah? Please, hurry!",
 		"responses": [
 		  { "text": "Still working to get inside...", "condition": { "not": { "u_has_trait": "win" } }, "topic": "TALK_DONE" },
-		  { "text": "Yeah... I went down there, he gave me no choice and is now dead...", "condition": { "u_has_trait": "win" }, "topic": "FINAL" }
+		  { "text": "Yeah... I went down there, he gave me no choice...", "condition": { "u_has_trait": "win" }, "topic": "FINAL" }
 		]
 	},
 	{

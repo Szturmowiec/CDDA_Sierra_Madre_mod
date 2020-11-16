@@ -118,5 +118,47 @@
 		"max_damage": -10,
 		"min_duration": 30000,
 		"max_duration": 30000
+	},
+	{
+		"id": "cloud_weak_spell",
+		"type": "SPELL",
+		"name": "Cloud Kiss intoxication (weak)",
+		"description": "Poisioning with the Cloud",
+		"message": "As you attack your foe, you notice that the Cloud venom starts working...",
+		"valid_targets": [ "hostile", "ally", "self" ],
+		"flags": [ "SILENT" ],
+		"effect": "attack",
+		"effect_str": "venom_weak",
+		"shape": "blast",
+		"min_duration": 3000,
+		"max_duration": 6000
+	},
+	{
+		"id": "cloud_potent_spell",
+		"type": "SPELL",
+		"name": "Cloud Kiss intoxication (potent)",
+		"description": "Poisioning with the Cloud",
+		"message": "As you attack your foe, you notice that the Cloud venom starts working...",
+		"valid_targets": [ "hostile", "ally", "self" ],
+		"flags": [ "SILENT" ],
+		"effect": "attack",
+		"effect_str": "venom_potent",
+		"shape": "blast",
+		"min_duration": 3000,
+		"max_duration": 6000
+	},
+	{
+		"id": "cloud_lethal_spell",
+		"type": "SPELL",
+		"name": "Cloud Kiss intoxication (lethal)",
+		"description": "Poisioning with the Cloud",
+		"message": "As you attack your foe, you notice that the Cloud venom starts working...",
+		"valid_targets": [ "hostile", "ally", "self" ],
+		"flags": [ "SILENT" ],
+		"effect": "attack",
+		"effect_str": "venom_lethal",
+		"shape": "blast",
+		"min_duration": 3000,
+		"max_duration": 6000
 	}
 ]

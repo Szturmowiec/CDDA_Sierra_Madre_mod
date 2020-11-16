@@ -69,19 +69,7 @@
     "coverage": 90,
     "required_str": -1,
 	"light_emitted": 5,
-    "flags": [ "SEALED", "BLOCKSDOOR", "CONTAINER", "BLOCKSDOOR", "PLACE_ITEM" ],
-    "bash": {
-      "str_min": 2000000000,
-      "str_max": 2000000000,
-      "sound": "glass breaking!",
-      "sound_fail": "whack!",
-      "furn_set": "f_vending_o",
-      "items": [
-        { "item": "glass_shard", "count": [ 8, 25 ] },
-        { "item": "sheet_metal", "count": [ 0, 2 ] },
-        { "item": "steel_chunk", "count": [ 1, 5 ] }
-      ]
-    }
+    "flags": [ "SEALED", "BLOCKSDOOR", "CONTAINER", "BLOCKSDOOR", "PLACE_ITEM" ]
 	},
 	{
     "type": "furniture",
@@ -95,19 +83,7 @@
     "coverage": 90,
     "required_str": -1,
 	"light_emitted": 10,
-    "flags": [ "SEALED", "BLOCKSDOOR", "CONTAINER", "BLOCKSDOOR", "PLACE_ITEM" ],
-    "bash": {
-      "str_min": 2000000000,
-      "str_max": 2000000000,
-      "sound": "glass breaking!",
-      "sound_fail": "whack!",
-      "furn_set": "f_vending_o",
-      "items": [
-        { "item": "glass_shard", "count": [ 8, 25 ] },
-        { "item": "sheet_metal", "count": [ 0, 2 ] },
-        { "item": "steel_chunk", "count": [ 1, 5 ] }
-      ]
-    }
+    "flags": [ "SEALED", "BLOCKSDOOR", "CONTAINER", "BLOCKSDOOR", "PLACE_ITEM" ]
 	},
 	{
     "type": "furniture",
@@ -121,19 +97,7 @@
     "coverage": 90,
     "required_str": -1,
 	"light_emitted": 10,
-    "flags": [ "SEALED", "BLOCKSDOOR", "CONTAINER", "BLOCKSDOOR", "PLACE_ITEM" ],
-    "bash": {
-      "str_min": 2000000000,
-      "str_max": 2000000000,
-      "sound": "glass breaking!",
-      "sound_fail": "whack!",
-      "furn_set": "f_vending_o",
-      "items": [
-        { "item": "glass_shard", "count": [ 8, 25 ] },
-        { "item": "sheet_metal", "count": [ 0, 2 ] },
-        { "item": "steel_chunk", "count": [ 1, 5 ] }
-      ]
-    }
+    "flags": [ "SEALED", "BLOCKSDOOR", "CONTAINER", "BLOCKSDOOR", "PLACE_ITEM" ]
 	},
 	{
     "type": "furniture",
@@ -146,19 +110,7 @@
     "move_cost_mod": 1,
     "coverage": 90,
     "required_str": -1,
-    "flags": [ "SEALED", "BLOCKSDOOR", "CONTAINER", "BLOCKSDOOR", "PLACE_ITEM" ],
-    "bash": {
-      "str_min": 2000000000,
-      "str_max": 2000000000,
-      "sound": "glass breaking!",
-      "sound_fail": "whack!",
-      "furn_set": "f_vending_o",
-      "items": [
-        { "item": "glass_shard", "count": [ 8, 25 ] },
-        { "item": "sheet_metal", "count": [ 0, 2 ] },
-        { "item": "steel_chunk", "count": [ 1, 5 ] }
-      ]
-    }
+    "flags": [ "SEALED", "BLOCKSDOOR", "CONTAINER", "BLOCKSDOOR", "PLACE_ITEM" ]
 	},
 	{
     "type": "furniture",
@@ -172,19 +124,7 @@
     "coverage": 90,
     "required_str": -1,
 	"light_emitted": 10,
-    "flags": [ "SEALED", "BLOCKSDOOR", "CONTAINER", "BLOCKSDOOR", "PLACE_ITEM" ],
-    "bash": {
-      "str_min": 2000000000,
-      "str_max": 2000000000,
-      "sound": "glass breaking!",
-      "sound_fail": "whack!",
-      "furn_set": "f_vending_o",
-      "items": [
-        { "item": "glass_shard", "count": [ 8, 25 ] },
-        { "item": "sheet_metal", "count": [ 0, 2 ] },
-        { "item": "steel_chunk", "count": [ 1, 5 ] }
-      ]
-    }
+    "flags": [ "SEALED", "BLOCKSDOOR", "CONTAINER", "BLOCKSDOOR", "PLACE_ITEM" ]
 	},
 	{
     "type": "furniture",
@@ -198,19 +138,7 @@
     "coverage": 90,
     "required_str": -1,
 	"light_emitted": 10,
-    "flags": [ "SEALED", "BLOCKSDOOR", "CONTAINER", "BLOCKSDOOR", "PLACE_ITEM" ],
-    "bash": {
-      "str_min": 2000000000,
-      "str_max": 2000000000,
-      "sound": "glass breaking!",
-      "sound_fail": "whack!",
-      "furn_set": "f_vending_o",
-      "items": [
-        { "item": "glass_shard", "count": [ 8, 25 ] },
-        { "item": "sheet_metal", "count": [ 0, 2 ] },
-        { "item": "steel_chunk", "count": [ 1, 5 ] }
-      ]
-    }
+    "flags": [ "SEALED", "BLOCKSDOOR", "CONTAINER", "BLOCKSDOOR", "PLACE_ITEM" ]
 	},
 	{
     "type": "furniture",
@@ -252,18 +180,6 @@
     "coverage": 90,
     "required_str": -1,
 	"light_emitted": 10,
-    "flags": [ "SEALED", "BLOCKSDOOR", "CONTAINER", "BLOCKSDOOR", "PLACE_ITEM" ],
-    "bash": {
-      "str_min": 2000000000,
-      "str_max": 2000000000,
-      "sound": "glass breaking!",
-      "sound_fail": "whack!",
-      "furn_set": "f_vending_o",
-      "items": [
-        { "item": "glass_shard", "count": [ 8, 25 ] },
-        { "item": "sheet_metal", "count": [ 0, 2 ] },
-        { "item": "steel_chunk", "count": [ 1, 5 ] }
-      ]
-    }
+    "flags": [ "SEALED", "BLOCKSDOOR", "CONTAINER", "BLOCKSDOOR", "PLACE_ITEM" ]
 	}
 ]
