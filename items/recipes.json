@@ -5,8 +5,8 @@
 		"result": "kiss_weak",
 		"category": "CC_CHEM",
 		"subcategory": "CSC_CHEM_CHEMICALS",
-		"skill_used": "chemistry",
-		"skills_required": [ "chemistry", 1 ],
+		"skill_used": "cooking",
+		"skills_required": [ "cooking", 1 ],
 		"difficulty": 1,
 		"autolearn": true,
 		"reversible": false,
@@ -30,8 +30,8 @@
 		"result": "kiss_potent",
 		"category": "CC_CHEM",
 		"subcategory": "CSC_CHEM_CHEMICALS",
-		"skill_used": "chemistry",
-		"skills_required": [ "chemistry", 2 ],
+		"skill_used": "cooking",
+		"skills_required": [ "cooking", 2 ],
 		"difficulty": 2,
 		"autolearn": true,
 		"reversible": false,
@@ -56,8 +56,8 @@
 		"result": "kiss_lethal",
 		"category": "CC_CHEM",
 		"subcategory": "CSC_CHEM_CHEMICALS",
-		"skill_used": "chemistry",
-		"skills_required": [ "chemistry", 3 ],
+		"skill_used": "cooking",
+		"skills_required": [ "cooking", 3 ],
 		"difficulty": 3,
 		"autolearn": true,
 		"reversible": false,
@@ -82,8 +82,8 @@
 		"result": "ghost_sight",
 		"category": "CC_CHEM",
 		"subcategory": "CSC_CHEM_CHEMICALS",
-		"skill_used": "chemistry",
-		"skills_required": [ "chemistry", 1 ],
+		"skill_used": "cooking",
+		"skills_required": [ "cooking", 1 ],
 		"difficulty": 1,
 		"autolearn": true,
 		"reversible": false,
@@ -144,13 +144,13 @@
 		"result": "sierra_martini",
 		"category": "CC_CHEM",
 		"subcategory": "CSC_CHEM_DRUGS",
-		"skill_used": "chemistry",
+		"skill_used": "cooking",
 		"skills_required": [ [ "cooking", 2 ] ],
 		"difficulty": 3,
 		"autolearn": false,
-		"book_learn": {
-			"martini_recipe": { "skill_level": 2, "hidden": true }
-		},
+		"book_learn": [
+			[ "martini_recipe", 2 ]
+		],
 		"reversible": false,
 		"time": "45 m",
 		"batch_time_factors": [ 30, 5 ],
@@ -161,9 +161,7 @@
 			[ "nachos", 3 ],
 			[ "nachosmc", 3 ],
 			[ "nachosc", 3],
-			[ "nachosm", 3],
-			[ "nachosv", 3],
-			[ "nachosvc", 3]
+			[ "nachosm", 3]
 		  ],
 		  [
 			[ "chips", 3 ],
@@ -288,14 +286,14 @@
 		"category": "CC_WEAPON",
 		"subcategory": "CSC_WEAPON_CUTTING",
 		"skill_used": "fabrication",
-		"skills_required": [ [ "chemistry", 2 ], [ "cooking", 1 ] ],
+		"skills_required": [ [ "cooking", 2 ] ],
 		"difficulty": 4,
 		"time": "90 m",
 		"reversible": false,
 		"autolearn": false,
-		"book_learn": {
-			"cosmic_heat_note": { "skill_level": 4, "hidden": true }
-		},
+		"book_learn": [
+			[ "cosmic_heat_note", 4 ]
+		],
 		"qualities": [ { "id": "CHEM", "level": 3 }, { "id": "COOK", "level": 2 }, { "id": "ANVIL", "level": 1 }, { "id": "GLARE", "level": 1 } ],
 		"tools": [ [ [ "surface_heat", 50, "LIST" ] ], [ "scalpel" ] ],
 		"components": [
@@ -326,7 +324,7 @@
 		"result": "ghost_bomb",
 		"category": "CC_WEAPON",
 		"subcategory": "CSC_WEAPON_EXPLOSIVE",
-		"skill_used": "chemistry",
+		"skill_used": "cooking",
 		"skills_required": [ [ "mechanics", 3 ], [ "fabrication", 3] ],
 		"difficulty": 5,
 		"time": "60 m",
@@ -358,9 +356,9 @@
 		"time": "135 m",
 		"reversible": true,
 		"autolearn": false,
-		"book_learn": {
-			"collar_book": { "skill_level": 7 }
-		},
+		"book_learn": [
+			[ "collar_book", 7 ]
+		],
 		"decomp_learn": 6,
 		"qualities": [ { "id": "HAMMER_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 }, { "id": "WRENCH", "level": 2 }, { "id": "SAW_M_FINE", "level": 1 },
 		{ "id": "SCREW", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
@@ -408,9 +406,9 @@
 		"batch_time_factors": [ 50, 20 ],
 		"reversible": false,
 		"autolearn": false,
-		"book_learn": {
-			"collar_book": { "skill_level": 7 }
-		},
+		"book_learn": [
+			[ "collar_book", 7 ]
+		],
 		"tools": [ [ [ "press", -1 ] ], [ [ "swage", -1 ] ] ],
 		"using": [ [ "soldering_standard", 20 ], [ "welding_standard", 5 ] ],
 		"qualities": [ { "id": "GLARE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
@@ -435,9 +433,9 @@
 		"batch_time_factors": [ 50, 20 ],
 		"reversible": false,
 		"autolearn": false,
-		"book_learn": {
-			"collar_book": { "skill_level": 7 }
-		},
+		"book_learn": [
+			[ "collar_book", 7 ]
+		],
 		"using": [ [ "soldering_standard", 20 ], [ "welding_standard", 5 ] ],
 		"qualities": [ { "id": "GLARE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
 		"byproducts": [ [ "micro_spent", 2 ] ],
@@ -462,9 +460,9 @@
 		"batch_time_factors": [ 50, 20 ],
 		"reversible": false,
 		"autolearn": false,
-		"book_learn": {
-			"collar_book": { "skill_level": 7 }
-		},
+		"book_learn": [
+			[ "collar_book", 7 ]
+		],
 		"tools": [ [ [ "press", -1 ] ], [ [ "swage", -1 ] ] ],
 		"using": [ [ "soldering_standard", 20 ], [ "welding_standard", 5 ] ],
 		"qualities": [ { "id": "GLARE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
@@ -489,9 +487,9 @@
 		"batch_time_factors": [ 50, 20 ],
 		"reversible": false,
 		"autolearn": false,
-		"book_learn": {
-			"collar_book": { "skill_level": 7 }
-		},
+		"book_learn": [
+			[ "collar_book", 7 ]
+		],
 		"using": [ [ "soldering_standard", 20 ], [ "welding_standard", 5 ] ],
 		"qualities": [ { "id": "GLARE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
 		"byproducts": [ [ "energy_spent", 2 ] ],
@@ -533,9 +531,9 @@
 		"batch_time_factors": [ 50, 20 ],
 		"reversible": true,
 		"autolearn": false,
-		"book_learn": {
-			"collar_book": { "skill_level": 7 }
-		},
+		"book_learn": [
+			[ "collar_book", 7 ]
+		],
 		"using": [ [ "soldering_standard", 20 ], [ "welding_standard", 5 ] ],
 		"qualities": [ { "id": "GLARE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
 		"components": [
@@ -569,7 +567,7 @@
 		"result": "spear_knife_ghost_weak",
 		"category": "CC_WEAPON",
 		"subcategory": "CSC_WEAPON_PIERCING",
-		"skill_used": "chemistry",
+		"skill_used": "cooking",
 		"difficulty": 1,
 		"time": "10 m",
 		"reversible": false,
@@ -586,7 +584,7 @@
 		"result": "spear_knife_ghost_potent",
 		"category": "CC_WEAPON",
 		"subcategory": "CSC_WEAPON_PIERCING",
-		"skill_used": "chemistry",
+		"skill_used": "cooking",
 		"difficulty": 1,
 		"time": "10 m",
 		"reversible": false,
@@ -603,7 +601,7 @@
 		"result": "spear_knife_ghost_lethal",
 		"category": "CC_WEAPON",
 		"subcategory": "CSC_WEAPON_PIERCING",
-		"skill_used": "chemistry",
+		"skill_used": "cooking",
 		"difficulty": 2,
 		"time": "10 m",
 		"reversible": false,
@@ -620,7 +618,7 @@
 		"result": "bear_fist_weak",
 		"category": "CC_WEAPON",
 		"subcategory": "CSC_WEAPON_PIERCING",
-		"skill_used": "chemistry",
+		"skill_used": "cooking",
 		"difficulty": 1,
 		"time": "10 m",
 		"reversible": false,
@@ -637,7 +635,7 @@
 		"result": "bear_fist_potent",
 		"category": "CC_WEAPON",
 		"subcategory": "CSC_WEAPON_PIERCING",
-		"skill_used": "chemistry",
+		"skill_used": "cooking",
 		"difficulty": 1,
 		"time": "10 m",
 		"reversible": false,
@@ -654,7 +652,7 @@
 		"result": "bear_fist_lethal",
 		"category": "CC_WEAPON",
 		"subcategory": "CSC_WEAPON_PIERCING",
-		"skill_used": "chemistry",
+		"skill_used": "cooking",
 		"difficulty": 2,
 		"time": "10 m",
 		"reversible": false,
@@ -671,7 +669,7 @@
 		"result": "bear_fist_upgraded_weak",
 		"category": "CC_WEAPON",
 		"subcategory": "CSC_WEAPON_PIERCING",
-		"skill_used": "chemistry",
+		"skill_used": "cooking",
 		"difficulty": 1,
 		"time": "10 m",
 		"reversible": false,
@@ -688,7 +686,7 @@
 		"result": "bear_fist_upgraded_potent",
 		"category": "CC_WEAPON",
 		"subcategory": "CSC_WEAPON_PIERCING",
-		"skill_used": "chemistry",
+		"skill_used": "cooking",
 		"difficulty": 1,
 		"time": "10 m",
 		"reversible": false,
@@ -705,7 +703,7 @@
 		"result": "bear_fist_upgraded_lethal",
 		"category": "CC_WEAPON",
 		"subcategory": "CSC_WEAPON_PIERCING",
-		"skill_used": "chemistry",
+		"skill_used": "cooking",
 		"difficulty": 2,
 		"time": "10 m",
 		"reversible": false,
@@ -722,7 +720,7 @@
 		"result": "knife_cosmic_weak",
 		"category": "CC_WEAPON",
 		"subcategory": "CSC_WEAPON_PIERCING",
-		"skill_used": "chemistry",
+		"skill_used": "cooking",
 		"difficulty": 1,
 		"time": "10 m",
 		"reversible": false,
@@ -739,7 +737,7 @@
 		"result": "knife_cosmic_potent",
 		"category": "CC_WEAPON",
 		"subcategory": "CSC_WEAPON_PIERCING",
-		"skill_used": "chemistry",
+		"skill_used": "cooking",
 		"difficulty": 1,
 		"time": "10 m",
 		"reversible": false,
@@ -756,7 +754,7 @@
 		"result": "knife_cosmic_lethal",
 		"category": "CC_WEAPON",
 		"subcategory": "CSC_WEAPON_PIERCING",
-		"skill_used": "chemistry",
+		"skill_used": "cooking",
 		"difficulty": 2,
 		"time": "10 m",
 		"reversible": false,

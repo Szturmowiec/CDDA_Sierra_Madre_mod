@@ -3,7 +3,7 @@
 		"id": "avatar_sierra_harvesters_kills",
 		"type": "event_transformation",
 		"event_type": "character_kills_monster",
-		"value_constraints": { "victim_type": { "equals": [ "mtype_id", "mon_ghost_harvester" ] } },
+		"value_constraints": { "victim_type": { "equals": "mon_ghost_harvester" } },
 		"drop_fields": [ "victim_type" ]
 	},
 	{
@@ -17,7 +17,7 @@
 		"id": "avatar_sierra_seekers_kills",
 		"type": "event_transformation",
 		"event_type": "character_kills_monster",
-		"value_constraints": { "victim_type": { "equals": [ "mtype_id", "mon_ghost_seeker" ] } },
+		"value_constraints": { "victim_type": { "equals": "mon_ghost_seeker" } },
 		"drop_fields": [ "victim_type" ]
 	},
 	{
@@ -31,7 +31,7 @@
 		"id": "avatar_sierra_trappers_kills",
 		"type": "event_transformation",
 		"event_type": "character_kills_monster",
-		"value_constraints": { "victim_type": { "equals": [ "mtype_id", "mon_ghost_trapper" ] } },
+		"value_constraints": { "victim_type": { "equals": "mon_ghost_trapper" } },
 		"drop_fields": [ "victim_type" ]
 	},
 	{
@@ -45,7 +45,7 @@
 		"id": "avatar_sierra_boom",
 		"type": "event_transformation",
 		"event_type": "character_gains_effect",
-		"value_constraints": { "effect": { "equals": [ "efftype_id", "collar_boom" ] } },
+		"value_constraints": { "effect": { "equals": "collar_boom" } },
 		"drop_fields": [ "effect" ]
 	},
 	{
@@ -59,7 +59,7 @@
 		"id": "avatar_sierra_mentats",
 		"type": "event_transformation",
 		"event_type": "character_gains_effect",
-		"value_constraints": { "effect": { "equals": [ "efftype_id", "mentats_used" ] } },
+		"value_constraints": { "effect": { "equals": "mentats_used" } },
 		"drop_fields": [ "effect" ]
 	},
 	{
@@ -73,7 +73,7 @@
 		"id": "avatar_sierra_medx",
 		"type": "event_transformation",
 		"event_type": "character_gains_effect",
-		"value_constraints": { "effect": { "equals": [ "efftype_id", "medx_used" ] } },
+		"value_constraints": { "effect": { "equals": "medx_used" } },
 		"drop_fields": [ "effect" ]
 	},
 	{
@@ -87,7 +87,7 @@
 		"id": "avatar_sierra_martini",
 		"type": "event_transformation",
 		"event_type": "character_gains_effect",
-		"value_constraints": { "effect": { "equals": [ "efftype_id", "sierra_martini_effect" ] } },
+		"value_constraints": { "effect": { "equals": "sierra_martini_effect" } },
 		"drop_fields": [ "effect" ]
 	},
 	{
@@ -101,7 +101,7 @@
 		"id": "avatar_sierra_stimpack",
 		"type": "event_transformation",
 		"event_type": "character_gains_effect",
-		"value_constraints": { "effect": { "equals": [ "efftype_id", "stimpack_used" ] } },
+		"value_constraints": { "effect": { "equals": "stimpack_used" } },
 		"drop_fields": [ "effect" ]
 	},
 	{
@@ -115,7 +115,7 @@
 		"id": "avatar_sierra_sight",
 		"type": "event_transformation",
 		"event_type": "character_gains_effect",
-		"value_constraints": { "effect": { "equals": [ "efftype_id", "ghost_sight_activated" ] } },
+		"value_constraints": { "effect": { "equals": "ghost_sight_activated" } },
 		"drop_fields": [ "effect" ]
 	},
 	{
@@ -129,7 +129,7 @@
 		"id": "avatar_sierra_stealth",
 		"type": "event_transformation",
 		"event_type": "character_gains_effect",
-		"value_constraints": { "effect": { "equals": [ "efftype_id", "stealth_boy_activated" ] } },
+		"value_constraints": { "effect": { "equals": "stealth_boy_activated" } },
 		"drop_fields": [ "effect" ]
 	},
 	{
@@ -143,7 +143,7 @@
 		"id": "avatar_gala_trait",
 		"type": "event_transformation",
 		"event_type": "gains_mutation",
-		"value_constraints": { "trait": { "equals": [ "trait_id", "gala_trait" ] } },
+		"value_constraints": { "trait": { "equals": "gala_trait" } },
 		"drop_fields": [ "trait" ]
 	},
 	{
@@ -156,7 +156,7 @@
 		"id": "avatar_win_trait",
 		"type": "event_transformation",
 		"event_type": "gains_mutation",
-		"value_constraints": { "trait": { "equals": [ "trait_id", "win" ] } },
+		"value_constraints": { "trait": { "equals": "win" } },
 		"drop_fields": [ "trait" ]
 	},
 	{

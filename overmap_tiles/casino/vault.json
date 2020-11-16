@@ -47,11 +47,11 @@
         "**********|a..AAl..I|^........^|||||||||||******",
         "**********||||||||||||||||||||||****************"
       ],
-	  "furniture": { "s": "f_metal_table", "%": "f_locker", "R": "f_rack", "h": "f_chair", "0": "f_filing_cabinet", "a": "f_machinery_electronic", "A": "f_machinery_heavy",
-	  "I": "f_desk", "^": "t_broken_radio", "x": "f_console_broken" },
+	  "furniture": { "s": "f_table", "%": "f_locker", "R": "f_rack", "h": "f_chair", "0": "f_filing_cabinet",
+	  "I": "f_desk", "^": "t_broken_radio" },
 	  
       "terrain": { ".": "vault_floor", "*": "t_rock", "|": "vault_wall", "<": "t_stairs_up", "-": "vault_floor_noroof", "d": "vault_inter_door", "c": "vault_glass",
-	  "p": "sierra_pipe", "l": "vault_floor_light" },
+	  "p": "sierra_pipe", "l": "vault_floor_light", "x": "t_console_broken", "a": "t_machinery_electronic", "A": "t_machinery_heavy" },
 	  
 	  "traps": { "_": "tr_vault_close" },
 	  

@@ -337,7 +337,7 @@
 		"volume": "100 ml",
 		"price": 25000,
 		"price_postapoc": 10000,
-		"to_hit": { "grip": "weapon", "length": "hand", "surface": "point", "balance": "neutral" },
+		"to_hit": 3,
 		"bashing": 5,
 		"cutting": 18,
 		"material": [ "steel", "plastic", "superalloy" ],
@@ -358,7 +358,7 @@
 		"volume": "100 ml",
 		"price": 25000,
 		"price_postapoc": 10000,
-		"to_hit": { "grip": "weapon", "length": "hand", "surface": "point", "balance": "neutral" },
+		"to_hit": 3,
 		"bashing": 5,
 		"cutting": 18,
 		"material": [ "steel", "plastic", "superalloy" ],
@@ -380,7 +380,7 @@
 		"volume": "100 ml",
 		"price": 25000,
 		"price_postapoc": 10000,
-		"to_hit": { "grip": "weapon", "length": "hand", "surface": "point", "balance": "neutral" },
+		"to_hit": 3,
 		"bashing": 5,
 		"cutting": 18,
 		"material": [ "steel", "plastic", "superalloy" ],
@@ -402,7 +402,7 @@
 		"volume": "100 ml",
 		"price": 25000,
 		"price_postapoc": 10000,
-		"to_hit": { "grip": "weapon", "length": "hand", "surface": "point", "balance": "neutral" },
+		"to_hit": 3,
 		"bashing": 5,
 		"cutting": 18,
 		"material": [ "steel", "plastic", "superalloy" ],
@@ -424,7 +424,7 @@
 		"volume": "100 ml",
 		"price": 25000,
 		"price_postapoc": 11000,
-		"to_hit": { "grip": "weapon", "length": "hand", "surface": "point", "balance": "neutral" },
+		"to_hit": 3,
 		"bashing": 5,
 		"cutting": 20,
 		"material": [ "steel", "plastic", "superalloy" ],
@@ -445,7 +445,7 @@
 		"volume": "100 ml",
 		"price": 25000,
 		"price_postapoc": 13000,
-		"to_hit": { "grip": "weapon", "length": "hand", "surface": "point", "balance": "neutral" },
+		"to_hit": 3,
 		"bashing": 5,
 		"cutting": 18,
 		"material": [ "steel", "plastic", "superalloy" ],
@@ -547,8 +547,7 @@
 		"built_in_mods": [ "holo_scope" ],
 		"default_mods": [ "shoulder_strap" ],
 		"clip_size": 4,
-		"ammo": [ "microfusion" ],
-		"pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "microfusion": 4 } } ]
+		"ammo": [ "microfusion" ]
 	},
 	{
 		"id": "gauss_rifle",
@@ -588,15 +587,14 @@
 		"built_in_mods": [ "gauss_scope" ],
 		"default_mods": [ "shoulder_strap" ],
 		"ammo": [ "gauss_microfusion" ],
-		"pocket_data": [
-			{
-				"pocket_type": "MAGAZINE_WELL",
-				"holster": true,
-				"max_contains_volume": "20 L",
-				"max_contains_weight": "20 kg",
-				"item_restriction": [ "gauss_mag" ]
-			}
-		]
+		"magazines": [
+      [
+        "gauss_microfusion",
+        [
+          "gauss_mag"
+        ]
+      ]
+    ]
 	},
 	{
 		"id": "sierra_laser_pistol",
@@ -631,16 +629,14 @@
 		  [ "emitter", 1 ]
 		],
 		"ammo": [ "laser_cell" ],
-		"pocket_data": [
-			{
-				"magazine_well": "250 ml",
-				"pocket_type": "MAGAZINE_WELL",
-				"holster": true,
-				"max_contains_volume": "20 L",
-				"max_contains_weight": "20 kg",
-				"item_restriction": [ "energy_mag" ]
-			}
-		]
+		"magazines": [
+      [
+        "laser_cell",
+        [
+          "energy_mag"
+        ]
+      ]
+    ]
 	},
 	{
 		"id": "colt_trooper_357",
@@ -674,8 +670,7 @@
 		  [ "sights", 1 ],
 		  [ "stock", 1 ],
 		  [ "underbarrel", 1 ]
-		],
-		"pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "357mag": 6, "38": 6 } } ]
+		]
 	},
 	{
 		"id": "holo_gun",
@@ -695,7 +690,7 @@
 		"color": "magenta",
 		"skill": "pistol",
 		"range": 30,
-		"ranged_damage": { "damage_type": "bullet", "amount": 25, "armor_penetration": 6 },
+		"ranged_damage": { "damage_type": "cut", "amount": 25, "armor_penetration": 6 },
 		"dispersion": 180,
 		"durability": 8,
 		"loudness": 9,

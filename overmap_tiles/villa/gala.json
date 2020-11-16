@@ -86,7 +86,7 @@
 		],
 		"furniture": { ")": "f_trashcan", "R": "f_rubble", "D": "stash", "O": "f_oven", "J": "f_counter", "C": "f_cupboard", "s": "f_table", "h": "f_chair", "5": "f_sink",
 		"6": "f_fridge", "7": "f_wardrobe", "@": "f_bed", "B": "f_bookcase", "N": "f_TV_antenna", "V": "f_roof_turbine_vent", "~": "f_chimney", "=": "f_vent_pipe",
-		"j": "f_rack", "0": "f_console_broken", "#": "f_console_broken", "l": "f_coffee_table", "E": "f_stool", "A": "f_armchair", "L": "f_rack_coat", "i": "f_bench", "1": "f_statue",
+		"j": "f_rack", "l": "f_coffee_table", "E": "f_stool", "A": "f_armchair", "L": "f_rack_coat", "i": "f_bench", "1": "f_statue",
 		"2": "f_dresser", "e": "f_pool_table", "I": "f_desk", "H": "f_sofa", "r": "t_broken_radio", "^": "t_broken_radio", "(": "f_rubble", "&": "f_trashcan", "x": "stash",
 		"X": "f_slab", "%": "f_locker", "9": "f_rubble", ";": "sierra_lamp" },
 		
@@ -96,7 +96,7 @@
 		"F": "t_floor_noroof", "f": "t_floor", "<": "t_stairs_up", ">": "t_stairs_down", "T": "t_tree_dead", "G": "t_dirt", "a": "t_concrete", "m": "t_door_metal_c",
 		"8": "t_potential_trans", "9": "t_floor_noroof", "k": "t_station_disc", "r": "t_floor", "#": "t_concrete", "^": "t_sidewalk", "(": "t_sidewalk", "&": "t_sidewalk",
 		"1": "t_sidewalk", "i": "t_sidewalk", "D": "t_sidewalk", "P": "t_sidewalk", "p": "t_sidewalk", "X": "t_rock_floor", "u": "t_rock_floor", "+": "t_door_locked_interior",
-		"4": "t_door_bar_locked", "_": "t_floor", "?": "t_sidewalk", ";": "t_sidewalk" },
+		"4": "t_door_bar_locked", "_": "t_floor", "?": "t_sidewalk", ";": "t_sidewalk", "0": "t_console_broken" },
 		"signs": { "P": { "signage": "Campanas del Sol" }, "p": { "signage": "Courtyard" } },
 		
 		"place_fields": [
@@ -147,7 +147,7 @@
 			"L": { "item": "unisex_coat_rack", "chance": 25, "repeat": [ 1, 4 ] },
 			"l": { "item": "coffee_table", "chance": 30, "repeat": [ 1, 2 ] },
 			"j": { "item": "sierra_rack_items", "chance": 80, "repeat": [ 1, 2 ] },
-			"B": [ { "item": "homebooks", "chance": 25, "repeat": [ 1, 3 ] }, { "item": "games", "chance": 10, "repeat": [ 1, 2 ] }, { "item": "bookstore_misc", "chance": 25, "repeat": [ 1, 3 ] },
+			"B": [ { "item": "homebooks", "chance": 25, "repeat": [ 1, 3 ] }, { "item": "bookstore_misc", "chance": 25, "repeat": [ 1, 3 ] },
 					{ "item": "textbooks", "chance": 20, "repeat": [ 1, 3 ] }, { "item": "manuals", "chance": 25, "repeat": [ 1, 3 ] }, { "item": "magazines", "chance": 23, "repeat": [ 1, 3 ] },
 					{ "item": "novels", "chance": 20, "repeat": [ 1, 5 ] }],
 			"7": [
@@ -312,7 +312,7 @@
 		],
 		"furniture": { ")": "f_trashcan", "R": "f_rubble", "D": "stash", "O": "f_oven", "J": "f_counter", "C": "f_cupboard", "s": "f_table", "h": "f_chair", "5": "f_sink",
 		"6": "f_fridge", "7": "f_wardrobe", "@": "f_bed", "B": "f_bookcase", "N": "f_TV_antenna", "V": "f_roof_turbine_vent", "~": "f_chimney", "=": "f_vent_pipe",
-		"j": "f_rack", "0": "f_console_broken", "#": "f_console_broken", "l": "f_coffee_table", "E": "f_stool", "A": "f_armchair", "L": "f_rack_coat", "i": "f_bench", "1": "f_statue",
+		"j": "f_rack", "l": "f_coffee_table", "E": "f_stool", "A": "f_armchair", "L": "f_rack_coat", "i": "f_bench", "1": "f_statue",
 		"2": "f_dresser", "e": "f_pool_table", "I": "f_desk", "H": "f_sofa", "r": "t_broken_radio", "^": "t_broken_radio", "(": "f_rubble", "&": "f_trashcan", "x": "stash",
 		"X": "f_slab", "9": "f_rubble", "%": "f_locker"},
 		
@@ -322,7 +322,7 @@
 		"F": "t_floor_noroof", "f": "t_floor", "<": "t_stairs_up", ">": "t_stairs_down", "T": "t_tree_dead", "G": "t_dirt", "a": "t_concrete", "m": "t_door_metal_c",
 		"8": "t_potential_trans", "9": "t_floor_noroof", "k": "t_station_disc", "r": "t_floor", "#": "t_concrete", "^": "t_shingle_flat_roof", "(": "t_sidewalk", "&": "t_sidewalk",
 		"1": "t_sidewalk", "i": "t_sidewalk", "D": "t_sidewalk", "P": "t_sidewalk", "p": "t_sidewalk", "b": "t_shingle_flat_roof", "!": "t_fence_sierra", "+": "t_door_locked_interior",
-		"_": "t_floor", "?": "t_shingle_flat_roof"},
+		"_": "t_floor", "?": "t_shingle_flat_roof", "0": "t_console_broken"},
 		
 		"place_monsters": [
 			{ "monster": "GHOST_DEFAULT", "x": [ 1, 7 ], "y": [ 1, 23 ], "density": 0.25 },
@@ -364,7 +364,7 @@
 			"L": { "item": "unisex_coat_rack", "chance": 25, "repeat": [ 1, 4 ] },
 			"l": { "item": "coffee_table", "chance": 30, "repeat": [ 1, 2 ] },
 			"j": { "item": "sierra_rack_items", "chance": 80, "repeat": [ 1, 2 ] },
-			"B": [ { "item": "homebooks", "chance": 25, "repeat": [ 1, 3 ] }, { "item": "games", "chance": 10, "repeat": [ 1, 2 ] }, { "item": "bookstore_misc", "chance": 25, "repeat": [ 1, 3 ] },
+			"B": [ { "item": "homebooks", "chance": 25, "repeat": [ 1, 3 ] }, { "item": "bookstore_misc", "chance": 25, "repeat": [ 1, 3 ] },
 					{ "item": "textbooks", "chance": 20, "repeat": [ 1, 3 ] }, { "item": "manuals", "chance": 25, "repeat": [ 1, 3 ] }, { "item": "magazines", "chance": 23, "repeat": [ 1, 3 ] },
 					{ "item": "novels", "chance": 20, "repeat": [ 1, 5 ] }],
 			"7": [
@@ -509,14 +509,14 @@
 		],
 		"furniture": { ")": "f_trashcan", "R": "f_rubble", "D": "stash", "O": "f_oven", "J": "f_counter", "C": "f_cupboard", "s": "f_table", "h": "f_chair", "5": "f_sink",
 		"6": "f_fridge", "7": "f_wardrobe", "@": "f_bed", "B": "f_bookcase", "N": "f_TV_antenna", "V": "f_roof_turbine_vent", "~": "f_chimney", "=": "f_vent_pipe",
-		"j": "f_rack", "0": "f_console_broken", "#": "f_console_broken", "l": "f_coffee_table", "E": "f_stool", "A": "f_armchair", "L": "f_rack_coat", "i": "f_bench", "1": "f_statue",
+		"j": "f_rack", "l": "f_coffee_table", "E": "f_stool", "A": "f_armchair", "L": "f_rack_coat", "i": "f_bench", "1": "f_statue",
 		"2": "f_dresser", "e": "f_pool_table", "I": "f_desk", "H": "f_sofa", "r": "t_broken_radio", "^": "t_broken_radio", "(": "f_rubble", "&": "f_trashcan", "x": "stash",
 		"X": "f_slab", "9": "f_rubble"},
 			
 		"terrain": { ".": "t_open_air", "*": "t_fountain", "|": "t_brick_wall", "-": "t_fence_metal", "/": "t_gate_metal_c", "d": "t_door_c", "c": "t_window_empty",
 		"F": "t_floor_noroof", "f": "t_floor", "<": "t_stairs_up", ">": "t_stairs_down", "T": "t_tree_dead", "G": "t_dirt", "a": "t_concrete", "m": "t_door_metal_c",
 		"8": "t_potential_trans", "9": "t_floor_noroof", "k": "t_station_disc", "r": "t_floor", "#": "t_concrete", "^": "t_shingle_flat_roof", "(": "t_sidewalk", "&": "t_sidewalk",
-		"1": "t_sidewalk", "i": "t_sidewalk", "D": "t_sidewalk", "P": "t_sidewalk", "p": "t_sidewalk", "b": "t_shingle_flat_roof", "!": "t_fence_sierra"},
+		"1": "t_sidewalk", "i": "t_sidewalk", "D": "t_sidewalk", "P": "t_sidewalk", "p": "t_sidewalk", "b": "t_shingle_flat_roof", "!": "t_fence_sierra", "0": "t_console_broken"},
 		
 		"place_fields": [
 			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 5000 },
@@ -562,14 +562,14 @@
 		],
 		"furniture": { ")": "f_trashcan", "R": "f_rubble", "D": "stash", "O": "f_oven", "J": "f_counter", "C": "f_cupboard", "s": "f_table", "h": "f_chair", "5": "f_sink",
 		"6": "f_fridge", "7": "f_wardrobe", "@": "f_bed", "B": "f_wood_keg", "N": "f_TV_antenna", "V": "f_roof_turbine_vent", "~": "f_chimney", "=": "f_vent_pipe",
-		"j": "f_rack", "0": "f_console_broken", "#": "f_console_broken", "l": "f_coffee_table", "E": "f_stool", "A": "f_armchair", "L": "f_rack_coat", "i": "f_bench", "1": "f_statue",
+		"j": "f_rack", "l": "f_coffee_table", "E": "f_stool", "A": "f_armchair", "L": "f_rack_coat", "i": "f_bench", "1": "f_statue",
 		"2": "f_dresser", "e": "f_pool_table", "I": "f_desk", "H": "f_sofa", "r": "t_broken_radio", "^": "t_broken_radio", "(": "f_rubble", "&": "f_trashcan", "x": "stash",
 		"X": "f_slab", "9": "f_rubble"},
 			
 		"terrain": { ".": "t_rock", "*": "t_rock_floor", "|": "t_rock_wall", "-": "t_fence_metal", "/": "t_gate_metal_c", "d": "t_door_c", "c": "t_window_empty",
 		"F": "t_floor_noroof", "f": "t_floor", "<": "t_stairs_up", ">": "t_stairs_down", "T": "t_tree_dead", "G": "t_dirt", "a": "t_concrete", "m": "t_door_metal_c",
 		"8": "t_potential_trans", "9": "t_floor_noroof", "k": "t_station_disc", "r": "t_floor", "#": "t_concrete", "^": "t_shingle_flat_roof", "(": "t_sidewalk", "&": "t_sidewalk",
-		"1": "t_sidewalk", "i": "t_sidewalk", "D": "t_sidewalk", "P": "t_sidewalk", "p": "t_sidewalk", "b": "t_shingle_flat_roof", "!": "t_fence_sierra"},
+		"1": "t_sidewalk", "i": "t_sidewalk", "D": "t_sidewalk", "P": "t_sidewalk", "p": "t_sidewalk", "b": "t_shingle_flat_roof", "!": "t_fence_sierra", "0": "t_console_broken"},
 		
 		"place_monsters": [
 			{ "monster": "GHOST_DEFAULT", "x": [ 10, 18 ], "y": [ 6, 18 ], "density": 0.06 }
@@ -618,14 +618,14 @@
 		],
 		"furniture": { ")": "f_trashcan", "R": "f_rubble", "D": "stash", "O": "f_oven", "J": "f_counter", "C": "f_cupboard", "s": "f_table", "h": "f_chair", "5": "f_sink",
 		"6": "f_fridge", "7": "f_wardrobe", "@": "f_bed", "B": "f_bookcase", "N": "f_TV_antenna", "V": "f_roof_turbine_vent", "~": "f_chimney", "=": "f_vent_pipe",
-		"j": "f_rack", "0": "f_console_broken", "#": "f_console_broken", "l": "f_coffee_table", "E": "f_stool", "A": "f_armchair", "L": "f_rack_coat", "i": "f_bench", "1": "f_statue",
+		"j": "f_rack", "l": "f_coffee_table", "E": "f_stool", "A": "f_armchair", "L": "f_rack_coat", "i": "f_bench", "1": "f_statue",
 		"2": "f_dresser", "e": "f_pool_table", "I": "f_desk", "H": "f_sofa", "r": "t_broken_radio", "^": "t_broken_radio", "(": "f_rubble", "&": "f_trashcan", "x": "stash",
 		"X": "f_slab", "9": "f_rubble"},
 			
 		"terrain": { ".": "t_open_air", "*": "t_fountain", "|": "t_brick_wall", "-": "t_fence_metal", "/": "t_gate_metal_c", "d": "t_door_c", "c": "t_window_empty",
 		"F": "t_floor_noroof", "f": "t_floor", "<": "t_stairs_up", ">": "t_stairs_down", "T": "t_tree_dead", "G": "t_dirt", "a": "t_concrete", "m": "t_door_metal_c",
 		"8": "t_potential_trans", "9": "t_floor_noroof", "k": "t_station_disc", "r": "t_floor", "#": "t_concrete", "^": "t_shingle_flat_roof", "(": "t_sidewalk", "&": "t_sidewalk",
-		"1": "t_sidewalk", "i": "t_sidewalk", "D": "t_sidewalk", "P": "t_sidewalk", "p": "t_sidewalk", "b": "t_shingle_flat_roof", "!": "t_fence_sierra"},
+		"1": "t_sidewalk", "i": "t_sidewalk", "D": "t_sidewalk", "P": "t_sidewalk", "p": "t_sidewalk", "b": "t_shingle_flat_roof", "!": "t_fence_sierra", "0": "t_console_broken"},
 		
 		"place_fields": [
 			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 5000 }
@@ -669,14 +669,14 @@
 		],
 		"furniture": { ")": "f_trashcan", "R": "f_rubble", "D": "stash", "O": "f_oven", "J": "f_counter", "C": "f_cupboard", "s": "f_table", "h": "f_chair", "5": "f_sink",
 		"6": "f_fridge", "7": "f_wardrobe", "@": "f_bed", "B": "f_bookcase", "N": "f_TV_antenna", "V": "f_roof_turbine_vent", "~": "f_chimney", "=": "f_vent_pipe",
-		"j": "f_rack", "0": "f_console_broken", "#": "f_console_broken", "l": "f_coffee_table", "E": "f_stool", "A": "f_armchair", "L": "f_rack_coat", "i": "f_bench", "1": "f_statue",
+		"j": "f_rack", "l": "f_coffee_table", "E": "f_stool", "A": "f_armchair", "L": "f_rack_coat", "i": "f_bench", "1": "f_statue",
 		"2": "f_dresser", "e": "f_pool_table", "I": "f_desk", "H": "f_sofa", "r": "t_broken_radio", "^": "t_broken_radio", "(": "f_rubble", "&": "f_trashcan", "x": "stash",
 		"X": "f_slab", "9": "f_rubble"},
 			
 		"terrain": { ".": "t_open_air", "*": "t_fountain", "|": "t_brick_wall", "-": "t_fence_metal", "/": "t_gate_metal_c", "d": "t_door_c", "c": "t_window_empty",
 		"F": "t_floor_noroof", "f": "t_floor", "<": "t_stairs_up", ">": "t_stairs_down", "T": "t_tree_dead", "G": "t_dirt", "a": "t_concrete", "m": "t_door_metal_c",
 		"8": "t_potential_trans", "9": "t_floor_noroof", "k": "t_station_disc", "r": "t_floor", "#": "t_concrete", "^": "t_shingle_flat_roof", "(": "t_sidewalk", "&": "t_sidewalk",
-		"1": "t_sidewalk", "i": "t_sidewalk", "D": "t_sidewalk", "P": "t_sidewalk", "p": "t_sidewalk", "b": "t_shingle_flat_roof", "!": "t_fence_sierra"},
+		"1": "t_sidewalk", "i": "t_sidewalk", "D": "t_sidewalk", "P": "t_sidewalk", "p": "t_sidewalk", "b": "t_shingle_flat_roof", "!": "t_fence_sierra", "0": "t_console_broken"},
 		
 		"place_fields": [
 			{ "field": "cloud", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": 5000 }
@@ -720,14 +720,14 @@
 		],
 		"furniture": { ")": "f_trashcan", "R": "f_rubble", "D": "stash", "O": "f_oven", "J": "f_counter", "C": "f_cupboard", "s": "f_table", "h": "f_chair", "5": "f_sink",
 		"6": "f_fridge", "7": "f_wardrobe", "@": "f_bed", "B": "f_bookcase", "N": "f_TV_antenna", "V": "f_roof_turbine_vent", "~": "f_chimney", "=": "f_vent_pipe",
-		"j": "f_rack", "0": "f_console", "#": "f_console_broken", "l": "f_coffee_table", "E": "f_stool", "A": "f_armchair", "L": "f_rack_coat", "i": "f_bench", "1": "f_statue",
+		"j": "f_rack", "l": "f_coffee_table", "E": "f_stool", "A": "f_armchair", "L": "f_rack_coat", "i": "f_bench", "1": "f_statue",
 		"2": "f_dresser", "e": "f_pool_table", "I": "f_desk", "H": "f_sofa", "r": "t_broken_radio", "^": "t_broken_radio", "(": "f_rubble", "&": "f_trashcan", "x": "stash",
 		"X": "f_slab", "9": "f_rubble"},
 			
 		"terrain": { ".": "t_open_air", "*": "t_fountain", "|": "t_brick_wall", "-": "t_fence_metal", "/": "t_gate_metal_c", "d": "t_door_c", "c": "t_window_empty",
 		"F": "t_floor_noroof", "f": "t_floor", "<": "t_stairs_up", ">": "t_stairs_down", "T": "t_tree_dead", "G": "t_dirt", "a": "t_concrete", "m": "t_door_metal_c",
 		"8": "t_potential_trans", "9": "t_floor_noroof", "k": "t_station_disc", "r": "t_floor", "#": "t_concrete", "^": "t_shingle_flat_roof", "(": "t_sidewalk", "&": "t_sidewalk",
-		"1": "t_sidewalk", "i": "t_sidewalk", "D": "t_sidewalk", "P": "t_sidewalk", "p": "t_sidewalk", "b": "t_shingle_flat_roof", "!": "t_fence_sierra"},
+		"1": "t_sidewalk", "i": "t_sidewalk", "D": "t_sidewalk", "P": "t_sidewalk", "p": "t_sidewalk", "b": "t_shingle_flat_roof", "!": "t_fence_sierra", "0": "t_console"},
 		
 		"place_loot": [
 			{ "item": "holo_optics", "x": 21, "y": 2 }
@@ -791,7 +791,7 @@
 		],
 		"furniture": { ")": "f_trashcan", "R": "f_rubble", "D": "stash", "O": "f_oven", "J": "f_counter", "C": "f_cupboard", "s": "f_table", "h": "f_chair", "5": "f_sink",
 		"6": "f_fridge", "7": "f_wardrobe", "@": "f_bed", "B": "f_bookcase", "N": "f_TV_antenna", "V": "f_roof_turbine_vent", "~": "f_chimney", "=": "f_vent_pipe",
-		"j": "f_rack", "0": "f_console", "#": "f_console_broken", "l": "f_coffee_table", "E": "f_stool", "A": "f_armchair", "L": "f_rack_coat", "i": "f_bench", "1": "f_statue",
+		"j": "f_rack", "l": "f_coffee_table", "E": "f_stool", "A": "f_armchair", "L": "f_rack_coat", "i": "f_bench", "1": "f_statue",
 		"2": "f_dresser", "e": "f_pool_table", "I": "f_desk", "H": "f_sofa", "r": "t_broken_radio", "^": "t_broken_radio", "(": "f_rubble", "&": "f_trashcan", "x": "stash",
 		"X": "f_slab", "9": "f_rubble"},
 			

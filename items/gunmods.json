@@ -36,7 +36,7 @@
 		"location": "lens",
 		"install_time": "15 m",
 		"mod_targets": [ "holorifle" ],
-		"damage_modifier": { "damage_type": "bullet", "amount": 10 },
+		"damage_modifier": { "damage_type": "cut", "amount": 10 },
 		"min_skills": [ [ "weapon", 2 ], [ "electronics", 2 ] ],
 		"flags": [ "INSTALL_DIFFICULT", "IRREMOVABLE" ]
 	},

@@ -25,7 +25,7 @@
 		  { "skill": "electronics", "level": 9 },
 		  { "skill": "gun", "level": 3 },
 		  { "skill": "rifle", "level": 3 },
-		  { "skill": "chemistry", "level": 6 }
+		  { "skill": "cooking", "level": 6 }
 		],
 		"job_description": "A mysterious self-titled guard of the Sierra Madre...",
 		"worn_override": "CHRISTINE_CLOTHES",

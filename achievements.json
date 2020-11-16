@@ -11,63 +11,6 @@
 		]
 	},
 	{
-		"id": "achievement_reach_vault",
-		"type": "achievement",
-		"name": "<color_red>Heist of the Centuries</color>",
-		"description": "Enter the Sierra Madre Vault.",
-		"requirements": [
-			{
-				"event_statistic": "last_oter_type_avatar_entered",
-				"is": "==",
-				"target": [ "oter_type_str_id", "sm_vault" ],
-				"visible": "never"
-			}
-		]
-	},
-	{
-		"id": "achievement_enter",
-		"type": "achievement",
-		"name": "<color_red>Welcome to the Sierra Madre</color>",
-		"description": "Enter the Sierra Madre Casino.",
-		"requirements": [
-			{
-				"event_statistic": "last_oter_type_avatar_entered",
-				"is": "==",
-				"target": [ "oter_type_str_id", "casino_5" ],
-				"visible": "never"
-			}
-		]
-	},
-	{
-		"id": "achievement_enter_villa",
-		"type": "achievement",
-		"name": "<color_red>You've heard of the Sierra Madre</color>",
-		"description": "Find the Sierra Madre.",
-		"requirements": [
-			{
-				"event_statistic": "last_oter_type_avatar_entered",
-				"is": "==",
-				"target": [ "oter_type_str_id", "mainsquare" ],
-				"visible": "never"
-			}
-		]
-	},
-	{
-		"id": "achievement_bos",
-		"type": "achievement",
-		"name": "<color_red>Base of operations</color>",
-		"description": "Find the abandoned bunker.",
-		"hidden_by": [ "achievement_bos" ],
-		"requirements": [
-			{
-				"event_statistic": "last_oter_type_avatar_entered",
-				"is": "==",
-				"target": [ "oter_type_str_id", "bos_main" ],
-				"visible": "never"
-			}
-		]
-	},
-	{
 		"id": "achievement_gala",
 		"type": "achievement",
 		"name": "<color_red>Fires in the sky</color>",
