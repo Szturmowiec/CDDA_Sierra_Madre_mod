@@ -45,7 +45,8 @@
 		"max_range": 1,
 		"min_aoe": 1,
 		"max_aoe": 1,
-		"base_casting_time": 10
+		"base_casting_time": 10,
+		"flags": [ "SILENT" ]
 	},
 	{
 		"id": "vault_enter_open",
