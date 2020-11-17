@@ -480,6 +480,7 @@
 		  "msg": "You activate the bomb's igniter.",
 		  "target_charges": 5,
 		  "active": true,
+		  "need_fire": 1,
 		  "menu_text": "Activate",
 		  "type": "transform"
 		},
@@ -509,9 +510,9 @@
 			  "sound_volume": 0,
 			  "sound_msg": "Psfft.",
 			  "no_deactivate_msg": "The sharp, hissing sound coming out of the tank indicates the blaze of glory is about to be unleashed to wipe the Sierra Madre clean... Well, at least \"some part of it\", technically speaking.",
-			  "explosion": { "power": 400 }
+			  "explosion": { "damage": 400, "radius": 10 }
 		},
-		"flags": [ "ACT_IN_FIRE", "BOMB", "TRADER_AVOID" ]
+		"flags": [ "ACT_IN_FIRE", "BOMB", "TRADER_AVOID", "NPC_THROW" ]
 	},
 	{
 		"id": "holorifle",
