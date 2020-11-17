@@ -1,14 +1,6 @@
-# Cataclysm DDA Sierra Madre mod
+# Cataclysm: Dark Days Ahead Sierra Madre mod
 
 A mod for the Cataclysm: Dark Days Ahead roguelike adding Sierra Madre location from Fallout New Vegas add-on Dead Money, serving as a tribute to the best Fallout DLC ever made.
-
-Cataclysm DDA website: https://cataclysmdda.org/
-
-Cataclysm DDA repository: https://github.com/CleverRaven/Cataclysm-DDA
-
-Cataclysm: Bright Nights (awesome sci-fi focused fork of CDDA) repository: https://github.com/cataclysmbnteam/Cataclysm-BN
-
-Fallout New Vegas: Dead Money Steam page: https://store.steampowered.com/app/72730/Fallout_New_Vegas_Dead_Money
 
 For those who did not play Dead Money themselves the author of this mod strongly encourages them to do so before trying out this mod since the mod is obviously very spoiler-heavy, meant primarily for players who know Dead Money already.
 
@@ -35,6 +27,21 @@ For those who did not play Dead Money themselves the author of this mod strongly
 
 This mod is meant to be hard and the player will take a lot of damage while exploring Sierra Madre - this is by design. The mod provides access to instahealing items and strong painkillers as well as some good armor and weapons to help with that. Approach this mod as you'd any other game that is based on quickly losing, but also quickly regenerating HP (for example Fallout New Vegas itself) compared to how you'd normally approach CDDA with its long-term healing mechanics.
 
+# Tips
+
+In order to get access to the mod's crafting recipes, the most important skills to consider are as follows:
+
+<ul>
+<li>applied science (only in CDDA - doesn't exist in BN)</li>
+<li>food handling (in BN it's called cooking)</li>
+<li>fabrication</li>
+<li>electronics</li>
+</ul>
+
+As far as the mod progression goes, at the begining of mod's custom scenario you'll encounter an NPC who'll start a conversation with you. While due to some hardcoded, forced blocks of dialogue ruining immersion there are no missions assigned by NPCs in this mod, in practice the NPCs will tell you everything you need to do, I tried to make their dialogue as clear as possible in that regard, so make sure to read through it carefully, otherwise you might get stuck.
+
+Another thing to consider is that sometimes you'll have to run straight past an enemy that deals heavy damage - don't worry, just keep running and injecting stimpacks to instantly regain health as you take hits, it is a perfectly valid way of dealing with enemies in this mod.
+
 # Installation
 
 Download the release for the version you're using (either main game - Cataclysm: Dark Days Ahead or the fork - Cataclysm: Bright Nights) and then simply extract the contents of the archive to the following directory:
@@ -52,3 +59,35 @@ In this file add the string "sierra_madre" to the list you'll see there. Note th
 Due to the technical limitations of CDDA modding porting the mechanics of hologram emitters and forcing the player to stay in the Sierra Madre until breaking into the vault has proven to be impossible.
 That means that there's no way to switch the security holograms off and since they're invincible the player must evade them or escape from them, it's impossible to get rid of them.
 Also if the player chooses to play through the mod's custom scenario the author strongly encourages playing with a self-imposed rule of not leaving the location at any circumstances unless the vault has been entered and the mod "completed". This is the way this mod was meant to be played and, as stated above, only technical limitations prevented enforcing this on the player. So if you start the custom scenario then simply treat leaving Sierra Madre prematurely as cheating. At least this is how the mod author treats it.
+
+# Credits
+
+Special thanks to everyone involved with creating and releasing Fallout New Vegas: Dead Money for making the best Fallout DLC ever and to anyone involved with Fallout New Vegas in general.
+
+Also thanks to Kenan2000 and Axema Vales, two CDDA contributors that helped a lot with design ideas and dozens of bugfixes as well as providing all kinds of help in general. Be sure to check out their mods and contributions as well, links are included below.
+
+And thanks to all those good people that all of them can't be listed here who provided some form of support or bugfixes at one point or another on reddit CDDA community, official Cataclysm: Dark Days Ahead discord server and CDDA Modding Community discord server.
+
+# Links
+
+Mod screenshots: https://imgur.com/a/uzrd1aE
+
+Fallout New Vegas Steam page: https://store.steampowered.com/app/22380/Fallout_New_Vegas
+
+Fallout New Vegas: Dead Money Steam page: https://store.steampowered.com/app/72730/Fallout_New_Vegas_Dead_Money
+
+Cataclysm DDA website: https://cataclysmdda.org/
+
+Cataclysm DDA reddit: https://www.reddit.com/r/cataclysmdda/
+
+Cataclysm DDA repository: https://github.com/CleverRaven/Cataclysm-DDA
+
+Cataclysm: Bright Nights (awesome sci-fi focused fork of CDDA) repository: https://github.com/cataclysmbnteam/Cataclysm-BN
+
+Cataclysm: Dark Days Ahead discord server: https://discord.gg/jFEc7Yp
+
+CDDA Modding Community discord server: https://discord.com/invite/xj9E3Sp
+
+Kenan2000 git repository containing all his awesome CDDA contributions: https://github.com/Kenan2000
+
+Axema Vales git repository containing all his awesome CDDA contributions: https://github.com/AxemaVales
