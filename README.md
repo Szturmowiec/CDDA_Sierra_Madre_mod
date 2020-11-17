@@ -1,4 +1,4 @@
-# Cataclysm DDA Sierra Madre mod
+# Cataclysm: Dark Days Ahead Sierra Madre mod
 
 A mod for the Cataclysm: Dark Days Ahead roguelike adding Sierra Madre location from Fallout New Vegas add-on Dead Money, serving as a tribute to the best Fallout DLC ever made.
 
@@ -32,8 +32,8 @@ This mod is meant to be hard and the player will take a lot of damage while expl
 In order to get access to the mod's crafting recipes, the most important skills to consider are as follows:
 
 <ul>
-<li>chemistry</li>
-<li>cooking</li>
+<li>applied science (only in CDDA - doesn't exist in BN)</li>
+<li>food handling (in BN it's called cooking)</li>
 <li>fabrication</li>
 <li>electronics</li>
 </ul>
@@ -62,13 +62,15 @@ Also if the player chooses to play through the mod's custom scenario the author 
 
 # Credits
 
-Special thanks to everyoen involved with creating and releasing Fallout New Vegas: Dead Money for making the best Fallout DLC ever and to anyone involved with Fallout New Vegas in general.
+Special thanks to everyone involved with creating and releasing Fallout New Vegas: Dead Money for making the best Fallout DLC ever and to anyone involved with Fallout New Vegas in general.
 
 Also thanks to Kenan2000 and Axema Vales, two CDDA contributors that helped a lot with design ideas and dozens of bugfixes as well as providing all kinds of help in general. Be sure to check out their mods and contributions as well, links are included below.
 
-And thanks to all those good people that all of them can't be listed here who provided some form of support or bugfixes at one point or another on reddit CDDA community, official Cataclysm: Dark Days Ahead discord server and CDDA Modding Cmmunity discord server.
+And thanks to all those good people that all of them can't be listed here who provided some form of support or bugfixes at one point or another on reddit CDDA community, official Cataclysm: Dark Days Ahead discord server and CDDA Modding Community discord server.
 
 # Links
+
+Mod screenshots: https://imgur.com/a/uzrd1aE
 
 Fallout New Vegas Steam page: https://store.steampowered.com/app/22380/Fallout_New_Vegas
 
@@ -81,6 +83,10 @@ Cataclysm DDA reddit: https://www.reddit.com/r/cataclysmdda/
 Cataclysm DDA repository: https://github.com/CleverRaven/Cataclysm-DDA
 
 Cataclysm: Bright Nights (awesome sci-fi focused fork of CDDA) repository: https://github.com/cataclysmbnteam/Cataclysm-BN
+
+Cataclysm: Dark Days Ahead discord server: https://discord.gg/jFEc7Yp
+
+CDDA Modding Community discord server: https://discord.com/invite/xj9E3Sp
 
 Kenan2000 git repository containing all his awesome CDDA contributions: https://github.com/Kenan2000
 
