@@ -44,7 +44,13 @@ Another thing to consider is that sometimes you'll have to run straight past an 
 
 # Installation
 
-Download the release for the version you're using (either main game - Cataclysm: Dark Days Ahead or the fork - Cataclysm: Bright Nights) and then simply extract the contents of the archive to the following directory:
+Download the mod for the game version you're using:
+
+If you play Cataclysm DDA then click on the green "Code" button and select "Download ZIP".
+
+If you play Cataclysm BN then you need to first switch to the branch "bright-nights-version" (click on the "master" button to open the list of available branches), then click on the code button and download zip like explained above.
+
+Once the mod is downloaded simply extract the contents of the archive to the following directory:
 
 main_game_dir/data/mods
 
