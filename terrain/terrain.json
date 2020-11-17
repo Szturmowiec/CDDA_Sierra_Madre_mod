@@ -533,7 +533,7 @@
     "percent_spread": 50,
     "dirty_transparency_cache": true,
     "has_fume": true,
-    "priority": 8,
+    "priority": 2,
     "phase": "gas",
     "display_items": false,
     "display_field": true
@@ -563,7 +563,7 @@
     "percent_spread": 50,
     "dirty_transparency_cache": true,
     "has_fume": false,
-    "priority": 7,
+    "priority": 1,
     "phase": "gas",
     "display_items": true,
     "display_field": false
