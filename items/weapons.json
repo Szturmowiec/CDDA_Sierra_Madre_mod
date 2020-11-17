@@ -118,7 +118,7 @@
 		"category": "weapons",
 		"looks_like": "spear_knife",
 		"name": { "str": "Ghost's throwing knife spear" },
-		"description": "A lighter and shorter version of the knifespear used by Ghost People meant for throwing. Was designed to deal powerful blows, but at a cost of being rather fragile, as opposed to their main knifespears.",
+		"description": "A lighter and shorter version of the knife spear used by Ghost People meant for throwing. Was designed to deal powerful blows, but at a cost of being rather fragile, as opposed to their main knife spears.",
 		"weight": "550 g",
 		"to_hit": 2,
 		"color": "light_gray",
@@ -484,7 +484,7 @@
 		  "menu_text": "Activate",
 		  "type": "transform"
 		},
-		"flags": [ "RADIO_MODABLE", "RADIO_INVOKE_PROC", "BOMB", "ACT_IN_FIRE" ]
+		"flags": [ "RADIO_MODABLE", "RADIO_INVOKE_PROC", "BOMB", "ACT_IN_FIRE", "NPC_ACTIVATE" ]
 	},
 	{
 		"id": "ghost_bomb_act",
@@ -512,7 +512,7 @@
 			  "no_deactivate_msg": "The sharp, hissing sound coming out of the tank indicates the blaze of glory is about to be unleashed to wipe the Sierra Madre clean... Well, at least \"some part of it\", technically speaking.",
 			  "explosion": { "damage": 400, "radius": 10 }
 		},
-		"flags": [ "ACT_IN_FIRE", "BOMB", "TRADER_AVOID", "NPC_THROW" ]
+		"flags": [ "ACT_IN_FIRE", "BOMB", "TRADER_AVOID", "NPC_THROW_NOW" ]
 	},
 	{
 		"id": "holorifle",

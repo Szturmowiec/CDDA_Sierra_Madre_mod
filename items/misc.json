@@ -38,7 +38,7 @@
 		"covers": [ "HEAD" ],
 		"coverage": 10,
 		"encumbrance": 10,
-		"flags": [ "RADIO_MODABLE", "RADIO_INVOKE_PROC", "BOMB", "NO_TAKEOFF" ]
+		"flags": [ "RADIO_MODABLE", "RADIO_INVOKE_PROC", "BOMB", "NO_TAKEOFF", "NPC_ACTIVATE" ]
 	},
 	{
 		"id": "collar_armed",
@@ -68,7 +68,7 @@
 		"covers": [ "HEAD" ],
 		"coverage": 10,
 		"encumbrance": 10,
-		"flags": [ "TRADER_AVOID", "NO_TAKEOFF", "NPC_THROW" ]
+		"flags": [ "TRADER_AVOID", "NO_TAKEOFF", "NPC_THROW_NOW" ]
 	},
 	{
 		"type": "GENERIC",
